@@ -1,0 +1,68 @@
+{
+  "repository": "stpntrsvv/Orange_DCrush20",
+  "release_id": 404885782,
+  "tag": "results-2026-10-06",
+  "verified_by": "GitHub asset size and SHA-256 compared to each local file",
+  "assets": [
+    {
+      "name": "SHA256SUMS",
+      "bytes": 756,
+      "digest": "sha256:60fbb447678d5fb78e69ed5000629c5aa69685b5725651d69c91f04f9a6ea106",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/SHA256SUMS"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part001",
+      "bytes": 1073741824,
+      "digest": "sha256:24e00018c5cdf7cc4307403feafcdc3fc1e2410cd1b9c326237b0ad30c7b70a6",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part001"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part002",
+      "bytes": 1073741824,
+      "digest": "sha256:4a7e770e17d37d6761a0a7f7c639f5192ec4fa1731f1bb866b1dd8fa313f7f11",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part002"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part003",
+      "bytes": 1073741824,
+      "digest": "sha256:6d49ffed8fe677b5638c19073722b052d62c4069ef4304700b1cc22b2f82a1a2",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part003"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part004",
+      "bytes": 1073741824,
+      "digest": "sha256:00860749c98918d0b703c02a4c6027f90b1598c93d52122a931e1235d5bad2ae",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part004"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part005",
+      "bytes": 1073741824,
+      "digest": "sha256:3ae8572316ca87f72de5e02449dfa33481c8c9a38990ded7a7aa8578b9a61ae6",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part005"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part006",
+      "bytes": 1073741824,
+      "digest": "sha256:92de51ac948193034aec9f5920b7410dd4d87e00a6ad90a556fdfbfcf0e9b822",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part006"
+    },
+    {
+      "name": "orange-results-2026-10-06.tar.zst.part007",
+      "bytes": 815926540,
+      "digest": "sha256:db2c3bee0ce73699f5caa3e5ed32f4deac9afd404ae405449509514823cfafce",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/orange-results-2026-10-06.tar.zst.part007"
+    },
+    {
+      "name": "release_manifest.json",
+      "bytes": 1533,
+      "digest": "sha256:a99d8dc828de13e79dd976b4fb338cb1c6e9dfcc67ce58b193f390aa14ae3037",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/release_manifest.json"
+    },
+    {
+      "name": "source_manifest.json",
+      "bytes": 1231561,
+      "digest": "sha256:3a3a4d8df99b4a77f21102954ce85d492c676ef5dab52a735dc28de2ee4b6c69",
+      "url": "https://github.com/stpntrsvv/Orange_DCrush20/releases/download/results-2026-10-06/source_manifest.json"
+    }
+  ]
+}
