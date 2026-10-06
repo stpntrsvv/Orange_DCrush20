@@ -1,0 +1,72 @@
+[
+  {
+    "original_path": "AGENTS.md",
+    "archive_path": "docs/history/AGENTS_2026-09-30.md",
+    "original_sha256": "9031bdcc1482dee858bc7a2101c07966badd6071df382610f6a2ae1a837b7189",
+    "archive_sha256": "9031bdcc1482dee858bc7a2101c07966badd6071df382610f6a2ae1a837b7189",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "NEXT_CHAT.md",
+    "archive_path": "docs/history/NEXT_CHAT_2026-09-30.md",
+    "original_sha256": "64e8d28491a33048602a49dd76a6995336d3caba7b782257c2bb0f2034038de3",
+    "archive_sha256": "0bc90d1452157949fcd110bad21e11658ae203ecaa156c63023c02135716be0b",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "TODO.md",
+    "archive_path": "docs/history/TODO_2026-09-30.md",
+    "original_sha256": "a4e2c43325b38664e43cef8d4d03c85588cc704797e29ad78e903ee7f40337b6",
+    "archive_sha256": "a4e2c43325b38664e43cef8d4d03c85588cc704797e29ad78e903ee7f40337b6",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "firmware/README.md",
+    "archive_path": "docs/history/firmware_README_2026-09-30.md",
+    "original_sha256": "b25c1397d12495ac6157b3e23b6d667a91e4ad967354d0c9966795970e5049f0",
+    "archive_sha256": "3576dda4e588bce4814c45e70bfdd8867320e65271b02acffef16378137e59b2",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "embedded/README.md",
+    "archive_path": "docs/history/embedded_README_2026-09-30.md",
+    "original_sha256": "974fffdfaafa59a227c69f07a5d25981848a810446f6e181eb159e6bc3222507",
+    "archive_sha256": "974fffdfaafa59a227c69f07a5d25981848a810446f6e181eb159e6bc3222507",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "docs/03 Архитектура и бюджет.md",
+    "archive_path": "docs/history/03 Архитектура и бюджет до принятия 48 кГц.md",
+    "original_sha256": "4f7849e6786cef01d1ab595f298357ea8344f2a9e7e2da99f67c8515f8bce719",
+    "archive_sha256": "4f7849e6786cef01d1ab595f298357ea8344f2a9e7e2da99f67c8515f8bce719",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "docs/04 Передача контекста.md",
+    "archive_path": "docs/history/04 Накопленная передача контекста.md",
+    "original_sha256": "7f253acdf58fcb8696cd59458c625e3c84d82c9467fa8123d09878a987a0db4d",
+    "archive_sha256": "7f253acdf58fcb8696cd59458c625e3c84d82c9467fa8123d09878a987a0db4d",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "docs/09 Rust для контроллера.md",
+    "archive_path": "docs/history/09 История переноса Rust.md",
+    "original_sha256": "e63cad8cd11d7063ecbd42b1a9de3e3122594c5739c7ff216596ec8ee6b87cdb",
+    "archive_sha256": "e63cad8cd11d7063ecbd42b1a9de3e3122594c5739c7ff216596ec8ee6b87cdb",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "docs/10 Архитектурное решение.md",
+    "archive_path": "docs/history/10 Хронология архитектурных решений.md",
+    "original_sha256": "1a7067f4abfb848d4507d6dfd4567f56f524a3b80a8979dd7a5d666cb4650343",
+    "archive_sha256": "0aa51fbe527143e9b774d0e111b00cd88001f1f19bd465a98fb2c57d58148981",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  },
+  {
+    "original_path": "docs/11 Где сокращать вычисления.md",
+    "archive_path": "docs/history/11 Хронология оптимизаций.md",
+    "original_sha256": "be3938eb656d1958e0cbe67eebf3bd029e8d333c3c95a609b3b4c24c395eeeb0",
+    "archive_sha256": "7cda509518eb5fe5ffa755503eb738ef3699b1afde76a354060d04bf4ef1d6ec",
+    "change": "Только относительные Markdown-ссылки пересчитаны для нового расположения."
+  }
+]

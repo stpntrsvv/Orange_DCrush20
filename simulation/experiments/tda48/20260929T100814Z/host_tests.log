@@ -1,0 +1,40 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `recover` is never used
+  --> orange-dsp/src/generated_condensed48.rs:67:21
+   |
+67 | #[cfg(test)] pub fn recover(h: &[f32;28], input: f32, r: &[f32;8], s: &[f32;5]) -> [f32;56] { let mut x = [0.0;56];
+   |                     ^^^^^^^
+
+warning: `orange-dsp` (lib test) generated 2 warnings
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings (1 duplicate)
+error[E0432]: unresolved import `orange_dsp::bounded48_baseline`
+    --> orange-dsp/examples/tda48_compare.rs:2:29
+     |
+   2 | use orange_dsp::{bounded48, bounded48_baseline, packed::ExtraMath, FpuRootMath};
+     |                             ^^^^^^^^^^^^^^^^^^ no `bounded48_baseline` in the root
+     |
+note: found an item that was configured out
+    --> orange-dsp/src/lib.rs:2682:9
+     |
+2681 | #[cfg(any(test, feature = "tda48-baseline"))]
+     |          ---------------------------------- the item is gated here
+2682 | pub mod bounded48_baseline;
+     |         ^^^^^^^^^^^^^^^^^^
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `orange-dsp` (example "tda48_compare") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

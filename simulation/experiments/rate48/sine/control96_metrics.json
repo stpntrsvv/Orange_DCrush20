@@ -1,0 +1,119 @@
+{
+  "1000hz_1000mv": {
+    "reference_complete": true,
+    "reference_failure": null,
+    "compared_internal_steps": 9216,
+    "planned_internal_steps": 9216,
+    "reference_max_residual": 1.9953076680050835e-09,
+    "reference_continuations": 0,
+    "note": "Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.",
+    "bounded96": {
+      "peak_v": 4.436000475695941,
+      "relative_rms": 0.005336160445278452,
+      "local_overruns": 0
+    },
+    "P7_96": {
+      "peak_v": 4.437374720385883,
+      "relative_rms": 0.005338319510909213,
+      "local_overruns": 0
+    }
+  },
+  "1000hz_100mv": {
+    "reference_complete": true,
+    "reference_failure": null,
+    "compared_internal_steps": 9216,
+    "planned_internal_steps": 9216,
+    "reference_max_residual": 1.974575622503078e-09,
+    "reference_continuations": 0,
+    "note": "Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.",
+    "bounded96": {
+      "peak_v": 4.3327633745648964e-05,
+      "relative_rms": 6.965922127563896e-07,
+      "local_overruns": 0
+    },
+    "P7_96": {
+      "peak_v": 4.471056690191766e-05,
+      "relative_rms": 1.2295197127426137e-06,
+      "local_overruns": 0
+    }
+  },
+  "1000hz_250mv": {
+    "reference_complete": true,
+    "reference_failure": null,
+    "compared_internal_steps": 9216,
+    "planned_internal_steps": 9216,
+    "reference_max_residual": 1.9969411920502805e-09,
+    "reference_continuations": 0,
+    "note": "Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.",
+    "bounded96": {
+      "peak_v": 4.144417798462863e-05,
+      "relative_rms": 8.127072090356932e-07,
+      "local_overruns": 0
+    },
+    "P7_96": {
+      "peak_v": 4.54537799219612e-05,
+      "relative_rms": 6.712751078085927e-07,
+      "local_overruns": 0
+    }
+  },
+  "100hz_100mv": {
+    "reference_complete": true,
+    "reference_failure": null,
+    "compared_internal_steps": 9216,
+    "planned_internal_steps": 9216,
+    "reference_max_residual": 1.987358517904986e-09,
+    "reference_continuations": 0,
+    "note": "Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.",
+    "bounded96": {
+      "peak_v": 7.668642110558732e-05,
+      "relative_rms": 9.919073258563117e-07,
+      "local_overruns": 0
+    },
+    "P7_96": {
+      "peak_v": 4.9342186925427356e-05,
+      "relative_rms": 9.282737075060041e-07,
+      "local_overruns": 0
+    }
+  },
+  "8000hz_1000mv": {
+    "reference_complete": false,
+    "reference_failure": {
+      "sample": 1874,
+      "message": "frontend line search \u043d\u0435 \u0441\u043e\u0448\u0451\u043b\u0441\u044f"
+    },
+    "compared_internal_steps": 1874,
+    "planned_internal_steps": 9216,
+    "reference_max_residual": 1.9407828263321575e-09,
+    "reference_continuations": 1,
+    "note": "Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.",
+    "bounded96": {
+      "peak_v": 0.0012562678146874617,
+      "relative_rms": 1.8153437162262283e-05,
+      "local_overruns": 0
+    },
+    "P7_96": {
+      "peak_v": 0.0020633368921636475,
+      "relative_rms": 3.0286857959183862e-05,
+      "local_overruns": 0
+    }
+  },
+  "8000hz_100mv": {
+    "reference_complete": true,
+    "reference_failure": null,
+    "compared_internal_steps": 9216,
+    "planned_internal_steps": 9216,
+    "reference_max_residual": 1.997932716282249e-09,
+    "reference_continuations": 0,
+    "note": "Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.",
+    "bounded96": {
+      "peak_v": 4.526241747049298e-05,
+      "relative_rms": 2.7802803423264466e-07,
+      "local_overruns": 0
+    },
+    "P7_96": {
+      "peak_v": 4.8805367438120584e-05,
+      "relative_rms": 5.730676880075936e-07,
+      "local_overruns": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+warning: unused imports: `read_volatile` and `write_volatile`
+ --> h7r3-runtime/src/main.rs:9:17
+  |
+9 | use core::ptr::{read_volatile, write_volatile};
+  |                 ^^^^^^^^^^^^^  ^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `RESULT_NONLINEAR_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:33:7
+   |
+33 | const RESULT_NONLINEAR_CYCLES: *mut u32 = 0x2000_FFD8 as *mut u32;
+   |       ^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `RESULT_RESIDUAL_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:35:7
+   |
+35 | const RESULT_RESIDUAL_CYCLES: *mut u32 = 0x2000_FFDC as *mut u32;
+   |       ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: constant `RESULT_JACOBIAN_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:37:7
+   |
+37 | const RESULT_JACOBIAN_CYCLES: *mut u32 = 0x2000_FFE0 as *mut u32;
+   |       ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: constant `RESULT_SOLVE_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:39:7
+   |
+39 | const RESULT_SOLVE_CYCLES: *mut u32 = 0x2000_FFE4 as *mut u32;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: constant `RESULT_RECOVER_APPLY_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:41:7
+   |
+41 | const RESULT_RECOVER_APPLY_CYCLES: *mut u32 = 0x2000_FFE8 as *mut u32;
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: constant `RESULT_PORT_RECOVER_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:43:7
+   |
+43 | const RESULT_PORT_RECOVER_CYCLES: *mut u32 = 0x2000_FFEC as *mut u32;
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: constant `RESULT_CYCLES` is never used
+  --> h7r3-runtime/src/main.rs:46:7
+   |
+46 | const RESULT_CYCLES: *mut u32 = 0x2000_FFF4 as *mut u32;
+   |       ^^^^^^^^^^^^^
+
+warning: constant `RESULT_VALUE` is never used
+  --> h7r3-runtime/src/main.rs:48:7
+   |
+48 | const RESULT_VALUE: *mut u32 = 0x2000_FFF8 as *mut u32;
+   |       ^^^^^^^^^^^^
+
+warning: `h7r3-runtime` (bin "ram-probe") generated 9 warnings (run `cargo fix --bin "ram-probe" -p h7r3-runtime` to apply 1 suggestion)
+    Finished `release` profile [optimized + debuginfo] target(s) in 0.00s

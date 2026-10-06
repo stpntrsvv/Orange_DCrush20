@@ -1,0 +1,18 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+   Compiling h7r3-runtime v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/h7r3-runtime)
+    Finished `release` profile [optimized + debuginfo] target(s) in 2.95s

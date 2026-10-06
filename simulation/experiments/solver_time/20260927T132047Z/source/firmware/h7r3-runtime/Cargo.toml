@@ -1,0 +1,41 @@
+[package]
+name = "h7r3-runtime"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "ram-probe"
+path = "src/main.rs"
+
+[dependencies]
+orange-dsp = { path = "../orange-dsp" }
+
+[features]
+icache = []
+reuse-probe = []
+reuse-noise = ["reuse-probe"]
+step-profile = ["reuse-probe"]
+fpu-roots = []
+compare-roots = ["step-profile", "fpu-roots"]
+compare-deferred = ["step-profile", "fpu-roots"]
+absolute-ports = ["step-profile", "fpu-roots"]
+control-ports = ["step-profile", "fpu-roots"]
+control-profile = ["control-ports"]
+
+condensed-probe = ["fpu-roots"]
+packed-probe = ["fpu-roots"]
+packed-fast-math = ["packed-probe"]
+packed-f32 = ["packed-fast-math"]
+packed-root = ["packed-f32"]
+packed-extra = ["packed-f32"]
+packed-pole = ["packed-extra"]
+packed-mixed = ["packed-pole"]
+packed-stress = []
+repeated-probe = ["packed-mixed"]
+
+repeated-output = ["repeated-probe"]
+repeated-counted = ["repeated-probe"]
+
+scalar-probe = ["repeated-probe"]
+
+exponential-probe = ["repeated-output"]

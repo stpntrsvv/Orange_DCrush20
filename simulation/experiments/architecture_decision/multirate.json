@@ -1,0 +1,166 @@
+[
+  {
+    "rates": [
+      384000,
+      384000,
+      384000,
+      384000
+    ],
+    "relative_rms": 0.0054972689819889715,
+    "peak_v": 0.6479603154556584,
+    "blocks": [
+      {
+        "fs": 384000,
+        "max_residual": 1.5706843233450249e-12,
+        "max_iterations": [
+          1,
+          1
+        ]
+      },
+      {
+        "fs": 384000,
+        "max_residual": 9.999914172545074e-11,
+        "max_iterations": [
+          7
+        ]
+      },
+      {
+        "fs": 384000,
+        "max_residual": 9.765708612145356e-11,
+        "max_iterations": [
+          3
+        ]
+      },
+      {
+        "fs": 384000,
+        "max_residual": 9.949415365658372e-11,
+        "max_iterations": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "rates": [
+      96000,
+      384000,
+      96000,
+      96000
+    ],
+    "relative_rms": 0.03814264622520024,
+    "peak_v": 2.958773529383512,
+    "blocks": [
+      {
+        "fs": 96000,
+        "max_residual": 9.428671177147407e-11,
+        "max_iterations": [
+          1,
+          2
+        ]
+      },
+      {
+        "fs": 384000,
+        "max_residual": 9.960550721895001e-11,
+        "max_iterations": [
+          6
+        ]
+      },
+      {
+        "fs": 96000,
+        "max_residual": 9.814253669008602e-11,
+        "max_iterations": [
+          6
+        ]
+      },
+      {
+        "fs": 96000,
+        "max_residual": 9.896176470884181e-11,
+        "max_iterations": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "rates": [
+      192000,
+      384000,
+      96000,
+      192000
+    ],
+    "relative_rms": 0.025780588921280715,
+    "peak_v": 1.5640588724288094,
+    "blocks": [
+      {
+        "fs": 192000,
+        "max_residual": 3.4850788921403364e-11,
+        "max_iterations": [
+          1,
+          2
+        ]
+      },
+      {
+        "fs": 384000,
+        "max_residual": 9.996859585390027e-11,
+        "max_iterations": [
+          7
+        ]
+      },
+      {
+        "fs": 96000,
+        "max_residual": 9.722856963989557e-11,
+        "max_iterations": [
+          6
+        ]
+      },
+      {
+        "fs": 192000,
+        "max_residual": 9.855834666912718e-11,
+        "max_iterations": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "rates": [
+      96000,
+      384000,
+      192000,
+      192000
+    ],
+    "relative_rms": 0.03446357790050328,
+    "peak_v": 2.7404873898137243,
+    "blocks": [
+      {
+        "fs": 96000,
+        "max_residual": 9.428671177147407e-11,
+        "max_iterations": [
+          1,
+          2
+        ]
+      },
+      {
+        "fs": 384000,
+        "max_residual": 9.960550721895001e-11,
+        "max_iterations": [
+          6
+        ]
+      },
+      {
+        "fs": 192000,
+        "max_residual": 9.95200736634653e-11,
+        "max_iterations": [
+          3
+        ]
+      },
+      {
+        "fs": 192000,
+        "max_residual": 9.9718418707558e-11,
+        "max_iterations": [
+          6
+        ]
+      }
+    ]
+  }
+]

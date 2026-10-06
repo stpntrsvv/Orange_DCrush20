@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-28",
+  "files": {
+    "ACCEPTED_STRUCTURE.md": {
+      "bytes": 3612,
+      "sha256": "5497e8831a87b3f686cfa4d64ada54260a4c696e42276f9cefe236a7cba1bd3e"
+    },
+    "decision.json": {
+      "bytes": 57161,
+      "sha256": "a732728c71fa83607991d260c18d653ed13e9cafeb6c886c1a857a161603fa8e"
+    },
+    "documents/AGENTS.md": {
+      "bytes": 11716,
+      "sha256": "96ef2b90d29c96d50d399addbedd80015ffdfd10b5d432a393227c51aee9eb70"
+    },
+    "documents/NEXT_CHAT.md": {
+      "bytes": 64986,
+      "sha256": "3b443e1d12c36949f3a4d5ab9486f042f0bcd5d8f79f82065551251cc52620ad"
+    },
+    "documents/docs/10 Архитектурное решение.md": {
+      "bytes": 58133,
+      "sha256": "1a7067f4abfb848d4507d6dfd4567f56f524a3b80a8979dd7a5d666cb4650343"
+    },
+    "documents/docs/11 Где сокращать вычисления.md": {
+      "bytes": 100181,
+      "sha256": "ac6ef85285bd75eddc015048d42db121437cd3135956e056550d02f0cdd85a41"
+    },
+    "documents/docs/12 Метрики точности и обоснование допусков.md": {
+      "bytes": 41193,
+      "sha256": "67857291b48cb40d3b4e1b58a338baae4e1a471483cbd0e90581ed4020442fb3"
+    },
+    "probe.elf": {
+      "bytes": 523124,
+      "sha256": "3940c1c90e82190f6d8b8b6ea3a5e01fde1e987efafe515457280644a73b0344"
+    },
+    "source/embedded/openocd/run_rate48_probe.cfg": {
+      "bytes": 2605,
+      "sha256": "c4a7985ebdf711e129e46e4fcc2a11eb1be212e1ce175272299cce87a2037e37"
+    },
+    "source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 1320,
+      "sha256": "307ec134fe752c5438f7bf931fe88b0b680786c93db286faa7c40d0b405c2fbf"
+    },
+    "source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 725,
+      "sha256": "0d6a6d7ead063e26056e26bfec41f4ea362f8e1372c7bf71866112de273265b3"
+    },
+    "source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 11755,
+      "sha256": "3ea8725fc21f9f7129da909e1d75b3f6228b6e875b5dc68d0fb85271b62d219f"
+    },
+    "source/firmware/h7r3-runtime/src/rate48_probe.rs": {
+      "bytes": 4198,
+      "sha256": "fc25b38804189b72ef15e67836aa795cbf335ae8b6e15e1852973f78893aa36e"
+    },
+    "source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "source/firmware/orange-dsp/src/analytic.rs": {
+      "bytes": 25472,
+      "sha256": "d859c3105852b4e266892d33f8ae13cbef22be79f8bde919728c2366e78ab0f1"
+    },
+    "source/firmware/orange-dsp/src/analytic_diagnostics.rs": {
+      "bytes": 9124,
+      "sha256": "f91b53228c93be640cdd370e81d119c705c9ecc3a6b815e49d52c031d104901d"
+    },
+    "source/firmware/orange-dsp/src/bounded.rs": {
+      "bytes": 24604,
+      "sha256": "5f8578a5591c912e44e6903864ac65b38d05ac34699b3db5728476311bde478e"
+    },
+    "source/firmware/orange-dsp/src/bounded48.rs": {
+      "bytes": 24641,
+      "sha256": "3e0ac1e9bbafe54a587c61a79adc8a86d052b03b333fc9d8823dfdfd6769682c"
+    },
+    "source/firmware/orange-dsp/src/bounded_diagnostics.rs": {
+      "bytes": 8197,
+      "sha256": "eb025a13d589839d82bade798c33fcf6f77920367dcf54ac18402bbb944c6310"
+    },
+    "source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "source/firmware/orange-dsp/src/exponential.rs": {
+      "bytes": 13727,
+      "sha256": "7435d853d2c627d2241d3addaeeb682e9ffa3e475ecef6edf685933ef073eef9"
+    },
+    "source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "source/firmware/orange-dsp/src/generated_condensed48.rs": {
+      "bytes": 30536,
+      "sha256": "3625a1d6998d4fd625bc1a9ad179fd80987a612abca90eb2493f2bfad528af70"
+    },
+    "source/firmware/orange-dsp/src/generated_exponential.rs": {
+      "bytes": 134911,
+      "sha256": "3073a751176c8ab28101f021e900545fccdc1377b6185321865d7ce10190a4e7"
+    },
+    "source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "source/firmware/orange-dsp/src/generated_packed48.rs": {
+      "bytes": 12234,
+      "sha256": "e39afd47fd3ba213865a28f286de8685ca053d904ee48df4045aa9c1e20885ac"
+    },
+    "source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95961,
+      "sha256": "e2855ed6771eb479d4627f48530b73129bcfecb0d4775c125ae2f974121325f2"
+    },
+    "source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "source/firmware/orange-dsp/src/scalar.rs": {
+      "bytes": 22699,
+      "sha256": "2865c883cc3093784f994d59612362706d5baf460758243f60b1ea56de4dd505"
+    },
+    "source/firmware/orange-dsp/src/scalar_diagnostics.rs": {
+      "bytes": 5844,
+      "sha256": "9a85c44584dda9706cab97ad9554fd0767e37e8591913ca84b44401276bb1b16"
+    },
+    "source/firmware/orange-dsp/src/tracking.rs": {
+      "bytes": 19492,
+      "sha256": "d75a3b1ac6e4e04606da469daad9781eef56524afe7ca8254b587f58a685cc93"
+    },
+    "source/firmware/orange-dsp/src/tracking_diagnostics.rs": {
+      "bytes": 7025,
+      "sha256": "27caebccccac67619e0627d698f8267deffe99bc40a5cb262322952bb5cc886d"
+    },
+    "source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "source/simulation/finish_rate48.py": {
+      "bytes": 43001,
+      "sha256": "f66874507bc87dac78194315e20609bfe81eaf4b1a302bfc060eb18ce22baf4f"
+    },
+    "source/simulation/generate_rate48.py": {
+      "bytes": 1699,
+      "sha256": "20c3fc7c7c2946f2b94cf59ff0db9d467070493e7d116132876c977fa505b284"
+    },
+    "source/simulation/run_rate48_hardware.py": {
+      "bytes": 3783,
+      "sha256": "78c3015ad9a1ca35041507ac9f7c13ef8e82b11328e5eb887d25d994324b6b12"
+    }
+  },
+  "file_count": 48
+}

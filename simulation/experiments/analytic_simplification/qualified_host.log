@@ -1,0 +1,35 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `orange-dsp` (lib test) generated 1 warning
+    Finished `release` profile [optimized + debuginfo] target(s) in 25.44s
+     Running unittests src/lib.rs (firmware/target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 2 tests
+test analytic::diagnostics::analytic_law_derivatives ... ok
+A0 triangle100: failures=0 peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 old_full_residual=0.000023841858 retries=0
+QUAL A0 triangle100: peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 full_residual=0.000023841858
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000044345856 memory_peak_vs_P7=0.000044345856 counts=[0, 0, 0]
+A0 triangle1000: failures=0 peak=0.00301040630190208 relative_rms=0.000005294794158052081 scaled=0.000670666583800994 old_full_residual=0.000074505806 retries=0
+QUAL A0 triangle1000: peak=0.00301040630190208 relative_rms=0.000005294794158052081 scaled=0.000670666583800994 full_residual=0.8749497
+
+thread 'analytic::diagnostics::analytic_trajectories' (42631434) panicked at orange-dsp/src/analytic_diagnostics.rs:149:9:
+assertion failed: own_peak < 0.01 && (own_error / own_energy).sqrt() < 1e-4 &&
+        own_scaled < 0.003 && own_norm < 1e-4
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test analytic::diagnostics::analytic_trajectories ... FAILED
+
+failures:
+
+failures:
+    analytic::diagnostics::analytic_trajectories
+
+test result: FAILED. 1 passed; 1 failed; 0 ignored; 0 measured; 43 filtered out; finished in 0.02s
+
+error: test failed, to rerun pass `-p orange-dsp --lib`

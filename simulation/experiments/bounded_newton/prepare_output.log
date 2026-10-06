@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_bounded_batch.py", line 21, in <module>
+    if a.prepare:batch.prepare(a.packages,a.stress,a.output)
+                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_analytic_batch.py", line 69, in prepare
+    execute(['cargo', 'test', '-p', 'orange-dsp', '--release', '--target',
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+             'aarch64-apple-darwin', '--', '--include-ignored', '--nocapture'],
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            run / 'host_tests.log', ROOT / 'firmware', env)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_analytic_batch.py", line 58, in execute
+    raise RuntimeError(f'{command}: exit {result.returncode}; {log}')
+RuntimeError: ['cargo', 'test', '-p', 'orange-dsp', '--release', '--target', 'aarch64-apple-darwin', '--', '--include-ignored', '--nocapture']: exit 101; /Users/stpntrsvv/OrangeDCrush20/simulation/experiments/bounded_newton/20260927T175328Z/host_tests.log

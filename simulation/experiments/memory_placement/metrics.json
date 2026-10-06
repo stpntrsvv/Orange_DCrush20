@@ -1,0 +1,9 @@
+{
+  "axi_no_cache": {"baseline": 11050.875, "event": 11701.5625},
+  "itcm_dtcm": {"baseline": 10954.09375, "event": 11552.5},
+  "itcm_baseline_gain_cycles": 96.78125,
+  "itcm_baseline_gain_fraction": 0.00875779734486459,
+  "axi_icache_baseline_range": [11058.6875, 11160.0625],
+  "axi_icache_event_range": [11661.34375, 11764.46875],
+  "decision": "TCM useful but insufficient; I-cache has no stable gain"
+}

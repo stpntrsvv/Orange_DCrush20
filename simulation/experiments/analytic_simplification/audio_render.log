@@ -1,0 +1,10 @@
+100mv P7 {'raw_peak_v': 12.354437828063965, 'filtered_peak_v': 12.320497690329539, 'cabinet_peak': 74.18863017097212, 'samples': 10643479}
+100mv A0 {'raw_peak_v': 12.354452133178711, 'filtered_peak_v': 12.320505581197274, 'cabinet_peak': 74.18860274793454, 'samples': 10643479}
+100mv A1 {'raw_peak_v': 12.354449272155762, 'filtered_peak_v': 12.320504356494462, 'cabinet_peak': 74.18862796171003, 'samples': 10643479}
+250mv P7 {'raw_peak_v': 19.210020065307617, 'filtered_peak_v': 19.395461351928084, 'cabinet_peak': 125.83133415678529, 'samples': 10643479}
+250mv A0 {'raw_peak_v': 19.210006713867188, 'filtered_peak_v': 19.39545023922845, 'cabinet_peak': 125.83132547062775, 'samples': 10643479}
+250mv A1 {'raw_peak_v': 19.207836151123047, 'filtered_peak_v': 19.395606236991195, 'cabinet_peak': 125.8322703824694, 'samples': 10643479}
+1000mv P7 {'raw_peak_v': 20.999534606933594, 'filtered_peak_v': 25.092259523218022, 'cabinet_peak': 283.9791105584087, 'samples': 10643479}
+1000mv A0 {'raw_peak_v': 20.999534606933594, 'filtered_peak_v': 25.0922596770572, 'cabinet_peak': 283.9791069839436, 'samples': 10643479}
+1000mv A1 {'raw_peak_v': 21.0, 'filtered_peak_v': 25.095796828531796, 'cabinet_peak': 284.0132815996347, 'samples': 10643479}
+common gain 0.0031380607734750807

@@ -1,0 +1,100 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `orange-dsp` (lib test) generated 1 warning
+    Finished `release` profile [optimized + debuginfo] target(s) in 26.31s
+     Running unittests src/lib.rs (firmware/target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 2 tests
+test analytic::diagnostics::analytic_law_derivatives ... ok
+A0 triangle100: failures=0 peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 old_full_residual=0.000023841858 retries=0
+QUAL A0 triangle100: peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 full_residual=0.000023841858
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000044345856 memory_peak_vs_P7=0.000044345856 counts=[0, 0, 0]
+A0 triangle1000: failures=0 peak=0.00301040630190208 relative_rms=0.000005294794158052081 scaled=0.000670666583800994 old_full_residual=0.000074505806 retries=0
+QUAL A0 triangle1000: peak=0.00301040630190208 relative_rms=0.000005294794158052081 scaled=0.000670666583800994 full_residual=0.000074505806
+triangle1000: steps=1024 output_different=93 peak_vs_P7=0.0003271103 memory_peak_vs_P7=0.00390625 counts=[33, 285, 0]
+A0 noise250: failures=0 peak=0.000477241195760314 relative_rms=0.000002040718035621216 scaled=0.00003911725106193013 old_full_residual=0.000047683716 retries=0
+QUAL A0 noise250: peak=0.000477241195760314 relative_rms=0.000002040718035621216 scaled=0.00003911725106193013 full_residual=0.000047683716
+noise250: steps=1024 output_different=632 peak_vs_P7=0.0005092621 memory_peak_vs_P7=0.0010566711 counts=[934, 8143, 0]
+A0 step025: failures=0 peak=0.001429337783036999 relative_rms=0.0000031296346123642054 scaled=0.0008175655375216214 old_full_residual=0.00006407499 retries=0
+QUAL A0 step025: peak=0.001429337783036999 relative_rms=0.0000031296346123642054 scaled=0.0008175655375216214 full_residual=0.00006407499
+step025: steps=1536 output_different=1122 peak_vs_P7=0.000831604 memory_peak_vs_P7=0.010498047 counts=[11, 114, 0]
+A0 step1: failures=0 peak=0.004766934647243204 relative_rms=0.0000063591135324840965 scaled=0.0013825827524366712 old_full_residual=0.00009536743 retries=0
+QUAL A0 step1: peak=0.004766934647243204 relative_rms=0.0000063591135324840965 scaled=0.0013825827524366712 full_residual=0.00009536743
+step1: steps=1536 output_different=147 peak_vs_P7=0.00002670288 memory_peak_vs_P7=0.009033203 counts=[2, 29, 0]
+A0 multitone: failures=0 peak=0.0007405232410846452 relative_rms=0.00000217980304776544 scaled=0.0003303508213446567 old_full_residual=0.000047683716 retries=0
+QUAL A0 multitone: peak=0.0007405232410846452 relative_rms=0.00000217980304776544 scaled=0.0003303508213446567 full_residual=0.000047683716
+multitone: steps=1536 output_different=1320 peak_vs_P7=0.00024414063 memory_peak_vs_P7=0.0026855469 counts=[594, 5266, 0]
+A0 output0: failures=0 peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 old_full_residual=0.000023841858 retries=0
+QUAL A0 output0: peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 full_residual=0.000023841858
+output0: steps=2048 output_different=1958 peak_vs_P7=0.00004386902 memory_peak_vs_P7=0.000044822693 counts=[0, 0, 0]
+A0 output1: failures=0 peak=0.0034478498334280516 relative_rms=0.0000059300910380801624 scaled=0.000677209239294522 old_full_residual=0.00008139759 retries=0
+QUAL A0 output1: peak=0.0034478498334280516 relative_rms=0.0000059300910380801624 scaled=0.000677209239294522 full_residual=0.00008139759
+output1: steps=2048 output_different=108 peak_vs_P7=0.004638672 memory_peak_vs_P7=0.018066406 counts=[62, 549, 0]
+A0 output2: failures=0 peak=0.0008369438918762739 relative_rms=0.0000022671269826710416 scaled=0.00006391526287880348 old_full_residual=0.000063610074 retries=0
+QUAL A0 output2: peak=0.0008369438918762739 relative_rms=0.0000022671269826710416 scaled=0.00006391526287880348 full_residual=0.000063610074
+output2: steps=2048 output_different=863 peak_vs_P7=0.0010242462 memory_peak_vs_P7=0.0010528564 counts=[1766, 15796, 0]
+A1 triangle100: failures=0 peak=0.000043477211815190486 relative_rms=0.0000019724768634877057 scaled=0.000002898480787679366 old_full_residual=0.000023841858 retries=0
+QUAL A1 triangle100: peak=0.00004347721137598626 relative_rms=0.0000019724535256391677 scaled=0.000002898480758399084 full_residual=0.000023841858
+triangle100: steps=1024 output_different=970 peak_vs_P7=0.000041484833 memory_peak_vs_P7=0.000041484833 counts=[0, 0, 0]
+A1 triangle1000: failures=0 peak=0.42766518863300185 relative_rms=0.0007262461330939862 scaled=0.29722571761105127 old_full_residual=0.0052574794 retries=0
+QUAL A1 triangle1000: peak=0.003238394245071774 relative_rms=0.000005113876962819898 scaled=0.0003531456817995604 full_residual=0.00007437775
+triangle1000: steps=1024 output_different=1022 peak_vs_P7=0.42637062 memory_peak_vs_P7=7.137207 counts=[40, 360, 0]
+A1 noise250: failures=0 peak=0.9746298067492756 relative_rms=0.0021796931078634425 scaled=0.0649753204499517 old_full_residual=0.0059288344 retries=0
+QUAL A1 noise250: peak=0.000501935236165707 relative_rms=0.0000015811571748408628 scaled=0.00003803803059770535 full_residual=0.000047683716
+noise250: steps=1024 output_different=1023 peak_vs_P7=0.9746494 memory_peak_vs_P7=0.97461414 counts=[935, 8147, 0]
+A1 step025: failures=0 peak=0.2573787982032911 relative_rms=0.0005409533782524624 scaled=0.13147788721172896 old_full_residual=0.0052416325 retries=0
+QUAL A1 step025: peak=0.0008789067595778022 relative_rms=0.0000018939988495413116 scaled=0.00040906943035867727 full_residual=0.00006556511
+step025: steps=1536 output_different=1440 peak_vs_P7=0.25963974 memory_peak_vs_P7=3.184494 counts=[12, 124, 0]
+A1 step1: failures=0 peak=0.4423584873816182 relative_rms=0.0006116393243034637 scaled=0.09017000685026548 old_full_residual=0.00578777 retries=0
+QUAL A1 step1: peak=0.006514473174206614 relative_rms=0.000008656716287044904 scaled=0.0016134702458051227 full_residual=0.00009536743
+step1: steps=1536 output_different=1440 peak_vs_P7=0.43759155 memory_peak_vs_P7=2.1780014 counts=[2, 29, 0]
+A1 multitone: failures=0 peak=0.11164330949596746 relative_rms=0.00039711551332135 scaled=0.050130428895482027 old_full_residual=0.0041490397 retries=0
+QUAL A1 multitone: peak=0.0004445507205481647 relative_rms=0.0000014132884583684002 scaled=0.00019653152929125875 full_residual=0.000047683716
+multitone: steps=1536 output_different=1529 peak_vs_P7=0.110658646 memory_peak_vs_P7=1.1926575 counts=[603, 5374, 0]
+A1 output0: failures=0 peak=0.00004182343510850117 relative_rms=0.0000019729151049946144 scaled=0.0000027882290072334115 old_full_residual=0.000023841858 retries=0
+QUAL A1 output0: peak=0.00004182343698877489 relative_rms=0.000001972894655017887 scaled=0.0000027882291325849923 full_residual=0.000023841858
+output0: steps=2048 output_different=1969 peak_vs_P7=0.000042438507 memory_peak_vs_P7=0.000042915344 counts=[0, 0, 0]
+A1 output1: failures=0 peak=1.3242407235364126 relative_rms=0.0021865711071035734 scaled=0.3575631225386739 old_full_residual=0.0053521474 retries=0
+QUAL A1 output1: peak=0.0034286280993836016 relative_rms=0.000004964919292220125 scaled=0.0004777250391043708 full_residual=0.000099570025
+output1: steps=2048 output_different=2044 peak_vs_P7=1.3239498 memory_peak_vs_P7=8.572754 counts=[67, 595, 0]
+A1 output2: failures=0 peak=0.36346370483546053 relative_rms=0.0012874429479667205 scaled=0.06598820828318679 old_full_residual=0.005590757 retries=0
+QUAL A1 output2: peak=0.0007355151116215097 relative_rms=0.000002394147691746268 scaled=0.000055271948859806726 full_residual=0.000055646895
+output2: steps=2048 output_different=2046 peak_vs_P7=0.3634634 memory_peak_vs_P7=1.5838623 counts=[1777, 15894, 0]
+A2 triangle100: failures=0 peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 old_full_residual=0.000023841858 retries=0
+QUAL A2 triangle100: peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 full_residual=0.000023841858
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000044345856 memory_peak_vs_P7=0.000044345856 counts=[0, 0, 0]
+A2 triangle1000: failures=0 peak=0.00301040630190208 relative_rms=0.000005052759133461312 scaled=0.00044977317384109483 old_full_residual=0.00006854534 retries=0
+QUAL A2 triangle1000: peak=0.00301040630190208 relative_rms=0.000005052759133461312 scaled=0.00044977317384109483 full_residual=0.00006854534
+triangle1000: steps=1024 output_different=649 peak_vs_P7=0.0023195744 memory_peak_vs_P7=0.025878906 counts=[33, 285, 0]
+A2 noise250: failures=0 peak=0.0011772381440025015 relative_rms=0.000004362089362083955 scaled=0.00009245776349982766 old_full_residual=0.000047683716 retries=0
+QUAL A2 noise250: peak=0.0011772381440025015 relative_rms=0.000004362089362083955 scaled=0.00009245776349982766 full_residual=0.000047683716
+noise250: steps=1024 output_different=883 peak_vs_P7=0.0009441376 memory_peak_vs_P7=0.002216339 counts=[934, 8143, 0]
+A2 step025: failures=0 peak=0.0014350598289354366 relative_rms=0.0000038490264271304585 scaled=0.0008011294354541102 old_full_residual=0.000047683716 retries=0
+QUAL A2 step025: peak=0.0014350598289354366 relative_rms=0.0000038490264271304585 scaled=0.0008011294354541102 full_residual=0.000047683716
+step025: steps=1536 output_different=1185 peak_vs_P7=0.0010089874 memory_peak_vs_P7=0.010551453 counts=[11, 114, 0]
+A2 step1: failures=0 peak=0.008995526566188516 relative_rms=0.000011849937133275494 scaled=0.0013825827524366712 old_full_residual=0.00009536743 retries=0
+QUAL A2 step1: peak=0.008995526566188516 relative_rms=0.000011849937133275494 scaled=0.0013825827524366712 full_residual=0.00009536743
+step1: steps=1536 output_different=1420 peak_vs_P7=0.004228592 memory_peak_vs_P7=0.026855469 counts=[2, 29, 0]
+A2 multitone: failures=0 peak=0.0007405232410846452 relative_rms=0.0000023763800312893514 scaled=0.0003297150384670526 old_full_residual=0.000047683716 retries=0
+QUAL A2 multitone: peak=0.0007405232410846452 relative_rms=0.0000023763800312893514 scaled=0.0003297150384670526 full_residual=0.000047683716
+multitone: steps=1536 output_different=1496 peak_vs_P7=0.00025177002 memory_peak_vs_P7=0.0027770996 counts=[594, 5263, 0]
+A2 output0: failures=0 peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 old_full_residual=0.000023841858 retries=0
+QUAL A2 output0: peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 full_residual=0.000023841858
+output0: steps=2048 output_different=1958 peak_vs_P7=0.00004386902 memory_peak_vs_P7=0.000044822693 counts=[0, 0, 0]
+A2 output1: failures=0 peak=0.008850136683385301 relative_rms=0.000013175213460700959 scaled=0.000677209239294522 old_full_residual=0.00007928212 retries=0
+QUAL A2 output1: peak=0.008850136683385301 relative_rms=0.000013175213460700959 scaled=0.000677209239294522 full_residual=0.00007928212
+output1: steps=2048 output_different=1138 peak_vs_P7=0.008559227 memory_peak_vs_P7=0.018066406 counts=[62, 549, 0]
+A2 output2: failures=0 peak=0.0012895025926384918 relative_rms=0.00000350775940882135 scaled=0.00008596683950923278 old_full_residual=0.000060065588 retries=0
+QUAL A2 output2: peak=0.0012895025926384918 relative_rms=0.00000350775940882135 scaled=0.00008596683950923278 full_residual=0.000060065588
+output2: steps=2048 output_different=1615 peak_vs_P7=0.0012154579 memory_peak_vs_P7=0.0019302368 counts=[1766, 15786, 0]
+test analytic::diagnostics::analytic_trajectories ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 43 filtered out; finished in 0.33s
+

@@ -1,0 +1,11 @@
+{
+  "status": "expected_failure_reproduced",
+  "sample_zero_based": 383,
+  "input_v": 0.5,
+  "drive_without_diode_v": 7.243372468174702,
+  "port_resistance_ohm": 2608.1248776266884,
+  "iterations": 100,
+  "scalar_residual_v": 5.916481684997654e+21,
+  "diode_voltage_v": 2.762772521298783,
+  "reason": "Wide voltage bracket permits long exponential Newton descent"
+}

@@ -1,0 +1,38 @@
+{
+  "1000hz_1000mv": {
+    "P7_48_vs_f64_peak_v": 21.47708508813446,
+    "P7_48_vs_f64_relative_rms": 0.023152728523273748,
+    "candidate48_vs_P7_48_peak_v": 22.178260803222656,
+    "P7_48_local_overruns": 0
+  },
+  "1000hz_100mv": {
+    "P7_48_vs_f64_peak_v": 6.763354511996056e-05,
+    "P7_48_vs_f64_relative_rms": 1.3158494909472504e-06,
+    "candidate48_vs_P7_48_peak_v": 5.936622619628906e-05,
+    "P7_48_local_overruns": 0
+  },
+  "1000hz_250mv": {
+    "P7_48_vs_f64_peak_v": 7.84604632617647e-05,
+    "P7_48_vs_f64_relative_rms": 7.801792136453835e-07,
+    "candidate48_vs_P7_48_peak_v": 8.296966552734375e-05,
+    "P7_48_local_overruns": 0
+  },
+  "100hz_100mv": {
+    "P7_48_vs_f64_peak_v": 7.618161116207389e-05,
+    "P7_48_vs_f64_relative_rms": 1.0644887338585365e-06,
+    "candidate48_vs_P7_48_peak_v": 6.92605972290039e-05,
+    "P7_48_local_overruns": 0
+  },
+  "8000hz_1000mv": {
+    "P7_48_vs_f64_peak_v": 0.04602611079006458,
+    "P7_48_vs_f64_relative_rms": 7.791285925614318e-05,
+    "candidate48_vs_P7_48_peak_v": 0.03962993621826172,
+    "P7_48_local_overruns": 0
+  },
+  "8000hz_100mv": {
+    "P7_48_vs_f64_peak_v": 9.422671315340025e-05,
+    "P7_48_vs_f64_relative_rms": 6.279067186918144e-07,
+    "candidate48_vs_P7_48_peak_v": 8.690357208251953e-05,
+    "P7_48_local_overruns": 0
+  }
+}

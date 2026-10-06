@@ -1,0 +1,35 @@
+Orange physical clipping stage AC cross-check
+R_R22 b_minus b_out 47000
+C_C18 b_minus b_out 4.7000000000000003e-10
+C_E13 b_minus b_feedback_c 2.2000000000000001e-06
+R_R34 b_feedback_c b_feedback_r 1000
+R_R33 b_feedback_r clip_ref 6800
+C_C12 b_feedback_r clip_ref 2.2000000000000001e-07
+C_E14 b_out b_coupled 2.2000000000000001e-06
+R_R35 b_coupled clip 2700
+R_R37 clip_ref 0 100000
+R_R36 clip tone_coupled 1000
+C_E12 tone_coupled tone_in 2.2000000000000001e-06
+C_C8 tone_in treble_left 2.1999999999999999e-10
+R_R12 tone_in tone_low 68000
+C_C5 tone_low tone_high 9.9999999999999995e-08
+C_C6 tone_low tone_mid 4.6999999999999997e-08
+C_C9 treble_wiper c_plus 9.9999999999999995e-08
+R_R13 c_plus 0 1000000
+R_VR4A treble_left treble_wiper 125000
+R_VR4B treble_wiper tone_high 125000
+R_VR5A tone_mid 0 12500
+R_VR6B tone_high tone_mid 125000
+Vin bin 0 AC 1
+Eop b_out 0 bin b_minus 1e9
+Dpos clip clip_ref fixture
+Dneg clip_ref clip fixture
+.model fixture D(Is=2.5e-09 N=1.75 Cjo=0 Tt=0)
+.options gmin=1e-15 temp=26.85 tnom=26.85
+.control
+set noaskquit
+ac dec 10 20 20000
+wrdata ac.txt v(b_out) v(c_plus)
+quit
+.endc
+.end

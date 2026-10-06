@@ -1,0 +1,34 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+build/
+target/
+.vscode/
+tmp/
+.artifacts/
+.env
+.env.*
+# Аудио, численные траектории и точные исполнявшиеся образы хранятся в Releases.
+*.wav
+*.raw
+*.bin
+*.npz
+*.f32
+*.f64
+*.pcm16
+*.pairs
+*.candidate
+*.reference
+*.P7_48
+*.control96
+*.input
+*.reference96_output
+*.elf
+# Сохранённые исполняемые host-стенды без расширения.
+simulation/experiments/newton_tracking/host_binaries/tracking_di
+simulation/experiments/rate48/final_context/rate48_sine
+simulation/experiments/rate48/final_context/rate96_sine
+simulation/experiments/rate48/final_context/rate48_di
+simulation/experiments/rate48/final_context/control48_di_host
+simulation/experiments/bounded_newton/final_context/bounded_di_host

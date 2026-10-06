@@ -1,0 +1,105 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 14.71s
+     Running unittests src/lib.rs (target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 7 tests
+test packed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+packed F=false M=orange_dsp::FpuRootMath case=100 rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=100 rms=0.0000018523070238015024 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=100 rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=100 rms=0.00000184971747691496 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=100 rms=0.0000018493641456964113 peak=0.00004226465745715835 scaled=0.0000028176438304772233 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000019787378576275483 peak=0.000044768052537724756 scaled=0.000002984536835848317 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0
+packed F=false M=orange_dsp::FpuRootMath case=1000 rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024, 0] retries=0
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=1000 rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024, 0] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000008712979964716319 peak=0.005304768405951066 scaled=0.002886567471326392 fullres=0.00007248018 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=1000 rms=0.000012226065121971198 peak=0.006268844796730733 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024, 0] retries=0
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=1000 rms=0.000012227728975252241 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024, 0] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=1000 rms=0.000012227726434301559 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000027420673728179054 peak=0.0008138882294517202 scaled=0.00005425921529678135 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=1
+packed F=false M=orange_dsp::FpuRootMath case=250 rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=250 rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=250 rms=0.0000023442219655846936 peak=0.0007204281464439077 scaled=0.00004802854309626052 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=250 rms=0.0000023476362978841284 peak=0.0007042156830650015 scaled=0.000046947712204333435 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=3
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=250 rms=0.0000023573201075257555 peak=0.0007185207978110952 scaled=0.000047901386520739685 fullres=0.000071525574 failures=0 maxiter=28
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=3
+packed F=false M=orange_dsp::FpuRootMath case=2001 rms=0.000005700632325949037 peak=0.0028274243308885616 scaled=0.0015100888624897852 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 13, 1536, 0] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000005126783445589511 peak=0.0024879162742479366 scaled=0.001322215022157754 fullres=0.000047683716 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 596, 1536, 953] retries=0
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=2001 rms=0.0000047647975079296035 peak=0.002314347548661999 scaled=0.0012287549391499415 fullres=0.000059604645 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 596, 1536, 953] retries=0
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=2001 rms=0.000006054541229799206 peak=0.0029609387351854366 scaled=0.0015755744988830145 fullres=0.000059604645 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 13, 1536, 0] retries=0
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=2001 rms=0.000004322731138236617 peak=0.002070206923661999 scaled=0.0010996910149962957 fullres=0.000059604645 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 13, 1536, 0] retries=0
+packed F=false M=orange_dsp::FpuRootMath case=2002 rms=0.000007088463766574075 peak=0.004521853194553671 scaled=0.003038940670061644 fullres=0.0000729342 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 2, 1536, 0] retries=0
+
+thread 'packed::tests::package_one_reference' (42327728) panicked at orange-dsp/src/packed.rs:779:13:
+assertion failed: scaled < 0.003
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=2001 rms=0.000005700632325949037 peak=0.0028274243308885616 scaled=0.0015100888624897852 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 13, 1536, 0] retries=0
+test packed::tests::package_one_reference ... FAILED
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=2002 rms=0.0000970159780605927 peak=0.04975462602170211 scaled=0.03172630160938006 fullres=0.00007280032 failures=0 maxiter=14
+direct=[1536, 1534, 1536, 2, 1536, 0] retries=0
+
+thread 'packed::tests::package_four_reference' (42327727) panicked at orange-dsp/src/packed.rs:778:13:
+assertion failed: peak < 0.01
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00008456928603434181 peak=0.04885424898371937 scaled=0.03310308943083188 fullres=0.00007280032 failures=0 maxiter=14
+direct=[1536, 1534, 1536, 1340, 1536, 198] retries=0
+
+thread 'packed::tests::package_six_reference' (42327729) panicked at orange-dsp/src/packed.rs:778:13:
+assertion failed: peak < 0.01
+test packed::tests::package_four_reference ... FAILED
+test packed::tests::package_six_reference ... FAILED
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=2002 rms=0.000007088463766574075 peak=0.004521853194553671 scaled=0.003038940670061644 fullres=0.0000729342 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 2, 1536, 0] retries=0
+
+thread 'packed::tests::package_two_reference' (42327731) panicked at orange-dsp/src/packed.rs:779:13:
+assertion failed: scaled < 0.003
+test packed::tests::package_two_reference ... FAILED
+packed F=true M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=2002 rms=0.00009733162403012532 peak=0.049752718673069296 scaled=0.03193769941618344 fullres=0.00007280032 failures=0 maxiter=14
+direct=[1536, 1534, 1536, 1340, 1536, 198] retries=0
+
+thread 'packed::tests::package_five_reference' (42327726) panicked at orange-dsp/src/packed.rs:778:13:
+assertion failed: peak < 0.01
+test packed::tests::package_five_reference ... FAILED
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=2002 rms=0.00009733160582050034 peak=0.049752718673069296 scaled=0.03193769941618344 fullres=0.00007280032 failures=0 maxiter=14
+direct=[1536, 1534, 1536, 2, 1536, 0] retries=0
+
+thread 'packed::tests::package_three_reference' (42327730) panicked at orange-dsp/src/packed.rs:778:13:
+assertion failed: peak < 0.01
+test packed::tests::package_three_reference ... FAILED
+
+failures:
+
+failures:
+    packed::tests::package_five_reference
+    packed::tests::package_four_reference
+    packed::tests::package_one_reference
+    packed::tests::package_six_reference
+    packed::tests::package_three_reference
+    packed::tests::package_two_reference
+
+test result: FAILED. 1 passed; 6 failed; 0 ignored; 0 measured; 23 filtered out; finished in 0.04s
+
+error: test failed, to rerun pass `-p orange-dsp --lib`

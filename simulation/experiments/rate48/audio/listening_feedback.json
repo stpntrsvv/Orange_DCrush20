@@ -1,0 +1,16 @@
+{
+  "level_mv": 250,
+  "presentation": "blind A/B/C concatenated guitar 5–13,65–73,185–193 seconds, common gain/FIR/cabinet",
+  "user_verbatim": "b норм, но C больше зашел",
+  "mapping": {
+    "A": "same solver 48k",
+    "B": "same solver 96k",
+    "C": "P7 96k"
+  },
+  "interpretation": "B acceptable to user, preference for C. No explicit judgment on A; no acceptance of 48k inferred. Mapping disclosed after this response.",
+  "statistical_test": false,
+  "followup_after_mapping_disclosed": {
+    "user_verbatim": "тембр, С плотнее явно, по плохим отзукам пусто, то есть А не прям хуже, но тембр С мне нравится больше...",
+    "interpretation": "На выбранных 250-мВ фрагментах пользователь не отметил неприятных призвуков A/48; предпочитает более плотный тембр C/P7-96. Это локальная субъективная оценка, не статистический тест и не оценка всей 1-В записи."
+  }
+}

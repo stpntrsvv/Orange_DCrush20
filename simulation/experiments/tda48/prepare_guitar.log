@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_tda48_hardware.py", line 65, in <module>
+    prepare(a.input.resolve(), a.host.resolve())
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_tda48_hardware.py", line 26, in prepare
+    base.execute(['cargo', 'test', '-p', 'orange-dsp', '--release', '--target',
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  'aarch64-apple-darwin', '--', '--include-ignored'], d / 'host_tests.log', R / 'firmware', env)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_rate48_hardware.py", line 11, in execute
+    if r.returncode:raise RuntimeError(f'{cmd}: {r.returncode}: {log}')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ['cargo', 'test', '-p', 'orange-dsp', '--release', '--target', 'aarch64-apple-darwin', '--', '--include-ignored']: 101: /Users/stpntrsvv/OrangeDCrush20/simulation/experiments/tda48/20260929T100814Z/host_tests.log

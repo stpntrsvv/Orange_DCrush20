@@ -1,0 +1,74 @@
+Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+run_packed_probe
+Info : STLINK V2J43M28 (API v2) VID:PID 0483:3752
+Info : Target voltage: 3.260437
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : clock speed 950 kHz
+Info : stlink_dap_op_connect(connect)
+Info : SWD DPIDR 0x6ba02477
+Info : [stm32h7r3.cpu0] Cortex-M7 r1p2 processor detected
+Info : [stm32h7r3.cpu0] target has 8 breakpoints, 4 watchpoints
+Info : starting gdb server for stm32h7r3.cpu0 on 3333
+Info : Listening on port 3333 for gdb connections
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900004bc msp: 0x200005d0
+Error: checksum mismatch - attempting binary compare
+PACK_ERROR diff 0 address 0x20000000. Was 0x02 instead of 0x10
+diff 1 address 0x20000001. Was 0x46 instead of 0x15
+diff 2 address 0x20000002. Was 0x00 instead of 0xea
+diff 3 address 0x20000003. Was 0x20 instead of 0x3c
+diff 4 address 0x20000004. Was 0xc0 instead of 0xbe
+diff 5 address 0x20000005. Was 0x43 instead of 0x72
+diff 6 address 0x20000006. Was 0x0a instead of 0x43
+diff 7 address 0x20000007. Was 0x4e instead of 0x3d
+diff 8 address 0x20000008. Was 0x0b instead of 0xe7
+diff 9 address 0x20000009. Was 0x46 instead of 0x7d
+diff 10 address 0x2000000a. Was 0x00 instead of 0x54
+diff 11 address 0x2000000b. Was 0x24 instead of 0x3d
+diff 12 address 0x2000000c. Was 0x0d instead of 0xa5
+diff 13 address 0x2000000d. Was 0xe0 instead of 0xb0
+diff 14 address 0x2000000e. Was 0x11 instead of 0x2a
+diff 15 address 0x2000000f. Was 0x5d instead of 0x3d
+diff 16 address 0x20000010. Was 0x09 instead of 0x60
+diff 17 address 0x20000011. Was 0x06 instead of 0x78
+diff 18 address 0x20000012. Was 0x48 instead of 0xc1
+diff 19 address 0x20000013. Was 0x40 instead of 0x3c
+diff 20 address 0x20000014. Was 0x00 instead of 0x64
+diff 21 address 0x20000015. Was 0x25 instead of 0x93
+diff 22 address 0x20000016. Was 0x00 instead of 0xf3
+diff 23 address 0x20000017. Was 0x28 instead of 0x3b
+diff 24 address 0x20000018. Was 0x02 instead of 0x8c
+diff 25 address 0x20000019. Was 0xda instead of 0xf9
+diff 26 address 0x2000001a. Was 0x40 instead of 0x04
+diff 27 address 0x2000001b. Was 0x00 instead of 0x3b
+diff 28 address 0x2000001c. Was 0x70 instead of 0x80
+diff 29 address 0x2000001d. Was 0x40 instead of 0x91
+diff 30 address 0x2000001e. Was 0x00 instead of 0x41
+diff 31 address 0x2000001f. Was 0xe0 instead of 0x3c
+diff 32 address 0x20000020. Was 0x40 instead of 0xaf
+diff 33 address 0x20000021. Was 0x00 instead of 0xd9
+diff 34 address 0x20000022. Was 0x01 instead of 0x0e
+diff 35 address 0x20000023. Was 0x35 instead of 0x3d
+diff 36 address 0x20000024. Was 0x08 instead of 0x71
+diff 37 address 0x20000025. Was 0x2d instead of 0x92
+diff 38 address 0x20000026. Was 0xf6 instead of 0x82
+diff 39 address 0x20000027. Was 0xd1 instead of 0x3d
+diff 40 address 0x20000028. Was 0x01 instead of 0xfd
+diff 41 address 0x20000029. Was 0x34 instead of 0x4c
+diff 42 address 0x2000002a. Was 0x9c instead of 0xb5
+diff 43 address 0x2000002b. Was 0x42 instead of 0x3d
+diff 44 address 0x2000002c. Was 0xef instead of 0x06
+diff 45 address 0x2000002d. Was 0xd1 instead of 0x96
+diff 46 address 0x2000002e. Was 0x00 instead of 0xce
+diff 47 address 0x2000002f. Was 0xbe instead of 0x3d
+diff 48 address 0x20000030. Was 0xb7 instead of 0x64
+diff 49 address 0x20000031. Was 0x1d instead of 0xb9
+diff 50 address 0x20000032. Was 0xc1 instead of 0xc7
+diff 51 address 0x20000033. Was 0x04 instead of 0x3d
+No more differences found.
+
+shutdown command invoked

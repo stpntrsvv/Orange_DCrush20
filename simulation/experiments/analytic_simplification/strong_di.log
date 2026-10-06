@@ -1,0 +1,20 @@
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 5.24s
+     Running `firmware/target/aarch64-apple-darwin/release/examples/analytic_di`
+level=1 steps=21286958 failures=[0, 0, 0] retries=[0, 13] max_iterations=[30, 26, 33] peak_vs_P7=0.011400223 rms_vs_P7=0.0000023505949046187374 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0937452e-5, 2.1420419e-7, 2.2803533e-7, 1.065433e-6, 1.5394762e-6, 5.722046e-6, 1.9706786e-6, 2.4903566e-6, 8.614734e-8, 5.26011e-6, 1.73226e-7, 7.480383e-6, 4.8657967e-11, 3.054738e-7, 1.7136335e-7, 2.9057264e-7, 0.011238098, 0.0, 0.0015034676, 4.386902e-5, 2.3841858e-5, 0.015625] host_seconds=19.485859625
+A1 level=1 peak_vs_P7=11.229108 relative_rms=0.0021319563367053927 memory_peak=[0.0, 0.0, 0.00063973665, 5.6731515e-6, 6.269431e-5, 3.0816183e-5, 0.07796462, 2.0843e-5, 0.00021311641, 4.4927e-5, 8.391216e-6, 0.014589429, 3.3233315e-5, 0.000318408, 4.8372895e-6, 0.055755496, 2.217479e-5, 0.04743892, 7.757279e-8, 4.5645982e-5, 3.225729e-5, 0.00027655438, 11.069687, 2.0316715, 0.14583921, 0.119555235, 0.047168016, 17.36377] retries=0

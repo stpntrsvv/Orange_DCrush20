@@ -1,0 +1,56 @@
+{
+  "orange_dsp::generated_packed::origin::<5>": {
+    "vdiv_f32": 0,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::generated_packed::update::<5>": {
+    "vdiv_f32": 0,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 0, 5>": {
+    "vdiv_f32": 8,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 1, 5>": {
+    "vdiv_f32": 19,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 2, 5>": {
+    "vdiv_f32": 30,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 3, 5>": {
+    "vdiv_f32": 44,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 4, 5>": {
+    "vdiv_f32": 5,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "orange_dsp::packed::power::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>>": {
+    "vdiv_f32": 17,
+    "vdiv_f64": 0,
+    "mem_calls": []
+  },
+  "ram_probe::packed_probe::control": {
+    "vdiv_f32": 0,
+    "vdiv_f64": 0,
+    "mem_calls": [
+      "81c4: f003 fc88    \tbl\t0xbad8 <__aeabi_memcpy4> @ imm = #0x3910"
+    ]
+  },
+  "ram_probe::packed_probe::candidate": {
+    "vdiv_f32": 44,
+    "vdiv_f64": 15,
+    "mem_calls": [
+      "a50e: f001 fae3    \tbl\t0xbad8 <__aeabi_memcpy4> @ imm = #0x15c6"
+    ]
+  }
+}

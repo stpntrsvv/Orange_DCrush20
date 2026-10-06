@@ -1,0 +1,33 @@
+{
+  "accepted_as_default": false,
+  "hardware_measured": true,
+  "hardware_blocker": null,
+  "hardware_results": "hardware.json",
+  "hardware_speedup_accepted": false,
+  "coordinates": 19,
+  "nonlinear_ports": 14,
+  "history_states": 56,
+  "full_residual_tolerance": 0.0001,
+  "f64_reference_samples": 1024,
+  "mv100": {
+    "relative_rms": 0.0000267645668486576,
+    "peak_error_v": 0.000734643944626745,
+    "failures": 0,
+    "fallbacks": 0,
+    "iterations": [99, 921, 4],
+    "control_relative_rms": 0.0026579629078968786
+  },
+  "mv1000": {
+    "relative_rms": 1.2166600299257972,
+    "peak_error_v": 41.99831642928608,
+    "failures": 698,
+    "fallbacks": 705,
+    "iterations": [685, 285, 54],
+    "control_relative_rms": 1.2166948644272744
+  },
+  "full_di": {
+    "inner_steps": 21286958,
+    "mv100": {"failures": 235, "fallbacks": 3269, "control_failures": 249},
+    "mv250": {"failures": 8263, "fallbacks": 32672, "control_failures": 8604}
+  }
+}

@@ -1,0 +1,75 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `voltage_small` is never used
+  --> orange-dsp/src/tracking.rs:37:4
+   |
+37 | fn voltage_small(delta: f32, value: f32) -> bool {
+   |    ^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `amp_candidate` is never used
+  --> orange-dsp/src/tracking.rs:43:4
+   |
+43 | fn amp_candidate<const P: usize>(r: &mut [f32; 8], o: &[f64; 15], h: &[f32; 28]) {
+   |    ^^^^^^^^^^^^^
+
+warning: function `sqrt64` is never used
+  --> orange-dsp/src/tracking.rs:60:4
+   |
+60 | fn sqrt64(mut x: f64) -> f64 {
+   |    ^^^^^^
+
+warning: function `q_candidate` is never used
+  --> orange-dsp/src/tracking.rs:73:4
+   |
+73 | fn q_candidate<const F: u8>(r: &mut [f32; 8], o: &[f64; 15]) -> bool {
+   |    ^^^^^^^^^^^
+
+warning: function `direct_block` is never used
+   --> orange-dsp/src/tracking.rs:116:4
+    |
+116 | fn direct_block<M: PackageMath, const B: usize, const F: u8>(
+    |    ^^^^^^^^^^^^
+
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+
+warning: `orange-dsp` (lib test) generated 6 warnings
+    Finished `release` profile [optimized + debuginfo] target(s) in 31.59s
+     Running unittests src/lib.rs (firmware/target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 1 test
+triangle100: steps=1024 output_different=1023 peak_vs_P7=0.05533266 memory_peak_vs_P7=0.05533266 above_tol=0 failed_at=None RMS=0.001070562678797332 peak=0.0553369241779853 scaled=0.0036891282785323537
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.99837 memory_peak_vs_P7=9220.094 above_tol=1023 failed_at=None RMS=1.3596682237166475 peak=41.99836831936082 scaled=384.17023689474564
+noise250: steps=1024 output_different=1023 peak_vs_P7=41.99845 memory_peak_vs_P7=521.3341 above_tol=1024 failed_at=None RMS=1.6489937605501686 peak=41.99845020330344 scaled=21.72224833922355
+step025: steps=1536 output_different=1440 peak_vs_P7=42.040062 memory_peak_vs_P7=2147.2888 above_tol=1440 failed_at=None RMS=1.9374380901047559 peak=42.04005233768015 scaled=89.4694776686019
+step1: steps=1536 output_different=1439 peak_vs_P7=42.040054 memory_peak_vs_P7=21596.332 above_tol=1440 failed_at=None RMS=1.641786927417172 peak=42.04005335074398 scaled=899.847474006233
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.997887 memory_peak_vs_P7=1586.93 above_tol=1536 failed_at=None RMS=2.2590956842583356 peak=41.99788582251558 scaled=66.12210706170423
+output0: steps=2048 output_different=2039 peak_vs_P7=0.055332184 memory_peak_vs_P7=0.055332184 above_tol=0 failed_at=None RMS=0.0009671182963938973 peak=0.05533727408420752 scaled=0.0036891516056138346
+output1: steps=2048 output_different=2046 peak_vs_P7=41.99837 memory_peak_vs_P7=9220.087 above_tol=2046 failed_at=None RMS=1.3726045213904676 peak=41.99836832268144 scaled=384.17024599464276
+output2: steps=2048 output_different=2047 peak_vs_P7=42.04007 memory_peak_vs_P7=644.026 above_tol=2048 failed_at=None RMS=1.53541687611574 peak=42.04006980787253 scaled=26.834410310583664
+triangle100: steps=1024 output_different=978 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.00052785873 above_tol=0 failed_at=None RMS=0.000006056092493388039 peak=0.0005325990742255371 scaled=0.00003550660494836914
+triangle1000: steps=1024 output_different=1022 peak_vs_P7=42.39055 memory_peak_vs_P7=9283.671 above_tol=1022 failed_at=None RMS=1.3437897408932538 peak=42.390542126692026 scaled=386.8192834394211
+noise250: steps=1024 output_different=1024 peak_vs_P7=42.772297 memory_peak_vs_P7=486.18753 above_tol=1024 failed_at=None RMS=1.5772488385298915 peak=42.772297499325525 scaled=20.25780545693605
+step025: steps=1536 output_different=1440 peak_vs_P7=42.53226 memory_peak_vs_P7=2225.69 above_tol=1440 failed_at=None RMS=1.8309513890012195 peak=42.53226164441556 scaled=92.7362017629283
+step1: steps=1536 output_different=1440 peak_vs_P7=42.79104 memory_peak_vs_P7=21582.047 above_tol=1440 failed_at=None RMS=1.4696120679192877 peak=42.79103953769818 scaled=899.2523251802471
+multitone: steps=1536 output_different=1536 peak_vs_P7=42.38337 memory_peak_vs_P7=1646.4991 above_tol=1536 failed_at=None RMS=2.0801535113981755 peak=42.38336726005386 scaled=68.60414024839095
+output0: steps=2048 output_different=1957 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.0005302429 above_tol=0 failed_at=None RMS=0.000004371869682612136 peak=0.0005334258176059592 scaled=0.00003556172117373061
+output1: steps=2048 output_different=2045 peak_vs_P7=42.39055 memory_peak_vs_P7=9283.664 above_tol=2045 failed_at=None RMS=1.3188564868646877 peak=42.390542126692026 scaled=386.8192911088067
+output2: steps=2048 output_different=2048 peak_vs_P7=42.432045 memory_peak_vs_P7=609.9525 above_tol=2048 failed_at=None RMS=1.4460668166589787 peak=42.43204567931958 scaled=25.414690716530895
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000042438507 memory_peak_vs_P7=0.000042438507 above_tol=0 failed_at=None RMS=0.0000004756748399802348 peak=0.000008578559092420335 scaled=0.0000005938556005909608
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.997765 memory_peak_vs_P7=9218.728 above_tol=1022 failed_at=None RMS=1.3756431567755205 peak=41.997759875146954 scaled=384.1133317840686
+noise250: steps=1024 output_different=1024 peak_vs_P7=41.998177 memory_peak_vs_P7=521.06885 above_tol=1024 failed_at=None RMS=1.6458505180486822 peak=41.99817745244895 scaled=21.711196366516436
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99779 memory_peak_vs_P7=2147.554 above_tol=1440 failed_at=None RMS=1.937166209766594 peak=41.997792039923375 scaled=89.48052972078187
+step1: steps=1536 output_different=1440 peak_vs_P7=41.998184 memory_peak_vs_P7=21596.066 above_tol=1440 failed_at=None RMS=1.6413339658701322 peak=41.998182735931906 scaled=899.836422033526
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.997612 memory_peak_vs_P7=1587.1954 above_tol=1536 failed_at=None RMS=2.255221377191968 peak=41.997613071661085 scaled=66.1331603059771
+output0: steps=2048 output_different=1951 peak_vs_P7=0.000041246414 memory_peak_vs_P7=0.000041246414 above_tol=0 failed_at=None RMS=0.0000004330563222569091 peak=0.000007920981103914926 scaled=0.0000006145390446447389
+output1: steps=2048 output_different=2046 peak_vs_P7=41.997765 memory_peak_vs_P7=9218.721 above_tol=2045 failed_at=None RMS=1.3878820378344625 peak=41.997759878467576 scaled=384.1133394534542
+output2: steps=2048 output_different=2048 peak_vs_P7=41.99819 memory_peak_vs_P7=643.76074 above_tol=2048 failed_at=None RMS=1.534187703901322 peak=41.99818673956959 scaled=26.823358337876552
+test tracking::diagnostics::fixed_corrections_trajectories ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 45 filtered out; finished in 0.32s
+

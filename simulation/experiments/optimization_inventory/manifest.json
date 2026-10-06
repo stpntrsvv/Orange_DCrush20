@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-27",
+  "kind": "preliminary audit; no new MCU timing or firmware modification",
+  "files": {
+    "NEXT_CHAT.md": {
+      "sha256": "67366547e194c1d781a0276abd68ae893800a92d1e02971c3005b4dcc1d028f7",
+      "bytes": 12870
+    },
+    "docs/04 Передача контекста.md": {
+      "sha256": "7f253acdf58fcb8696cd59458c625e3c84d82c9467fa8123d09878a987a0db4d",
+      "bytes": 46305
+    },
+    "docs/10 Архитектурное решение.md": {
+      "sha256": "726e0c163dc6f52eeb9cb0fbdd70b2f6a630bf4716b344a47fc20602acfc994c",
+      "bytes": 22405
+    },
+    "docs/11 Где сокращать вычисления.md": {
+      "sha256": "da671406c2e2da2127197185f29f9799c6a92f18a784c89598fd8ab8118390f6",
+      "bytes": 49702
+    },
+    "firmware/.cargo/config.toml": {
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9",
+      "bytes": 174
+    },
+    "firmware/Cargo.lock": {
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f",
+      "bytes": 329
+    },
+    "firmware/h7r3-runtime/Cargo.toml": {
+      "sha256": "2586a41abd7eab13fd788c41546a7b1c93cf1a31ff466491241e923b720b164f",
+      "bytes": 546
+    },
+    "firmware/h7r3-runtime/src/cordic.rs": {
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe",
+      "bytes": 4872
+    },
+    "firmware/h7r3-runtime/src/main.rs": {
+      "sha256": "daa1be3d54a9ffdfdf097ed53ebff55513abc9908fe0f464e529e75dd77895b3",
+      "bytes": 22100
+    },
+    "firmware/orange-dsp/examples/condensed_di.rs": {
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2",
+      "bytes": 2651
+    },
+    "firmware/orange-dsp/src/condensed.rs": {
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4",
+      "bytes": 16168
+    },
+    "firmware/orange-dsp/src/control_ports.rs": {
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351",
+      "bytes": 19618
+    },
+    "firmware/orange-dsp/src/generated_condensed.rs": {
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e",
+      "bytes": 39351
+    },
+    "firmware/orange-dsp/src/lib.rs": {
+      "sha256": "8f20868aab26856cbff1fa534fa9c1a4b13eff4f88f3a30f072d9bf4020be436",
+      "bytes": 95693
+    },
+    "simulation/audit_optimization_opportunities.py": {
+      "sha256": "96217b0c149122fa71671a67d88d45c760a340377ac34270b1ac9b309cf5b800",
+      "bytes": 8667
+    },
+    "simulation/condensed_physical.py": {
+      "sha256": "90f591cc73a289739f252778c2802e6d38367ddd72eb5ebd9666368e2a2b3146",
+      "bytes": 11235
+    },
+    "simulation/experiments/absolute_ports/reference_1000mv.txt": {
+      "sha256": "aceff3ed8a316f557aa8a2805d1dc0e493e11092540558ef20df906536bd2a2a",
+      "bytes": 1427764
+    },
+    "simulation/experiments/absolute_ports/reference_100mv.txt": {
+      "sha256": "26cb5bfd4b3625966ec5224eff8c93fa31dee135e82e4e182486bc8bd6be2af4",
+      "bytes": 1428105
+    },
+    "simulation/experiments/architecture_decision/condensed_bdf2_96000.npz": {
+      "sha256": "09fc8f27f51db02b16ce6ae1378d4f266570c552ced68d2eb8c5529e91374373",
+      "bytes": 595022
+    },
+    "simulation/experiments/architecture_decision/condensed_release_96.elf": {
+      "sha256": "b6a8f2c8ee10a32a0409b5089307e05de45f95ff341e0e9ad5939d4372c58a51",
+      "bytes": 470504
+    },
+    "simulation/experiments/architecture_decision/condensed_trap_192000.npz": {
+      "sha256": "372c1c66fea47d34aa4630deb129f2f32c533bdf764b22d3a2c05366fc3290ed",
+      "bytes": 1187922
+    },
+    "simulation/experiments/architecture_decision/condensed_trap_384000.npz": {
+      "sha256": "aabb051dd1be03dca830870c0084edee6c7fecc5137ced73a6fb3a875bdf57f9",
+      "bytes": 2366772
+    },
+    "simulation/experiments/architecture_decision/condensed_trap_96000.npz": {
+      "sha256": "fb16293e7619922c13fda856caccbc5e28181b8e171718486416f358b3f09588",
+      "bytes": 594489
+    },
+    "simulation/experiments/architecture_decision/full_reference_6144000.npz": {
+      "sha256": "d619ef64c667005d5e727a7579303a777831db8bc2a7fd431272204c694a154c",
+      "bytes": 37285372
+    },
+    "simulation/experiments/architecture_decision/reference_noise.txt": {
+      "sha256": "e256588985ff58990885d5c8781d8e9f1dfac4b9c9b600b22ae193904774690d",
+      "bytes": 1429155
+    },
+    "simulation/experiments/optimization_inventory/README.md": {
+      "sha256": "16770a6a91437c5c834fc4341ec9b562460242d8031c1c54826094b72fe47e60",
+      "bytes": 2011
+    },
+    "simulation/experiments/optimization_inventory/audit.json": {
+      "sha256": "e8bdd5fa49a0c980394f127731369864633ba2913fc2d85f7be8ffbd3b3d3ee1",
+      "bytes": 18064
+    },
+    "simulation/experiments/optimization_inventory/current_elf.asm": {
+      "sha256": "1a8b13775db5ae5fc80ef905df61edb55fabc86889c37ebcc868a8acdd637c2a",
+      "bytes": 768865
+    },
+    "simulation/generate_condensed.py": {
+      "sha256": "a73fb6116a25bc9213d367e49d855db91aea4cd685ad1750303de58266551da4",
+      "bytes": 3181
+    },
+    "simulation/orange_full_mna.py": {
+      "sha256": "acf14f8097a99debae57e71056a575ebfb12f571137edb4fea9cff00abe0843d",
+      "bytes": 44068
+    }
+  }
+}

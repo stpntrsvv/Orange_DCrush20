@@ -1,0 +1,13 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+error: invalid Mach-O section specifier
+ --> orange-dsp/src/generated_exponential.rs:3:25
+  |
+3 | #[unsafe(link_section = ".etd_coeff")]
+  |                         ^^^^^^^^^^^^ not a valid Mach-O section specifier
+  |
+  = note: a Mach-O section specifier requires a segment and a section, separated by a comma
+  = help: an example of a valid Mach-O section specifier is `__TEXT,__cstring`
+
+error: could not compile `orange-dsp` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `orange-dsp` (lib test) due to 1 previous error

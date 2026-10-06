@@ -1,0 +1,22 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+  |
+  = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `orange-dsp` (lib) generated 1 warning
+    Finished `release` profile [optimized + debuginfo] target(s) in 5.26s
+     Running `firmware/target/aarch64-apple-darwin/release/examples/exponential_trace`
+q=false case=0 failed=0 retries=0 peak=0.0000004666140416276221 scaled=0.000000017607992930379625 relative_rms=0.00000002456973156965264
+first failure q=false case=1 step=64 block=2 norm=13851556000000000000000000000 iter=5
+q=false case=1 failed=958 retries=960 peak=41.99877778929361 scaled=672.818545037689 relative_rms=0.9722696792307647
+first failure q=false case=2 step=0 block=2 norm=0.14235583 iter=48
+q=false case=2 failed=1019 retries=1019 peak=31.27940831070087 scaled=31.094544252227227 relative_rms=0.9983313624579231
+q=true case=0 failed=0 retries=0 peak=0.2991218231965087 scaled=0.019941454879767277 relative_rms=0.007917842917742867
+first failure q=true case=1 step=64 block=2 norm=13851556000000000000000000000 iter=4
+q=true case=1 failed=958 retries=960 peak=41.9989399139274 scaled=672.909311686868 relative_rms=0.9722696958203484
+first failure q=true case=2 step=0 block=2 norm=0.14235526 iter=48
+q=true case=2 failed=1019 retries=1019 peak=31.27940831070087 scaled=31.09402623097057 relative_rms=0.9983316675454892

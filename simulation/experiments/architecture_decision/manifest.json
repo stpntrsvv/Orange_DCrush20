@@ -1,0 +1,162 @@
+{
+  "date": "2026-09-26",
+  "current_configuration": {
+    "integrator": "BDF2",
+    "inner_rate_hz": 96000,
+    "output_rate_hz": 48000,
+    "rails_and_gate": "fixed",
+    "load": "resistive",
+    "controls": 0.5
+  },
+  "note": "Current source and result hashes; intermediate ELF files correspond to separately saved experiments. Not a claim of a hermetic build.",
+  "files": {
+    "NEXT_CHAT.md": {
+      "bytes": 8943,
+      "sha256": "30d41b22ccd65fc4f70173106e925ce54b0e5edf09872a430b5d2ed52490fd49"
+    },
+    "docs/10 Архитектурное решение.md": {
+      "bytes": 21390,
+      "sha256": "8d06e8c21e07c4846d5bc5a45e9fe580daecf5aa166e5bf094ccbccc407d491e"
+    },
+    "embedded/openocd/run_condensed_probe.cfg": {
+      "bytes": 1314,
+      "sha256": "08e3d0c7f382f526fb386a5dc65520b276abeda3636e68d74aa54a9f9abb34a7"
+    },
+    "firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 546,
+      "sha256": "2586a41abd7eab13fd788c41546a7b1c93cf1a31ff466491241e923b720b164f"
+    },
+    "firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22100,
+      "sha256": "daa1be3d54a9ffdfdf097ed53ebff55513abc9908fe0f464e529e75dd77895b3"
+    },
+    "firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95693,
+      "sha256": "8f20868aab26856cbff1fa534fa9c1a4b13eff4f88f3a30f072d9bf4020be436"
+    },
+    "simulation/analyze_condensed_hardware.py": {
+      "bytes": 2188,
+      "sha256": "37d6d0b7b872e8df0f05d762447e4e6da4c40508848717843e669d6b6a47f7c9"
+    },
+    "simulation/audit_condensed_structure.py": {
+      "bytes": 2789,
+      "sha256": "b817cee7b4c3ba2eba018cef50e9194c2172444605ceb55ff3799db5a063d21b"
+    },
+    "simulation/condensed_physical.py": {
+      "bytes": 11235,
+      "sha256": "90f591cc73a289739f252778c2802e6d38367ddd72eb5ebd9666368e2a2b3146"
+    },
+    "simulation/experiments/architecture_decision/coefficients.json": {
+      "bytes": 672,
+      "sha256": "e7b03eeca152608647a8fc48c7a54422b9349b4f5784cc8405ce6d6c9a995de4"
+    },
+    "simulation/experiments/architecture_decision/condensed_release_96.elf": {
+      "bytes": 470504,
+      "sha256": "b6a8f2c8ee10a32a0409b5089307e05de45f95ff341e0e9ad5939d4372c58a51"
+    },
+    "simulation/experiments/architecture_decision/condensed_release_96.json": {
+      "bytes": 4248,
+      "sha256": "e5d49cfbcee63eee86c3589fa025d7fc2a37f622e5cdc91a8c1628d4ffb0fb76"
+    },
+    "simulation/experiments/architecture_decision/condensed_release_96.log": {
+      "bytes": 1526,
+      "sha256": "5274bb13f24df3bdef8e416903ecdbf042a05bd94ffa7292dc504c162472cbbc"
+    },
+    "simulation/experiments/architecture_decision/condensed_trap_384.elf": {
+      "bytes": 464488,
+      "sha256": "a519a3b89958aedf6f16b593fc8dec85f9a720ab56ba4b3cea92355206ddd663"
+    },
+    "simulation/experiments/architecture_decision/condensed_trap_384.json": {
+      "bytes": 3970,
+      "sha256": "eda9af67f6bf1da69c6d0eb80b9a01b382e3c6da863aafb5ec991fa7d09ef784"
+    },
+    "simulation/experiments/architecture_decision/dc_ac.json": {
+      "bytes": 2268,
+      "sha256": "6169e88fdb88ba776c7bda77e38eb45144471c46fa3294cf7323b3c95538ae2e"
+    },
+    "simulation/experiments/architecture_decision/hardware_trace.bin": {
+      "bytes": 24576,
+      "sha256": "b1d002aacff216baf7b59d3f4889abbe319bb525da6933d55b268950fbff3f56"
+    },
+    "simulation/experiments/architecture_decision/long_di.txt": {
+      "bytes": 266,
+      "sha256": "87ba267201a7671d07f047c0d150236e8d213211cc4b0864d5e339e6245a942b"
+    },
+    "simulation/experiments/architecture_decision/multirate.json": {
+      "bytes": 2950,
+      "sha256": "e80c2089507a4d506703026cc3baf2311dded6ad261554e8a301ce654561202f"
+    },
+    "simulation/experiments/architecture_decision/qualification_f64.json": {
+      "bytes": 7584,
+      "sha256": "755eb41e18616a35ae14510789dcac8931c55eaee113bdca4c14842b83be3523"
+    },
+    "simulation/experiments/architecture_decision/report.md": {
+      "bytes": 28707,
+      "sha256": "dc1e1787576b89d257a7828dfb680b10b6bc7aaa4840a8a21157a502cf7d4dee"
+    },
+    "simulation/experiments/architecture_decision/structure.json": {
+      "bytes": 21015,
+      "sha256": "1caa4f7a380737897b9bb4c584f8488eda067e235d878a1d860b83e007332869"
+    },
+    "simulation/experiments/architecture_decision/timestep_comparison.json": {
+      "bytes": 1691,
+      "sha256": "df03ff4ace1e2bb753f6e007084122d19ed2f3ddf4bc75a1f51ddaa486b0187e"
+    },
+    "simulation/generate_condensed.py": {
+      "bytes": 3181,
+      "sha256": "a73fb6116a25bc9213d367e49d855db91aea4cd685ad1750303de58266551da4"
+    },
+    "simulation/orange_full_mna.py": {
+      "bytes": 44068,
+      "sha256": "acf14f8097a99debae57e71056a575ebfb12f571137edb4fea9cff00abe0843d"
+    },
+    "simulation/run_condensed_multirate.py": {
+      "bytes": 2938,
+      "sha256": "0c8a59b51e2d5e71cf66b81b6f3323ed3d665b01ec7248f51138af54ac5050be"
+    },
+    "simulation/run_condensed_qualification.py": {
+      "bytes": 2509,
+      "sha256": "45dc42e5deca80afd54562681b3c496a15d81ffc7770983358f6512c95c11b32"
+    },
+    "simulation/run_condensed_reference.py": {
+      "bytes": 1300,
+      "sha256": "6264a4cf4b8b4ac0e69ac42419758adb86730a9874e0f6f3773e2442aed514aa"
+    },
+    "simulation/run_condensed_timestep.py": {
+      "bytes": 2395,
+      "sha256": "9f222efdef98b6edfc2cc3b5e5a258993a1fe4a876de98c27b24dc4a9b2bad5b"
+    },
+    "simulation/validate_condensed_dc_ac.py": {
+      "bytes": 3204,
+      "sha256": "f06ccf86222bcb5540bd57365da7733b4147fa8b1ce18ff0745c2918933412ba"
+    }
+  }
+}

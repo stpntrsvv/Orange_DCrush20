@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-29",
+  "purpose": "Передача последних идей. Реализация и новые замеры не начаты; рабочая база только 48 кГц.",
+  "files": {
+    "AGENTS.md": "0dbefc67c48951807f2b5466597baedbd08e6b7f83b30e56b165f488a59e9bdd",
+    "NEXT_CHAT.md": "f574ebe1ea1228c6fb5bc5c45d056d80c05f42f49ad5f1ec566fa8311186ce36",
+    "docs/11 Где сокращать вычисления.md": "390c66e73d94f630518adf1075ed19292eee83c3fa7761810c79e6ce70945836"
+  },
+  "accepted_snapshot_manifest_sha256": "6d4e6c056bf6664c8faeafeb0b2c7c1ed6351f11088365d8e2ad7c0ff2d5db88",
+  "measurement_artifact_manifest_sha256": "1bffa35118be8227c16fbed00cf6aa1824d4f22b961cf0cc8d168d1bf9ef6c45",
+  "previous_handoff_manifest_sha256": "aedcfb30bd5e548590cb485455ff49f16e7eb362b0957ae358068f4de083e4c1"
+}

@@ -1,0 +1,41 @@
+Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : STLINK V2J43M28 (API v2) VID:PID 0483:3752
+Info : Target voltage: 3.266932
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : clock speed 950 kHz
+Info : stlink_dap_op_connect(connect)
+Info : SWD DPIDR 0x6ba02477
+Info : [stm32h7r3.cpu0] Cortex-M7 r1p2 processor detected
+Info : [stm32h7r3.cpu0] target has 8 breakpoints, 4 watchpoints
+Info : starting gdb server for stm32h7r3.cpu0 on 3333
+Info : Listening on port 3333 for gdb connections
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900004c0 msp: 0x200005d0
+STATE_1
+pc (/32): 0x900004c0
+
+xPSR (/32): 0x81000000
+
+0xe000ed08: 90000000 
+
+0xe000ed24: 00010000 00000000 00000000 00000000 00000000 00000000 00000000 
+
+0xe000e010: 00010007 000927bf 0008c9aa 400003e8 
+
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900006a8 msp: 0x200005d0
+STATE_2
+pc (/32): 0x900006a8
+
+xPSR (/32): 0x81000000
+
+0xe000ed24: 00010000 00000000 00000000 00000000 00000000 00000000 00000000 
+
+0xe000e010: 00010007 000927bf 00016936 400003e8 
+
+RESET_RUN_CHECKED
+shutdown command invoked

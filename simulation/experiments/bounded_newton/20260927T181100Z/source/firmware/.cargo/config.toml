@@ -1,0 +1,8 @@
+[build]
+target = "thumbv7em-none-eabihf"
+
+[target.thumbv7em-none-eabihf]
+rustflags = [
+    "-C", "link-arg=-Th7r3-runtime/memory-itcm.x",
+    "-C", "target-cpu=cortex-m7",
+]

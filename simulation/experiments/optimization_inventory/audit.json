@@ -1,0 +1,569 @@
+{
+  "scope": "Read-only analysis of saved trajectories and ELF; no MCU run, no new integration method, no firmware changes.",
+  "branches": {
+    "triangle100": {
+      "count": 1024,
+      "accepted_states_only": true,
+      "input_both_exp_clamped_fraction": 1.0,
+      "q1_on_plateau_fraction": 1.0,
+      "q1_off_plateau_fraction": 0.0,
+      "q1_transition_fraction": 0.0,
+      "power_voltage_root_not_skipped_fraction": 0.0546875,
+      "power_current_root_not_skipped_fraction": 0.0,
+      "amplifiers": [
+        {
+          "name": "IC3A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 1.8142136215656897
+        },
+        {
+          "name": "IC3B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 1.2431761479407288
+        },
+        {
+          "name": "IC4A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 0.465409353572489
+        },
+        {
+          "name": "IC4B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 0.46170780357403424
+        }
+      ]
+    },
+    "triangle1000": {
+      "count": 1024,
+      "accepted_states_only": true,
+      "input_both_exp_clamped_fraction": 1.0,
+      "q1_on_plateau_fraction": 0.640625,
+      "q1_off_plateau_fraction": 0.0,
+      "q1_transition_fraction": 0.359375,
+      "power_voltage_root_not_skipped_fraction": 0.0927734375,
+      "power_current_root_not_skipped_fraction": 0.9716796875,
+      "amplifiers": [
+        {
+          "name": "IC3A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 0.4306640625,
+          "internal_above_swing_fraction": 0.3330078125,
+          "accepted_root_not_skipped_fraction": 0.3623046875,
+          "max_abs_internal_v": 1181.9371170100073
+        },
+        {
+          "name": "IC3B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 0.9658203125,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.486328125,
+          "max_abs_internal_v": 6.8555566579819525
+        },
+        {
+          "name": "IC4A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 2.643160327401303
+        },
+        {
+          "name": "IC4B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 2.633562643408148
+        }
+      ]
+    },
+    "noise250": {
+      "count": 1024,
+      "accepted_states_only": true,
+      "input_both_exp_clamped_fraction": 1.0,
+      "q1_on_plateau_fraction": 0.6923828125,
+      "q1_off_plateau_fraction": 0.0,
+      "q1_transition_fraction": 0.3076171875,
+      "power_voltage_root_not_skipped_fraction": 0.490234375,
+      "power_current_root_not_skipped_fraction": 0.71484375,
+      "amplifiers": [
+        {
+          "name": "IC3A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 0.9833984375,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.1396484375,
+          "max_abs_internal_v": 8.081753540507489
+        },
+        {
+          "name": "IC3B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 4.227233004355784
+        },
+        {
+          "name": "IC4A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 3.2992920230990395
+        },
+        {
+          "name": "IC4B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 2.693189216592986
+        }
+      ]
+    },
+    "fine_16ms": {
+      "count": 98304,
+      "accepted_states_only": true,
+      "input_both_exp_clamped_fraction": 1.0,
+      "q1_on_plateau_fraction": 0.868255615234375,
+      "q1_off_plateau_fraction": 0.0,
+      "q1_transition_fraction": 0.131744384765625,
+      "power_voltage_root_not_skipped_fraction": 0.3959248860677083,
+      "power_current_root_not_skipped_fraction": 0.22350056966145834,
+      "amplifiers": [
+        {
+          "name": "IC3A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 2.945890689107919
+        },
+        {
+          "name": "IC3B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 1.8591928485493237
+        },
+        {
+          "name": "IC4A",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 1.2692326337057647
+        },
+        {
+          "name": "IC4B",
+          "constant_swing_fraction": 1.0,
+          "internal_below_half_swing_fraction": 1.0,
+          "internal_above_swing_fraction": 0.0,
+          "accepted_root_not_skipped_fraction": 0.0,
+          "max_abs_internal_v": 1.113996069832229
+        }
+      ]
+    }
+  },
+  "temporal_error": [
+    {
+      "method": "bdf2",
+      "fs": 96000,
+      "output_error_energy_near_edges_fraction": 0.1283097217373734,
+      "edge_window_us_each_side": 100,
+      "edge_window_sample_fraction": 0.037109375,
+      "output_relative_rms_away_from_edges": 0.09573025212968281,
+      "stages": [
+        {
+          "node": "input_protected",
+          "rms_error_v": 0.001781867146848139,
+          "relative_rms": 0.032472818318377054
+        },
+        {
+          "node": "a_out",
+          "rms_error_v": 0.05853727118935959,
+          "relative_rms": 0.055760942872120765
+        },
+        {
+          "node": "b_out",
+          "rms_error_v": 0.040260479182463366,
+          "relative_rms": 0.05123187859985638
+        },
+        {
+          "node": "clip",
+          "rms_error_v": 0.03458581109791555,
+          "relative_rms": 0.05160413481222685
+        },
+        {
+          "node": "c_plus",
+          "rms_error_v": 0.01896976051834748,
+          "relative_rms": 0.08527835077909911
+        },
+        {
+          "node": "c_out",
+          "rms_error_v": 0.03788431036256645,
+          "relative_rms": 0.08536427780292795
+        },
+        {
+          "node": "d_out",
+          "rms_error_v": 0.03937809054294865,
+          "relative_rms": 0.09408451912263018
+        },
+        {
+          "node": "volume_wiper",
+          "rms_error_v": 0.015127782545418302,
+          "relative_rms": 0.09417903641184003
+        },
+        {
+          "node": "power_out",
+          "rms_error_v": 0.7428951479707399,
+          "relative_rms": 0.09890999119306174
+        },
+        {
+          "node": "speaker_hot",
+          "rms_error_v": 0.7428951479707399,
+          "relative_rms": 0.09890999119306174
+        }
+      ]
+    },
+    {
+      "method": "trap",
+      "fs": 96000,
+      "output_error_energy_near_edges_fraction": 0.42217623205853716,
+      "edge_window_us_each_side": 100,
+      "edge_window_sample_fraction": 0.037109375,
+      "output_relative_rms_away_from_edges": 0.031818626254224616,
+      "stages": [
+        {
+          "node": "input_protected",
+          "rms_error_v": 0.0015849162846997414,
+          "relative_rms": 0.02888357791091715
+        },
+        {
+          "node": "a_out",
+          "rms_error_v": 0.04836555648841713,
+          "relative_rms": 0.04607165618644653
+        },
+        {
+          "node": "b_out",
+          "rms_error_v": 0.026629941320695523,
+          "relative_rms": 0.03388687736874811
+        },
+        {
+          "node": "clip",
+          "rms_error_v": 0.02228141918034474,
+          "relative_rms": 0.03324523331070714
+        },
+        {
+          "node": "c_plus",
+          "rms_error_v": 0.011639947446309666,
+          "relative_rms": 0.05232725634130179
+        },
+        {
+          "node": "c_out",
+          "rms_error_v": 0.022074366690898302,
+          "relative_rms": 0.049739914822033625
+        },
+        {
+          "node": "d_out",
+          "rms_error_v": 0.01635938218309475,
+          "relative_rms": 0.039086826827244646
+        },
+        {
+          "node": "volume_wiper",
+          "rms_error_v": 0.006272087970875938,
+          "relative_rms": 0.03904730912239955
+        },
+        {
+          "node": "power_out",
+          "rms_error_v": 0.30327956238162185,
+          "relative_rms": 0.04037902108546728
+        },
+        {
+          "node": "speaker_hot",
+          "rms_error_v": 0.30327956238162185,
+          "relative_rms": 0.04037902108546728
+        }
+      ]
+    },
+    {
+      "method": "trap",
+      "fs": 192000,
+      "output_error_energy_near_edges_fraction": 0.7738056394928468,
+      "edge_window_us_each_side": 100,
+      "edge_window_sample_fraction": 0.0380859375,
+      "output_relative_rms_away_from_edges": 0.008263909195015249,
+      "stages": [
+        {
+          "node": "input_protected",
+          "rms_error_v": 0.0007917378984458787,
+          "relative_rms": 0.014429936847080193
+        },
+        {
+          "node": "a_out",
+          "rms_error_v": 0.022472433202802546,
+          "relative_rms": 0.02140967717473882
+        },
+        {
+          "node": "b_out",
+          "rms_error_v": 0.012230784719793138,
+          "relative_rms": 0.015566904402517808
+        },
+        {
+          "node": "clip",
+          "rms_error_v": 0.010176024688333488,
+          "relative_rms": 0.015185583816685737
+        },
+        {
+          "node": "c_plus",
+          "rms_error_v": 0.005263068677987362,
+          "relative_rms": 0.02366615173031257
+        },
+        {
+          "node": "c_out",
+          "rms_error_v": 0.009926140680313052,
+          "relative_rms": 0.02237436013757661
+        },
+        {
+          "node": "d_out",
+          "rms_error_v": 0.006898591880552089,
+          "relative_rms": 0.01648322694956323
+        },
+        {
+          "node": "volume_wiper",
+          "rms_error_v": 0.002640366695569166,
+          "relative_rms": 0.016438561065612065
+        },
+        {
+          "node": "power_out",
+          "rms_error_v": 0.1257809586669197,
+          "relative_rms": 0.01674764086469703
+        },
+        {
+          "node": "speaker_hot",
+          "rms_error_v": 0.1257809586669197,
+          "relative_rms": 0.01674764086469703
+        }
+      ]
+    },
+    {
+      "method": "trap",
+      "fs": 384000,
+      "output_error_energy_near_edges_fraction": 0.9148357513693994,
+      "edge_window_us_each_side": 100,
+      "edge_window_sample_fraction": 0.03759765625,
+      "output_relative_rms_away_from_edges": 0.0023242462656977475,
+      "stages": [
+        {
+          "node": "input_protected",
+          "rms_error_v": 0.00037740769619634554,
+          "relative_rms": 0.006878812968446139
+        },
+        {
+          "node": "a_out",
+          "rms_error_v": 0.011068518706654824,
+          "relative_rms": 0.010545766847316482
+        },
+        {
+          "node": "b_out",
+          "rms_error_v": 0.00601765208531164,
+          "relative_rms": 0.00765946752363895
+        },
+        {
+          "node": "clip",
+          "rms_error_v": 0.00488824263539758,
+          "relative_rms": 0.007295018169222786
+        },
+        {
+          "node": "c_plus",
+          "rms_error_v": 0.002537213989969195,
+          "relative_rms": 0.011409168240675782
+        },
+        {
+          "node": "c_out",
+          "rms_error_v": 0.004905108153298304,
+          "relative_rms": 0.011056755924565174
+        },
+        {
+          "node": "d_out",
+          "rms_error_v": 0.003184029152583254,
+          "relative_rms": 0.007607965878385903
+        },
+        {
+          "node": "volume_wiper",
+          "rms_error_v": 0.0012172990612403572,
+          "relative_rms": 0.007578920354011146
+        },
+        {
+          "node": "power_out",
+          "rms_error_v": 0.05767419546835148,
+          "relative_rms": 0.007679556372768942
+        },
+        {
+          "node": "speaker_hot",
+          "rms_error_v": 0.05767419546835148,
+          "relative_rms": 0.007679556372768942
+        }
+      ]
+    }
+  ],
+  "linear_work": {
+    "origin_history_products": 70,
+    "origin_input_products": 1,
+    "observations_local_port_products": 25,
+    "observations_upstream_port_products": 6,
+    "update_history_products": 104,
+    "update_drive_products": 36
+  },
+  "inv_root_hermite": {
+    "interval": [
+      0,
+      1
+    ],
+    "segments": 32,
+    "value_derivative_knots": 33,
+    "f32_table_bytes": 264,
+    "exact_arithmetic_value_error_bound": 1.0417124940431677e-09,
+    "note": "This only bounds interpolation with exact knots/arithmetic, not f32 error, derivative error, circuit error or MCU cycles."
+  },
+  "assembly": {
+    "elf_sha256": "b6a8f2c8ee10a32a0409b5089307e05de45f95ff341e0e9ad5939d4372c58a51",
+    "note": "Static instruction sites include mutually exclusive branches and loops; these are not cycles or dynamic counts.",
+    "software_double_helpers": [],
+    "functions": [
+      {
+        "name": "orange_dsp::condensed::solve_block::<ram_probe::cordic::H7r3Cordic, 0>",
+        "address": "00007858",
+        "static_instructions": 421,
+        "f64_including_conversions": 8,
+        "division_sites": {
+          "vdiv.f32": 7
+        },
+        "sqrt_f32_sites": 0,
+        "calls": {
+          "__aeabi_memclr4": 2,
+          "orange_dsp::condensed::solve": 1,
+          "core::panicking::panic": 1
+        }
+      },
+      {
+        "name": "orange_dsp::condensed::solve_block::<ram_probe::cordic::H7r3Cordic, 1>",
+        "address": "00007e58",
+        "static_instructions": 565,
+        "f64_including_conversions": 33,
+        "division_sites": {
+          "vdiv.f32": 18,
+          "vdiv.f64": 2
+        },
+        "sqrt_f32_sites": 16,
+        "calls": {
+          "orange_dsp::condensed::solve": 1,
+          "core::panicking::panic": 1,
+          "core::panicking::panic_fmt": 1
+        }
+      },
+      {
+        "name": "orange_dsp::condensed::solve_block::<ram_probe::cordic::H7r3Cordic, 2>",
+        "address": "00008660",
+        "static_instructions": 946,
+        "f64_including_conversions": 38,
+        "division_sites": {
+          "vdiv.f32": 25,
+          "vdiv.f64": 2
+        },
+        "sqrt_f32_sites": 16,
+        "calls": {
+          "orange_dsp::condensed::solve": 1,
+          "core::panicking::panic": 1,
+          "core::panicking::panic_fmt": 1
+        }
+      },
+      {
+        "name": "orange_dsp::condensed::solve_block::<ram_probe::cordic::H7r3Cordic, 3>",
+        "address": "00009420",
+        "static_instructions": 1335,
+        "f64_including_conversions": 88,
+        "division_sites": {
+          "vdiv.f32": 38,
+          "vdiv.f64": 4
+        },
+        "sqrt_f32_sites": 32,
+        "calls": {
+          "orange_dsp::condensed::solve": 1,
+          "core::panicking::panic": 1,
+          "core::panicking::panic_fmt": 1
+        }
+      },
+      {
+        "name": "orange_dsp::condensed::solve_block::<ram_probe::cordic::H7r3Cordic, 4>",
+        "address": "0000a790",
+        "static_instructions": 325,
+        "f64_including_conversions": 31,
+        "division_sites": {
+          "vdiv.f32": 4,
+          "vdiv.f64": 2
+        },
+        "sqrt_f32_sites": 0,
+        "calls": {
+          "orange_dsp::condensed::power::<ram_probe::cordic::H7r3Cordic>": 2,
+          "orange_dsp::condensed::solve": 1,
+          "core::panicking::panic": 1,
+          "core::panicking::panic_fmt": 1
+        }
+      },
+      {
+        "name": "orange_dsp::condensed::power::<ram_probe::cordic::H7r3Cordic>",
+        "address": "0000abf8",
+        "static_instructions": 162,
+        "f64_including_conversions": 0,
+        "division_sites": {
+          "vdiv.f32": 17
+        },
+        "sqrt_f32_sites": 16,
+        "calls": {}
+      },
+      {
+        "name": "orange_dsp::generated_condensed::origin",
+        "address": "0000c310",
+        "static_instructions": 365,
+        "f64_including_conversions": 107,
+        "division_sites": {},
+        "sqrt_f32_sites": 0,
+        "calls": {}
+      },
+      {
+        "name": "orange_dsp::generated_condensed::update",
+        "address": "0000c8c0",
+        "static_instructions": 768,
+        "f64_including_conversions": 233,
+        "division_sites": {},
+        "sqrt_f32_sites": 0,
+        "calls": {}
+      },
+      {
+        "name": "orange_dsp::condensed::solve",
+        "address": "0000d4c0",
+        "static_instructions": 209,
+        "f64_including_conversions": 0,
+        "division_sites": {
+          "vdiv.f32": 6
+        },
+        "sqrt_f32_sites": 0,
+        "calls": {}
+      }
+    ]
+  }
+}

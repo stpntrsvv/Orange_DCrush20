@@ -1,0 +1,56 @@
+{
+  "multitone": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "noise250": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "output0": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "output1": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "output2": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "step025": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "step1": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "triangle100": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  },
+  "triangle1000": {
+    "output_bits": true,
+    "recovered56_bits": true,
+    "current28_bits": true,
+    "previous28_bits": true
+  }
+}

@@ -1,0 +1,4 @@
+package13: RAM verified, completed, reset run
+package13 case0: 17637.0 / 17238.5 cycles; fail=0 RMS=1.99e-06 peak=4.159e-05 admitted=True
+package13 case1: 20314.7 / 20475.2 cycles; fail=0 RMS=1.3e-05 peak=0.006888 admitted=True
+package13 case2: 29773.4 / 36337.5 cycles; fail=0 RMS=4.01e-06 peak=0.00129 admitted=True

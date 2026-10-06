@@ -1,0 +1,55 @@
+* Однополярная топология LM1875: проверка смещения, разделительного
+* конденсатора и нагрузки. XAMP ниже -- УПРОЩЁННАЯ поведенческая модель,
+* а не транзисторная модель LM1875; THD/SOA/нагрев ею не предсказывать.
+* Изменить VSUPPLY на 48 и повторить прогон для варианта с повышайкой.
+
+.param VSUPPLY=24 VINPK=0.35
+Vrail rail 0 {VSUPPLY}
+Cbulk rail 0 2200u
+Cdec rail 0 100n
+
+* Середина питания только для входного смещения, НЕ силовая земля.
+Rmid_hi rail mid 22k
+Rmid_lo mid 0 22k
+Cmid mid 0 100u
+
+Vin src 0 SIN(0 {VINPK} 1k)
+Cin src inp 1u
+Rbias inp mid 100k
+
+* Усиление по переменному току ~1+20k/1k=21, по постоянному 1.
+Rf out inv 20k
+Ri inv ac_ground 1k
+Cfb ac_ground 0 22u
+XAMP inp inv rail 0 out amp_approx
+
+* Разделительный конденсатор: перед ним постоянное напряжение ~VSUPPLY/2.
+Cout out spk 2200u
+Rload spk spk_return 6
+* Пробный 50-мОм шунт в обратном проводе динамика: Kelvin-провода отдельно.
+Rshunt spk_return 0 0.05
+* Пробные измерительные тракты: 150k/10k и ИДЕАЛЬНЫЙ двуполярный
+* усилитель тока. Реальный усилитель должен допускать вход ниже земли.
+Vref vref 0 1.65
+Rv_hi spk v_adc 150k
+Rv_lo v_adc vref 10k
+Bi_adc i_adc 0 V={1.65+8*V(spk_return)}
+Espeaker v_speaker 0 spk spk_return 1
+Rz out zobel 10
+Cz zobel 0 100n
+
+* Грубый усилитель с насыщением за 3 В от шин. Никакой защиты кристалла.
+.subckt amp_approx plus minus vp vm vo
+Bstage vo 0 V={V(vp)/2 + (V(vp)/2-3)*tanh(2000*(V(plus)-V(minus)))}
+.ends amp_approx
+
+.tran 2u 80m
+.meas tran out_dc AVG V(out) FROM=60m TO=80m
+.meas tran speaker_dc AVG V(v_speaker) FROM=60m TO=80m
+.meas tran speaker_rms RMS V(v_speaker) FROM=60m TO=80m
+.meas tran speaker_peak MAX V(v_speaker) FROM=60m TO=80m
+.meas tran v_adc_min MIN V(v_adc) FROM=60m TO=80m
+.meas tran v_adc_max MAX V(v_adc) FROM=60m TO=80m
+.meas tran i_adc_min MIN V(i_adc) FROM=60m TO=80m
+.meas tran i_adc_max MAX V(i_adc) FROM=60m TO=80m
+.end

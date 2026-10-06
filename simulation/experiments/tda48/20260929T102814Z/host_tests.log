@@ -1,0 +1,88 @@
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+warning: function `recover` is never used
+  --> orange-dsp/src/generated_condensed48.rs:67:21
+   |
+67 | #[cfg(test)] pub fn recover(h: &[f32;28], input: f32, r: &[f32;8], s: &[f32;5]) -> [f32;56] { let mut x = [0.0;56];
+   |                     ^^^^^^^
+
+warning: `orange-dsp` (lib test) generated 2 warnings (1 duplicate)
+    Finished `release` profile [optimized + debuginfo] target(s) in 0.06s
+     Running unittests src/lib.rs (target/aarch64-apple-darwin/release/deps/orange_dsp-7a695212b4d5a2f4)
+
+running 53 tests
+test analytic::diagnostics::analytic_law_derivatives ... ok
+test bounded48::tda_reuse_tests::cached_power_and_curvature_preserve_bits_at_limits ... ok
+test absolute_ports::tests::eliminated_rows_and_port_residual_are_consistent ... ok
+test bounded48_noise::tda_reuse_tests::cached_power_and_curvature_preserve_bits_at_limits ... ok
+test bounded::diagnostics::tda_second_derivative_matches_f64_differences ... ok
+test condensed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+test bounded48_noise::noise_tests::first_noise_slew_crossing_converges_with_three_attempts ... ok
+test control_ports::tests::control_blocks_match_dense_f64_jacobian ... ok
+test control_ports::tests::controls_preserve_all_nonlinear_values ... ok
+test absolute_ports::tests::absolute_stream_is_finite_and_checks_full_residual ... ok
+test control_ports::tests::control_reports_independently_checked_full_residual ... ok
+test control_ports::tests::control_compare_full_f64 ... ok
+test absolute_ports::tests::compare_full_f64_trajectories ... ok
+test control_ports::tests::fallback_uses_unchanged_history_bit_for_bit ... ok
+test control_ports::tests::profile_preserves_full_trajectory_and_balances_marks ... ok
+test packed::tests::analytic_q_regions_and_floor ... ok
+test packed::tests::direct_input_checks_range_and_restores_guess ... ok
+test exponential::tests::nominal_matches_independent_descriptor_reference ... ok
+test condensed::tests::compare_independent_full_reference ... ok
+test packed::tests::mixed_tda_reference - should panic ... ok
+test packed::tests::mixed_origin_reference - should panic ... ok
+test packed::tests::package_five_reference ... ok
+test packed::tests::mixed_update_reference - should panic ... ok
+test packed::tests::mixed_partial_reference - should panic ... ok
+test packed::tests::package_four_reference ... ok
+test packed::tests::mixed_input_tda_reference - should panic ... ok
+test packed::tests::package_one_reference ... ok
+test packed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+test repeated::audit::cached_law_values_and_derivatives_match_original_laws ... ok
+test packed::tests::package_six_reference ... ok
+test packed::tests::package_three_reference ... ok
+test packed::tests::package_two_reference ... ok
+test tests::fixed_sparse_solve_covers_nonlinear_branches ... ok
+test tests::generated_linear_mna_matches_python_bit_for_bit ... ok
+test tests::grouped_norm_matches_original_bits ... ok
+test tests::incremental_diode_candidate_matches_absolute_newton_fixture ... ok
+test tests::incremental_diode_refresh_policy_and_fallback_are_counted ... ok
+test tests::native_root_matches_f64_reference ... ok
+test tests::physical_block_cascade_matches_reference_branches ... ok
+test tests::physical_residual_matches_python_fixture ... ok
+test packed::tests::package_seven_extended_reference ... ok
+test tests::reduced_jacobian_and_solve_match_python_fixture ... ok
+test tests::schur_projection_matches_python_fixture ... ok
+test repeated::tests::repeated_extended_reference ... ok
+test scalar::diagnostics::paired_independent_trajectories ... ok
+test tracking::diagnostics::inaccurate_finite_step_really_advances_memory ... ok
+test repeated::audit::paired_traces_and_counter_equivalence ... ok
+test tests::deferred_fpu_matches_eager_states_and_laws ... ok
+test tracking::diagnostics::generous_budget_control ... ok
+test tests::physical_reuse_is_bit_exact_over_stream ... ok
+test analytic::diagnostics::analytic_trajectories ... ok
+test bounded::diagnostics::bounded_trajectories ... ok
+test tracking::diagnostics::fixed_corrections_trajectories ... ok
+
+test result: ok. 53 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.03s
+
+   Doc-tests orange_dsp
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,6 @@
+{
+  "max_residual": 1.9977327052065675e-09,
+  "max_kcl": 1.9977327052065675e-11,
+  "max_iterations": 4,
+  "continuations": 0
+}

@@ -1,0 +1,102 @@
+{
+  "utc": "2026-09-26T21:59:14.348810+00:00",
+  "sources": {
+    "embedded/openocd/run_packed_probe.cfg": "d36a12a3e15ff76b27b8033eee8ef6296351c871ec56c25c9a157dca47a4c128",
+    "firmware/.cargo/config.toml": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9",
+    "firmware/Cargo.lock": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f",
+    "firmware/Cargo.toml": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69",
+    "firmware/h7r3-runtime/Cargo.toml": "14faa403ad77e065523e12b07f49cf9fc266e68b16c932e1e8841cf8ea42ece4",
+    "firmware/h7r3-runtime/memory-itcm.x": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26",
+    "firmware/h7r3-runtime/src/cordic.rs": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe",
+    "firmware/h7r3-runtime/src/main.rs": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813",
+    "firmware/h7r3-runtime/src/packed_probe.rs": "91382125b918e49151d1330df01da1d38c7de5b376c0af72292c1433fc136ee2",
+    "firmware/orange-dsp/Cargo.toml": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add",
+    "firmware/orange-dsp/examples/condensed_di.rs": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2",
+    "firmware/orange-dsp/examples/packed_di.rs": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d",
+    "firmware/orange-dsp/src/absolute_ports.rs": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1",
+    "firmware/orange-dsp/src/condensed.rs": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4",
+    "firmware/orange-dsp/src/control_ports.rs": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351",
+    "firmware/orange-dsp/src/generated_condensed.rs": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e",
+    "firmware/orange-dsp/src/generated_model.rs": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a",
+    "firmware/orange-dsp/src/generated_packed.rs": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a",
+    "firmware/orange-dsp/src/lib.rs": "b053e1aec34154bbf00dbd56b24c4de11cf39fb530b1d68e5789a66dd4d847da",
+    "firmware/orange-dsp/src/packed.rs": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b",
+    "firmware/orange-render/Cargo.toml": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad",
+    "firmware/orange-render/src/main.rs": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+  },
+  "packages": [
+    {
+      "name": "package7",
+      "feature": "packed-mixed,packed-stress",
+      "sha256": "7cc89fa0971cfbc3ba20c1b4204a16a7f98134bb694b307b2ff7a8d36e504bab",
+      "sections": {
+        ".vectors": {
+          "address": 1024,
+          "size": 8
+        },
+        ".text": {
+          "address": 1032,
+          "size": 48936
+        },
+        ".bss": {
+          "address": 536870912,
+          "size": 0
+        },
+        ".debug_loc": {
+          "address": 0,
+          "size": 132722
+        },
+        ".debug_abbrev": {
+          "address": 0,
+          "size": 2347
+        },
+        ".debug_info": {
+          "address": 0,
+          "size": 118725
+        },
+        ".debug_aranges": {
+          "address": 0,
+          "size": 368
+        },
+        ".debug_ranges": {
+          "address": 0,
+          "size": 45528
+        },
+        ".debug_str": {
+          "address": 0,
+          "size": 87022
+        },
+        ".comment": {
+          "address": 0,
+          "size": 153
+        },
+        ".ARM.attributes": {
+          "address": 0,
+          "size": 67
+        },
+        ".debug_frame": {
+          "address": 0,
+          "size": 1592
+        },
+        ".debug_line": {
+          "address": 0,
+          "size": 37128
+        },
+        ".symtab": {
+          "address": 0,
+          "size": 4096
+        },
+        ".shstrtab": {
+          "address": 0,
+          "size": 174
+        },
+        ".strtab": {
+          "address": 0,
+          "size": 3086
+        }
+      }
+    }
+  ],
+  "stress": true,
+  "input_sha256": "99e0ad3f2915aacb5d099a22baba1841cf0ee1f336bc083c749a742398ace82c"
+}

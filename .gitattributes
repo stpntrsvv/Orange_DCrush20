@@ -1,0 +1,4 @@
+# Снимки и manifests сравниваются по SHA-256; сохраняем исходные байты.
+* -text
+*.pdf binary
+*.png binary

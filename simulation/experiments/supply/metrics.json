@@ -1,0 +1,23 @@
+{
+  "status": "provisional slow supply; transformer loss not measured",
+  "update_rate_hz": 4000.0,
+  "settling_period_difference_v": 2.5082158572331537e-12,
+  "mean_v": [
+    23.663442400473745,
+    -23.663442400473745,
+    15.099752871648857,
+    -15.099752871648857
+  ],
+  "ripple_peak_to_peak_v": [
+    0.324341804655063,
+    0.324341804655063,
+    0.004026191885067476,
+    0.004026191885067476
+  ],
+  "rails": [
+    "VP24",
+    "VN24",
+    "VP15",
+    "VN15"
+  ]
+}

@@ -1,0 +1,19 @@
+16384 / 528000 elapsed_s 66.8
+32768 / 528000 elapsed_s 154.8
+49152 / 528000 elapsed_s 220.6
+65536 / 528000 elapsed_s 292.8
+81920 / 528000 elapsed_s 366.2
+Traceback (most recent call last):
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/check_tda48_noise_condensed.py", line 31, in <module>
+    x, local = p.step(float(u), max_iterations=64, tolerance=1e-11)
+               ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/condensed_physical.py", line 180, in step
+    f,j,s=self.evaluate(r,o)
+          ~~~~~~~~~~~~~^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/condensed_physical.py", line 166, in evaluate
+    g,dg=m._jfet_conductance(m.mute_gate_v-min(va,vb))
+         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/orange_full_mna.py", line 496, in _jfet_conductance
+    conductance *= max(0.0, 1.0 - gate / self.p.jfet_vp_v)
+                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

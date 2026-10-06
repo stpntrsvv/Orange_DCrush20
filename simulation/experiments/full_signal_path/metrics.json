@@ -1,0 +1,71 @@
+{
+  "status": "float64 fast path; supply/mute dynamics not yet coupled",
+  "speaker_parameters": {
+    "provenance": "engineering hypothesis; not measured Orange speaker",
+    "re_ohm": 6.5,
+    "le_h": 0.0004,
+    "rm_ohm": 35.0,
+    "resonance_hz": 100.0,
+    "q": 4.0
+  },
+  "reactive_vs_resistive_relative_rms": 1.0414339113329279e-10,
+  "cases": [
+    {
+      "load": "resistive",
+      "volume": 0.5,
+      "input_level_v": 0.1,
+      "aux_level_v": 0.0,
+      "samples": 2400,
+      "state_count": 56,
+      "output_rms_v": 6.078858650094265,
+      "output_peak_v": 11.121367316768,
+      "load_current_rms_a": 0.9352090230914254,
+      "real_power_w": 5.685003459665518,
+      "max_kcl_a": 1.982877538955817e-11,
+      "max_iterations": 6
+    },
+    {
+      "load": "reactive_speaker",
+      "volume": 0.5,
+      "input_level_v": 0.1,
+      "aux_level_v": 0.0,
+      "samples": 2400,
+      "state_count": 60,
+      "output_rms_v": 6.078858650078407,
+      "output_peak_v": 11.12136731677219,
+      "load_current_rms_a": 0.6688178953521715,
+      "real_power_w": 3.2922937103472067,
+      "max_kcl_a": 1.982877617391068e-11,
+      "max_iterations": 6
+    },
+    {
+      "load": "reactive_speaker",
+      "volume": 0.5,
+      "input_level_v": 0.0,
+      "aux_level_v": 0.05,
+      "samples": 2400,
+      "state_count": 60,
+      "output_rms_v": 0.2893825026825301,
+      "output_peak_v": 0.9760076300268474,
+      "load_current_rms_a": 0.034180357204546215,
+      "real_power_w": 0.008414590243712043,
+      "max_kcl_a": 2.2239154962022667e-15,
+      "max_iterations": 2
+    },
+    {
+      "load": "reactive_speaker",
+      "volume": 0.0,
+      "input_level_v": 0.01,
+      "aux_level_v": 0.0,
+      "samples": 2400,
+      "state_count": 59,
+      "output_rms_v": 0.0,
+      "output_peak_v": 0.0,
+      "load_current_rms_a": 0.0,
+      "real_power_w": 0.0,
+      "max_kcl_a": 1.9976213544941285e-11,
+      "max_iterations": 3
+    }
+  ],
+  "float32_reactive_status": "known Newton residual floor; not accepted"
+}

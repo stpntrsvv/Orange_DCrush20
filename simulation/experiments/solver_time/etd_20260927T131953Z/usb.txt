@@ -1,0 +1,4 @@
+    +-o STM32 STLink@00100000  <class IOUSBHostDevice, id 0x1001765d9, registered, matched, active, busy 0 (332 ms), retain 41>
+          "USB Product Name" = "STM32 STLink"
+          "kUSBProductString" = "STM32 STLink"
+          "USB Serial Number" = "0668FF545771485067173011"

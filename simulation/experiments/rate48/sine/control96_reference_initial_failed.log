@@ -1,0 +1,18 @@
+1000hz_1000mv {'reference_max_residual': 1.9953076680050835e-09, 'reference_continuations': 0, 'note': 'Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.', 'bounded96': {'peak_v': 4.436000475695941, 'relative_rms': 0.005336160445278452, 'local_overruns': 0}, 'P7_96': {'peak_v': 4.437374720385883, 'relative_rms': 0.005338319510909213, 'local_overruns': 0}}
+1000hz_100mv {'reference_max_residual': 1.974575622503078e-09, 'reference_continuations': 0, 'note': 'Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.', 'bounded96': {'peak_v': 4.3327633745648964e-05, 'relative_rms': 6.965922127563896e-07, 'local_overruns': 0}, 'P7_96': {'peak_v': 4.471056690191766e-05, 'relative_rms': 1.2295197127426137e-06, 'local_overruns': 0}}
+1000hz_250mv {'reference_max_residual': 1.9969411920502805e-09, 'reference_continuations': 0, 'note': 'Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.', 'bounded96': {'peak_v': 4.144417798462863e-05, 'relative_rms': 8.127072090356932e-07, 'local_overruns': 0}, 'P7_96': {'peak_v': 4.54537799219612e-05, 'relative_rms': 6.712751078085927e-07, 'local_overruns': 0}}
+100hz_100mv {'reference_max_residual': 1.987358517904986e-09, 'reference_continuations': 0, 'note': 'Same interpolated input and same 96k grid. Output-only accuracy diagnostic; not full state qualification.', 'bounded96': {'peak_v': 7.668642110558732e-05, 'relative_rms': 9.919073258563117e-07, 'local_overruns': 0}, 'P7_96': {'peak_v': 4.9342186925427356e-05, 'relative_rms': 9.282737075060041e-07, 'local_overruns': 0}}
+Traceback (most recent call last):
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/check_rate96_sine_control.py", line 9, in <module>
+    x,d=m.step(float(row[0]));ref.append(x[m.index['power_out']]);maxres=max(maxres,d['scaled_residual']);cont+=d['continuation_steps']>0
+        ~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/orange_full_mna.py", line 859, in step
+    raise direct_error
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/orange_full_mna.py", line 833, in step
+    x, iterations, maximum_damping_steps = self._solve_newton(
+                                           ~~~~~~~~~~~~~~~~~~^
+        initial, input_v)
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/orange_full_mna.py", line 822, in _solve_newton
+    raise RuntimeError("frontend line search не сошёлся")
+RuntimeError: frontend line search не сошёлся

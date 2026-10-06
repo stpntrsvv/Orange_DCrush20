@@ -1,0 +1,564 @@
+    Blocking waiting for file lock on build directory
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `orange-dsp` (lib test) generated 1 warning
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings (1 duplicate)
+    Finished `release` profile [optimized + debuginfo] target(s) in 31.98s
+     Running unittests src/lib.rs (target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 50 tests
+test analytic::diagnostics::analytic_law_derivatives ... ok
+test bounded::diagnostics::tda_second_derivative_matches_f64_differences ... ok
+test absolute_ports::tests::eliminated_rows_and_port_residual_are_consistent ... ok
+test condensed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+test control_ports::tests::control_blocks_match_dense_f64_jacobian ... ok
+test control_ports::tests::controls_preserve_all_nonlinear_values ... ok
+test control_ports::tests::control_reports_independently_checked_full_residual ... ok
+control f64 100mV rms=0.0000267645668486576 peak=0.000734643944626745 failures=0
+rows=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] iterations=[99, 921, 4] fallbacks=0
+test control_ports::tests::fallback_uses_unchanged_history_bit_for_bit ... ok
+triangle100: steps=1024 output_different=897 peak_vs_P7=0.000017642975 memory_peak_vs_P7=0.000019550323 above_tol=0 failed_at=None RMS=0.000001699779691431877 peak=0.000040714936692998194 scaled=0.000002714329112866546
+A0 triangle100: failures=0 peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 old_full_residual=0.000023841858 retries=0
+QUAL A0 triangle100: peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 full_residual=0.000023841858
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000044345856 memory_peak_vs_P7=0.000044345856 counts=[0, 0, 0]
+f64 100mV: absolute rms=0.007787342179475553 peak=0.631707556266589 failures=0; old rms=0.0026579629078968786 peak=0.22445573426669707 failures=0
+condensed 100mV rms=0.000001695226416869255 peak=0.0000421571816262567 scaled=0.0000028104787750837802 fullres=0.000023841858 failures=0 maxiter=7
+test absolute_ports::tests::absolute_stream_is_finite_and_checks_full_residual ... ok
+A0 triangle1000: failures=0 peak=0.00301040630190208 relative_rms=0.000005294794158052081 scaled=0.000670666583800994 old_full_residual=0.000074505806 retries=0
+QUAL A0 triangle1000: peak=0.00301040630190208 relative_rms=0.000005294794158052081 scaled=0.000670666583800994 full_residual=0.000074505806
+triangle1000: steps=1024 output_different=93 peak_vs_P7=0.0003271103 memory_peak_vs_P7=0.00390625 counts=[33, 285, 0]
+test packed::tests::analytic_q_regions_and_floor ... ok
+test packed::tests::direct_input_checks_range_and_restores_guess ... ok
+control f64 1000mV rms=1.2166600299257972 peak=41.99831642928608 failures=698
+rows=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 689, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1] iterations=[685, 285, 54] fallbacks=705
+f64 1000mV: absolute rms=1.2261447510695225 peak=45.36335267210988 failures=709; old rms=1.2166948644272744 peak=41.99939986124757 failures=698
+test control_ports::tests::control_compare_full_f64 ... ok
+test exponential::tests::nominal_matches_independent_descriptor_reference ... ok
+test absolute_ports::tests::compare_full_f64_trajectories ... ok
+condensed 1000mV rms=0.000005122168425432063 peak=0.002725813074591965 scaled=0.0011484443099689656 fullres=0.00007532071 failures=0 maxiter=23
+A0 noise250: failures=0 peak=0.000477241195760314 relative_rms=0.000002040718035621216 scaled=0.00003911725106193013 old_full_residual=0.000047683716 retries=0
+QUAL A0 noise250: peak=0.000477241195760314 relative_rms=0.000002040718035621216 scaled=0.00003911725106193013 full_residual=0.000047683716
+noise250: steps=1024 output_different=632 peak_vs_P7=0.0005092621 memory_peak_vs_P7=0.0010566711 counts=[934, 8143, 0]
+test control_ports::tests::profile_preserves_full_trajectory_and_balances_marks ... ok
+triangle1000: steps=1024 output_different=1022 peak_vs_P7=41.997765 memory_peak_vs_P7=9218.728 above_tol=1022 failed_at=None RMS=1.3756431568747962 peak=41.997759875146954 scaled=384.1133317840686
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017670319048635963 peak=0.00004143019243030288 scaled=0.000002762012828686859 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+condensed 250mV rms=0.0000027921003109688164 peak=0.0008343439822384724 scaled=0.00005562293214923149 fullres=0.000047683716 failures=0 maxiter=38
+test condensed::tests::compare_independent_full_reference ... ok
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000018764999753466548 peak=0.0000429758801132607 scaled=0.00000286505867421738 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 759)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.000001824658085598663 peak=0.00004190299650730367 scaled=0.000002793533100486911 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 759)
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.00000851018089059309 peak=0.005179837070501847 scaled=0.002853159017301247 fullres=0.00007271883 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 909)
+noise250: steps=1024 output_different=1012 peak_vs_P7=41.998314 memory_peak_vs_P7=586.07043 above_tol=976 failed_at=None RMS=1.6733369956146764 peak=41.99831256689648 scaled=24.419593754974688
+packed F=7 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017971228890636347 peak=0.00003833075090198257 scaled=0.0000025553833934655047 fullres=0.000023841858 failures=0 maxiter=3
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+A0 step025: failures=0 peak=0.001429337783036999 relative_rms=0.0000031296346123642054 scaled=0.0008175655375216214 old_full_residual=0.00006407499 retries=0
+QUAL A0 step025: peak=0.001429337783036999 relative_rms=0.0000031296346123642054 scaled=0.0008175655375216214 full_residual=0.00006407499
+step025: steps=1536 output_different=1122 peak_vs_P7=0.000831604 memory_peak_vs_P7=0.010498047 counts=[11, 114, 0]
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.00001191994519679532 peak=0.007650031851218486 scaled=0.0005664740347288699 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 560)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=100 rms=0.0000018493641456964113 peak=0.00004226465745715835 scaled=0.0000028176438304772233 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017406804287733068 peak=0.0000424348095300342 scaled=0.00000282898730200228 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 946)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=1000 rms=0.000012227726434301559 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 909)
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000024548639782207596 peak=0.0006632076874595327 scaled=0.00004421384583063552 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+packed F=7 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000019998047504291344 peak=0.012288703726218486 scaled=0.0022021173506345804 fullres=0.00007215422 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 909)
+
+thread 'packed::tests::mixed_tda_reference' (42729077) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+A0 step1: failures=0 peak=0.004766934647243204 relative_rms=0.0000063591135324840965 scaled=0.0013825827524366712 old_full_residual=0.00009536743 retries=0
+QUAL A0 step1: peak=0.004766934647243204 relative_rms=0.0000063591135324840965 scaled=0.0013825827524366712 full_residual=0.00009536743
+step1: steps=1536 output_different=147 peak_vs_P7=0.00002670288 memory_peak_vs_P7=0.009033203 counts=[2, 29, 0]
+test packed::tests::mixed_tda_reference - should panic ... ok
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.000002387171416216439 peak=0.0006632076874595327 scaled=0.00004421384583063552 fullres=0.000052733685 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000003916328952560656 peak=0.00162826557309792 scaled=0.000670666583800994 fullres=0.0000699074 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.0000023577935803614752 peak=0.0010957452492745823 scaled=0.0006294325952088305 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 351)
+packed F=1 M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=100 rms=0.0000018523070238015024 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 560)
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000020964344034971697 peak=0.0007604824677329702 scaled=0.000050698831182198015 fullres=0.000047683716 failures=0 maxiter=24
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=1 worst_state=("v:phones_feed", 571)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=250 rms=0.0000023476362978841284 peak=0.0007042156830650015 scaled=0.000046947712204333435 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=3 worst_state=("v:phones_feed", 571)
+test packed::tests::package_five_reference ... ok
+A0 multitone: failures=0 peak=0.0007405232410846452 relative_rms=0.00000217980304776544 scaled=0.0003303508213446567 old_full_residual=0.000047683716 retries=0
+QUAL A0 multitone: peak=0.0007405232410846452 relative_rms=0.00000217980304776544 scaled=0.0003303508213446567 full_residual=0.000047683716
+multitone: steps=1536 output_different=1320 peak_vs_P7=0.00024414063 memory_peak_vs_P7=0.0026855469 counts=[594, 5266, 0]
+packed F=1 M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=1000 rms=0.000012226065121971198 peak=0.006268844796730733 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024, 0] retries=0 worst_state=("x:TDA2050", 909)
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000005239353300524847 peak=0.0025756543113573116 scaled=0.0013702166294168687 fullres=0.000047683716 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000022839841278085266 peak=0.000614570297322814 scaled=0.00004161730467622249 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("x:TDA2050", 555)
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.0000036794704243728 peak=0.001032531641179446 scaled=0.000839641566917256 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 566)
+packed F=0 M=orange_dsp::FpuRootMath case=100 rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 946)
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000002779820104511357 peak=0.001341599745927624 scaled=0.000715360265484577 fullres=0.000047683716 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 594, 1536, 955] retries=0 worst_state=("x:TDA2050", 690)
+step025: steps=1536 output_different=1440 peak_vs_P7=41.998318 memory_peak_vs_P7=2082.5525 above_tol=1392 failed_at=None RMS=1.9725581495722113 peak=41.99831695018998 scaled=86.7721321733779
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00008770897463238342 peak=0.04682292268977406 scaled=0.03178383995980324 fullres=0.00007280032 failures=0 maxiter=14
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:TDA2050", 1360)
+
+thread 'packed::tests::mixed_origin_reference' (42729075) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+test packed::tests::mixed_origin_reference - should panic ... ok
+A0 output0: failures=0 peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 old_full_residual=0.000023841858 retries=0
+QUAL A0 output0: peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 full_residual=0.000023841858
+output0: steps=2048 output_different=1958 peak_vs_P7=0.00004386902 memory_peak_vs_P7=0.000044822693 counts=[0, 0, 0]
+packed F=1 M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=250 rms=0.0000023442219655846936 peak=0.0007204281464439077 scaled=0.00004802854309626052 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1 worst_state=("v:phones_feed", 571)
+test packed::tests::package_four_reference ... ok
+packed F=0 M=orange_dsp::FpuRootMath case=1000 rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024, 0] retries=0 worst_state=("x:TDA2050", 386)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000008862327946777715 peak=0.004391450209794812 scaled=0.0023391497348856185 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.000020348858870772485 peak=0.015314572586696329 scaled=0.002273808913438794 fullres=0.0000729342 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1340, 1536, 198] retries=0 worst_state=("x:TDA2050", 897)
+
+thread 'packed::tests::mixed_update_reference' (42729078) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+step1: steps=1536 output_different=989 peak_vs_P7=41.99831 memory_peak_vs_P7=21661.068 above_tol=1392 failed_at=None RMS=1.6636787283473564 peak=41.99830862094167 scaled=902.5448194219842
+test packed::tests::mixed_update_reference - should panic ... ok
+packed F=0 M=orange_dsp::FpuRootMath case=250 rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1 worst_state=("v:phones_feed", 571)
+test packed::tests::package_one_reference ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017067964416341981 peak=0.0000408546074450733 scaled=0.00000272364049633822 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 173)
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00004332790076236016 peak=0.032622820601780234 scaled=0.0043022322905320225 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:TDA2050", 993)
+
+thread 'packed::tests::mixed_input_tda_reference' (42729074) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+test packed::tests::mixed_input_tda_reference - should panic ... ok
+test packed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+test repeated::audit::cached_law_values_and_derivatives_match_original_laws ... ok
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000019787378576275483 peak=0.000044768052537724756 scaled=0.000002984536835848317 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+packed F=1 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=100 rms=0.00000184971747691496 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 560)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00007394066169388496 peak=0.044759171469070935 scaled=0.030414999424321465 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:TDA2050", 1360)
+
+thread 'packed::tests::mixed_partial_reference' (42729076) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000008712979964716319 peak=0.005304768405951066 scaled=0.002886567471326392 fullres=0.00007248018 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 905)
+test packed::tests::mixed_partial_reference - should panic ... ok
+packed F=1 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=1000 rms=0.000012227728975252241 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024, 0] retries=0 worst_state=("x:TDA2050", 909)
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1024, 1024, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [6190, 6038, 1996, 76, 0, 0, 0, 0, 3118, 0, 3019], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 0, 1024], [1024, 1024, 0, 0, 1024, 1024, 0, 56, 0, 0, 0]]
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000027420673728179054 peak=0.0008138882294517202 scaled=0.00005425921529678135 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=1 worst_state=("v:phones_feed", 571)
+test packed::tests::package_six_reference ... ok
+packed F=0 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=100 rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 946)
+packed F=1 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=250 rms=0.0000023573201075257555 peak=0.0007185207978110952 scaled=0.000047901386520739685 fullres=0.000071525574 failures=0 maxiter=28
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=3 worst_state=("v:phones_feed", 571)
+test packed::tests::package_three_reference ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000005466942725328355 peak=0.00301040630190208 scaled=0.000670666583800994 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+triangle1000: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1810, 1633, 546, 0, 1024, 784, 0, 1155, 0, 0, 786], [7210, 6050, 2001, 580, 0, 0, 0, 1861, 3613, 0, 3025], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 729, 1024], [2250, 2141, 209, 31, 1024, 38, 0, 2611, 0, 0, 1195]]
+packed F=0 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=1000 rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024, 0] retries=0 worst_state=("x:TDA2050", 386)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017067964416341981 peak=0.0000408546074450733 scaled=0.00000272364049633822 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 173)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000018817390051308281 peak=0.000595496810994689 scaled=0.00003969978739964593 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000005466942725328355 peak=0.00301040630190208 scaled=0.000670666583800994 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000004592174132972313 peak=0.002260941786943249 scaled=0.0012093635613830145 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+packed F=0 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=250 rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1 worst_state=("v:phones_feed", 571)
+test packed::tests::package_two_reference ... ok
+test tests::fixed_sparse_solve_covers_nonlinear_branches ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000018817390051308281 peak=0.000595496810994689 scaled=0.00003969978739964593 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+test tests::generated_linear_mna_matches_python_bit_for_bit ... ok
+triangle1000: steps=1024 output_different=94 peak_vs_P7=0.004638672 memory_peak_vs_P7=0.008300781 counts=[33, 285, 0]
+noise250: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1029, 1028, 3, 1, 1024, 1023, 0, 147, 0, 0, 4], [37440, 17228, 7599, 10106, 0, 0, 0, 2035, 18825, 0, 8614], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 630, 1024], [3452, 2689, 1354, 446, 1024, 396, 0, 4981, 0, 0, 1982]]
+test tests::grouped_norm_matches_original_bits ... ok
+test tests::incremental_diode_candidate_matches_absolute_newton_fixture ... ok
+test tests::incremental_diode_refresh_policy_and_fallback_are_counted ... ok
+native root maximum 1 ULP
+test tests::native_root_matches_f64_reference ... ok
+physical branch 0: 0.01310853 at 41
+same residual: 0.025219671
+same equations f64: 0.0006496003396215789
+physical branch 1: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.024829585375369105
+physical branch 2: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.03415970253423987
+physical branch 3: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.024809763094534063
+physical branch 4: 0.73334 at 8
+same residual: 3.0605195
+same equations f64: 0.024936503525633487
+state 21: actual=-0.16445321 expected=-0.16445321437356283 x=0.19187497
+state 39: actual=-0.15930016 expected=-0.15930086929418602 x=0.15765041
+state 49: actual=0.06849378 expected=0.06849377878283565 x=-0.06849612
+state 53: actual=-4.896845 expected=-4.8968455916184945 x=0.18092032
+physical branch 5: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.024829585375369105
+test tests::physical_block_cascade_matches_reference_branches ... ok
+test tests::physical_residual_matches_python_fixture ... ok
+step025: steps=1536 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1583, 1573, 32, 2, 1536, 1523, 0, 104, 0, 0, 45], [7176, 6478, 1703, 349, 0, 0, 0, 169, 3685, 0, 3239], [4608, 4608, 0, 0, 1536, 1536, 0, 0, 0, 734, 1536], [2626, 2510, 498, 10, 1536, 954, 0, 3738, 0, 0, 1080]]
+noise250: steps=1024 output_different=632 peak_vs_P7=0.0003681183 memory_peak_vs_P7=0.0010147095 counts=[934, 8138, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000004592174132972313 peak=0.002260941786943249 scaled=0.0012093635613830145 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.9929 memory_peak_vs_P7=1605.2693 above_tol=1536 failed_at=None RMS=1.814149179845714 peak=41.992900013189406 scaled=66.88623811101937
+A0 output1: failures=0 peak=0.0034478498334280516 relative_rms=0.0000059300910380801624 scaled=0.000677209239294522 old_full_residual=0.00008139759 retries=0
+QUAL A0 output1: peak=0.0034478498334280516 relative_rms=0.0000059300910380801624 scaled=0.000677209239294522 full_residual=0.00008139759
+output1: steps=2048 output_different=108 peak_vs_P7=0.004638672 memory_peak_vs_P7=0.018066406 counts=[62, 549, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.0000063661641015006145 peak=0.004766934647243204 scaled=0.0013825827524366712 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:IC3A", 609)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.0000063661641015006145 peak=0.004766934647243204 scaled=0.0013825827524366712 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:IC3A", 609)
+step1: steps=1536 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1540, 1538, 2, 0, 1536, 1534, 0, 8, 0, 0, 4], [6378, 6136, 1532, 121, 0, 0, 0, 1648, 3287, 0, 3068], [4608, 4608, 0, 0, 1536, 1536, 0, 7, 0, 1032, 1536], [3022, 2962, 145, 4, 1536, 199, 0, 3247, 0, 0, 1482]]
+step025: steps=1536 output_different=1037 peak_vs_P7=0.00037193298 memory_peak_vs_P7=0.004737854 counts=[11, 113, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2003 rms=0.000002753525282378383 peak=0.0009846638660846452 scaled=0.0004363676161851515 fullres=0.000047683716 failures=0 maxiter=15
+direct=[1536, 1536, 1536, 333, 1536, 1203] retries=0 worst_state=("x:TDA2050", 697)
+test packed::tests::package_seven_extended_reference ... ok
+test tests::reduced_jacobian_and_solve_match_python_fixture ... ok
+test tests::schur_projection_matches_python_fixture ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2003 rms=0.000002753525282378383 peak=0.0009846638660846452 scaled=0.0004363676161851515 fullres=0.000047683716 failures=0 maxiter=15
+direct=[1536, 1536, 1536, 333, 1536, 1203] retries=0 worst_state=("x:TDA2050", 697)
+step1: steps=1536 output_different=174 peak_vs_P7=0.004114151 memory_peak_vs_P7=0.026855469 counts=[2, 28, 0]
+A0 output2: failures=0 peak=0.0008369438918762739 relative_rms=0.0000022671269826710416 scaled=0.00006391526287880348 old_full_residual=0.000063610074 retries=0
+QUAL A0 output2: peak=0.0008369438918762739 relative_rms=0.0000022671269826710416 scaled=0.00006391526287880348 full_residual=0.000063610074
+output2: steps=2048 output_different=863 peak_vs_P7=0.0010242462 memory_peak_vs_P7=0.0010528564 counts=[1766, 15796, 0]
+triangle100: steps=1024 output_different=1023 peak_vs_P7=0.05533266 memory_peak_vs_P7=0.05533266 above_tol=0 failed_at=None RMS=0.001070562678797332 peak=0.0553369241779853 scaled=0.0036891282785323537
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.99837 memory_peak_vs_P7=9220.094 above_tol=1023 failed_at=None RMS=1.3596682237166475 peak=41.99836831936082 scaled=384.17023689474564
+multitone: steps=1536 output_different=1310 peak_vs_P7=0.00017166138 memory_peak_vs_P7=0.0021362305 counts=[594, 5255, 0]
+A1 triangle100: failures=0 peak=0.000043477211815190486 relative_rms=0.0000019724768634877057 scaled=0.000002898480787679366 old_full_residual=0.000023841858 retries=0
+QUAL A1 triangle100: peak=0.00004347721137598626 relative_rms=0.0000019724535256391677 scaled=0.000002898480758399084 full_residual=0.000023841858
+triangle100: steps=1024 output_different=970 peak_vs_P7=0.000041484833 memory_peak_vs_P7=0.000041484833 counts=[0, 0, 0]
+output0: steps=2048 output_different=1867 peak_vs_P7=0.00002861023 memory_peak_vs_P7=0.00002861023 above_tol=0 failed_at=None RMS=0.000001754125020071407 peak=0.00004164562816066919 scaled=0.0000027763752107112793
+noise250: steps=1024 output_different=1023 peak_vs_P7=41.99845 memory_peak_vs_P7=521.3341 above_tol=1024 failed_at=None RMS=1.6489937605501686 peak=41.99845020330344 scaled=21.72224833922355
+step025: steps=1536 output_different=1440 peak_vs_P7=42.040062 memory_peak_vs_P7=2147.2888 above_tol=1440 failed_at=None RMS=1.9374380901047559 peak=42.04005233768015 scaled=89.4694776686019
+A1 triangle1000: failures=0 peak=0.42766518863300185 relative_rms=0.0007262461330939862 scaled=0.29722571761105127 old_full_residual=0.0052574794 retries=0
+QUAL A1 triangle1000: peak=0.003238394245071774 relative_rms=0.000005113876962819898 scaled=0.0003531456817995604 full_residual=0.00007437775
+triangle1000: steps=1024 output_different=1022 peak_vs_P7=0.42637062 memory_peak_vs_P7=7.137207 counts=[40, 360, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3001 rms=0.0000017662727228298552 peak=0.000042122465318872315 scaled=0.0000028081643545914875 fullres=0.000023841858 failures=0 maxiter=5
+direct=[2048, 2048, 2048, 0, 2048, 2048] retries=0 worst_state=("v:phones_feed", 1143)
+multitone: steps=1536 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1536, 1536, 0, 0, 1536, 1536, 0, 105, 0, 0, 0], [25316, 13772, 5361, 5772, 0, 0, 0, 1521, 12719, 0, 6886], [4608, 4608, 0, 0, 1536, 1536, 0, 0, 0, 510, 1536], [2488, 2222, 444, 175, 1536, 1203, 0, 2339, 0, 0, 777]]
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+step1: steps=1536 output_different=1439 peak_vs_P7=42.040054 memory_peak_vs_P7=21596.332 above_tol=1440 failed_at=None RMS=1.641786927417172 peak=42.04005335074398 scaled=899.847474006233
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3002 rms=0.000004500164247032561 peak=0.0034478498334280516 scaled=0.0005401802137612322 fullres=0.00008139759 failures=0 maxiter=13
+direct=[2048, 1597, 2048, 2460, 2048, 39] retries=0 worst_state=("x:TDA2050", 943)
+output1: steps=2048 output_different=2045 peak_vs_P7=41.997765 memory_peak_vs_P7=9218.721 above_tol=2045 failed_at=None RMS=1.3878820378825227 peak=41.997759878467576 scaled=384.1133394534542
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.997887 memory_peak_vs_P7=1586.93 above_tol=1536 failed_at=None RMS=2.2590956842583356 peak=41.99788582251558 scaled=66.12210706170423
+output1: steps=2048 output_different=103 peak_vs_P7=0.007502556 memory_peak_vs_P7=0.0087890625 counts=[62, 549, 0]
+A1 noise250: failures=0 peak=0.9746298067492756 relative_rms=0.0021796931078634425 scaled=0.0649753204499517 old_full_residual=0.0059288344 retries=0
+QUAL A1 noise250: peak=0.000501935236165707 relative_rms=0.0000015811571748408628 scaled=0.00003803803059770535 full_residual=0.000047683716
+noise250: steps=1024 output_different=1023 peak_vs_P7=0.9746494 memory_peak_vs_P7=0.97461414 counts=[935, 8147, 0]
+output0: steps=2048 output_different=2039 peak_vs_P7=0.055332184 memory_peak_vs_P7=0.055332184 above_tol=0 failed_at=None RMS=0.0009671182963938973 peak=0.05533727408420752 scaled=0.0036891516056138346
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [2048, 2048, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [12268, 12000, 3952, 134, 0, 0, 0, 0, 6176, 0, 6000], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 0, 2048], [2048, 2048, 0, 0, 2048, 2048, 0, 96, 0, 0, 0]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3003 rms=0.000001025326718084132 peak=0.00025193696819236777 scaled=0.00006294389192203671 fullres=0.000071525574 failures=0 maxiter=20
+direct=[2048, 2031, 2048, 1568, 2048, 497] retries=0 worst_state=("x:TDA2050", 1076)
+test repeated::tests::repeated_extended_reference ... ok
+output2: steps=2048 output_different=2004 peak_vs_P7=41.9985 memory_peak_vs_P7=708.76227 above_tol=2001 failed_at=None RMS=1.557787273884971 peak=41.9984996130354 scaled=29.531755726334804
+output1: steps=2048 output_different=2046 peak_vs_P7=41.99837 memory_peak_vs_P7=9220.087 above_tol=2046 failed_at=None RMS=1.3726045213904676 peak=41.99836832268144 scaled=384.17024599464276
+output1: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [3524, 3190, 1025, 0, 2048, 1597, 0, 2167, 0, 0, 1476], [14028, 11882, 3895, 1073, 0, 0, 0, 3670, 7027, 0, 5941], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 1497, 2048], [4386, 4231, 289, 40, 2048, 39, 0, 4862, 0, 0, 2298]]
+triangle100: steps=1024 output_different=979 peak_vs_P7=0.000042915344 memory_peak_vs_P7=0.000042915344 above_tol=0 failed_at=None RMS=0.00000040974210420448325 peak=0.000005955954722303147 scaled=0.0000005852484160850935
+A1 step025: failures=0 peak=0.2573787982032911 relative_rms=0.0005409533782524624 scaled=0.13147788721172896 old_full_residual=0.0052416325 retries=0
+QUAL A1 step025: peak=0.0008789067595778022 relative_rms=0.0000018939988495413116 scaled=0.00040906943035867727 full_residual=0.00006556511
+step025: steps=1536 output_different=1440 peak_vs_P7=0.25963974 memory_peak_vs_P7=3.184494 counts=[12, 124, 0]
+triangle1000: steps=1024 output_different=832 peak_vs_P7=0.0017528534 memory_peak_vs_P7=0.01184082 above_tol=0 failed_at=None RMS=0.000007347478346201097 peak=0.004763259695456767 scaled=0.0004057917414002077
+output2: steps=2048 output_different=2047 peak_vs_P7=42.04007 memory_peak_vs_P7=644.026 above_tol=2048 failed_at=None RMS=1.53541687611574 peak=42.04006980787253 scaled=26.834410310583664
+triangle100: steps=1024 output_different=1023 peak_vs_P7=0.0019087791 memory_peak_vs_P7=0.0019087791 above_tol=0 failed_at=None RMS=0.00019862346779346747 peak=0.0019092617476692553 scaled=0.0001272841165112837
+A1 step1: failures=0 peak=0.4423584873816182 relative_rms=0.0006116393243034637 scaled=0.09017000685026548 old_full_residual=0.00578777 retries=0
+QUAL A1 step1: peak=0.006514473174206614 relative_rms=0.000008656716287044904 scaled=0.0016134702458051227 full_residual=0.00009536743
+step1: steps=1536 output_different=1440 peak_vs_P7=0.43759155 memory_peak_vs_P7=2.1780014 counts=[2, 29, 0]
+noise250: steps=1024 output_different=802 peak_vs_P7=0.00053596497 memory_peak_vs_P7=0.00064849854 above_tol=0 failed_at=None RMS=0.0000005444433317533113 peak=0.00008170974338739256 scaled=0.000010749398173951855
+triangle100: steps=1024 output_different=978 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.00052785873 above_tol=0 failed_at=None RMS=0.000006056092493388039 peak=0.0005325990742255371 scaled=0.00003550660494836914
+triangle1000: steps=1024 output_different=847 peak_vs_P7=36.13764 memory_peak_vs_P7=44.801544 above_tol=67 failed_at=None RMS=0.08026702945299469 peak=36.13770141809583 scaled=2.409180094539722
+triangle1000: steps=1024 output_different=1022 peak_vs_P7=42.39055 memory_peak_vs_P7=9283.671 above_tol=1022 failed_at=None RMS=1.3437897408932538 peak=42.390542126692026 scaled=386.8192834394211
+A1 multitone: failures=0 peak=0.11164330949596746 relative_rms=0.00039711551332135 scaled=0.050130428895482027 old_full_residual=0.0041490397 retries=0
+QUAL A1 multitone: peak=0.0004445507205481647 relative_rms=0.0000014132884583684002 scaled=0.00019653152929125875 full_residual=0.000047683716
+multitone: steps=1536 output_different=1529 peak_vs_P7=0.110658646 memory_peak_vs_P7=1.1926575 counts=[603, 5374, 0]
+noise250: steps=1024 output_different=1024 peak_vs_P7=42.772297 memory_peak_vs_P7=486.18753 above_tol=1024 failed_at=None RMS=1.5772488385298915 peak=42.772297499325525 scaled=20.25780545693605
+step025: steps=1536 output_different=1399 peak_vs_P7=0.0037136078 memory_peak_vs_P7=0.04748535 above_tol=0 failed_at=None RMS=0.0000029961835071824875 peak=0.0014526660011426884 scaled=0.0007691927537211521
+output2: steps=2048 output_different=847 peak_vs_P7=0.00050354004 memory_peak_vs_P7=0.0009660721 counts=[1766, 15804, 0]
+test scalar::diagnostics::paired_independent_trajectories ... ok
+test tracking::diagnostics::inaccurate_finite_step_really_advances_memory ... ok
+noise250: steps=1024 output_different=919 peak_vs_P7=41.744278 memory_peak_vs_P7=84.06527 above_tol=166 failed_at=None RMS=0.6407458138290945 peak=41.744261760591485 scaled=3.5027231659718177
+step1: steps=1536 output_different=1428 peak_vs_P7=0.0041065216 memory_peak_vs_P7=0.026855469 above_tol=0 failed_at=None RMS=0.000011721816717441984 peak=0.008873456253688516 scaled=0.0013825827524366712
+A1 output0: failures=0 peak=0.00004182343510850117 relative_rms=0.0000019729151049946144 scaled=0.0000027882290072334115 old_full_residual=0.000023841858 retries=0
+QUAL A1 output0: peak=0.00004182343698877489 relative_rms=0.000001972894655017887 scaled=0.0000027882291325849923 full_residual=0.000023841858
+output0: steps=2048 output_different=1969 peak_vs_P7=0.000042438507 memory_peak_vs_P7=0.000042915344 counts=[0, 0, 0]
+step025: steps=1536 output_different=1440 peak_vs_P7=42.53226 memory_peak_vs_P7=2225.69 above_tol=1440 failed_at=None RMS=1.8309513890012195 peak=42.53226164441556 scaled=92.7362017629283
+output2: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [2121, 2109, 44, 12, 2048, 2031, 0, 472, 0, 0, 61], [71690, 33014, 14468, 19338, 0, 0, 0, 4124, 36056, 0, 16507], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 1514, 2048], [6542, 5278, 2339, 604, 2048, 497, 0, 8851, 0, 0, 3890]]
+test repeated::audit::paired_traces_and_counter_equivalence ... ok
+multitone: steps=1536 output_different=1373 peak_vs_P7=0.0009841919 memory_peak_vs_P7=0.010471344 above_tol=0 failed_at=None RMS=0.0000007941717850742227 peak=0.00019728511281869032 scaled=0.00008971625203457734
+step1: steps=1536 output_different=1440 peak_vs_P7=42.79104 memory_peak_vs_P7=21582.047 above_tol=1440 failed_at=None RMS=1.4696120679192877 peak=42.79103953769818 scaled=899.2523251802471
+step025: steps=1536 output_different=1195 peak_vs_P7=36.239944 memory_peak_vs_P7=216.29079 above_tol=21 failed_at=None RMS=0.15765762462386979 peak=36.23993513558925 scaled=9.013325477859885
+multitone: steps=1536 output_different=1536 peak_vs_P7=42.38337 memory_peak_vs_P7=1646.4991 above_tol=1536 failed_at=None RMS=2.0801535113981755 peak=42.38336726005386 scaled=68.60414024839095
+test tests::deferred_fpu_matches_eager_states_and_laws ... ok
+output0: steps=2048 output_different=1986 peak_vs_P7=0.000043272972 memory_peak_vs_P7=0.000043272972 above_tol=0 failed_at=None RMS=0.00000043371196759871997 peak=0.00000776322184092848 scaled=0.0000006171463550419531
+output0: steps=2048 output_different=1957 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.0005302429 above_tol=0 failed_at=None RMS=0.000004371869682612136 peak=0.0005334258176059592 scaled=0.00003556172117373061
+step1: steps=1536 output_different=178 peak_vs_P7=37.715103 memory_peak_vs_P7=54.34926 above_tol=7 failed_at=None RMS=0.05783939038180765 peak=37.71512850857956 scaled=2.5143419005719707
+multitone: steps=1536 output_different=1536 peak_vs_P7=37.957436 memory_peak_vs_P7=91.76755 above_tol=106 failed_at=None RMS=0.6524323084556579 peak=37.95750041859889 scaled=3.824084025646377
+output1: steps=2048 output_different=1384 peak_vs_P7=0.004637718 memory_peak_vs_P7=0.010009766 above_tol=0 failed_at=None RMS=0.0000065271641309441496 peak=0.004670460307060864 scaled=0.00045591102703686676
+output1: steps=2048 output_different=2045 peak_vs_P7=42.39055 memory_peak_vs_P7=9283.664 above_tol=2045 failed_at=None RMS=1.3188564868646877 peak=42.390542126692026 scaled=386.8192911088067
+output0: steps=2048 output_different=2043 peak_vs_P7=0.0019068718 memory_peak_vs_P7=0.0019087791 above_tol=0 failed_at=None RMS=0.00019810245223559947 peak=0.0019091535591018172 scaled=0.00012727690394012114
+A1 output1: failures=0 peak=1.3242407235364126 relative_rms=0.0021865711071035734 scaled=0.3575631225386739 old_full_residual=0.0053521474 retries=0
+QUAL A1 output1: peak=0.0034286280993836016 relative_rms=0.000004964919292220125 scaled=0.0004777250391043708 full_residual=0.000099570025
+output1: steps=2048 output_different=2044 peak_vs_P7=1.3239498 memory_peak_vs_P7=8.572754 counts=[67, 595, 0]
+output2: steps=2048 output_different=1511 peak_vs_P7=0.00023651123 memory_peak_vs_P7=0.0015296936 above_tol=0 failed_at=None RMS=0.0000007555005159168859 peak=0.00016023426687361564 scaled=0.000017470373468479277
+test tracking::diagnostics::generous_budget_control ... ok
+output1: steps=2048 output_different=1613 peak_vs_P7=37.59726 memory_peak_vs_P7=44.800034 above_tol=107 failed_at=None RMS=0.07129992729925905 peak=37.59759965761416 scaled=2.506506643840944
+output2: steps=2048 output_different=2048 peak_vs_P7=42.432045 memory_peak_vs_P7=609.9525 above_tol=2048 failed_at=None RMS=1.4460668166589787 peak=42.43204567931958 scaled=25.414690716530895
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000042438507 memory_peak_vs_P7=0.000042438507 above_tol=0 failed_at=None RMS=0.0000004756748399802348 peak=0.000008578559092420335 scaled=0.0000005938556005909608
+A1 output2: failures=0 peak=0.36346370483546053 relative_rms=0.0012874429479667205 scaled=0.06598820828318679 old_full_residual=0.005590757 retries=0
+QUAL A1 output2: peak=0.0007355151116215097 relative_rms=0.000002394147691746268 scaled=0.000055271948859806726 full_residual=0.000055646895
+output2: steps=2048 output_different=2046 peak_vs_P7=0.3634634 memory_peak_vs_P7=1.5838623 counts=[1777, 15894, 0]
+output2: steps=2048 output_different=1734 peak_vs_P7=41.984047 memory_peak_vs_P7=217.3252 above_tol=274 failed_at=None RMS=0.5044559916170802 peak=41.98403465641694 scaled=9.05520932191318
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.997765 memory_peak_vs_P7=9218.728 above_tol=1022 failed_at=None RMS=1.3756431567755205 peak=41.997759875146954 scaled=384.1133317840686
+A2 triangle100: failures=0 peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 old_full_residual=0.000023841858 retries=0
+QUAL A2 triangle100: peak=0.00004300037465698736 relative_rms=0.0000019645999955156668 scaled=0.0000028666916437991572 full_residual=0.000023841858
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000044345856 memory_peak_vs_P7=0.000044345856 counts=[0, 0, 0]
+triangle100: steps=1024 output_different=998 peak_vs_P7=0.000039458275 memory_peak_vs_P7=0.00004017353 above_tol=0 failed_at=None RMS=0.0000009722075115969162 peak=0.0000229787402457049 scaled=0.0000015319160163803267
+noise250: steps=1024 output_different=1024 peak_vs_P7=41.998177 memory_peak_vs_P7=521.06885 above_tol=1024 failed_at=None RMS=1.6458505180486822 peak=41.99817745244895 scaled=21.711196366516436
+A2 triangle1000: failures=0 peak=0.00301040630190208 relative_rms=0.000005052759133461312 scaled=0.00044977317384109483 old_full_residual=0.00006854534 retries=0
+QUAL A2 triangle1000: peak=0.00301040630190208 relative_rms=0.000005052759133461312 scaled=0.00044977317384109483 full_residual=0.00006854534
+triangle1000: steps=1024 output_different=649 peak_vs_P7=0.0023195744 memory_peak_vs_P7=0.025878906 counts=[33, 285, 0]
+triangle1000: steps=1024 output_different=636 peak_vs_P7=38.812294 memory_peak_vs_P7=62.208435 above_tol=18 failed_at=None RMS=0.07091514332313942 peak=38.81229017075738 scaled=2.5919701768152335
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99779 memory_peak_vs_P7=2147.554 above_tol=1440 failed_at=None RMS=1.937166209766594 peak=41.997792039923375 scaled=89.48052972078187
+A2 noise250: failures=0 peak=0.0011772381440025015 relative_rms=0.000004362089362083955 scaled=0.00009245776349982766 old_full_residual=0.000047683716 retries=0
+QUAL A2 noise250: peak=0.0011772381440025015 relative_rms=0.000004362089362083955 scaled=0.00009245776349982766 full_residual=0.000047683716
+noise250: steps=1024 output_different=883 peak_vs_P7=0.0009441376 memory_peak_vs_P7=0.002216339 counts=[934, 8143, 0]
+step1: steps=1536 output_different=1440 peak_vs_P7=41.998184 memory_peak_vs_P7=21596.066 above_tol=1440 failed_at=None RMS=1.6413339658701322 peak=41.998182735931906 scaled=899.836422033526
+noise250: steps=1024 output_different=893 peak_vs_P7=41.989635 memory_peak_vs_P7=110.59156 above_tol=170 failed_at=None RMS=0.5251617562292048 peak=41.98962956795664 scaled=4.60798164282678
+A2 step025: failures=0 peak=0.0014350598289354366 relative_rms=0.0000038490264271304585 scaled=0.0008011294354541102 old_full_residual=0.000047683716 retries=0
+QUAL A2 step025: peak=0.0014350598289354366 relative_rms=0.0000038490264271304585 scaled=0.0008011294354541102 full_residual=0.000047683716
+step025: steps=1536 output_different=1185 peak_vs_P7=0.0010089874 memory_peak_vs_P7=0.010551453 counts=[11, 114, 0]
+A2 step1: failures=0 peak=0.008995526566188516 relative_rms=0.000011849937133275494 scaled=0.0013825827524366712 old_full_residual=0.00009536743 retries=0
+QUAL A2 step1: peak=0.008995526566188516 relative_rms=0.000011849937133275494 scaled=0.0013825827524366712 full_residual=0.00009536743
+step1: steps=1536 output_different=1420 peak_vs_P7=0.004228592 memory_peak_vs_P7=0.026855469 counts=[2, 29, 0]
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.997612 memory_peak_vs_P7=1587.1954 above_tol=1536 failed_at=None RMS=2.255221377191968 peak=41.997613071661085 scaled=66.1331603059771
+step025: steps=1536 output_different=1416 peak_vs_P7=18.102507 memory_peak_vs_P7=84.48059 above_tol=5 failed_at=None RMS=0.05186102666278943 peak=18.10250618849744 scaled=3.520026369321471
+A2 multitone: failures=0 peak=0.0007405232410846452 relative_rms=0.0000023763800312893514 scaled=0.0003297150384670526 old_full_residual=0.000047683716 retries=0
+QUAL A2 multitone: peak=0.0007405232410846452 relative_rms=0.0000023763800312893514 scaled=0.0003297150384670526 full_residual=0.000047683716
+multitone: steps=1536 output_different=1496 peak_vs_P7=0.00025177002 memory_peak_vs_P7=0.0027770996 counts=[594, 5263, 0]
+step1: steps=1536 output_different=178 peak_vs_P7=36.56045 memory_peak_vs_P7=44.71899 above_tol=1 failed_at=None RMS=0.04828908284041352 peak=36.56004777320963 scaled=2.4373365182139755
+output0: steps=2048 output_different=1951 peak_vs_P7=0.000041246414 memory_peak_vs_P7=0.000041246414 above_tol=0 failed_at=None RMS=0.0000004330563222569091 peak=0.000007920981103914926 scaled=0.0000006145390446447389
+multitone: steps=1536 output_different=1531 peak_vs_P7=38.174522 memory_peak_vs_P7=88.30536 above_tol=83 failed_at=None RMS=0.47853549488769836 peak=38.17452934484784 scaled=3.6793891668959113
+A2 output0: failures=0 peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 old_full_residual=0.000023841858 retries=0
+QUAL A2 output0: peak=0.00004158501652939961 relative_rms=0.0000019937489038273798 scaled=0.0000027723344352933074 full_residual=0.000023841858
+output0: steps=2048 output_different=1958 peak_vs_P7=0.00004386902 memory_peak_vs_P7=0.000044822693 counts=[0, 0, 0]
+output1: steps=2048 output_different=2046 peak_vs_P7=41.997765 memory_peak_vs_P7=9218.721 above_tol=2045 failed_at=None RMS=1.3878820378344625 peak=41.997759878467576 scaled=384.1133394534542
+output0: steps=2048 output_different=1983 peak_vs_P7=0.000039935112 memory_peak_vs_P7=0.000039935112 above_tol=0 failed_at=None RMS=0.0000009960616244183057 peak=0.000023040237276408804 scaled=0.0000015360158184272536
+A2 output1: failures=0 peak=0.008850136683385301 relative_rms=0.000013175213460700959 scaled=0.000677209239294522 old_full_residual=0.00007928212 retries=0
+QUAL A2 output1: peak=0.008850136683385301 relative_rms=0.000013175213460700959 scaled=0.000677209239294522 full_residual=0.00007928212
+output1: steps=2048 output_different=1138 peak_vs_P7=0.008559227 memory_peak_vs_P7=0.018066406 counts=[62, 549, 0]
+output1: steps=2048 output_different=1570 peak_vs_P7=38.811134 memory_peak_vs_P7=62.21557 above_tol=31 failed_at=None RMS=0.05020562704334906 peak=38.811134352228194 scaled=2.5922686361538596
+output2: steps=2048 output_different=2048 peak_vs_P7=41.99819 memory_peak_vs_P7=643.76074 above_tol=2048 failed_at=None RMS=1.534187703901322 peak=41.99818673956959 scaled=26.823358337876552
+A2 output2: failures=0 peak=0.0012895025926384918 relative_rms=0.00000350775940882135 scaled=0.00008596683950923278 old_full_residual=0.000060065588 retries=0
+QUAL A2 output2: peak=0.0012895025926384918 relative_rms=0.00000350775940882135 scaled=0.00008596683950923278 full_residual=0.000060065588
+output2: steps=2048 output_different=1615 peak_vs_P7=0.0012154579 memory_peak_vs_P7=0.0019302368 counts=[1766, 15786, 0]
+test analytic::diagnostics::analytic_trajectories ... ok
+triangle100: steps=1024 output_different=1023 peak_vs_P7=0.05533266 memory_peak_vs_P7=0.05533266 above_tol=0 failed_at=None RMS=0.001070562678797332 peak=0.0553369241779853 scaled=0.0036891282785323537
+reuse stream iteration counts: [17970, 5983, 47]
+test tests::physical_reuse_is_bit_exact_over_stream ... ok
+output2: steps=2048 output_different=1697 peak_vs_P7=41.98089 memory_peak_vs_P7=116.873566 above_tol=230 failed_at=None RMS=0.45947953814829323 peak=41.980883282563184 scaled=4.869739231448488
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.998764 memory_peak_vs_P7=9243.759 above_tol=1023 failed_at=None RMS=1.4295449428317102 peak=41.99878418459245 scaled=385.15626608699904
+triangle100: steps=1024 output_different=1023 peak_vs_P7=0.0019087791 memory_peak_vs_P7=0.0019087791 above_tol=0 failed_at=None RMS=0.00019862346779346747 peak=0.0019092617476692553 scaled=0.0001272841165112837
+noise250: steps=1024 output_different=1024 peak_vs_P7=41.99951 memory_peak_vs_P7=467.24307 above_tol=1024 failed_at=None RMS=1.4790708627834737 peak=41.99951419653515 scaled=23.910867596509593
+triangle1000: steps=1024 output_different=841 peak_vs_P7=0.12906933 memory_peak_vs_P7=0.20703125 above_tol=34 failed_at=None RMS=0.00019649665406680172 peak=0.1260589220062034 scaled=0.00915750523229993
+step025: steps=1536 output_different=1440 peak_vs_P7=41.998543 memory_peak_vs_P7=2147.2888 above_tol=1440 failed_at=None RMS=1.9432565498421344 peak=41.9985395065121 scaled=89.46947703281903
+noise250: steps=1024 output_different=905 peak_vs_P7=0.034281254 memory_peak_vs_P7=0.10129738 above_tol=13 failed_at=None RMS=0.00016419818865794582 peak=0.03464115059663353 scaled=0.004225944773243266
+step1: steps=1536 output_different=1440 peak_vs_P7=41.999245 memory_peak_vs_P7=21596.332 above_tol=1440 failed_at=None RMS=1.4915086518076328 peak=41.99924008614753 scaled=899.847474642016
+step025: steps=1536 output_different=1433 peak_vs_P7=0.10848236 memory_peak_vs_P7=0.24293995 above_tol=11 failed_at=None RMS=0.00022951599119772474 peak=0.10868388376409399 scaled=0.016199259327397186
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.997887 memory_peak_vs_P7=1586.93 above_tol=1536 failed_at=None RMS=2.2631501114805737 peak=41.99788582251558 scaled=66.12210642592136
+step1: steps=1536 output_different=1435 peak_vs_P7=0.026741028 memory_peak_vs_P7=0.41981506 above_tol=1 failed_at=None RMS=0.00003997345180129178 peak=0.027557951944015002 scaled=0.018072345953282703
+multitone: steps=1536 output_different=1456 peak_vs_P7=0.014992714 memory_peak_vs_P7=0.15678406 above_tol=3 failed_at=None RMS=0.00009727308741187292 peak=0.015045291486302403 scaled=0.006551227386657625
+output0: steps=2048 output_different=2039 peak_vs_P7=0.055332184 memory_peak_vs_P7=0.055332184 above_tol=0 failed_at=None RMS=0.0009671182963938973 peak=0.05533727408420752 scaled=0.0036891516056138346
+output0: steps=2048 output_different=2043 peak_vs_P7=0.0019068718 memory_peak_vs_P7=0.0019087791 above_tol=0 failed_at=None RMS=0.00019810245223559947 peak=0.0019091535591018172 scaled=0.00012727690394012114
+output1: steps=2048 output_different=1756 peak_vs_P7=41.998764 memory_peak_vs_P7=9243.751 above_tol=2046 failed_at=None RMS=1.425112200295386 peak=41.998784184829155 scaled=385.1562526166039
+output1: steps=2048 output_different=1399 peak_vs_P7=0.28171444 memory_peak_vs_P7=0.28466797 above_tol=64 failed_at=None RMS=0.0004285627925036314 peak=0.2805195606149553 scaled=0.01870130404099702
+output2: steps=2048 output_different=2047 peak_vs_P7=41.99913 memory_peak_vs_P7=632.76135 above_tol=2048 failed_at=None RMS=1.487621140344352 peak=41.99913220913952 scaled=32.47069498576381
+triangle100: steps=1024 output_different=978 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.00052785873 above_tol=0 failed_at=None RMS=0.000006056092493388039 peak=0.0005325990742255371 scaled=0.00003550660494836914
+output2: steps=2048 output_different=1774 peak_vs_P7=41.983566 memory_peak_vs_P7=214.53809 above_tol=28 failed_at=None RMS=0.12339124832780601 peak=41.98356135541822 scaled=8.939079764621512
+triangle1000: steps=1024 output_different=1022 peak_vs_P7=41.998795 memory_peak_vs_P7=9328.925 above_tol=1022 failed_at=None RMS=1.4092542892392745 peak=41.998784218751794 scaled=388.7048638996516
+triangle100: steps=1024 output_different=998 peak_vs_P7=0.000039458275 memory_peak_vs_P7=0.00004017353 above_tol=0 failed_at=None RMS=0.0000009722075115969162 peak=0.0000229787402457049 scaled=0.0000015319160163803267
+noise250: steps=1024 output_different=1024 peak_vs_P7=41.99921 memory_peak_vs_P7=556.8524 above_tol=1024 failed_at=None RMS=1.5896706689408153 peak=41.999208891871476 scaled=23.202176037994708
+triangle1000: steps=1024 output_different=834 peak_vs_P7=0.001493454 memory_peak_vs_P7=0.018066406 above_tol=0 failed_at=None RMS=0.000004782380074528618 peak=0.0030094526275856737 scaled=0.0003455341143118555
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99884 memory_peak_vs_P7=2218.2314 above_tol=1440 failed_at=None RMS=1.750933803674571 peak=41.998838917891405 scaled=92.42542069673402
+noise250: steps=1024 output_different=839 peak_vs_P7=0.0005264282 memory_peak_vs_P7=0.0013847351 above_tol=0 failed_at=None RMS=0.0000010328468367856857 peak=0.00036445063583512294 scaled=0.00004797706592718498
+step025: steps=1536 output_different=1399 peak_vs_P7=0.0039749146 memory_peak_vs_P7=0.050949097 above_tol=1 failed_at=None RMS=0.000006590181679917156 peak=0.0027688141840158664 scaled=0.000913515466937298
+step1: steps=1536 output_different=1440 peak_vs_P7=41.998837 memory_peak_vs_P7=21661.52 above_tol=1440 failed_at=None RMS=1.3858850075454556 peak=41.99883667134188 scaled=902.5635364549903
+step1: steps=1536 output_different=1413 peak_vs_P7=0.0009250641 memory_peak_vs_P7=0.016395569 above_tol=0 failed_at=None RMS=0.000006250760717488793 peak=0.004757397904079141 scaled=0.0013825827524366712
+multitone: steps=1536 output_different=1535 peak_vs_P7=41.99896 memory_peak_vs_P7=1632.3582 above_tol=1536 failed_at=None RMS=2.248159029482849 peak=41.99895775244722 scaled=68.01493895009578
+multitone: steps=1536 output_different=1428 peak_vs_P7=0.0009059906 memory_peak_vs_P7=0.0095825195 above_tol=0 failed_at=None RMS=0.0000011260408515977854 peak=0.00027834742971322157 scaled=0.00012258547955331286
+output0: steps=2048 output_different=1957 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.0005302429 above_tol=0 failed_at=None RMS=0.000004371869682612136 peak=0.0005334258176059592 scaled=0.00003556172117373061
+output0: steps=2048 output_different=1983 peak_vs_P7=0.000039935112 memory_peak_vs_P7=0.000039935112 above_tol=0 failed_at=None RMS=0.0000009960616244183057 peak=0.000023040237276408804 scaled=0.0000015360158184272536
+output1: steps=2048 output_different=2045 peak_vs_P7=41.998795 memory_peak_vs_P7=9328.918 above_tol=2045 failed_at=None RMS=1.3991210886202636 peak=41.998784218755894 scaled=388.70487156903715
+output1: steps=2048 output_different=1393 peak_vs_P7=0.004637718 memory_peak_vs_P7=0.005859375 above_tol=0 failed_at=None RMS=0.000006310130169846012 peak=0.004674275004326489 scaled=0.00037647008298336004
+output2: steps=2048 output_different=2047 peak_vs_P7=41.99953 memory_peak_vs_P7=630.7797 above_tol=2048 failed_at=None RMS=1.5333865497853665 peak=41.99953134035304 scaled=26.28248936282199
+output2: steps=2048 output_different=1754 peak_vs_P7=28.993008 memory_peak_vs_P7=50.42398 above_tol=7 failed_at=None RMS=0.03967967658979572 peak=28.99300619733756 scaled=2.101000338976226
+triangle100: steps=1024 output_different=981 peak_vs_P7=0.000042438507 memory_peak_vs_P7=0.000042438507 above_tol=0 failed_at=None RMS=0.0000004756748399802348 peak=0.000008578559092420335 scaled=0.0000005938556005909608
+triangle100: steps=1024 output_different=1023 peak_vs_P7=0.0019087791 memory_peak_vs_P7=0.0019087791 above_tol=0 failed_at=None RMS=0.00019862346779346747 peak=0.0019092617476692553 scaled=0.0001272841165112837
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.998787 memory_peak_vs_P7=9246.171 above_tol=1006 failed_at=None RMS=1.2415585366509043 peak=41.998784207417344 scaled=385.2567825652197
+triangle1000: steps=1024 output_different=841 peak_vs_P7=0.14081192 memory_peak_vs_P7=0.21484375 above_tol=13 failed_at=None RMS=0.00021351222288558126 peak=0.13780151386411355 scaled=0.009483026065633263
+noise250: steps=1024 output_different=1016 peak_vs_P7=41.999153 memory_peak_vs_P7=490.22888 above_tol=1014 failed_at=None RMS=1.6580996660881353 peak=41.99915412311559 scaled=20.69260772930506
+noise250: steps=1024 output_different=905 peak_vs_P7=0.034208298 memory_peak_vs_P7=0.10137367 above_tol=13 failed_at=None RMS=0.0001642233027395737 peak=0.03456819451142845 scaled=0.0042291236876312865
+step025: steps=1536 output_different=1440 peak_vs_P7=41.998795 memory_peak_vs_P7=2147.4187 above_tol=1436 failed_at=None RMS=1.8248835906580234 peak=41.99879187999955 scaled=89.47489776952735
+step025: steps=1536 output_different=1433 peak_vs_P7=0.029481888 memory_peak_vs_P7=0.3474884 above_tol=9 failed_at=None RMS=0.00008719426510939488 peak=0.03174282960432606 scaled=0.015688047033062702
+step1: steps=1536 output_different=1435 peak_vs_P7=0.026741028 memory_peak_vs_P7=0.41981506 above_tol=1 failed_at=None RMS=0.00003997345180129178 peak=0.027557951944015002 scaled=0.018072345953282703
+step1: steps=1536 output_different=1439 peak_vs_P7=41.999245 memory_peak_vs_P7=21596.521 above_tol=1440 failed_at=None RMS=1.6133714688985625 peak=41.99924008614753 scaled=899.8553080258317
+multitone: steps=1536 output_different=1456 peak_vs_P7=0.014992714 memory_peak_vs_P7=0.15678406 above_tol=3 failed_at=None RMS=0.00009727308741187292 peak=0.015045291486302403 scaled=0.006551227386657625
+multitone: steps=1536 output_different=1464 peak_vs_P7=41.99478 memory_peak_vs_P7=1528.8949 above_tol=1527 failed_at=None RMS=2.153980543675831 peak=41.994778751592726 scaled=63.70397451814039
+output0: steps=2048 output_different=2043 peak_vs_P7=0.0019068718 memory_peak_vs_P7=0.0019087791 above_tol=0 failed_at=None RMS=0.00019810245223559947 peak=0.0019091535591018172 scaled=0.00012727690394012114
+output0: steps=2048 output_different=1951 peak_vs_P7=0.000041246414 memory_peak_vs_P7=0.000041246414 above_tol=0 failed_at=None RMS=0.0000004330563222569091 peak=0.000007920981103914926 scaled=0.0000006145390446447389
+output1: steps=2048 output_different=1402 peak_vs_P7=0.26489067 memory_peak_vs_P7=0.26757813 above_tol=26 failed_at=None RMS=0.0004136567038561456 peak=0.26369579199923265 scaled=0.01757971946661551
+output1: steps=2048 output_different=1876 peak_vs_P7=41.998787 memory_peak_vs_P7=9246.164 above_tol=2017 failed_at=None RMS=1.389345269833404 peak=41.99878418828938 scaled=385.2567902346052
+output2: steps=2048 output_different=1681 peak_vs_P7=0.051510334 memory_peak_vs_P7=0.08453369 above_tol=20 failed_at=None RMS=0.00019092149153342584 peak=0.05131451680525556 scaled=0.0035386835393692215
+triangle100: steps=1024 output_different=998 peak_vs_P7=0.000039458275 memory_peak_vs_P7=0.00004017353 above_tol=0 failed_at=None RMS=0.0000009722075115969162 peak=0.0000229787402457049 scaled=0.0000015319160163803267
+output2: steps=2048 output_different=1980 peak_vs_P7=41.99953 memory_peak_vs_P7=727.2501 above_tol=2012 failed_at=None RMS=1.5513128796807196 peak=41.99953134523258 scaled=30.302082022823246
+triangle1000: steps=1024 output_different=837 peak_vs_P7=0.0022056103 memory_peak_vs_P7=0.025878906 above_tol=0 failed_at=None RMS=0.000005049371799108683 peak=0.0030094526275856737 scaled=0.0004571807024073375
+triangle100: steps=1024 output_different=1021 peak_vs_P7=0.05533266 memory_peak_vs_P7=0.055333138 above_tol=0 failed_at=None RMS=0.001070567624509694 peak=0.0553369241779853 scaled=0.0036891282785323537
+triangle1000: steps=1024 output_different=1023 peak_vs_P7=41.99953 memory_peak_vs_P7=9388.369 above_tol=1023 failed_at=None RMS=1.47839834557044 peak=41.99953141036518 scaled=391.1817397169859
+noise250: steps=1024 output_different=839 peak_vs_P7=0.0005264282 memory_peak_vs_P7=0.0013847351 above_tol=0 failed_at=None RMS=0.0000010328468367856857 peak=0.00036445063583512294 scaled=0.00004797706592718498
+noise250: steps=1024 output_different=1001 peak_vs_P7=41.998314 memory_peak_vs_P7=807.1723 above_tol=1024 failed_at=None RMS=1.662327411070933 peak=41.998316381593746 scaled=33.63217126351564
+step025: steps=1536 output_different=1396 peak_vs_P7=0.003129959 memory_peak_vs_P7=0.040122986 above_tol=0 failed_at=None RMS=0.000002077367003680836 peak=0.0008690173195020634 scaled=0.00046242751527714177
+step025: steps=1536 output_different=1439 peak_vs_P7=41.999138 memory_peak_vs_P7=2262.2031 above_tol=1438 failed_at=None RMS=2.0740665948524253 peak=41.99913672070951 scaled=94.25755060058555
+step1: steps=1536 output_different=1412 peak_vs_P7=0.0009460449 memory_peak_vs_P7=0.01675415 above_tol=0 failed_at=None RMS=0.0000062514573789855435 peak=0.004757397904079141 scaled=0.0013825827524366712
+step1: steps=1536 output_different=1438 peak_vs_P7=41.998314 memory_peak_vs_P7=17647.945 above_tol=1434 failed_at=None RMS=1.1469782163359852 peak=41.99831243563894 scaled=735.3304527888387
+multitone: steps=1536 output_different=1428 peak_vs_P7=0.0009059906 memory_peak_vs_P7=0.0095825195 above_tol=0 failed_at=None RMS=0.0000011260408515977854 peak=0.00027834742971322157 scaled=0.00012258547955331286
+multitone: steps=1536 output_different=1456 peak_vs_P7=41.99774 memory_peak_vs_P7=1285.2474 above_tol=1536 failed_at=None RMS=2.297373423200074 peak=41.99774277136812 scaled=53.551989654257106
+output0: steps=2048 output_different=1983 peak_vs_P7=0.000039935112 memory_peak_vs_P7=0.000039935112 above_tol=0 failed_at=None RMS=0.0000009960616244183057 peak=0.000023040237276408804 scaled=0.0000015360158184272536
+output0: steps=2048 output_different=2040 peak_vs_P7=0.055331707 memory_peak_vs_P7=0.05533266 above_tol=0 failed_at=None RMS=0.0009670942334019398 peak=0.05533679724704932 scaled=0.0036891198164699544
+output1: steps=2048 output_different=1392 peak_vs_P7=0.008546829 memory_peak_vs_P7=0.009277344 above_tol=0 failed_at=None RMS=0.00001270692973307434 peak=0.00883773891727202 scaled=0.0005891825944848013
+output1: steps=2048 output_different=1961 peak_vs_P7=41.99893 memory_peak_vs_P7=22824.918 above_tol=2046 failed_at=None RMS=1.6378142963788 peak=41.998931838270096 scaled=951.0381725859473
+output2: steps=2048 output_different=1590 peak_vs_P7=0.00035381317 memory_peak_vs_P7=0.0014686584 above_tol=0 failed_at=None RMS=0.0000010156047218529037 peak=0.0003708452544275431 scaled=0.00004546814747286021
+triangle100: steps=1024 output_different=1021 peak_vs_P7=0.00016498566 memory_peak_vs_P7=0.00016975403 above_tol=0 failed_at=None RMS=0.000016682200895223993 peak=0.0001668416749955881 scaled=0.000011122778333039207
+output2: steps=2048 output_different=1972 peak_vs_P7=41.99953 memory_peak_vs_P7=11941.1045 above_tol=2048 failed_at=None RMS=1.5872516648537096 peak=41.99953134523258 scaled=497.54602517653126
+triangle100: steps=1024 output_different=991 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.00052785873 above_tol=0 failed_at=None RMS=0.000006047656302576763 peak=0.0005325990742255371 scaled=0.00003550660494836914
+triangle1000: steps=1024 output_different=837 peak_vs_P7=0.0068712234 memory_peak_vs_P7=0.06298828 above_tol=13 failed_at=None RMS=0.00002046051531254321 peak=0.009881629751609111 scaled=0.002479666429659725
+triangle1000: steps=1024 output_different=1020 peak_vs_P7=41.99878 memory_peak_vs_P7=9131.794 above_tol=1003 failed_at=None RMS=1.2717622843615346 peak=41.99878418944288 scaled=380.4910792403013
+noise250: steps=1024 output_different=894 peak_vs_P7=0.025861263 memory_peak_vs_P7=0.096818924 above_tol=13 failed_at=None RMS=0.00008961213376618457 peak=0.025644900249939262 scaled=0.004039342498666443
+noise250: steps=1024 output_different=1015 peak_vs_P7=41.998314 memory_peak_vs_P7=650.42596 above_tol=515 failed_at=None RMS=1.575647932594093 peak=41.998308762359216 scaled=27.10108764514099
+step025: steps=1536 output_different=1426 peak_vs_P7=0.012601852 memory_peak_vs_P7=0.13356018 above_tol=9 failed_at=None RMS=0.00003293911028628154 peak=0.014862794203935437 scaled=0.006774371089052285
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99774 memory_peak_vs_P7=2488.307 above_tol=805 failed_at=None RMS=1.8533596136003492 peak=41.997739612228585 scaled=103.67856527884665
+step1: steps=1536 output_different=1434 peak_vs_P7=0.013694763 memory_peak_vs_P7=0.1687622 above_tol=1 failed_at=None RMS=0.000022491537757836876 peak=0.014511687295577502 scaled=0.0076118102680613475
+step1: steps=1536 output_different=1439 peak_vs_P7=41.998314 memory_peak_vs_P7=27648.268 above_tol=1424 failed_at=None RMS=1.451346990696896 peak=41.998316830177615 scaled=1152.0104456638103
+multitone: steps=1536 output_different=1434 peak_vs_P7=0.011219025 memory_peak_vs_P7=0.10211182 above_tol=3 failed_at=None RMS=0.000041343815569436855 peak=0.011235283281823882 scaled=0.004267590763700942
+multitone: steps=1536 output_different=1536 peak_vs_P7=41.989788 memory_peak_vs_P7=1622.7039 above_tol=1536 failed_at=None RMS=1.534244719709996 peak=41.98978261177534 scaled=67.61267598425766
+output0: steps=2048 output_different=2039 peak_vs_P7=0.00016784668 memory_peak_vs_P7=0.0001745224 above_tol=0 failed_at=None RMS=0.00001690984806703542 peak=0.0001627749818142732 scaled=0.00001085166545428488
+output0: steps=2048 output_different=1942 peak_vs_P7=0.0005273819 memory_peak_vs_P7=0.0005264282 above_tol=0 failed_at=None RMS=0.000004359400951355252 peak=0.000532472143289553 scaled=0.0000354981428859702
+output1: steps=2048 output_different=1400 peak_vs_P7=0.009277344 memory_peak_vs_P7=0.08407974 above_tol=26 failed_at=None RMS=0.00001995763319278725 peak=0.009615822991001721 scaled=0.0036795226983106963
+output1: steps=2048 output_different=2043 peak_vs_P7=41.99878 memory_peak_vs_P7=9131.785 above_tol=2024 failed_at=None RMS=1.3738973682764883 peak=41.99878418944289 scaled=380.49100870839294
+output2: steps=2048 output_different=1662 peak_vs_P7=0.050506115 memory_peak_vs_P7=0.07883072 above_tol=20 failed_at=None RMS=0.00008338471318737027 peak=0.05052314704275762 scaled=0.003368209802850508
+triangle100: steps=1024 output_different=992 peak_vs_P7=0.000030517578 memory_peak_vs_P7=0.000030517578 above_tol=0 failed_at=None RMS=0.0000013167162428737959 peak=0.000027506437128899108 scaled=0.0000018337624752599405
+output2: steps=2048 output_different=2042 peak_vs_P7=41.998318 memory_peak_vs_P7=942.29626 above_tol=1346 failed_at=None RMS=1.4123947488613324 peak=41.99831644112376 scaled=39.262354950308115
+triangle100: steps=1024 output_different=996 peak_vs_P7=0.000042915344 memory_peak_vs_P7=0.000042915344 above_tol=0 failed_at=None RMS=0.0000004306866236862175 peak=0.00000644970202934303 scaled=0.0000006315326894027843
+triangle1000: steps=1024 output_different=836 peak_vs_P7=0.0023157597 memory_peak_vs_P7=0.025878906 above_tol=0 failed_at=None RMS=0.000004931571986843072 peak=0.0030094526275856737 scaled=0.00044977317384109483
+triangle1000: steps=1024 output_different=935 peak_vs_P7=41.998306 memory_peak_vs_P7=9239.479 above_tol=980 failed_at=None RMS=1.291251815027021 peak=41.99831307030857 scaled=384.97792898983107
+noise250: steps=1024 output_different=837 peak_vs_P7=0.0007047653 memory_peak_vs_P7=0.0013198853 above_tol=0 failed_at=None RMS=0.0000012497983007421464 peak=0.0003298799418653964 scaled=0.00004567235299586988
+noise250: steps=1024 output_different=1001 peak_vs_P7=41.998314 memory_peak_vs_P7=600.2412 above_tol=1022 failed_at=None RMS=1.6719497802256498 peak=41.998316381593746 scaled=25.01004499551424
+step025: steps=1536 output_different=1385 peak_vs_P7=0.0037670135 memory_peak_vs_P7=0.04825592 above_tol=0 failed_at=None RMS=0.000003144677081411245 peak=0.0015060717628614384 scaled=0.0008012997890401626
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99792 memory_peak_vs_P7=2012.6051 above_tol=1438 failed_at=None RMS=1.9101797662303757 peak=41.99792173963041 scaled=83.85765959342184
+step1: steps=1536 output_different=1430 peak_vs_P7=0.0041046143 memory_peak_vs_P7=0.026855469 above_tol=0 failed_at=None RMS=0.000011686435678010534 peak=0.008871548905055704 scaled=0.0013825827524366712
+step1: steps=1536 output_different=1435 peak_vs_P7=41.998314 memory_peak_vs_P7=21341.906 above_tol=1438 failed_at=None RMS=1.2506862826070826 peak=41.998316938161494 scaled=889.2463819855625
+multitone: steps=1536 output_different=1419 peak_vs_P7=0.00081062317 memory_peak_vs_P7=0.008617401 above_tol=0 failed_at=None RMS=0.0000014780192196174644 peak=0.00035464137502572157 scaled=0.0001620492361524839
+multitone: steps=1536 output_different=1460 peak_vs_P7=41.997765 memory_peak_vs_P7=1161.4911 above_tol=1535 failed_at=None RMS=2.3117571789796343 peak=41.997752306711114 scaled=48.3956438619149
+output0: steps=2048 output_different=1989 peak_vs_P7=0.000033020973 memory_peak_vs_P7=0.000033020973 above_tol=0 failed_at=None RMS=0.0000013028431217444298 peak=0.000026157125878167875 scaled=0.0000017438083918778584
+output0: steps=2048 output_different=1970 peak_vs_P7=0.000042676926 memory_peak_vs_P7=0.000042676926 above_tol=0 failed_at=None RMS=0.0000004809154474017298 peak=0.000007644012551377699 scaled=0.0000006108969300052299
+output1: steps=2048 output_different=1396 peak_vs_P7=0.004637718 memory_peak_vs_P7=0.0061035156 above_tol=0 failed_at=None RMS=0.000005416639289344416 peak=0.0034516645306936766 scaled=0.0004092270305780706
+output1: steps=2048 output_different=1669 peak_vs_P7=41.998295 memory_peak_vs_P7=13594.556 above_tol=1916 failed_at=None RMS=1.2418015099060429 peak=41.99831305952952 scaled=566.4392710843844
+output2: steps=2048 output_different=1591 peak_vs_P7=0.000374794 memory_peak_vs_P7=0.0014686584 above_tol=0 failed_at=None RMS=0.0000011483318034828587 peak=0.0003918260893884806 scaled=0.00004644199801617788
+triangle100: steps=1024 output_different=992 peak_vs_P7=0.000030517578 memory_peak_vs_P7=0.000030517578 above_tol=0 failed_at=None RMS=0.0000013167162428737959 peak=0.000027506437128899108 scaled=0.0000018337624752599405
+output2: steps=2048 output_different=2014 peak_vs_P7=41.998318 memory_peak_vs_P7=1081.4668 above_tol=2047 failed_at=None RMS=1.5209837484588005 peak=41.998316439838604 scaled=45.06111534563081
+triangle1000: steps=1024 output_different=835 peak_vs_P7=0.0023157597 memory_peak_vs_P7=0.025878906 above_tol=0 failed_at=None RMS=0.000004929641108682896 peak=0.0030094526275856737 scaled=0.00044977317384109483
+triangle100: steps=1024 output_different=1021 peak_vs_P7=0.05533266 memory_peak_vs_P7=0.055333138 above_tol=0 failed_at=None RMS=0.001070567624509694 peak=0.0553369241779853 scaled=0.0036891282785323537
+noise250: steps=1024 output_different=846 peak_vs_P7=0.000705719 memory_peak_vs_P7=0.0007171631 above_tol=0 failed_at=None RMS=0.0000009040388988104973 peak=0.00018779562502047042 scaled=0.000012519708334698029
+triangle1000: steps=1024 output_different=847 peak_vs_P7=41.998783 memory_peak_vs_P7=8924.306 above_tol=949 failed_at=None RMS=0.8557908891792047 peak=41.99878420652769 scaled=371.8467204561375
+step025: steps=1536 output_different=1385 peak_vs_P7=0.0037727356 memory_peak_vs_P7=0.04825592 above_tol=0 failed_at=None RMS=0.0000031469096422632637 peak=0.001511793808759876 scaled=0.0008012997890401626
+noise250: steps=1024 output_different=1003 peak_vs_P7=41.998795 memory_peak_vs_P7=26365.63 above_tol=1024 failed_at=None RMS=1.6028795497382786 peak=41.99879123493811 scaled=1098.5679635827644
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99792 memory_peak_vs_P7=17969.309 above_tol=1247 failed_at=None RMS=1.597849996454558 peak=41.99792173963041 scaled=748.7211879984926
+step1: steps=1536 output_different=1429 peak_vs_P7=0.0041046143 memory_peak_vs_P7=0.026855469 above_tol=0 failed_at=None RMS=0.000011685263983315661 peak=0.008871548905055704 scaled=0.0013825827524366712
+step1: steps=1536 output_different=1439 peak_vs_P7=42.03846 memory_peak_vs_P7=33753.418 above_tol=1438 failed_at=None RMS=0.9436207115760373 peak=42.03846272805002 scaled=1406.39246378214
+multitone: steps=1536 output_different=1418 peak_vs_P7=0.0008792877 memory_peak_vs_P7=0.009353638 above_tol=0 failed_at=None RMS=0.0000013460389213228434 peak=0.00035464137502572157 scaled=0.0001620492361524839
+multitone: steps=1536 output_different=1492 peak_vs_P7=42.040085 memory_peak_vs_P7=13341.253 above_tol=1536 failed_at=None RMS=2.143752393077676 peak=42.04008210669008 scaled=555.8855509092558
+output0: steps=2048 output_different=1989 peak_vs_P7=0.000033020973 memory_peak_vs_P7=0.000033020973 above_tol=0 failed_at=None RMS=0.0000013028431217444298 peak=0.000026157125878167875 scaled=0.0000017438083918778584
+output0: steps=2048 output_different=2040 peak_vs_P7=0.055331707 memory_peak_vs_P7=0.05533266 above_tol=0 failed_at=None RMS=0.0009670942334019398 peak=0.05533679724704932 scaled=0.0036891198164699544
+output1: steps=2048 output_different=1392 peak_vs_P7=0.004637718 memory_peak_vs_P7=0.0061035156 above_tol=0 failed_at=None RMS=0.000005412250961300752 peak=0.0034468961591116454 scaled=0.0004092270305780706
+output1: steps=2048 output_different=1553 peak_vs_P7=42.0392 memory_peak_vs_P7=9982.519 above_tol=1822 failed_at=None RMS=0.9578669710447031 peak=42.03920280438306 scaled=415.93834087552654
+output2: steps=2048 output_different=1605 peak_vs_P7=0.00038909912 memory_peak_vs_P7=0.0014419556 above_tol=0 failed_at=None RMS=0.000000917278301642042 peak=0.00027860182793482124 scaled=0.00003263196129192162
+triangle100: steps=1024 output_different=992 peak_vs_P7=0.000030517578 memory_peak_vs_P7=0.000030517578 above_tol=0 failed_at=None RMS=0.0000013167162428737959 peak=0.000027506437128899108 scaled=0.0000018337624752599405
+output2: steps=2048 output_different=2003 peak_vs_P7=42.039364 memory_peak_vs_P7=3292.0498 above_tol=2048 failed_at=None RMS=1.4897102813038605 peak=42.039355853223796 scaled=137.16873742205811
+triangle1000: steps=1024 output_different=835 peak_vs_P7=0.0023157597 memory_peak_vs_P7=0.025878906 above_tol=0 failed_at=None RMS=0.000004929641108682896 peak=0.0030094526275856737 scaled=0.00044977317384109483
+triangle100: steps=1024 output_different=990 peak_vs_P7=0.0005283356 memory_peak_vs_P7=0.00052785873 above_tol=0 failed_at=None RMS=0.000006070447353354834 peak=0.0005325990742255371 scaled=0.00003550660494836914
+noise250: steps=1024 output_different=846 peak_vs_P7=0.000705719 memory_peak_vs_P7=0.0007171631 above_tol=0 failed_at=None RMS=0.0000009040388988104973 peak=0.00018779562502047042 scaled=0.000012519708334698029
+triangle1000: steps=1024 output_different=846 peak_vs_P7=41.998314 memory_peak_vs_P7=3533.2131 above_tol=203 failed_at=None RMS=0.5357075433218728 peak=41.99831642928608 scaled=147.21666665935356
+noise250: steps=1024 output_different=1005 peak_vs_P7=41.998314 memory_peak_vs_P7=757.10767 above_tol=1011 failed_at=None RMS=1.265039264619903 peak=41.998316381593746 scaled=31.546152920716125
+step025: steps=1536 output_different=1385 peak_vs_P7=0.0037727356 memory_peak_vs_P7=0.04825592 above_tol=0 failed_at=None RMS=0.0000031469096422632637 peak=0.001511793808759876 scaled=0.0008012997890401626
+step025: steps=1536 output_different=1440 peak_vs_P7=41.99792 memory_peak_vs_P7=15136.097 above_tol=400 failed_at=None RMS=0.9980284108313346 peak=41.99792173963041 scaled=630.6706874503611
+step1: steps=1536 output_different=1429 peak_vs_P7=0.0041046143 memory_peak_vs_P7=0.026855469 above_tol=0 failed_at=None RMS=0.000011685263983315661 peak=0.008871548905055704 scaled=0.0013825827524366712
+step1: steps=1536 output_different=1438 peak_vs_P7=41.998314 memory_peak_vs_P7=21074.13 above_tol=1316 failed_at=None RMS=0.32778248116001196 peak=41.998316869711694 scaled=878.0887783763505
+multitone: steps=1536 output_different=1418 peak_vs_P7=0.0008792877 memory_peak_vs_P7=0.009353638 above_tol=0 failed_at=None RMS=0.0000013460389213228434 peak=0.00035464137502572157 scaled=0.0001620492361524839
+multitone: steps=1536 output_different=1454 peak_vs_P7=38.554337 memory_peak_vs_P7=11105.449 above_tol=739 failed_at=None RMS=1.1181877196482441 peak=38.55432277287981 scaled=462.72706520125575
+output0: steps=2048 output_different=1989 peak_vs_P7=0.000033020973 memory_peak_vs_P7=0.000033020973 above_tol=0 failed_at=None RMS=0.0000013028431217444298 peak=0.000026157125878167875 scaled=0.0000017438083918778584
+output0: steps=2048 output_different=1932 peak_vs_P7=0.0005273819 memory_peak_vs_P7=0.0005264282 above_tol=0 failed_at=None RMS=0.0000044010371114837815 peak=0.000532472143289553 scaled=0.0000354981428859702
+output1: steps=2048 output_different=1392 peak_vs_P7=0.004637718 memory_peak_vs_P7=0.0061035156 above_tol=0 failed_at=None RMS=0.000005412250961300752 peak=0.0034468961591116454 scaled=0.0004092270305780706
+output1: steps=2048 output_different=1492 peak_vs_P7=41.998314 memory_peak_vs_P7=4130.9624 above_tol=416 failed_at=None RMS=0.6002822916957156 peak=41.99831642928696 scaled=172.1228987428045
+output2: steps=2048 output_different=1605 peak_vs_P7=0.00038909912 memory_peak_vs_P7=0.0014419556 above_tol=0 failed_at=None RMS=0.000000917278301642042 peak=0.00027860182793482124 scaled=0.00003263196129192162
+triangle100: steps=1024 output_different=992 peak_vs_P7=0.000030517578 memory_peak_vs_P7=0.000030517578 above_tol=0 failed_at=None RMS=0.0000013167162428737959 peak=0.000027506437128899108 scaled=0.0000018337624752599405
+output2: steps=2048 output_different=2012 peak_vs_P7=41.998642 memory_peak_vs_P7=1172.8448 above_tol=2011 failed_at=None RMS=1.2540584641741754 peak=41.99863982560271 scaled=48.86853456389767
+triangle1000: steps=1024 output_different=835 peak_vs_P7=0.002315998 memory_peak_vs_P7=0.025878906 above_tol=0 failed_at=None RMS=0.000004930074913757459 peak=0.0030094526275856737 scaled=0.00044977317384109483
+triangle100: steps=1024 output_different=983 peak_vs_P7=0.000042915344 memory_peak_vs_P7=0.0000436306 above_tol=0 failed_at=None RMS=0.00000038061116508432473 peak=0.000011077173759588277 scaled=0.0000007384782506392185
+noise250: steps=1024 output_different=828 peak_vs_P7=0.00070858 memory_peak_vs_P7=0.0007171631 above_tol=0 failed_at=None RMS=0.0000008700385140030121 peak=0.00017883929817585908 scaled=0.000011922619878390605
+triangle1000: steps=1024 output_different=845 peak_vs_P7=9.56995 memory_peak_vs_P7=78.2593 above_tol=25 failed_at=None RMS=0.016232565120850816 peak=9.572960510061668 scaled=5.217285725259336
+step025: steps=1536 output_different=1379 peak_vs_P7=0.0037727356 memory_peak_vs_P7=0.04825592 above_tol=0 failed_at=None RMS=0.0000031547353574869506 peak=0.001511793808759876 scaled=0.0008012997890401626
+noise250: steps=1024 output_different=997 peak_vs_P7=41.99796 memory_peak_vs_P7=279.45935 above_tol=956 failed_at=None RMS=0.5895646908388552 peak=41.99795899127247 scaled=11.644140499532655
+step1: steps=1536 output_different=1202 peak_vs_P7=0.004091263 memory_peak_vs_P7=0.026855469 above_tol=0 failed_at=None RMS=0.000011667912675991439 peak=0.008858197464626016 scaled=0.0013825827524366712
+step025: steps=1536 output_different=1436 peak_vs_P7=10.447954 memory_peak_vs_P7=568.4156 above_tol=53 failed_at=None RMS=0.04702953925394349 peak=10.447996331175936 scaled=23.68400057096113
+step1: steps=1536 output_different=1437 peak_vs_P7=12.099882 memory_peak_vs_P7=104.87173 above_tol=124 failed_at=None RMS=0.017685013536532387 peak=12.099735763223283 scaled=6.991450331551865
+multitone: steps=1536 output_different=1428 peak_vs_P7=0.0008792877 memory_peak_vs_P7=0.009353638 above_tol=0 failed_at=None RMS=0.0000012526663620632624 peak=0.0003117260307874403 scaled=0.00014049904843223734
+multitone: steps=1536 output_different=1456 peak_vs_P7=25.211308 memory_peak_vs_P7=1194.7529 above_tol=522 failed_at=None RMS=0.38652678852743316 peak=25.211301513134156 scaled=49.781372377742194
+output0: steps=2048 output_different=1989 peak_vs_P7=0.000033020973 memory_peak_vs_P7=0.000033020973 above_tol=0 failed_at=None RMS=0.0000013028431217444298 peak=0.000026157125878167875 scaled=0.0000017438083918778584
+output0: steps=2048 output_different=1979 peak_vs_P7=0.000042915344 memory_peak_vs_P7=0.000044345856 above_tol=0 failed_at=None RMS=0.000000651487055144275 peak=0.000052205447870434796 scaled=0.0000034803631913623198
+output1: steps=2048 output_different=1562 peak_vs_P7=0.004637718 memory_peak_vs_P7=0.0061035156 above_tol=0 failed_at=None RMS=0.000005423942016593396 peak=0.003448803507744458 scaled=0.0004092270305780706
+output1: steps=2048 output_different=1411 peak_vs_P7=31.518438 memory_peak_vs_P7=85.26929 above_tol=70 failed_at=None RMS=0.03942236892942671 peak=31.51499048939997 scaled=5.31951281057876
+output2: steps=2048 output_different=1551 peak_vs_P7=0.00038814545 memory_peak_vs_P7=0.0014419556 above_tol=0 failed_at=None RMS=0.0000009380992212613021 peak=0.000277648153618415 scaled=0.00003263196129192162
+test bounded::diagnostics::bounded_trajectories ... ok
+output2: steps=2048 output_different=1962 peak_vs_P7=41.99832 memory_peak_vs_P7=661.0864 above_tol=1862 failed_at=None RMS=0.6685018705319398 peak=41.99831680221937 scaled=27.54526712358042
+test tracking::diagnostics::fixed_corrections_trajectories ... ok
+
+test result: ok. 50 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.02s
+
+   Doc-tests orange_dsp
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

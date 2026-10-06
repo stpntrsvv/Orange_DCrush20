@@ -1,0 +1,240 @@
+{
+  "utc": "2026-09-26T21:42:53.908935+00:00",
+  "sources": {
+    "embedded/openocd/run_packed_probe.cfg": "3397f6a47f5902ac8040837c0618ba9220e2a1967d37392689a71545b17d3496",
+    "firmware/.cargo/config.toml": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9",
+    "firmware/Cargo.lock": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f",
+    "firmware/Cargo.toml": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69",
+    "firmware/h7r3-runtime/Cargo.toml": "49b1591413c1ec7bb5e18ede8a31c7756dc369dd8e573adde04ae7229c5e5f0c",
+    "firmware/h7r3-runtime/memory-itcm.x": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26",
+    "firmware/h7r3-runtime/src/cordic.rs": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe",
+    "firmware/h7r3-runtime/src/main.rs": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813",
+    "firmware/h7r3-runtime/src/packed_probe.rs": "e64e25b439e47cbdff3ead7d9f8b92e284d84bde8ddc848b3688a8a483aeb50b",
+    "firmware/orange-dsp/Cargo.toml": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add",
+    "firmware/orange-dsp/src/absolute_ports.rs": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1",
+    "firmware/orange-dsp/src/condensed.rs": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4",
+    "firmware/orange-dsp/src/control_ports.rs": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351",
+    "firmware/orange-dsp/src/generated_condensed.rs": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e",
+    "firmware/orange-dsp/src/generated_model.rs": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a",
+    "firmware/orange-dsp/src/generated_packed.rs": "38e4f95c8f87afbb12ce914c21aa3a07f22a0377554f3ff9051e4e1d66d2d5ca",
+    "firmware/orange-dsp/src/lib.rs": "b053e1aec34154bbf00dbd56b24c4de11cf39fb530b1d68e5789a66dd4d847da",
+    "firmware/orange-dsp/src/packed.rs": "3e08e9c151923d632b68b6586d7c9c1ba945885f1f97d4b2d38950b2c68fbbf3",
+    "firmware/orange-render/Cargo.toml": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad",
+    "firmware/orange-render/src/main.rs": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+  },
+  "packages": [
+    {
+      "name": "package3",
+      "feature": "packed-f32",
+      "sha256": "7bfdbb8e75560cf17bb75dc59689a4a22aeaacc765202d9a09707c4a8320d7b1",
+      "sections": {
+        ".vectors": {
+          "address": 1024,
+          "size": 8
+        },
+        ".text": {
+          "address": 1032,
+          "size": 49784
+        },
+        ".bss": {
+          "address": 536870912,
+          "size": 0
+        },
+        ".debug_loc": {
+          "address": 0,
+          "size": 129673
+        },
+        ".debug_abbrev": {
+          "address": 0,
+          "size": 2323
+        },
+        ".debug_info": {
+          "address": 0,
+          "size": 115862
+        },
+        ".debug_aranges": {
+          "address": 0,
+          "size": 368
+        },
+        ".debug_ranges": {
+          "address": 0,
+          "size": 44344
+        },
+        ".debug_str": {
+          "address": 0,
+          "size": 86113
+        },
+        ".comment": {
+          "address": 0,
+          "size": 153
+        },
+        ".ARM.attributes": {
+          "address": 0,
+          "size": 67
+        },
+        ".debug_frame": {
+          "address": 0,
+          "size": 1608
+        },
+        ".debug_line": {
+          "address": 0,
+          "size": 37046
+        },
+        ".symtab": {
+          "address": 0,
+          "size": 4112
+        },
+        ".shstrtab": {
+          "address": 0,
+          "size": 174
+        },
+        ".strtab": {
+          "address": 0,
+          "size": 2999
+        }
+      }
+    },
+    {
+      "name": "package5",
+      "feature": "packed-extra",
+      "sha256": "0a7b95260236b48967e53518f38724686a5c7e9294c50c66ba14665572183334",
+      "sections": {
+        ".vectors": {
+          "address": 1024,
+          "size": 8
+        },
+        ".text": {
+          "address": 1032,
+          "size": 50792
+        },
+        ".bss": {
+          "address": 536870912,
+          "size": 0
+        },
+        ".debug_loc": {
+          "address": 0,
+          "size": 132274
+        },
+        ".debug_abbrev": {
+          "address": 0,
+          "size": 2332
+        },
+        ".debug_info": {
+          "address": 0,
+          "size": 117863
+        },
+        ".debug_aranges": {
+          "address": 0,
+          "size": 368
+        },
+        ".debug_ranges": {
+          "address": 0,
+          "size": 45528
+        },
+        ".debug_str": {
+          "address": 0,
+          "size": 87283
+        },
+        ".comment": {
+          "address": 0,
+          "size": 153
+        },
+        ".ARM.attributes": {
+          "address": 0,
+          "size": 67
+        },
+        ".debug_frame": {
+          "address": 0,
+          "size": 1608
+        },
+        ".debug_line": {
+          "address": 0,
+          "size": 37695
+        },
+        ".symtab": {
+          "address": 0,
+          "size": 4304
+        },
+        ".shstrtab": {
+          "address": 0,
+          "size": 174
+        },
+        ".strtab": {
+          "address": 0,
+          "size": 3065
+        }
+      }
+    },
+    {
+      "name": "package6",
+      "feature": "packed-pole",
+      "sha256": "8b73a4a269154979c1097514eab1f985f1abf413fe3c64c4ddfc712e32d27145",
+      "sections": {
+        ".vectors": {
+          "address": 1024,
+          "size": 8
+        },
+        ".text": {
+          "address": 1032,
+          "size": 50592
+        },
+        ".bss": {
+          "address": 536870912,
+          "size": 0
+        },
+        ".debug_loc": {
+          "address": 0,
+          "size": 130654
+        },
+        ".debug_abbrev": {
+          "address": 0,
+          "size": 2332
+        },
+        ".debug_info": {
+          "address": 0,
+          "size": 118613
+        },
+        ".debug_aranges": {
+          "address": 0,
+          "size": 368
+        },
+        ".debug_ranges": {
+          "address": 0,
+          "size": 45912
+        },
+        ".debug_str": {
+          "address": 0,
+          "size": 87283
+        },
+        ".comment": {
+          "address": 0,
+          "size": 153
+        },
+        ".ARM.attributes": {
+          "address": 0,
+          "size": 67
+        },
+        ".debug_frame": {
+          "address": 0,
+          "size": 1608
+        },
+        ".debug_line": {
+          "address": 0,
+          "size": 37576
+        },
+        ".symtab": {
+          "address": 0,
+          "size": 4144
+        },
+        ".shstrtab": {
+          "address": 0,
+          "size": 174
+        },
+        ".strtab": {
+          "address": 0,
+          "size": 3035
+        }
+      }
+    }
+  ]
+}

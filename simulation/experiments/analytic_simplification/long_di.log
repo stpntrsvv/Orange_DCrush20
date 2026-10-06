@@ -1,0 +1,22 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+    Finished `release` profile [optimized + debuginfo] target(s) in 6.72s
+     Running `firmware/target/aarch64-apple-darwin/release/examples/analytic_di`
+level=0.1 steps=21286958 failures=[0, 0, 0] retries=[0, 0] max_iterations=[12, 11, 13] peak_vs_P7=0.00013196468 rms_vs_P7=0.000004740988490099263 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.21593475e-5, 1.3314093e-7, 2.3116138e-7, 9.834766e-7, 1.4152145e-5, 1.8522143e-5, 1.51935965e-5, 1.5087426e-5, 7.3661795e-8, 5.9343874e-6, 1.817607e-7, 7.390976e-6, 1.3272938e-11, 4.338799e-7, 2.357774e-7, 1.7132243e-7, 0.0001322031, 0.0, 0.00046039466, 1.1637807e-5, 7.5101852e-6, 0.00013196468] host_seconds=16.939006167
+A1 level=0.1 peak_vs_P7=0.0001502037 relative_rms=0.000004793338604180814 memory_peak=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.2278557e-5, 1.6635204e-7, 2.6995724e-7, 7.4878335e-7, 8.317642e-6, 1.2546778e-5, 8.903444e-6, 9.313226e-6, 8.562347e-8, 6.005168e-6, 1.9061554e-7, 8.150935e-6, 1.3372414e-11, 3.753521e-7, 1.8060382e-7, 1.5574733e-7, 0.00015032291, 0.0, 0.0004677846, 1.1861324e-5, 7.95722e-6, 0.00014972687] retries=0
+level=0.25 steps=21286958 failures=[0, 0, 0] retries=[0, 0] max_iterations=[18, 14, 17] peak_vs_P7=0.00016355515 rms_vs_P7=0.0000029441112068501434 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.168251e-5, 1.3783574e-7, 2.3207213e-7, 1.3262033e-6, 1.0635704e-6, 6.5155327e-6, 1.2610108e-6, 1.4565885e-6, 8.3004124e-8, 6.0470775e-6, 1.3993122e-7, 8.994713e-6, 1.540279e-11, 3.0209776e-7, 1.6157355e-7, 1.2581222e-7, 0.00016331673, 0.0, 0.00045295933, 1.2344681e-5, 9.026378e-6, 0.00019073486] host_seconds=20.517206584
+A1 level=0.25 peak_vs_P7=0.0066547394 relative_rms=0.0000033536099399438904 memory_peak=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.5665455e-6, 1.3411045e-7, 2.2563108e-7, 1.0281801e-6, 1.6298145e-6, 6.6310167e-6, 2.015382e-6, 2.0861626e-6, 9.126961e-8, 4.377216e-6, 1.7893035e-7, 6.7427754e-6, 1.2903456e-11, 3.8009603e-7, 1.8469655e-7, 1.322478e-7, 0.006570816, 0.0, 0.000644207, 1.0043383e-5, 7.085502e-6, 0.07653999] retries=0

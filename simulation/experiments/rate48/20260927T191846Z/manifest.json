@@ -1,0 +1,121 @@
+{
+  "sources": {
+    "embedded/openocd/run_rate48_probe.cfg": "c4a7985ebdf711e129e46e4fcc2a11eb1be212e1ce175272299cce87a2037e37",
+    "firmware/.cargo/config.toml": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9",
+    "firmware/Cargo.lock": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f",
+    "firmware/Cargo.toml": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69",
+    "firmware/h7r3-runtime/Cargo.toml": "307ec134fe752c5438f7bf931fe88b0b680786c93db286faa7c40d0b405c2fbf",
+    "firmware/h7r3-runtime/memory-itcm.x": "0d6a6d7ead063e26056e26bfec41f4ea362f8e1372c7bf71866112de273265b3",
+    "firmware/h7r3-runtime/src/cordic.rs": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe",
+    "firmware/h7r3-runtime/src/main.rs": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813",
+    "firmware/h7r3-runtime/src/packed_probe.rs": "3ea8725fc21f9f7129da909e1d75b3f6228b6e875b5dc68d0fb85271b62d219f",
+    "firmware/h7r3-runtime/src/rate48_probe.rs": "bd0be7541586a2c9ec56732900c07682beeeef446328c037e7e2828a965a5f15",
+    "firmware/orange-dsp/Cargo.toml": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add",
+    "firmware/orange-dsp/src/absolute_ports.rs": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1",
+    "firmware/orange-dsp/src/analytic.rs": "d859c3105852b4e266892d33f8ae13cbef22be79f8bde919728c2366e78ab0f1",
+    "firmware/orange-dsp/src/analytic_diagnostics.rs": "f91b53228c93be640cdd370e81d119c705c9ecc3a6b815e49d52c031d104901d",
+    "firmware/orange-dsp/src/bounded.rs": "5f8578a5591c912e44e6903864ac65b38d05ac34699b3db5728476311bde478e",
+    "firmware/orange-dsp/src/bounded48.rs": "3e0ac1e9bbafe54a587c61a79adc8a86d052b03b333fc9d8823dfdfd6769682c",
+    "firmware/orange-dsp/src/bounded_diagnostics.rs": "eb025a13d589839d82bade798c33fcf6f77920367dcf54ac18402bbb944c6310",
+    "firmware/orange-dsp/src/condensed.rs": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4",
+    "firmware/orange-dsp/src/control_ports.rs": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351",
+    "firmware/orange-dsp/src/exponential.rs": "7435d853d2c627d2241d3addaeeb682e9ffa3e475ecef6edf685933ef073eef9",
+    "firmware/orange-dsp/src/generated_condensed.rs": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e",
+    "firmware/orange-dsp/src/generated_condensed48.rs": "3625a1d6998d4fd625bc1a9ad179fd80987a612abca90eb2493f2bfad528af70",
+    "firmware/orange-dsp/src/generated_exponential.rs": "3073a751176c8ab28101f021e900545fccdc1377b6185321865d7ce10190a4e7",
+    "firmware/orange-dsp/src/generated_model.rs": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a",
+    "firmware/orange-dsp/src/generated_packed.rs": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a",
+    "firmware/orange-dsp/src/generated_packed48.rs": "e39afd47fd3ba213865a28f286de8685ca053d904ee48df4045aa9c1e20885ac",
+    "firmware/orange-dsp/src/generated_repeated.rs": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71",
+    "firmware/orange-dsp/src/lib.rs": "e2855ed6771eb479d4627f48530b73129bcfecb0d4775c125ae2f974121325f2",
+    "firmware/orange-dsp/src/packed.rs": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b",
+    "firmware/orange-dsp/src/repeated.rs": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c",
+    "firmware/orange-dsp/src/repeated_diagnostics.rs": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9",
+    "firmware/orange-dsp/src/scalar.rs": "2865c883cc3093784f994d59612362706d5baf460758243f60b1ea56de4dd505",
+    "firmware/orange-dsp/src/scalar_diagnostics.rs": "9a85c44584dda9706cab97ad9554fd0767e37e8591913ca84b44401276bb1b16",
+    "firmware/orange-dsp/src/tracking.rs": "d75a3b1ac6e4e04606da469daad9781eef56524afe7ca8254b587f58a685cc93",
+    "firmware/orange-dsp/src/tracking_diagnostics.rs": "27caebccccac67619e0627d698f8267deffe99bc40a5cb262322952bb5cc886d",
+    "firmware/orange-render/Cargo.toml": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad",
+    "firmware/orange-render/src/main.rs": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57",
+    "simulation/generate_rate48.py": "20c3fc7c7c2946f2b94cf59ff0db9d467070493e7d116132876c977fa505b284",
+    "simulation/run_rate48_hardware.py": "6baf20af674360f3715133cc8f5ae2441a069254b2f10a586c100d903b28a1e7"
+  },
+  "elf_sha256": "de183cd9b1bc800d385598db17446b0aec3b22a5a5157ba229b686b90c4f1262",
+  "sections": {
+    ".vectors": {
+      "address": 1024,
+      "size": 8
+    },
+    ".text": {
+      "address": 1032,
+      "size": 57296
+    },
+    ".bss": {
+      "address": 536870912,
+      "size": 0
+    },
+    ".debug_loc": {
+      "address": 0,
+      "size": 146414
+    },
+    ".debug_abbrev": {
+      "address": 0,
+      "size": 2313
+    },
+    ".debug_info": {
+      "address": 0,
+      "size": 125890
+    },
+    ".debug_aranges": {
+      "address": 0,
+      "size": 392
+    },
+    ".debug_ranges": {
+      "address": 0,
+      "size": 48880
+    },
+    ".debug_str": {
+      "address": 0,
+      "size": 82694
+    },
+    ".comment": {
+      "address": 0,
+      "size": 153
+    },
+    ".ARM.attributes": {
+      "address": 0,
+      "size": 67
+    },
+    ".debug_frame": {
+      "address": 0,
+      "size": 1744
+    },
+    ".debug_line": {
+      "address": 0,
+      "size": 43010
+    },
+    ".symtab": {
+      "address": 0,
+      "size": 4736
+    },
+    ".shstrtab": {
+      "address": 0,
+      "size": 174
+    },
+    ".strtab": {
+      "address": 0,
+      "size": 3899
+    }
+  },
+  "input_sha256": "7a9772c3bcbb823fe202ab2e79a02b2f0af12c41a610ba0c0d1b7d47a1139404",
+  "frames": 10643479,
+  "chunks": 650,
+  "peak_bits": 1190342656,
+  "levels_v": [
+    0.1,
+    0.25,
+    1.0
+  ],
+  "candidate": "unchanged BoundedState<3,7>, BDF2/48k",
+  "control": "P7 BDF2/96k two steps with linear interpolation"
+}

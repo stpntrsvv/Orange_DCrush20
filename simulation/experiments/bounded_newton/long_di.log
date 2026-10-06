@@ -1,0 +1,22 @@
+    Blocking waiting for file lock on build directory
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+    Finished `release` profile [optimized + debuginfo] target(s) in 45.27s
+     Running `firmware/target/aarch64-apple-darwin/release/examples/bounded_di`
+level=0.1 steps=21286958 failures=[0, 0] retries=[0, 0] max_iterations=[3, 11] peak_vs_P7=0.0007863045 rms_vs_P7=0.00001526035801972225 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.017089e-5, 3.900379e-6, 5.42216e-6, 0.00021253899, 2.4723762e-5, 0.00018779933, 0.00018736068, 0.00018782355, 2.7637216e-6, 2.7254224e-5, 3.658468e-6, 5.0857663e-5, 9.3479e-11, 6.292481e-6, 3.352994e-6, 2.6456546e-6, 0.0007863045, 0.0, 0.00046302314, 5.669892e-5, 5.1110983e-5, 0.0007867813] host_seconds=19.882613166
+level=0.25 steps=21286958 failures=[0, 0] retries=[0, 0] max_iterations=[5, 14] peak_vs_P7=0.0008904934 rms_vs_P7=0.000006544738916100693 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.1035156e-5, 6.5760687e-6, 5.2195974e-6, 0.0003490001, 3.3266493e-5, 0.0003170129, 0.00031737983, 0.00031730905, 2.7322676e-6, 2.9399991e-5, 5.622627e-6, 5.5491924e-5, 1.05160325e-10, 9.441748e-6, 4.0973537e-6, 2.792105e-6, 0.0008904934, 0.0, 0.00046176033, 6.0647726e-5, 5.686283e-5, 0.0008907318] host_seconds=14.503719583
+level=1 steps=21286958 failures=[0, 0] retries=[0, 13] max_iterations=[7, 26] peak_vs_P7=0.063269615 rms_vs_P7=0.000005157693516469568 memory_peak_vs_P7=[0.0, 0.0, 1.2516975e-6, 5.029142e-8, 5.1781535e-7, 2.30968e-7, 7.250905e-5, 1.0550022e-5, 5.503185e-6, 7.769487e-5, 2.0947307e-5, 0.00010076538, 7.274474e-5, 7.325025e-5, 3.8070139e-6, 8.4389e-5, 6.9774687e-6, 7.247925e-5, 1.2744295e-10, 1.07791275e-5, 4.677102e-6, 3.5224948e-6, 0.062371254, 0.0034942627, 0.0015106201, 0.0001809597, 7.265806e-5, 0.0632782] host_seconds=15.462551625

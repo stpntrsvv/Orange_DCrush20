@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "elf": "20260927T165730Z/package11.elf",
+      "measured": true,
+      "sha256": "b514747ee6b5c97568c542a1288bcc2ef34b0d95ca26c6311917999e2f1b907c"
+    },
+    {
+      "elf": "20260927T165730Z/package12.elf",
+      "measured": true,
+      "sha256": "694fb946b7648d6a51303d42a02d2323a3db5c78d88ef7b14cdff29203d9e66d"
+    },
+    {
+      "elf": "20260927T165730Z/package13.elf",
+      "measured": true,
+      "sha256": "85c1658bd7cce960808137ce833355cd3a9fc3b5c4e3e7b53e23ac5b5b28f328"
+    },
+    {
+      "elf": "20260927T165112Z/package11.elf",
+      "measured": false,
+      "sha256": "7a50ee754d52c32e2dd05bceffd6567a19cc4a1be0d916ae7bf5c9910da59c68"
+    },
+    {
+      "elf": "20260927T165112Z/package12.elf",
+      "measured": false,
+      "sha256": "08a2a6b769bfce8bc7dc43ae06e88f0aec423413d813378aba5877e8c77848b8"
+    },
+    {
+      "elf": "20260927T165232Z/package11.elf",
+      "measured": true,
+      "sha256": "7a50ee754d52c32e2dd05bceffd6567a19cc4a1be0d916ae7bf5c9910da59c68"
+    },
+    {
+      "elf": "20260927T165232Z/package12.elf",
+      "measured": true,
+      "sha256": "08a2a6b769bfce8bc7dc43ae06e88f0aec423413d813378aba5877e8c77848b8"
+    },
+    {
+      "elf": "20260927T165606Z/package13.elf",
+      "measured": true,
+      "sha256": "79bea4e2afaf087289856384e009705690b556be9a33ecb317796e2a099f1f1a"
+    }
+  ],
+  "host_tests_passed": 45,
+  "pcm24_wavs": 27,
+  "flash_written": false,
+  "baseline_P7_unchanged": true,
+  "scalar_S8_unchanged": true,
+  "last_reset_verified": true
+}

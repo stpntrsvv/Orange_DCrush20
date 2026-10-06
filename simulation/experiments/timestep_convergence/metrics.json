@@ -1,0 +1,101 @@
+{
+  "status": "four-level float64 timestep convergence",
+  "physics": "same provisional full MNA and 16 ms qualification input",
+  "cases": [
+    {
+      "name": "bdf2_768000",
+      "sample_rate_hz": 768000.0,
+      "integration": "bdf2",
+      "load": "reactive_speaker",
+      "level_v": 0.1,
+      "state_count": 60,
+      "output_rms_v": 7.507160864295021,
+      "output_peak_v": 20.283924569812193,
+      "tone_rms_v": 0.22232872811335022,
+      "load_current_rms_a": 0.5564600403168388,
+      "load_real_power_w": 2.8074052643339864,
+      "max_kcl_a": 1.9997343838213657e-11,
+      "max_scaled_residual": 1.9997343838213657e-09,
+      "max_iterations": 6,
+      "max_continuation_steps": 0,
+      "continuation_sample_count": 0
+    },
+    {
+      "name": "bdf2_1536000",
+      "sample_rate_hz": 1536000.0,
+      "integration": "bdf2",
+      "load": "reactive_speaker",
+      "level_v": 0.1,
+      "state_count": 60,
+      "output_rms_v": 7.509267392910428,
+      "output_peak_v": 20.227898843025116,
+      "tone_rms_v": 0.222368159028943,
+      "load_current_rms_a": 0.5565396285507481,
+      "load_real_power_w": 2.8078472977037374,
+      "max_kcl_a": 1.9983583056149045e-11,
+      "max_scaled_residual": 1.9983583056149045e-09,
+      "max_iterations": 5,
+      "max_continuation_steps": 0,
+      "continuation_sample_count": 0
+    },
+    {
+      "name": "bdf2_3072000",
+      "sample_rate_hz": 3072000.0,
+      "integration": "bdf2",
+      "load": "reactive_speaker",
+      "level_v": 0.1,
+      "state_count": 60,
+      "output_rms_v": 7.509738895549844,
+      "output_peak_v": 20.19938958104329,
+      "tone_rms_v": 0.2223772503280223,
+      "load_current_rms_a": 0.5565612069353078,
+      "load_real_power_w": 2.8079741901089466,
+      "max_kcl_a": 1.9982187989496785e-11,
+      "max_scaled_residual": 1.9995177365691084e-09,
+      "max_iterations": 4,
+      "max_continuation_steps": 0,
+      "continuation_sample_count": 0
+    },
+    {
+      "name": "bdf2_6144000",
+      "sample_rate_hz": 6144000.0,
+      "integration": "bdf2",
+      "load": "reactive_speaker",
+      "level_v": 0.1,
+      "state_count": 60,
+      "output_rms_v": 7.509838984722908,
+      "output_peak_v": 20.185219350200015,
+      "tone_rms_v": 0.22237924203446957,
+      "load_current_rms_a": 0.556567504319702,
+      "load_real_power_w": 2.808010903460806,
+      "max_kcl_a": 1.9996730236497188e-11,
+      "max_scaled_residual": 1.9996730236497188e-09,
+      "max_iterations": 4,
+      "max_continuation_steps": 0,
+      "continuation_sample_count": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "coarse_rate_hz": 768000.0,
+      "fine_rate_hz": 1536000.0,
+      "output_rms_error_v": 0.01894485573703016,
+      "output_relative_rms_error": 0.0025228633827736884,
+      "output_peak_error_v": 0.40274111034089266
+    },
+    {
+      "coarse_rate_hz": 1536000.0,
+      "fine_rate_hz": 3072000.0,
+      "output_rms_error_v": 0.00806864356017166,
+      "output_relative_rms_error": 0.0010744239809659713,
+      "output_peak_error_v": 0.17447158258447715
+    },
+    {
+      "coarse_rate_hz": 3072000.0,
+      "fine_rate_hz": 6144000.0,
+      "output_rms_error_v": 0.0038853223000430395,
+      "output_relative_rms_error": 0.0005173642614637758,
+      "output_peak_error_v": 0.08790167213046018
+    }
+  ]
+}

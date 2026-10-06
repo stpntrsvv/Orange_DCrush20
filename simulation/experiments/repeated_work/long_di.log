@@ -1,0 +1,6 @@
+    Blocking waiting for file lock on build directory
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 6.97s
+     Running `target/aarch64-apple-darwin/release/examples/repeated_di`
+level=0.1 steps=21286958 failures=[0, 0] retries=[0, 0] max_iterations=[11, 11] peak_vs_P7=0 rms_vs_P7=0 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] host_seconds=11.875004208
+level=0.25 steps=21286958 failures=[0, 0] retries=[0, 0] max_iterations=[14, 14] peak_vs_P7=0 rms_vs_P7=0 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] host_seconds=11.979640792

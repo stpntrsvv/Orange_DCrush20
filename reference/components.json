@@ -1,0 +1,1268 @@
+{
+  "source": "originals/orange_crush_20l_guitar_amp_sch.pdf",
+  "source_sha256": "c666f9ca5cf41e00267ec62ba296bd96948e46974cbcfff1b1fa47fd97c5a90d",
+  "status": "manual_transcription_not_validated_against_hardware",
+  "units": {
+    "R": "ohm",
+    "C": "farad",
+    "pot": "ohm"
+  },
+  "notes": [
+    "Топологическая транскрипция; не исполняемый SPICE netlist.",
+    "E обозначает электролит; все показанные E имеют номинальное напряжение 50 В, кроме E1/E2/E5/E6 — 35 В и опций E16/E17.",
+    "Полярность электролитов ещё не перенесена в машиночитаемые поля.",
+    "R1/R2/R6 — 1 Вт; опциональный R39 — 5 Вт.",
+    "Координата потенциометра A→B пока не сопоставлена механической шкале."
+  ],
+  "components": [
+    {
+      "ref": "R25",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "in",
+        "input_protected"
+      ],
+      "block": "input",
+      "note": ""
+    },
+    {
+      "ref": "C21",
+      "kind": "C",
+      "value": 1e-10,
+      "nodes": [
+        "input_protected",
+        "G"
+      ],
+      "block": "input",
+      "note": ""
+    },
+    {
+      "ref": "C20",
+      "kind": "C",
+      "value": 4.7e-08,
+      "nodes": [
+        "input_protected",
+        "a_plus"
+      ],
+      "block": "input",
+      "note": ""
+    },
+    {
+      "ref": "R24",
+      "kind": "R",
+      "value": 1000000.0,
+      "nodes": [
+        "a_plus",
+        "G"
+      ],
+      "block": "input",
+      "note": ""
+    },
+    {
+      "ref": "R23",
+      "kind": "R",
+      "value": 100000.0,
+      "nodes": [
+        "a_out",
+        "a_minus"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "C22",
+      "kind": "C",
+      "value": 2.2e-08,
+      "nodes": [
+        "G",
+        "a_low"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "R29",
+      "kind": "R",
+      "value": 4700.0,
+      "nodes": [
+        "a_low",
+        "a_minus"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "E15",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "a_minus",
+        "a_gain_c"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "R18",
+      "kind": "R",
+      "value": 1500.0,
+      "nodes": [
+        "a_gain_c",
+        "gain_left"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "E10",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "a_out",
+        "a_coupled"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "R20",
+      "kind": "R",
+      "value": 10000.0,
+      "nodes": [
+        "a_coupled",
+        "gain_right"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "C19",
+      "kind": "C",
+      "value": 4.7e-08,
+      "nodes": [
+        "gain_right",
+        "b_plus"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "R19",
+      "kind": "R",
+      "value": 470000.0,
+      "nodes": [
+        "b_plus",
+        "G"
+      ],
+      "block": "IC3A_gain",
+      "note": ""
+    },
+    {
+      "ref": "R22",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "b_minus",
+        "b_out"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "C18",
+      "kind": "C",
+      "value": 4.7e-10,
+      "nodes": [
+        "b_minus",
+        "b_out"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "E13",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "b_minus",
+        "b_feedback_c"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "R34",
+      "kind": "R",
+      "value": 1000.0,
+      "nodes": [
+        "b_feedback_c",
+        "b_feedback_r"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "R33",
+      "kind": "R",
+      "value": 6800.0,
+      "nodes": [
+        "b_feedback_r",
+        "clip_ref"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "C12",
+      "kind": "C",
+      "value": 2.2e-07,
+      "nodes": [
+        "b_feedback_r",
+        "clip_ref"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "E14",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "b_out",
+        "b_coupled"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "R35",
+      "kind": "R",
+      "value": 2700.0,
+      "nodes": [
+        "b_coupled",
+        "clip"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "R37",
+      "kind": "R",
+      "value": 100000.0,
+      "nodes": [
+        "clip_ref",
+        "G"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "R36",
+      "kind": "R",
+      "value": 1000.0,
+      "nodes": [
+        "clip",
+        "tone_coupled"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "E12",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "tone_coupled",
+        "tone_in"
+      ],
+      "block": "IC3B_clip",
+      "note": ""
+    },
+    {
+      "ref": "C8",
+      "kind": "C",
+      "value": 2.2e-10,
+      "nodes": [
+        "tone_in",
+        "treble_left"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "R12",
+      "kind": "R",
+      "value": 68000.0,
+      "nodes": [
+        "tone_in",
+        "tone_low"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "C5",
+      "kind": "C",
+      "value": 1e-07,
+      "nodes": [
+        "tone_low",
+        "tone_high"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "C6",
+      "kind": "C",
+      "value": 4.7e-08,
+      "nodes": [
+        "tone_low",
+        "tone_mid"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "C9",
+      "kind": "C",
+      "value": 1e-07,
+      "nodes": [
+        "treble_wiper",
+        "c_plus"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "R13",
+      "kind": "R",
+      "value": 1000000.0,
+      "nodes": [
+        "c_plus",
+        "G"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "R16",
+      "kind": "R",
+      "value": 10000.0,
+      "nodes": [
+        "c_minus",
+        "c_out"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "C14",
+      "kind": "C",
+      "value": 1e-10,
+      "nodes": [
+        "c_minus",
+        "c_out"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "R15",
+      "kind": "R",
+      "value": 10000.0,
+      "nodes": [
+        "c_minus",
+        "c_feedback_c"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "E9",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "c_feedback_c",
+        "G"
+      ],
+      "block": "tone_IC4A",
+      "note": ""
+    },
+    {
+      "ref": "R21",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "c_out",
+        "d_minus"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "R17",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "d_minus",
+        "d_out"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "C15",
+      "kind": "C",
+      "value": 2.2e-10,
+      "nodes": [
+        "d_minus",
+        "d_out"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "R43",
+      "kind": "R",
+      "value": 22000.0,
+      "nodes": [
+        "aux_l",
+        "aux_sum"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "R40",
+      "kind": "R",
+      "value": 22000.0,
+      "nodes": [
+        "aux_r",
+        "aux_sum"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "R41",
+      "kind": "R",
+      "value": 100000.0,
+      "nodes": [
+        "aux_l",
+        "G"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "R42",
+      "kind": "R",
+      "value": 100000.0,
+      "nodes": [
+        "aux_r",
+        "G"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "E18",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "aux_link",
+        "d_minus"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "E8",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "d_out",
+        "mute_input"
+      ],
+      "block": "IC4B_aux",
+      "note": ""
+    },
+    {
+      "ref": "R50",
+      "kind": "R",
+      "value": 10000.0,
+      "nodes": [
+        "volume_top",
+        "G"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "C10",
+      "kind": "C",
+      "value": 2.2e-07,
+      "nodes": [
+        "volume_wiper",
+        "power_plus"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "R30",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "power_plus",
+        "G"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "R9",
+      "kind": "R",
+      "value": 22000.0,
+      "nodes": [
+        "power_minus",
+        "power_out"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "R38",
+      "kind": "R",
+      "value": 470.0,
+      "nodes": [
+        "power_minus",
+        "power_feedback_c"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "E7",
+      "kind": "C",
+      "value": 2.2e-05,
+      "nodes": [
+        "power_feedback_c",
+        "G"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "C13",
+      "kind": "C",
+      "value": 1e-07,
+      "nodes": [
+        "VP24",
+        "VN24"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "C3",
+      "kind": "C",
+      "value": 1e-07,
+      "nodes": [
+        "speaker_hot",
+        "zobel"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "R8",
+      "kind": "R",
+      "value": 1.0,
+      "nodes": [
+        "zobel",
+        "G"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "R6",
+      "kind": "R",
+      "value": 220.0,
+      "nodes": [
+        "speaker_hot",
+        "phones_feed"
+      ],
+      "block": "volume_power",
+      "note": ""
+    },
+    {
+      "ref": "R1",
+      "kind": "R",
+      "value": 330.0,
+      "nodes": [
+        "VN24",
+        "VN15"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "R2",
+      "kind": "R",
+      "value": 330.0,
+      "nodes": [
+        "VP24",
+        "VP15"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "E1",
+      "kind": "C",
+      "value": 0.0022,
+      "nodes": [
+        "VN24",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "E2",
+      "kind": "C",
+      "value": 0.0022,
+      "nodes": [
+        "VP24",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "E5",
+      "kind": "C",
+      "value": 0.0001,
+      "nodes": [
+        "VN15",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "E6",
+      "kind": "C",
+      "value": 0.0001,
+      "nodes": [
+        "VP15",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "R4",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "VN24",
+        "led_k"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "R48",
+      "kind": "R",
+      "value": 6800.0,
+      "nodes": [
+        "mute_bias",
+        "mute_zener"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "R47",
+      "kind": "R",
+      "value": 47000.0,
+      "nodes": [
+        "mute_bias",
+        "VN24"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "R46",
+      "kind": "R",
+      "value": 2200000.0,
+      "nodes": [
+        "mute_bias",
+        "mute_delay"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "R45",
+      "kind": "R",
+      "value": 10000000.0,
+      "nodes": [
+        "mute_delay",
+        "mute_gate"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "C25",
+      "kind": "C",
+      "value": 1e-06,
+      "nodes": [
+        "mute_gate",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "E21",
+      "kind": "C",
+      "value": 2.2e-06,
+      "nodes": [
+        "mute_rect",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": ""
+    },
+    {
+      "ref": "D6",
+      "kind": "diode",
+      "value": "1N4148",
+      "nodes": [
+        "input_protected",
+        "VP15"
+      ],
+      "block": "diodes",
+      "note": "Порядок узлов: анод, катод; закон тока пока не выбран."
+    },
+    {
+      "ref": "D7",
+      "kind": "diode",
+      "value": "1N4148",
+      "nodes": [
+        "VN15",
+        "input_protected"
+      ],
+      "block": "diodes",
+      "note": "Порядок узлов: анод, катод; закон тока пока не выбран."
+    },
+    {
+      "ref": "D4",
+      "kind": "diode",
+      "value": "1N4148",
+      "nodes": [
+        "clip_ref",
+        "clip"
+      ],
+      "block": "diodes",
+      "note": "Порядок узлов: анод, катод; закон тока пока не выбран."
+    },
+    {
+      "ref": "D5",
+      "kind": "diode",
+      "value": "1N4148",
+      "nodes": [
+        "clip",
+        "clip_ref"
+      ],
+      "block": "diodes",
+      "note": "Порядок узлов: анод, катод; закон тока пока не выбран."
+    },
+    {
+      "ref": "D11",
+      "kind": "diode",
+      "value": "1N4148",
+      "nodes": [
+        "mute_delay",
+        "mute_bias"
+      ],
+      "block": "diodes",
+      "note": "Порядок узлов: анод, катод; закон тока пока не выбран."
+    },
+    {
+      "ref": "D2",
+      "kind": "diode",
+      "value": "1N4744A",
+      "nodes": [
+        "VN15",
+        "G"
+      ],
+      "block": "rails_mute",
+      "note": "Анод, катод."
+    },
+    {
+      "ref": "D3",
+      "kind": "diode",
+      "value": "1N4744A",
+      "nodes": [
+        "G",
+        "VP15"
+      ],
+      "block": "rails_mute",
+      "note": "Анод, катод."
+    },
+    {
+      "ref": "D10",
+      "kind": "diode",
+      "value": "1N4004",
+      "nodes": [
+        "ac_b",
+        "mute_rect"
+      ],
+      "block": "rails_mute",
+      "note": "Анод, катод."
+    },
+    {
+      "ref": "D12",
+      "kind": "diode",
+      "value": "1N4744A?",
+      "nodes": [
+        "mute_zener",
+        "mute_rect"
+      ],
+      "block": "rails_mute",
+      "note": "Анод, катод. Знак ? у D12 присутствует на исходном листе."
+    },
+    {
+      "ref": "VR1",
+      "kind": "pot",
+      "value": 10000,
+      "nodes": [
+        "gain_left",
+        "G",
+        "gain_right"
+      ],
+      "block": "controls",
+      "note": "Порядок: конец A, движок W, конец B. B10K; движок заземлён. Два плеча одновременно меняют ООС IC3A и нагрузку его выхода."
+    },
+    {
+      "ref": "VR2",
+      "kind": "pot",
+      "value": 50000,
+      "nodes": [
+        "od_top",
+        "G",
+        "G"
+      ],
+      "block": "controls",
+      "note": "Порядок: конец A, движок W, конец B. C50K; движок соединён с правым концом и землёй. Закон C пока не задан."
+    },
+    {
+      "ref": "VR3",
+      "kind": "pot",
+      "value": 50000,
+      "nodes": [
+        "volume_top",
+        "volume_wiper",
+        "G"
+      ],
+      "block": "controls",
+      "note": "Порядок: конец A, движок W, конец B. B50K"
+    },
+    {
+      "ref": "VR4",
+      "kind": "pot",
+      "value": 250000,
+      "nodes": [
+        "treble_left",
+        "treble_wiper",
+        "tone_high"
+      ],
+      "block": "controls",
+      "note": "Порядок: конец A, движок W, конец B. B250K"
+    },
+    {
+      "ref": "VR5",
+      "kind": "pot",
+      "value": 25000,
+      "nodes": [
+        "tone_mid",
+        "G",
+        "G"
+      ],
+      "block": "controls",
+      "note": "Порядок: конец A, движок W, конец B. B25K; движок соединён с нижним концом и землёй."
+    },
+    {
+      "ref": "VR6",
+      "kind": "pot",
+      "value": 250000,
+      "nodes": [
+        "tone_high",
+        "tone_high",
+        "tone_mid"
+      ],
+      "block": "controls",
+      "note": "Порядок: конец A, движок W, конец B. B250K; движок соединён с верхним концом."
+    },
+    {
+      "ref": "IC3A",
+      "kind": "opamp",
+      "value": "TL072CN",
+      "nodes": [
+        "a_plus",
+        "a_minus",
+        "a_out",
+        "VP15",
+        "VN15"
+      ],
+      "block": "active",
+      "note": "Порядок: +IN, -IN, OUT, V+, V-. Внутренняя модель пока не задана."
+    },
+    {
+      "ref": "IC3B",
+      "kind": "opamp",
+      "value": "TL072CN",
+      "nodes": [
+        "b_plus",
+        "b_minus",
+        "b_out",
+        "VP15",
+        "VN15"
+      ],
+      "block": "active",
+      "note": "Порядок: +IN, -IN, OUT, V+, V-. Внутренняя модель пока не задана."
+    },
+    {
+      "ref": "IC4A",
+      "kind": "opamp",
+      "value": "TL072CN",
+      "nodes": [
+        "c_plus",
+        "c_minus",
+        "c_out",
+        "VP15",
+        "VN15"
+      ],
+      "block": "active",
+      "note": "Порядок: +IN, -IN, OUT, V+, V-. Внутренняя модель пока не задана."
+    },
+    {
+      "ref": "IC4B",
+      "kind": "opamp",
+      "value": "TL072CN",
+      "nodes": [
+        "G",
+        "d_minus",
+        "d_out",
+        "VP15",
+        "VN15"
+      ],
+      "block": "active",
+      "note": "Порядок: +IN, -IN, OUT, V+, V-. Внутренняя модель пока не задана."
+    },
+    {
+      "ref": "IC1",
+      "kind": "poweramp",
+      "value": "TDA2050",
+      "nodes": [
+        "power_plus",
+        "power_minus",
+        "power_out",
+        "VP24",
+        "VN24"
+      ],
+      "block": "active",
+      "note": "Порядок: +IN, -IN, OUT, V+, V-."
+    },
+    {
+      "ref": "Q1",
+      "kind": "jfet",
+      "value": "2SK30GR",
+      "nodes": [
+        "mute_input",
+        "volume_top",
+        "mute_gate"
+      ],
+      "block": "rails_mute",
+      "note": "Порядок: два сигнальных вывода канала, затвор. На увеличенном листе Q1 стоит последовательно между E8 и Volume; D/S не назначены."
+    },
+    {
+      "ref": "BD1",
+      "kind": "bridge",
+      "value": "2W10",
+      "nodes": [
+        "ac_a",
+        "ac_b",
+        "VP24",
+        "VN24"
+      ],
+      "block": "supply",
+      "note": "Средняя точка вторички трансформатора — G."
+    },
+    {
+      "ref": "LED1",
+      "kind": "led",
+      "value": "RD",
+      "nodes": [
+        "G",
+        "led_k"
+      ],
+      "block": "supply",
+      "note": "Анод, катод; параметры не заданы."
+    },
+    {
+      "ref": "TR",
+      "kind": "transformer",
+      "value": "230/2x18V; EI60/35",
+      "nodes": [],
+      "block": "supply",
+      "note": "Данные надписи; модель сопротивлений и рассеяния отсутствует."
+    },
+    {
+      "ref": "C23",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "VN24",
+        "G"
+      ],
+      "block": "optional",
+      "note": "[]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "C24",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "VP24",
+        "G"
+      ],
+      "block": "optional",
+      "note": "[]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "D8",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "ac_b",
+        "optional_rect"
+      ],
+      "block": "optional",
+      "note": "[]*; анод, катод; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "D9",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "ac_a",
+        "optional_rect"
+      ],
+      "block": "optional",
+      "note": "[]*; анод, катод; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "E3",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "optional_rect",
+        "G"
+      ],
+      "block": "optional",
+      "note": "[]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "R39",
+      "kind": "optional",
+      "value": 100,
+      "nodes": [
+        "optional_rect",
+        "optional_reg_in"
+      ],
+      "block": "optional",
+      "note": "[100/5W]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "E16",
+      "kind": "optional",
+      "value": 0.0001,
+      "nodes": [
+        "optional_reg_in",
+        "G"
+      ],
+      "block": "optional",
+      "note": "[100/25]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "E17",
+      "kind": "optional",
+      "value": 2.2e-05,
+      "nodes": [
+        "optional_5v",
+        "G"
+      ],
+      "block": "optional",
+      "note": "[22/50]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "IC5",
+      "kind": "optional",
+      "value": "7805",
+      "nodes": [
+        "optional_reg_in",
+        "G",
+        "optional_5v"
+      ],
+      "block": "optional",
+      "note": "[7805]*; установка/значение не подтверждены, не включать по умолчанию."
+    },
+    {
+      "ref": "J7",
+      "kind": "link",
+      "value": 0,
+      "nodes": [
+        "power_out",
+        "speaker_hot"
+      ],
+      "block": "connections",
+      "note": "Перемычка на листе."
+    },
+    {
+      "ref": "J9",
+      "kind": "link",
+      "value": 0,
+      "nodes": [
+        "aux_sum",
+        "aux_link"
+      ],
+      "block": "connections",
+      "note": "Перемычка на листе."
+    },
+    {
+      "ref": "J12",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "optional_rect",
+        "VN24"
+      ],
+      "block": "connections",
+      "note": "[]*; назначение/установка требуют сверки."
+    },
+    {
+      "ref": "J8",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "cn7_2",
+        "G"
+      ],
+      "block": "connections",
+      "note": "[]*; опциональная перемычка контакта 2 CN7 на G."
+    },
+    {
+      "ref": "J3",
+      "kind": "optional",
+      "value": null,
+      "nodes": [
+        "cn7_1",
+        "d_minus"
+      ],
+      "block": "connections",
+      "note": "[]*; опциональная перемычка контакта 1 CN7 на суммирующий узел IC4B."
+    },
+    {
+      "ref": "CN7",
+      "kind": "connector",
+      "value": null,
+      "nodes": [
+        "VN15",
+        "VP15",
+        "c_out",
+        "cn7_2",
+        "cn7_1"
+      ],
+      "block": "connections",
+      "note": "Контакты 5,4,3,2,1; []*, внешняя плата неизвестна."
+    },
+    {
+      "ref": "CON1",
+      "kind": "connector",
+      "value": "SP",
+      "nodes": [
+        "speaker_hot",
+        "speaker_return"
+      ],
+      "block": "connections",
+      "note": "Возврат динамика идёт через контакт JK2, не прямо на G."
+    },
+    {
+      "ref": "CON2",
+      "kind": "connector",
+      "value": "AC",
+      "nodes": [
+        "G",
+        "ac_a",
+        "ac_b"
+      ],
+      "block": "connections",
+      "note": "Контакты 1,2,3."
+    },
+    {
+      "ref": "JK1",
+      "kind": "jack",
+      "value": "INPUT",
+      "nodes": [
+        "in",
+        "G"
+      ],
+      "block": "connections",
+      "note": "Входной замыкающий контакт на землю без штекера; проверить механику."
+    },
+    {
+      "ref": "JK4",
+      "kind": "jack",
+      "value": "AUX IN",
+      "nodes": [
+        "aux_l",
+        "aux_r",
+        "G"
+      ],
+      "block": "connections",
+      "note": "Стереовход; параметры источника не заданы."
+    },
+    {
+      "ref": "JK2",
+      "kind": "jack",
+      "value": "PHONES",
+      "nodes": [
+        "phones_feed",
+        "speaker_return",
+        "G"
+      ],
+      "block": "connections",
+      "note": "Коммутирует возврат динамика; точную механику гнезда подтвердить по аппарату."
+    },
+    {
+      "ref": "SW_OD",
+      "kind": "switch",
+      "value": "DPDT",
+      "nodes": [
+        "clip_ref",
+        "od_top"
+      ],
+      "block": "connections",
+      "note": "Оба верхних контакта clip_ref; средние и нижние объединены с od_top. Показанное положение размыкает clip_ref/od_top; другое замыкает."
+    }
+  ]
+}

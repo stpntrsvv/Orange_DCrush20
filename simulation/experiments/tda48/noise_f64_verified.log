@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "noise48_same_grid_reference", line 28, in <module>
+  File "/Users/stpntrsvv/OrangeDCrush20/.venv/lib/python3.14/site-packages/numpy/_core/_methods.py", line 41, in _amax
+    return umr_maximum(a, axis, None, out, keepdims, initial, where)
+ValueError: zero-size array to reduction operation maximum which has no identity

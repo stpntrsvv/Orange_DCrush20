@@ -1,0 +1,18 @@
+final 64f7458dafa260bae6315597bb6a7b8c5cd9f6054d58d3af0e5973a3cf7fa757
+long DI {'100mv': {'steps': 21286958, 'different_output_bits': 0, 'sha256': '87c69863be9d3e9135eda2e164488e968a4fd1861d63af9f154a30025ddbe6c6', 'note': 'Compared with P7, not independent long f64.'}, '250mv': {'steps': 21286958, 'different_output_bits': 0, 'sha256': '18ff2aa8da3a8732b4b66ea8f4e635865606eb2de57cf12ed4068829eb5ee1e2', 'note': 'Compared with P7, not independent long f64.'}}
+orange_dsp::generated_packed::origin::<5> {'vdiv_f32': 0, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::generated_packed::update::<5> {'vdiv_f32': 0, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 0, 5> {'vdiv_f32': 8, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 1, 5> {'vdiv_f32': 19, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 2, 5> {'vdiv_f32': 30, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 3, 5> {'vdiv_f32': 44, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::packed::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 4, 5> {'vdiv_f32': 5, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::packed::power::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>> {'vdiv_f32': 17, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::repeated::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 0, 5, 1, false, 2> {'vdiv_f32': 8, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::repeated::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 1, 5, 1, false, 6> {'vdiv_f32': 13, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::repeated::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 2, 5, 2, false, 6> {'vdiv_f32': 24, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::repeated::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 3, 5, 3, false, 6> {'vdiv_f32': 32, 'vdiv_f64': 0, 'mem_calls': []}
+orange_dsp::repeated::solve_block::<orange_dsp::packed::ExtraMath<ram_probe::cordic::H7r3Cordic, 2>, 4, 5, 1, false, 11> {'vdiv_f32': 25, 'vdiv_f64': 0, 'mem_calls': []}
+ram_probe::packed_probe::control {'vdiv_f32': 44, 'vdiv_f64': 15, 'mem_calls': ['994e: f003 fe97    \tbl\t0xd680 <__aeabi_memcpy4> @ imm = #0x3d2e']}
+ram_probe::packed_probe::candidate {'vdiv_f32': 57, 'vdiv_f64': 2, 'mem_calls': ['be2c: f001 fc28    \tbl\t0xd680 <__aeabi_memcpy4> @ imm = #0x1850', 'be36: f001 fc23    \tbl\t0xd680 <__aeabi_memcpy4> @ imm = #0x1846']}
+orange_dsp::generated_repeated::update_into {'vdiv_f32': 0, 'vdiv_f64': 0, 'mem_calls': []}

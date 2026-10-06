@@ -1,0 +1,148 @@
+{
+  "chunks": 650,
+  "complete": true,
+  "method": "For each N<=16384, bound every contiguous window by the sum of N highest bin-upper-bound costs from each adjacent RAM-chunk pair; cap bin bounds by exact measured maximum. Max across pairs. Conservative bound for recorded samples, not measured window maximum or WCET for arbitrary input.",
+  "cases": {
+    "100mv": {
+      "64": {
+        "upper_cycles": 647200,
+        "upper_cycles_per_output": 10112.5,
+        "budget_cpu_cycles": 800000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2387.5,
+        "buffer_duration_ms": 1.3333333333333333,
+        "worst_chunk_pair_start": 394
+      },
+      "128": {
+        "upper_cycles": 1288963,
+        "upper_cycles_per_output": 10070.0234375,
+        "budget_cpu_cycles": 1600000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2429.9765625,
+        "buffer_duration_ms": 2.6666666666666665,
+        "worst_chunk_pair_start": 477
+      },
+      "256": {
+        "upper_cycles": 2554755,
+        "upper_cycles_per_output": 9979.51171875,
+        "budget_cpu_cycles": 3200000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2520.48828125,
+        "buffer_duration_ms": 5.333333333333333,
+        "worst_chunk_pair_start": 477
+      },
+      "512": {
+        "upper_cycles": 5077635,
+        "upper_cycles_per_output": 9917.255859375,
+        "budget_cpu_cycles": 6400000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2582.744140625,
+        "buffer_duration_ms": 10.666666666666666,
+        "worst_chunk_pair_start": 477
+      },
+      "1024": {
+        "upper_cycles": 10123395,
+        "upper_cycles_per_output": 9886.1279296875,
+        "budget_cpu_cycles": 12800000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2613.8720703125,
+        "buffer_duration_ms": 21.333333333333332,
+        "worst_chunk_pair_start": 477
+      }
+    },
+    "250mv": {
+      "64": {
+        "upper_cycles": 704290,
+        "upper_cycles_per_output": 11004.53125,
+        "budget_cpu_cycles": 800000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 1495.46875,
+        "buffer_duration_ms": 1.3333333333333333,
+        "worst_chunk_pair_start": 427
+      },
+      "128": {
+        "upper_cycles": 1378914,
+        "upper_cycles_per_output": 10772.765625,
+        "budget_cpu_cycles": 1600000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 1727.234375,
+        "buffer_duration_ms": 2.6666666666666665,
+        "worst_chunk_pair_start": 427
+      },
+      "256": {
+        "upper_cycles": 2712319,
+        "upper_cycles_per_output": 10594.99609375,
+        "budget_cpu_cycles": 3200000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 1905.00390625,
+        "buffer_duration_ms": 5.333333333333333,
+        "worst_chunk_pair_start": 447
+      },
+      "512": {
+        "upper_cycles": 5276671,
+        "upper_cycles_per_output": 10305.998046875,
+        "budget_cpu_cycles": 6400000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2194.001953125,
+        "buffer_duration_ms": 10.666666666666666,
+        "worst_chunk_pair_start": 447
+      },
+      "1024": {
+        "upper_cycles": 10322431,
+        "upper_cycles_per_output": 10080.4990234375,
+        "budget_cpu_cycles": 12800000,
+        "upper_bound_within_cpu": true,
+        "upper_cpu_margin_per_output": 2419.5009765625,
+        "buffer_duration_ms": 21.333333333333332,
+        "worst_chunk_pair_start": 447
+      }
+    },
+    "1000mv": {
+      "64": {
+        "upper_cycles": 865367,
+        "upper_cycles_per_output": 13521.359375,
+        "budget_cpu_cycles": 800000,
+        "upper_bound_within_cpu": false,
+        "upper_cpu_margin_per_output": -1021.359375,
+        "buffer_duration_ms": 1.3333333333333333,
+        "worst_chunk_pair_start": 619
+      },
+      "128": {
+        "upper_cycles": 1709079,
+        "upper_cycles_per_output": 13352.1796875,
+        "budget_cpu_cycles": 1600000,
+        "upper_bound_within_cpu": false,
+        "upper_cpu_margin_per_output": -852.1796875,
+        "buffer_duration_ms": 2.6666666666666665,
+        "worst_chunk_pair_start": 619
+      },
+      "256": {
+        "upper_cycles": 3381527,
+        "upper_cycles_per_output": 13209.08984375,
+        "budget_cpu_cycles": 3200000,
+        "upper_bound_within_cpu": false,
+        "upper_cpu_margin_per_output": -709.08984375,
+        "buffer_duration_ms": 5.333333333333333,
+        "worst_chunk_pair_start": 619
+      },
+      "512": {
+        "upper_cycles": 6647447,
+        "upper_cycles_per_output": 12983.294921875,
+        "budget_cpu_cycles": 6400000,
+        "upper_bound_within_cpu": false,
+        "upper_cpu_margin_per_output": -483.294921875,
+        "buffer_duration_ms": 10.666666666666666,
+        "worst_chunk_pair_start": 619
+      },
+      "1024": {
+        "upper_cycles": 13016471,
+        "upper_cycles_per_output": 12711.3974609375,
+        "budget_cpu_cycles": 12800000,
+        "upper_bound_within_cpu": false,
+        "upper_cpu_margin_per_output": -211.3974609375,
+        "buffer_duration_ms": 21.333333333333332,
+        "worst_chunk_pair_start": 619
+      }
+    }
+  }
+}

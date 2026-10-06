@@ -1,0 +1,107 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+  <ns0:defs>
+    <ns0:style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#16243a}
+      .title{font-size:32px;font-weight:700}.sub{font-size:17px;fill:#58687d}
+      .label{font-size:18px;font-weight:700}.small{font-size:15px}.tiny{font-size:13px}
+      .wire{stroke:#26384f;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .sensev{stroke:#2174bb;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .sensei{stroke:#bf6a17;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .local{stroke:#8a4fb5;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .data{stroke:#53718e;stroke-width:2.5;fill:none;stroke-dasharray:8 7}
+      .box{fill:#fff;stroke:#667b91;stroke-width:2.5;rx:15}
+    </ns0:style>
+    <ns0:marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><ns0:path d="M1 1 L9 5 L1 9" fill="none" stroke="#26384f" stroke-width="2" /></ns0:marker>
+    <ns0:marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><ns0:path d="M1 1 L9 5 L1 9" fill="none" stroke="#2174bb" stroke-width="2" /></ns0:marker>
+    <ns0:marker id="orangearrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><ns0:path d="M1 1 L9 5 L1 9" fill="none" stroke="#bf6a17" stroke-width="2" /></ns0:marker>
+  </ns0:defs>
+  <ns0:rect width="1600" height="920" fill="#f7f9fc" />
+  <ns0:text x="64" y="63" class="title">OrangeDCrush20 · силовой выход и измерение колонки</ns0:text>
+  <ns0:text x="64" y="94" class="sub">Функциональная схема для LM1875 с одним питанием. Датчики пока только измеряют; номиналы измерительного тракта — отправная точка.</ns0:text>
+
+  
+  <ns0:rect class="box" x="65" y="140" width="195" height="93" fill="#eaf1fb" />
+  <ns0:text x="162" y="176" text-anchor="middle" class="label">ADC гитары</ns0:text>
+  <ns0:text x="162" y="203" text-anchor="middle" class="small">48 кГц · DMA</ns0:text>
+  <ns0:path class="wire" d="M260 187 H305" marker-end="url(#arrow)" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="315" y="140" width="220" height="93" fill="#eaf1fb" />
+  <ns0:text x="425" y="176" text-anchor="middle" class="label">Bounded/48</ns0:text>
+  <ns0:text x="425" y="203" text-anchor="middle" class="small">модель + масштаб</ns0:text>
+  <ns0:path class="wire" d="M535 187 H580" marker-end="url(#arrow)" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="590" y="140" width="210" height="93" fill="#eaf1fb" />
+  <ns0:text x="695" y="176" text-anchor="middle" class="label">TIM1 + DMA</ns0:text>
+  <ns0:text x="695" y="203" text-anchor="middle" class="small">PWM 0/3,3 В</ns0:text>
+  <ns0:path class="wire" d="M800 187 H860" marker-end="url(#arrow)" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="870" y="140" width="210" height="93" fill="#e9f6ee" />
+  <ns0:text x="975" y="176" text-anchor="middle" class="label">Аналоговый ФНЧ</ns0:text>
+  <ns0:text x="975" y="203" text-anchor="middle" class="small">подавить несущую</ns0:text>
+  <ns0:path class="wire" d="M1080 187 H1120" marker-end="url(#arrow)" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="1130" y="140" width="155" height="93" fill="#e9f6ee" />
+  <ns0:text x="1207" y="176" text-anchor="middle" class="label">Cвх</ns0:text>
+  <ns0:text x="1207" y="203" text-anchor="middle" class="small">убрать DC</ns0:text>
+  <ns0:path class="wire" d="M1285 187 H1323" marker-end="url(#arrow)" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="1333" y="140" width="200" height="93" fill="#fff0e5" />
+  <ns0:text x="1433" y="176" text-anchor="middle" class="label">LM1875</ns0:text>
+  <ns0:text x="1433" y="203" text-anchor="middle" class="small">AB · +24/48 В</ns0:text>
+
+  
+  <ns0:path class="wire" d="M1433 233 V315 H1295" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:circle cx="1433" cy="315" r="6" fill="#26384f" />
+  <ns0:text x="1310" y="300" class="small">выход ≈ Vпит/2 ± аудио</ns0:text>
+  <ns0:path class="wire" d="M1295 315 H1215" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path class="wire" d="M1215 289 V341 M1203 289 V341" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path class="wire" d="M1203 315 H1120" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:text x="1208" y="271" text-anchor="middle" class="label">Cвых 2200 мкФ</ns0:text>
+  <ns0:text x="1208" y="366" text-anchor="middle" class="tiny">полярность по Vпит/2</ns0:text>
+  <ns0:circle cx="1120" cy="315" r="6" fill="#2174bb" />
+  <ns0:path class="wire" d="M1120 315 H1035 V380" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="952" y="380" width="166" height="112" fill="#fff" />
+  <ns0:text x="1035" y="420" text-anchor="middle" class="label">Sony SS-H551</ns0:text>
+  <ns0:text x="1035" y="452" text-anchor="middle" class="label">6 Ом</ns0:text>
+  <ns0:path class="wire" d="M1035 492 V545 H1120" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:circle cx="1120" cy="545" r="6" fill="#bf6a17" />
+  <ns0:path class="wire" d="M1120 545 H1160 M1200 545 H1260 V602" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path class="wire" d="M1160 545 l8 -12 10 24 10 -24 12 12" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:text x="1180" y="519" text-anchor="middle" class="label">Rш 0,05 Ом</ns0:text>
+  <ns0:text x="1180" y="580" text-anchor="middle" class="tiny">4 вывода · Kelvin</ns0:text>
+  <ns0:path class="wire" d="M1238 602 H1282 M1247 612 H1273 M1255 622 H1265" stroke="#26384f" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:text x="1310" y="614" class="small">силовая земля</ns0:text>
+
+  
+  <ns0:path class="local" d="M1433 315 H1540 V261 H1333 V221" stroke="#8a4fb5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect x="1380" y="240" width="135" height="42" rx="9" fill="#f3eafa" stroke="#8a4fb5" stroke-width="2" />
+  <ns0:text x="1447" y="267" text-anchor="middle" class="small">Rf 20k / Ri 1k</ns0:text>
+  <ns0:text x="1370" y="397" class="small" fill="#8a4fb5">локальная ОС до Cвых</ns0:text>
+
+  
+  <ns0:path class="sensev" d="M1120 315 V692 H902" marker-end="url(#bluearrow)" stroke="#2174bb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="650" y="645" width="240" height="108" fill="#e7f2fc" />
+  <ns0:text x="770" y="682" text-anchor="middle" class="label">Делитель напряжения</ns0:text>
+  <ns0:text x="770" y="711" text-anchor="middle" class="small">150 кОм / 10 кОм → 1,65 В</ns0:text>
+  <ns0:text x="770" y="735" text-anchor="middle" class="tiny">ФНЧ + защита ADC</ns0:text>
+  <ns0:path class="sensev" d="M650 700 H593" marker-end="url(#bluearrow)" stroke="#2174bb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:text x="962" y="675" class="small" fill="#2174bb">V+ после Cвых</ns0:text>
+  <ns0:text x="642" y="774" class="tiny">Vдинамика = V+ − V−,  V− = I·Rш</ns0:text>
+
+  
+  <ns0:path class="sensei" d="M1120 545 V825 H902" marker-end="url(#orangearrow)" stroke="#bf6a17" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path class="sensei" d="M1260 602 V846 H902" stroke="#bf6a17" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:rect class="box" x="650" y="788" width="240" height="105" fill="#fff0df" />
+  <ns0:text x="770" y="825" text-anchor="middle" class="label">Двунаправленный</ns0:text>
+  <ns0:text x="770" y="852" text-anchor="middle" class="small">датчик тока · усиление ×8</ns0:text>
+  <ns0:text x="770" y="876" text-anchor="middle" class="tiny">смещение 1,65 В · ФНЧ + защита</ns0:text>
+  <ns0:path class="sensei" d="M650 840 H593" marker-end="url(#orangearrow)" stroke="#bf6a17" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:text x="940" y="815" class="small" fill="#bf6a17">Kelvin + / −</ns0:text>
+
+  
+  <ns0:rect class="box" x="327" y="670" width="252" height="185" fill="#eef3f9" />
+  <ns0:text x="453" y="712" text-anchor="middle" class="label">ADC напряжения / тока</ns0:text>
+  <ns0:text x="453" y="744" text-anchor="middle" class="small">2 канала · DMA · 48 кГц</ns0:text>
+  <ns0:text x="453" y="779" text-anchor="middle" class="small">Vклемм, Iклемм, P, Z(f)</ns0:text>
+  <ns0:text x="453" y="822" text-anchor="middle" class="tiny">сейчас: запись и защита;</ns0:text>
+  <ns0:text x="453" y="840" text-anchor="middle" class="tiny">не быстрая цифровая петля</ns0:text>
+  <ns0:path class="data" d="M327 763 H285 V254 H425 V233" stroke="#53718e" stroke-width="2.5" fill="none" stroke-dasharray="8 7" />
+  <ns0:text x="85" y="590" class="small">телеметрия → DSP</ns0:text>
+  <ns0:text x="85" y="619" class="tiny">порт нагрузки ещё не реализован</ns0:text>
+  <ns0:text x="85" y="899" class="tiny">Измерительная схема — проектный эскиз; номиналы фильтров, защиты и датчика тока требуют расчёта и проверки на плате.</ns0:text>
+</ns0:svg>

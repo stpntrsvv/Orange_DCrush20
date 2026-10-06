@@ -1,0 +1,7 @@
+100mv optimized48 mean 7838.5 max 7930 max64/sample 7862.9 stops 0 hostmem 0.0
+100mv accepted48 mean 7829.5 max 7918 max64/sample 7852.8 stops 0 hostmem 0.0
+250mv optimized48 mean 7834.6 max 7916 max64/sample 7861.1 stops 0 hostmem 0.0
+250mv accepted48 mean 7829.6 max 7917 max64/sample 7856.2 stops 0 hostmem 0.0
+1000mv optimized48 mean 7836.7 max 7930 max64/sample 7863.8 stops 0 hostmem 0.0
+1000mv accepted48 mean 7827.7 max 7916 max64/sample 7853.9 stops 0 hostmem 0.0
+complete False samples 32768 chunks 2

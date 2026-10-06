@@ -1,0 +1,13 @@
+{
+  "status": "profiled hot path; compact nonlinear assembly required",
+  "case": "96 kHz, 4 ms, reactive speaker, Schur control solver",
+  "before_profile_s": 0.721,
+  "after_profile_s": 0.515,
+  "after_residual_jacobian_s": 0.380,
+  "after_schur_step_s": 0.096,
+  "after_dense_solve_s": 0.025,
+  "line_search_residual_only_full_median_us_per_sample": 713.27,
+  "line_search_residual_only_schur_median_us_per_sample": 711.36,
+  "initial_control_us_per_sample": 1285.86,
+  "note": "host Python profile, not STM32 timing"
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_exponential_batch.py", line 62, in <module>
+    if a.prepare:prepare()
+                 ~~~~~~~^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_exponential_batch.py", line 25, in prepare
+    common.execute(['cargo','build','-p','h7r3-runtime','--bin','ram-probe','--release','--features','exponential-probe'],run/'build.log',ROOT/'firmware',env)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_solver_batch.py", line 58, in execute
+    raise RuntimeError(f'{command}: exit {result.returncode}; {log}')
+RuntimeError: ['cargo', 'build', '-p', 'h7r3-runtime', '--bin', 'ram-probe', '--release', '--features', 'exponential-probe']: exit 101; /Users/stpntrsvv/OrangeDCrush20/simulation/experiments/solver_time/etd_20260927T131714Z/build.log

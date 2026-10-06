@@ -1,0 +1,24 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+error[E0382]: use of moved value: `a`
+  --> orange-dsp/examples/repeated_di.rs:52:23
+   |
+49 | ...   let a=candidate.step::<ExtraMath<FpuRootMath,2>,5>(u);
+   |           - move occurs because `a` has type `StepResult`, which does not implement the `Copy` trait
+50 | ...   let b=base.step::<ExtraMath<FpuRootMath,2>,5>(u);
+51 | ...   for(i,r)in [a,b].iter().enumerate() {fail[i]+=(!r.converged) as u64;maxiter[i]=maxiter[i].max(r.iterations);assert!(r.output_v...
+   |                   - value moved here
+52 | ...   let e=a.output_v as f64-b.output_v as f64;energy[0]+=e*e;energy[1]+=(b.output_v as f64).powi(2);
+   |             ^^^^^^^^^^ value used here after move
+
+error[E0382]: use of moved value: `b`
+  --> orange-dsp/examples/repeated_di.rs:52:41
+   |
+50 | ...   let b=base.step::<ExtraMath<FpuRootMath,2>,5>(u);
+   |           - move occurs because `b` has type `StepResult`, which does not implement the `Copy` trait
+51 | ...   for(i,r)in [a,b].iter().enumerate() {fail[i]+=(!r.converged) as u64;maxiter[i]=maxiter[i].max(r.iterations);assert!(r.output_v...
+   |                     - value moved here
+52 | ...   let e=a.output_v as f64-b.output_v as f64;energy[0]+=e*e;energy[1]+=(b.output_v as f64).powi(2);
+   |                               ^^^^^^^^^^ value used here after move
+
+For more information about this error, try `rustc --explain E0382`.
+error: could not compile `orange-dsp` (example "repeated_di") due to 2 previous errors

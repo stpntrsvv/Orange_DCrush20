@@ -1,0 +1,17 @@
+* Идеальный GPIO 0/3.3 В, 1.152 МГц PWM с синусоидальной скважностью.
+* Два RC звена -- отправная точка для измерения остатка несущей, не
+* окончательная схема выхода/ЭМС. При TIM1=288 МГц это 250 тиков периода
+* и ровно 24 периода PWM на отсчёт 48 кГц (такты RCC ещё не настроены).
+
+Bpin pin 0 V={3.3*0.5*(1+sgn(0.5+0.15*sin(2*pi*1k*time)-(time*1.152Meg-floor(time*1.152Meg))))}
+R1 pin f1 3.3k
+C1 f1 0 4.7n
+R2 f1 analog 3.3k
+C2 analog 0 4.7n
+Rinput analog 0 100k
+
+.tran 20n 10m
+.meas tran analog_avg AVG V(analog) FROM=8m TO=10m
+.meas tran analog_max MAX V(analog) FROM=8m TO=10m
+.meas tran analog_min MIN V(analog) FROM=8m TO=10m
+.end

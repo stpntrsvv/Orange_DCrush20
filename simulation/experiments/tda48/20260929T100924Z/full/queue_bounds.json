@@ -1,0 +1,91 @@
+{
+  "chunks": 650,
+  "complete": true,
+  "note": "Upper bound on workload excursion over all contiguous intervals, using exact whole-chunk totals and conservatively histogram-bounded positive surplus on interval end chunks. Not observed exact latency. Assumes work-conserving sample queue with uniform arrivals. DMA batching/overheads not tested. Clock 600MHz. No extra numerical steps or model change.",
+  "cases": {
+    "100mv": {
+      "12500": {
+        "observed_lower_backlog_cycles": 0,
+        "lower_extra_delay_ms": 0.0,
+        "service_budget_cycles_per_sample": 12500,
+        "upper_backlog_cycles": 0,
+        "upper_cpu_work_ms": 0.0,
+        "upper_extra_delay_ms": 0.0,
+        "upper_extra_samples": 0,
+        "minimum_total_sample_delay_bound": 1,
+        "chunk_mean_max_cycles": 9194.9423828125,
+        "chunks_with_positive_total_surplus": 0,
+        "total_measured_surplus_cycles": -40731232505
+      },
+      "10000": {
+        "observed_lower_backlog_cycles": 73,
+        "lower_extra_delay_ms": 0.00015208333333333333,
+        "service_budget_cycles_per_sample": 10000,
+        "upper_backlog_cycles": 252,
+        "upper_cpu_work_ms": 0.00042,
+        "upper_extra_delay_ms": 0.000525,
+        "upper_extra_samples": 1,
+        "minimum_total_sample_delay_bound": 2,
+        "chunk_mean_max_cycles": 9194.9423828125,
+        "chunks_with_positive_total_surplus": 0,
+        "total_measured_surplus_cycles": -14122535005
+      }
+    },
+    "250mv": {
+      "12500": {
+        "observed_lower_backlog_cycles": 0,
+        "lower_extra_delay_ms": 0.0,
+        "service_budget_cycles_per_sample": 12500,
+        "upper_backlog_cycles": 0,
+        "upper_cpu_work_ms": 0.0,
+        "upper_extra_delay_ms": 0.0,
+        "upper_extra_samples": 0,
+        "minimum_total_sample_delay_bound": 1,
+        "chunk_mean_max_cycles": 9410.535827636719,
+        "chunks_with_positive_total_surplus": 0,
+        "total_measured_surplus_cycles": -38549617537
+      },
+      "10000": {
+        "observed_lower_backlog_cycles": 8026,
+        "lower_extra_delay_ms": 0.016720833333333334,
+        "service_budget_cycles_per_sample": 10000,
+        "upper_backlog_cycles": 123559,
+        "upper_cpu_work_ms": 0.20593166666666668,
+        "upper_extra_delay_ms": 0.25741458333333334,
+        "upper_extra_samples": 13,
+        "minimum_total_sample_delay_bound": 14,
+        "chunk_mean_max_cycles": 9410.535827636719,
+        "chunks_with_positive_total_surplus": 0,
+        "total_measured_surplus_cycles": -11940920037
+      }
+    },
+    "1000mv": {
+      "12500": {
+        "observed_lower_backlog_cycles": 1207,
+        "lower_extra_delay_ms": 0.002011666666666667,
+        "service_budget_cycles_per_sample": 12500,
+        "upper_backlog_cycles": 37444,
+        "upper_cpu_work_ms": 0.062406666666666666,
+        "upper_extra_delay_ms": 0.062406666666666666,
+        "upper_extra_samples": 3,
+        "minimum_total_sample_delay_bound": 4,
+        "chunk_mean_max_cycles": 10133.942504882812,
+        "chunks_with_positive_total_surplus": 0,
+        "total_measured_surplus_cycles": -34815323093
+      },
+      "10000": {
+        "observed_lower_backlog_cycles": 2194514,
+        "lower_extra_delay_ms": 4.571904166666667,
+        "service_budget_cycles_per_sample": 10000,
+        "upper_backlog_cycles": 10923526,
+        "upper_cpu_work_ms": 18.205876666666665,
+        "upper_extra_delay_ms": 22.757345833333332,
+        "upper_extra_samples": 1093,
+        "minimum_total_sample_delay_bound": 1094,
+        "chunk_mean_max_cycles": 10133.942504882812,
+        "chunks_with_positive_total_surplus": 3,
+        "total_measured_surplus_cycles": -8206625593
+      }
+    }
+  }
+}

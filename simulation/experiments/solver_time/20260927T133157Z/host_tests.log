@@ -1,0 +1,250 @@
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: `orange-dsp` (lib test) generated 1 warning (1 duplicate)
+    Finished `release` profile [optimized + debuginfo] target(s) in 4.31s
+     Running unittests src/lib.rs (target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 43 tests
+test condensed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+test control_ports::tests::controls_preserve_all_nonlinear_values ... ok
+test absolute_ports::tests::eliminated_rows_and_port_residual_are_consistent ... ok
+test control_ports::tests::control_blocks_match_dense_f64_jacobian ... ok
+test control_ports::tests::control_reports_independently_checked_full_residual ... ok
+f64 100mV: absolute rms=0.007787342179475553 peak=0.631707556266589 failures=0; old rms=0.0026579629078968786 peak=0.22445573426669707 failures=0
+test packed::tests::analytic_q_regions_and_floor ... ok
+test absolute_ports::tests::absolute_stream_is_finite_and_checks_full_residual ... ok
+condensed 100mV rms=0.000001695226416869255 peak=0.0000421571816262567 scaled=0.0000028104787750837802 fullres=0.000023841858 failures=0 maxiter=7
+control f64 100mV rms=0.0000267645668486576 peak=0.000734643944626745 failures=0
+rows=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] iterations=[99, 921, 4] fallbacks=0
+test control_ports::tests::fallback_uses_unchanged_history_bit_for_bit ... ok
+test packed::tests::direct_input_checks_range_and_restores_guess ... ok
+test exponential::tests::nominal_matches_independent_descriptor_reference ... ok
+test control_ports::tests::profile_preserves_full_trajectory_and_balances_marks ... ok
+f64 1000mV: absolute rms=1.2261447510695225 peak=45.36335267210988 failures=709; old rms=1.2166948644272744 peak=41.99939986124757 failures=698
+packed F=7 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017971228890636347 peak=0.00003833075090198257 scaled=0.0000025553833934655047 fullres=0.000023841858 failures=0 maxiter=3
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.000001824658085598663 peak=0.00004190299650730367 scaled=0.000002793533100486911 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 759)
+condensed 1000mV rms=0.000005122168425432063 peak=0.002725813074591965 scaled=0.0011484443099689656 fullres=0.00007532071 failures=0 maxiter=23
+test absolute_ports::tests::compare_full_f64_trajectories ... ok
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000018764999753466548 peak=0.0000429758801132607 scaled=0.00000286505867421738 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 759)
+control f64 1000mV rms=1.2166600299257972 peak=41.99831642928608 failures=698
+rows=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 689, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1] iterations=[685, 285, 54] fallbacks=705
+test control_ports::tests::control_compare_full_f64 ... ok
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017670319048635963 peak=0.00004143019243030288 scaled=0.000002762012828686859 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.00001191994519679532 peak=0.007650031851218486 scaled=0.0005664740347288699 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 560)
+packed F=7 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000019998047504291344 peak=0.012288703726218486 scaled=0.0022021173506345804 fullres=0.00007215422 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 909)
+
+thread 'packed::tests::mixed_tda_reference' (42576687) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017406804287733068 peak=0.0000424348095300342 scaled=0.00000282898730200228 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 946)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.0000023577935803614752 peak=0.0010957452492745823 scaled=0.0006294325952088305 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 351)
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.00000851018089059309 peak=0.005179837070501847 scaled=0.002853159017301247 fullres=0.00007271883 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 909)
+test packed::tests::mixed_tda_reference - should panic ... ok
+packed F=1 M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=100 rms=0.0000018523070238015024 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 560)
+condensed 250mV rms=0.0000027921003109688164 peak=0.0008343439822384724 scaled=0.00005562293214923149 fullres=0.000047683716 failures=0 maxiter=38
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000024548639782207596 peak=0.0006632076874595327 scaled=0.00004421384583063552 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000022839841278085266 peak=0.000614570297322814 scaled=0.00004161730467622249 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("x:TDA2050", 555)
+test condensed::tests::compare_independent_full_reference ... ok
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=100 rms=0.0000018493641456964113 peak=0.00004226465745715835 scaled=0.0000028176438304772233 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000003916328952560656 peak=0.00162826557309792 scaled=0.000670666583800994 fullres=0.0000699074 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+packed F=0 M=orange_dsp::FpuRootMath case=100 rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 946)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=1000 rms=0.000012227726434301559 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 909)
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.0000036794704243728 peak=0.001032531641179446 scaled=0.000839641566917256 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 566)
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000008862327946777715 peak=0.004391450209794812 scaled=0.0023391497348856185 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017067964416341981 peak=0.0000408546074450733 scaled=0.00000272364049633822 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 173)
+packed F=1 M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=1000 rms=0.000012226065121971198 peak=0.006268844796730733 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024, 0] retries=0 worst_state=("x:TDA2050", 909)
+packed F=0 M=orange_dsp::FpuRootMath case=1000 rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024, 0] retries=0 worst_state=("x:TDA2050", 386)
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.000002387171416216439 peak=0.0006632076874595327 scaled=0.00004421384583063552 fullres=0.000052733685 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000005466942725328355 peak=0.00301040630190208 scaled=0.000670666583800994 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+packed F=0 M=orange_dsp::FpuRootMath case=250 rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1 worst_state=("v:phones_feed", 571)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 1> case=250 rms=0.0000023476362978841284 peak=0.0007042156830650015 scaled=0.000046947712204333435 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=3 worst_state=("v:phones_feed", 571)
+packed F=1 M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> case=250 rms=0.0000023442219655846936 peak=0.0007204281464439077 scaled=0.00004802854309626052 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1 worst_state=("v:phones_feed", 571)
+test packed::tests::package_one_reference ... ok
+test packed::tests::package_five_reference ... ok
+test packed::tests::package_four_reference ... ok
+packed F=6 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00004332790076236016 peak=0.032622820601780234 scaled=0.0043022322905320225 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:TDA2050", 993)
+
+thread 'packed::tests::mixed_input_tda_reference' (42576684) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+packed F=4 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00007394066169388496 peak=0.044759171469070935 scaled=0.030414999424321465 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:TDA2050", 1360)
+
+thread 'packed::tests::mixed_partial_reference' (42576686) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000020964344034971697 peak=0.0007604824677329702 scaled=0.000050698831182198015 fullres=0.000047683716 failures=0 maxiter=24
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=1 worst_state=("v:phones_feed", 571)
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000005239353300524847 peak=0.0025756543113573116 scaled=0.0013702166294168687 fullres=0.000047683716 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000018817390051308281 peak=0.000595496810994689 scaled=0.00003969978739964593 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+test packed::tests::mixed_input_tda_reference - should panic ... ok
+test packed::tests::mixed_partial_reference - should panic ... ok
+test packed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+test repeated::audit::cached_law_values_and_derivatives_match_original_laws ... ok
+packed F=0 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=100 rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 946)
+packed F=1 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=100 rms=0.00000184971747691496 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 0] retries=0 worst_state=("v:phones_feed", 560)
+packed F=2 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.00008770897463238342 peak=0.04682292268977406 scaled=0.03178383995980324 fullres=0.00007280032 failures=0 maxiter=14
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:TDA2050", 1360)
+
+thread 'packed::tests::mixed_origin_reference' (42576685) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+test packed::tests::mixed_origin_reference - should panic ... ok
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000002779820104511357 peak=0.001341599745927624 scaled=0.000715360265484577 fullres=0.000047683716 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 594, 1536, 955] retries=0 worst_state=("x:TDA2050", 690)
+packed F=0 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=1000 rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024, 0] retries=0 worst_state=("x:TDA2050", 386)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000019787378576275483 peak=0.000044768052537724756 scaled=0.000002984536835848317 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 560)
+packed F=1 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=1000 rms=0.000012227728975252241 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024, 0] retries=0 worst_state=("x:TDA2050", 909)
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1024, 1024, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [6190, 6038, 1996, 76, 0, 0, 0, 0, 3118, 0, 3019], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 0, 1024], [1024, 1024, 0, 0, 1024, 1024, 0, 56, 0, 0, 0]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017067964416341981 peak=0.0000408546074450733 scaled=0.00000272364049633822 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 173)
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000005466942725328355 peak=0.00301040630190208 scaled=0.000670666583800994 fullres=0.000074505806 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+packed F=1 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=250 rms=0.0000023573201075257555 peak=0.0007185207978110952 scaled=0.000047901386520739685 fullres=0.000071525574 failures=0 maxiter=28
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=3 worst_state=("v:phones_feed", 571)
+test packed::tests::package_three_reference ... ok
+packed F=0 M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> case=250 rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024, 0] retries=1 worst_state=("v:phones_feed", 571)
+test packed::tests::package_two_reference ... ok
+triangle1000: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1810, 1633, 546, 0, 1024, 784, 0, 1155, 0, 0, 786], [7210, 6050, 2001, 580, 0, 0, 0, 1861, 3613, 0, 3025], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 729, 1024], [2250, 2141, 209, 31, 1024, 38, 0, 2611, 0, 0, 1195]]
+packed F=3 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.000020348858870772485 peak=0.015314572586696329 scaled=0.002273808913438794 fullres=0.0000729342 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1340, 1536, 198] retries=0 worst_state=("x:TDA2050", 897)
+
+thread 'packed::tests::mixed_update_reference' (42576688) panicked at orange-dsp/src/packed.rs:833:13:
+assertion failed: peak < 0.01
+test tests::fixed_sparse_solve_covers_nonlinear_branches ... ok
+test packed::tests::mixed_update_reference - should panic ... ok
+triangle1000: steps=1024 output_different=94 peak_vs_P7=0.004638672 memory_peak_vs_P7=0.008300781 counts=[33, 285, 0]
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000008712979964716319 peak=0.005304768405951066 scaled=0.002886567471326392 fullres=0.00007248018 failures=0 maxiter=12
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 905)
+test tests::generated_linear_mna_matches_python_bit_for_bit ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000004592174132972313 peak=0.002260941786943249 scaled=0.0012093635613830145 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+test tests::incremental_diode_candidate_matches_absolute_newton_fixture ... ok
+test tests::grouped_norm_matches_original_bits ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000018817390051308281 peak=0.000595496810994689 scaled=0.00003969978739964593 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.0000063661641015006145 peak=0.004766934647243204 scaled=0.0013825827524366712 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:IC3A", 609)
+test tests::incremental_diode_refresh_policy_and_fallback_are_counted ... ok
+noise250: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1029, 1028, 3, 1, 1024, 1023, 0, 147, 0, 0, 4], [37440, 17228, 7599, 10106, 0, 0, 0, 2035, 18825, 0, 8614], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 630, 1024], [3452, 2689, 1354, 446, 1024, 396, 0, 4981, 0, 0, 1982]]
+physical branch 0: 0.01310853 at 41
+same residual: 0.025219671
+noise250: steps=1024 output_different=632 peak_vs_P7=0.0003681183 memory_peak_vs_P7=0.0010147095 counts=[934, 8138, 0]
+same equations f64: 0.0006496003396215789
+physical branch 1: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.024829585375369105
+physical branch 2: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.03415970253423987
+physical branch 3: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.024809763094534063
+physical branch 4: 0.73334 at 8
+same residual: 3.0605195
+same equations f64: 0.024936503525633487
+state 21: actual=-0.16445321 expected=-0.16445321437356283 x=0.19187497
+state 39: actual=-0.15930016 expected=-0.15930086929418602 x=0.15765041
+state 49: actual=0.06849378 expected=0.06849377878283565 x=-0.06849612
+state 53: actual=-4.896845 expected=-4.8968455916184945 x=0.18092032
+physical branch 5: 0.73334 at 8
+same residual: 0.31087604
+same equations f64: 0.024829585375369105
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.000004592174132972313 peak=0.002260941786943249 scaled=0.0012093635613830145 fullres=0.00006407499 failures=0 maxiter=13
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+packed F=1 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000027420673728179054 peak=0.0008138882294517202 scaled=0.00005425921529678135 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=1 worst_state=("v:phones_feed", 571)
+test tests::physical_block_cascade_matches_reference_branches ... ok
+test packed::tests::package_six_reference ... ok
+test tests::physical_residual_matches_python_fixture ... ok
+native root maximum 1 ULP
+test tests::reduced_jacobian_and_solve_match_python_fixture ... ok
+test tests::native_root_matches_f64_reference ... ok
+test tests::schur_projection_matches_python_fixture ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2003 rms=0.000002753525282378383 peak=0.0009846638660846452 scaled=0.0004363676161851515 fullres=0.000047683716 failures=0 maxiter=15
+direct=[1536, 1536, 1536, 333, 1536, 1203] retries=0 worst_state=("x:TDA2050", 697)
+step025: steps=1536 output_different=1037 peak_vs_P7=0.00037193298 memory_peak_vs_P7=0.004737854 counts=[11, 113, 0]
+test packed::tests::package_seven_extended_reference ... ok
+step025: steps=1536 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1583, 1573, 32, 2, 1536, 1523, 0, 104, 0, 0, 45], [7176, 6478, 1703, 349, 0, 0, 0, 169, 3685, 0, 3239], [4608, 4608, 0, 0, 1536, 1536, 0, 0, 0, 734, 1536], [2626, 2510, 498, 10, 1536, 954, 0, 3738, 0, 0, 1080]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.0000063661641015006145 peak=0.004766934647243204 scaled=0.0013825827524366712 fullres=0.00009536743 failures=0 maxiter=13
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=0 worst_state=("x:IC3A", 609)
+step1: steps=1536 output_different=174 peak_vs_P7=0.004114151 memory_peak_vs_P7=0.026855469 counts=[2, 28, 0]
+step1: steps=1536 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1540, 1538, 2, 0, 1536, 1534, 0, 8, 0, 0, 4], [6378, 6136, 1532, 121, 0, 0, 0, 1648, 3287, 0, 3068], [4608, 4608, 0, 0, 1536, 1536, 0, 7, 0, 1032, 1536], [3022, 2962, 145, 4, 1536, 199, 0, 3247, 0, 0, 1482]]
+multitone: steps=1536 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1536, 1536, 0, 0, 1536, 1536, 0, 105, 0, 0, 0], [25316, 13772, 5361, 5772, 0, 0, 0, 1521, 12719, 0, 6886], [4608, 4608, 0, 0, 1536, 1536, 0, 0, 0, 510, 1536], [2488, 2222, 444, 175, 1536, 1203, 0, 2339, 0, 0, 777]]
+multitone: steps=1536 output_different=1310 peak_vs_P7=0.00017166138 memory_peak_vs_P7=0.0021362305 counts=[594, 5255, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2003 rms=0.000002753525282378383 peak=0.0009846638660846452 scaled=0.0004363676161851515 fullres=0.000047683716 failures=0 maxiter=15
+direct=[1536, 1536, 1536, 333, 1536, 1203] retries=0 worst_state=("x:TDA2050", 697)
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [2048, 2048, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [12268, 12000, 3952, 134, 0, 0, 0, 0, 6176, 0, 6000], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 0, 2048], [2048, 2048, 0, 0, 2048, 2048, 0, 96, 0, 0, 0]]
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3001 rms=0.0000017662727228298552 peak=0.000042122465318872315 scaled=0.0000028081643545914875 fullres=0.000023841858 failures=0 maxiter=5
+direct=[2048, 2048, 2048, 0, 2048, 2048] retries=0 worst_state=("v:phones_feed", 1143)
+output1: steps=2048 output_different=103 peak_vs_P7=0.007502556 memory_peak_vs_P7=0.0087890625 counts=[62, 549, 0]
+output1: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [3524, 3190, 1025, 0, 2048, 1597, 0, 2167, 0, 0, 1476], [14028, 11882, 3895, 1073, 0, 0, 0, 3670, 7027, 0, 5941], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 1497, 2048], [4386, 4231, 289, 40, 2048, 39, 0, 4862, 0, 0, 2298]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3002 rms=0.000004500164247032561 peak=0.0034478498334280516 scaled=0.0005401802137612322 fullres=0.00008139759 failures=0 maxiter=13
+direct=[2048, 1597, 2048, 2460, 2048, 39] retries=0 worst_state=("x:TDA2050", 943)
+output2: steps=2048 output_different=847 peak_vs_P7=0.00050354004 memory_peak_vs_P7=0.0009660721 counts=[1766, 15804, 0]
+test scalar::diagnostics::paired_independent_trajectories ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3003 rms=0.000001025326718084132 peak=0.00025193696819236777 scaled=0.00006294389192203671 fullres=0.000071525574 failures=0 maxiter=20
+direct=[2048, 2031, 2048, 1568, 2048, 497] retries=0 worst_state=("x:TDA2050", 1076)
+test repeated::tests::repeated_extended_reference ... ok
+output2: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [2121, 2109, 44, 12, 2048, 2031, 0, 472, 0, 0, 61], [71690, 33014, 14468, 19338, 0, 0, 0, 4124, 36056, 0, 16507], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 1514, 2048], [6542, 5278, 2339, 604, 2048, 497, 0, 8851, 0, 0, 3890]]
+test repeated::audit::paired_traces_and_counter_equivalence ... ok
+test tests::deferred_fpu_matches_eager_states_and_laws ... ok
+reuse stream iteration counts: [17970, 5983, 47]
+test tests::physical_reuse_is_bit_exact_over_stream ... ok
+
+test result: ok. 43 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.27s
+
+   Doc-tests orange_dsp
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

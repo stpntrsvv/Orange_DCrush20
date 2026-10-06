@@ -1,0 +1,8 @@
+{
+  "source": "dry_48k_mono.wav",
+  "source_sha256": "1dd853a97bd799ca7ba3ff24510a2bd9000fc8166e55e8dce9e36f2ba4fb9954",
+  "pcm_sha256": "7a9772c3bcbb823fe202ab2e79a02b2f0af12c41a610ba0c0d1b7d47a1139404",
+  "frames": 10643479,
+  "fs": 48000,
+  "duration_s": 221.73914583333334
+}

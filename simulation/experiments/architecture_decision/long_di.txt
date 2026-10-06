@@ -1,0 +1,2 @@
+level=0.1 steps=21286958 failures=0 retries=0 worst=0.000031195636 max_iterations=19 output_peak=12.354437 host_seconds=11.962238958
+level=0.25 steps=21286958 failures=0 retries=0 worst=0.00003085404 max_iterations=21 output_peak=19.210016 host_seconds=12.123768708

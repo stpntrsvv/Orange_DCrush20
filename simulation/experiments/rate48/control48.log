@@ -1,0 +1,48 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/simulation/experiments/rate48/host_control)
+warning: function `observations` is never used
+   --> src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+error[E0382]: use of moved value: `y`
+  --> examples/control48_di.rs:19:38
+   |
+17 |    let counts=a.counts;let steps=[a.steps,b.steps];let x=a.step::<Math,5>(u);let y=b.step::<Math,5>(u);let mid=y;
+   |                                                                                  -                             - value moved here
+   |                                                                                  |
+   |                                                                                  move occurs because `y` has type `StepResult`, which does not implement the `Copy` trait
+18 |    fails[0]+=(!x.converged) as u32;fails[1]+=(!mid.converged || !y.converged) as u32;stops[0]+=(a.steps!=steps...
+19 |    assert!(x.output_v.is_finite() && y.output_v.is_finite());
+   |                                      ^^^^^^^^^^ value used here after move
+
+warning: variable `old` is assigned to, but never used
+  --> examples/control48_di.rs:11:120
+   |
+11 |   let key=format!("{:.0}mv",level*1000.);let mut a=BoundedState::<3,7>::default();let mut b=PackedState::default();let mut old=0.;
+   |                                                                                                                        ^^^^^^^
+   |
+   = note: consider using `_old` instead
+   = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: value assigned to `old` is never read
+  --> examples/control48_di.rs:29:4
+   |
+29 |    old=u;
+   |    ^^^^^
+   |
+   = help: maybe it is overwritten before being read?
+   = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+For more information about this error, try `rustc --explain E0382`.
+warning: `orange-dsp` (example "control48_di") generated 2 warnings
+error: could not compile `orange-dsp` (example "control48_di") due to 1 previous error; 2 warnings emitted

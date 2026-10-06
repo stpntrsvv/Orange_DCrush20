@@ -1,0 +1,37 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 12.80s
+     Running unittests src/lib.rs (target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 5 tests
+test packed::tests::saturated_law_is_finite_and_matches_f64 ... ok
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> 100mV rms=0.0000018523070238015024 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024] retries=0
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> 100mV rms=0.00000184971747691496 peak=0.00004214544816760757 scaled=0.0000028096965445071713 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024] retries=0
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> 100mV rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024] retries=0
+packed F=false M=orange_dsp::FpuRootMath 100mV rms=0.0000016774219414532229 peak=0.000042673228109135763 scaled=0.000002844881873942384 fullres=0.000023841858 failures=0 maxiter=4
+direct=[1024, 1024, 1024, 0, 1024] retries=0
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> 1000mV rms=0.000012227728975252241 peak=0.00626693744809792 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024] retries=0
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> 1000mV rms=0.000012226065121971198 peak=0.006268844796730733 scaled=0.0029345392256345804 fullres=0.0000808388 failures=0 maxiter=12
+direct=[1024, 784, 1024, 240, 1024] retries=0
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> 1000mV rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024] retries=0
+packed F=false M=orange_dsp::FpuRootMath 1000mV rms=0.000003983350293162762 peak=0.0019404622750314182 scaled=0.0008726554657035498 fullres=0.00007026829 failures=0 maxiter=12
+direct=[1024, 783, 1024, 241, 1024] retries=0
+packed F=false M=orange_dsp::FpuRootMath 250mV rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024] retries=1
+packed F=true M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> 250mV rms=0.0000023573201075257555 peak=0.0007185207978110952 scaled=0.000047901386520739685 fullres=0.000071525574 failures=0 maxiter=28
+direct=[1024, 1023, 1024, 1, 1024] retries=3
+test packed::tests::package_one_reference ... ok
+test packed::tests::package_three_reference ... ok
+packed F=true M=orange_dsp::packed::RootMath<orange_dsp::FpuRootMath> 250mV rms=0.0000023442219655846936 peak=0.0007204281464439077 scaled=0.00004802854309626052 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024] retries=1
+packed F=false M=orange_dsp::packed::FastMath<orange_dsp::FpuRootMath> 250mV rms=0.0000021415434184590947 peak=0.0006002651825767202 scaled=0.00004001767883844802 fullres=0.000047683716 failures=0 maxiter=25
+direct=[1024, 1023, 1024, 1, 1024] retries=1
+test packed::tests::package_four_reference ... ok
+test packed::tests::package_two_reference ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 23 filtered out; finished in 0.03s
+

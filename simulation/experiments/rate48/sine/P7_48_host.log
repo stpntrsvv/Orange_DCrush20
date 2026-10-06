@@ -1,0 +1,18 @@
+warning: function `observations` is never used
+   --> src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/simulation/experiments/rate48/host_control)
+    Finished `release` profile [optimized] target(s) in 1.55s
+     Running `simulation/experiments/rate48/host_control/target/aarch64-apple-darwin/release/examples/control48_sine`

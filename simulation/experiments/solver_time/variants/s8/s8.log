@@ -1,0 +1,18 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 21.52s
+     Running unittests src/lib.rs (firmware/target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 1 test
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+triangle1000: steps=1024 output_different=94 peak_vs_P7=0.004638672 memory_peak_vs_P7=0.008300781 counts=[33, 285, 0]
+noise250: steps=1024 output_different=632 peak_vs_P7=0.0003681183 memory_peak_vs_P7=0.0010147095 counts=[934, 8138, 0]
+step025: steps=1536 output_different=1037 peak_vs_P7=0.00037193298 memory_peak_vs_P7=0.004737854 counts=[11, 113, 0]
+step1: steps=1536 output_different=174 peak_vs_P7=0.004114151 memory_peak_vs_P7=0.026855469 counts=[2, 28, 0]
+multitone: steps=1536 output_different=1310 peak_vs_P7=0.00017166138 memory_peak_vs_P7=0.0021362305 counts=[594, 5255, 0]
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+output1: steps=2048 output_different=103 peak_vs_P7=0.007502556 memory_peak_vs_P7=0.0087890625 counts=[62, 549, 0]
+output2: steps=2048 output_different=847 peak_vs_P7=0.00050354004 memory_peak_vs_P7=0.0009660721 counts=[1766, 15804, 0]
+test scalar::diagnostics::paired_traces_and_counter_equivalence ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 41 filtered out; finished in 0.10s
+

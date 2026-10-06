@@ -1,0 +1,138 @@
+[
+  {
+    "fs": 48000,
+    "relative_rms": 0.2512151043119867,
+    "peak_v": 12.264013454088673,
+    "relative_rms_at_48k": 0.2512151043119867,
+    "peak_at_48k_v": 12.264013454088673,
+    "maximum_residual": 9.981674746010565e-11,
+    "failures": 0,
+    "mean_iterations": [
+      1.0,
+      1.3684895833333333,
+      6.802083333333333,
+      3.203125,
+      3.05859375
+    ],
+    "maximum_iterations": [
+      1,
+      3,
+      14,
+      7,
+      7
+    ],
+    "audit": {
+      "passive_modes": 22.0,
+      "smallest_rate": 2.469189546889295e-10,
+      "largest_rate": 9999999.999999974,
+      "topology_null_error": 3.663735981263017e-22,
+      "source_constraint_error": 0.0,
+      "kcl_current_coeff_error": 2.744771041799884e-16,
+      "node_matrix_nonzero": 349.0,
+      "modal_B_nonzero": 220.0
+    },
+    "max_scaled_state_error": 0.8176008969392449
+  },
+  {
+    "fs": 96000,
+    "relative_rms": 0.13562364449217096,
+    "peak_v": 7.394316703645361,
+    "relative_rms_at_48k": 0.1343417728818627,
+    "peak_at_48k_v": 7.258577684109056,
+    "maximum_residual": 9.97098774752162e-11,
+    "failures": 0,
+    "mean_iterations": [
+      1.0,
+      1.0032552083333333,
+      4.087239583333333,
+      2.185546875,
+      2.236328125
+    ],
+    "maximum_iterations": [
+      1,
+      2,
+      13,
+      6,
+      6
+    ],
+    "audit": {
+      "passive_modes": 22.0,
+      "smallest_rate": 2.469189546889295e-10,
+      "largest_rate": 9999999.999999974,
+      "topology_null_error": 3.663735981263017e-22,
+      "source_constraint_error": 0.0,
+      "kcl_current_coeff_error": 5.493221393856486e-16,
+      "node_matrix_nonzero": 349.0,
+      "modal_B_nonzero": 220.0
+    },
+    "max_scaled_state_error": 0.49295444690969076
+  },
+  {
+    "fs": 192000,
+    "relative_rms": 0.059752746319947626,
+    "peak_v": 5.067794898456091,
+    "relative_rms_at_48k": 0.05662034155159501,
+    "peak_at_48k_v": 2.27071161039171,
+    "maximum_residual": 9.996755297357664e-11,
+    "failures": 0,
+    "mean_iterations": [
+      1.0,
+      1.0003255208333333,
+      3.16796875,
+      1.4163411458333333,
+      1.8030598958333333
+    ],
+    "maximum_iterations": [
+      1,
+      2,
+      12,
+      4,
+      5
+    ],
+    "audit": {
+      "passive_modes": 22.0,
+      "smallest_rate": 2.469189546889295e-10,
+      "largest_rate": 9999999.999999974,
+      "topology_null_error": 3.663735981263017e-22,
+      "source_constraint_error": 0.0,
+      "kcl_current_coeff_error": 1.0990124014866406e-15,
+      "node_matrix_nonzero": 349.0,
+      "modal_B_nonzero": 220.0
+    },
+    "max_scaled_state_error": 0.3378529932304061
+  },
+  {
+    "fs": 384000,
+    "relative_rms": 0.023884617550027135,
+    "peak_v": 2.5276501417986306,
+    "relative_rms_at_48k": 0.021584133096429963,
+    "peak_at_48k_v": 0.5735878750592924,
+    "maximum_residual": 9.983754563810028e-11,
+    "failures": 0,
+    "mean_iterations": [
+      1.0,
+      1.0,
+      2.8181966145833335,
+      1.1507161458333333,
+      1.5494791666666667
+    ],
+    "maximum_iterations": [
+      1,
+      1,
+      7,
+      3,
+      4
+    ],
+    "audit": {
+      "passive_modes": 22.0,
+      "smallest_rate": 2.469189546889295e-10,
+      "largest_rate": 9999999.999999974,
+      "topology_null_error": 3.663735981263017e-22,
+      "source_constraint_error": 0.0,
+      "kcl_current_coeff_error": 2.1983930215744363e-15,
+      "node_matrix_nonzero": 349.0,
+      "modal_B_nonzero": 220.0
+    },
+    "max_scaled_state_error": 0.16851000945324204
+  }
+]

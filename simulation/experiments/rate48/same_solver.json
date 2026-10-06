@@ -1,0 +1,5 @@
+{
+  "source_sha256": "5f8578a5591c912e44e6903864ac65b38d05ac34699b3db5728476311bde478e",
+  "changes": "Only generated coefficient module names and exclusion of the old 96k diagnostic test module. No solver algorithm, tolerances, iteration caps or physics changed.",
+  "rate": 48000
+}

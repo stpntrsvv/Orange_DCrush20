@@ -1,0 +1,8 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+error: register class `dreg` requires at least one of the following target features: d32, neon
+   --> orange-dsp/src/packed.rs:107:47
+    |
+107 |         core::arch::asm!("vsqrt.f64 {v}, {v}",v=inout(dreg) x,options(nomem,nostack,preserves_flags));
+    |                                               ^^^^^^^^^^^^^^^
+
+error: could not compile `orange-dsp` (lib) due to 1 previous error

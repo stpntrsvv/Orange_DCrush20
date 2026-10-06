@@ -1,0 +1,20 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+  |
+  = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `orange-dsp` (lib) generated 1 warning
+    Finished `release` profile [optimized + debuginfo] target(s) in 5.18s
+     Running `firmware/target/aarch64-apple-darwin/release/examples/exponential_trace`
+q=false case=0 failed=0 retries=0 peak=0.0000004666140416276221 scaled=0.000000017607992930379625 relative_rms=0.00000002456973156965264
+q=false case=1 failed=958 retries=960 peak=41.99877778929361 scaled=672.818545037689 relative_rms=0.9722696792307647
+
+thread 'main' (42549000) panicked at orange-dsp/examples/exponential_trace.rs:16:16:
+assertion `left == right` failed
+  left: 958
+ right: 0
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

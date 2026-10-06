@@ -1,0 +1,228 @@
+{
+  "utc": "2026-09-27T16:51:18.252588+00:00",
+  "sources": {
+    "embedded/openocd/run_analytic_probe.cfg": "58ddf9ab194bb79d4cffdaf750d61b273ee45646dceca554a6bbeb8f13bd95f4",
+    "embedded/openocd/run_repeated_probe.cfg": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2",
+    "firmware/.cargo/config.toml": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9",
+    "firmware/Cargo.lock": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f",
+    "firmware/Cargo.toml": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69",
+    "firmware/h7r3-runtime/Cargo.toml": "bb40c3d73de9e374487e78d033f1e61ca26ad42255fc071157be6e74c44379f9",
+    "firmware/h7r3-runtime/memory-itcm.x": "0d6a6d7ead063e26056e26bfec41f4ea362f8e1372c7bf71866112de273265b3",
+    "firmware/h7r3-runtime/src/cordic.rs": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe",
+    "firmware/h7r3-runtime/src/main.rs": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813",
+    "firmware/h7r3-runtime/src/packed_probe.rs": "1c3092de85914c73aef2cce41f85bf99ebd0ea43788903761fa35eab3c9c616f",
+    "firmware/orange-dsp/Cargo.toml": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add",
+    "firmware/orange-dsp/examples/analytic_di.rs": "90ea3ca617c3553a17e39f622f273f3ce7da7d4037fa5c96195027a3df687e76",
+    "firmware/orange-dsp/examples/condensed_di.rs": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2",
+    "firmware/orange-dsp/examples/exponential_trace.rs": "481802201b853926d947a739a849178e88132f84ee1889d85e05b6bd6394a547",
+    "firmware/orange-dsp/examples/metric_traces.rs": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313",
+    "firmware/orange-dsp/examples/packed_di.rs": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d",
+    "firmware/orange-dsp/examples/repeated_di.rs": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b",
+    "firmware/orange-dsp/examples/solver_di.rs": "7ea68e26fe0aee3af47d8642b53781de8319d4ea947b51ca141ec7d5423c0e5d",
+    "firmware/orange-dsp/src/absolute_ports.rs": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1",
+    "firmware/orange-dsp/src/analytic.rs": "0ddac5b4df4e6e141601cadb0e44d25f0a635b1e60022eaa4a51fc21528ba2b3",
+    "firmware/orange-dsp/src/analytic_diagnostics.rs": "4b64f5e4c7549bbf72c9e5a62bfab9c35db761f20cc89f7d9c5342124a3542f6",
+    "firmware/orange-dsp/src/condensed.rs": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4",
+    "firmware/orange-dsp/src/control_ports.rs": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351",
+    "firmware/orange-dsp/src/exponential.rs": "7435d853d2c627d2241d3addaeeb682e9ffa3e475ecef6edf685933ef073eef9",
+    "firmware/orange-dsp/src/generated_condensed.rs": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e",
+    "firmware/orange-dsp/src/generated_exponential.rs": "3073a751176c8ab28101f021e900545fccdc1377b6185321865d7ce10190a4e7",
+    "firmware/orange-dsp/src/generated_model.rs": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a",
+    "firmware/orange-dsp/src/generated_packed.rs": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a",
+    "firmware/orange-dsp/src/generated_repeated.rs": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71",
+    "firmware/orange-dsp/src/lib.rs": "e671aa94aa5b09e0048bb5b9e9b1fd23aa46ed811a04f9c82a2af63084bff982",
+    "firmware/orange-dsp/src/packed.rs": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b",
+    "firmware/orange-dsp/src/repeated.rs": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c",
+    "firmware/orange-dsp/src/repeated_diagnostics.rs": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9",
+    "firmware/orange-dsp/src/scalar.rs": "2865c883cc3093784f994d59612362706d5baf460758243f60b1ea56de4dd505",
+    "firmware/orange-dsp/src/scalar_diagnostics.rs": "9a85c44584dda9706cab97ad9554fd0767e37e8591913ca84b44401276bb1b16",
+    "firmware/orange-render/Cargo.toml": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad",
+    "firmware/orange-render/src/main.rs": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57",
+    "simulation/analyze_repeated.py": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af",
+    "simulation/analyze_scalar.py": "9a5541a175babfb5e2ab638cfc035eb40ec666a7e19264f68c306f759b979abd",
+    "simulation/analyze_temporal_series.py": "d626da2bb0c90a32e4da7b2d8b11c7b2541b9f9a4105350452841598d2dcacac",
+    "simulation/exponential_closed.py": "731d5e84cd4c41a8468cc5e423baac2e666cda7dc529cad4ac67d7591f14e138",
+    "simulation/exponential_passive.py": "d658e55da8ab410aa8d6729d5bd25a485f44c252a887caba6201bdff29512ccd",
+    "simulation/generate_packed.py": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4",
+    "simulation/generate_repeated.py": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31",
+    "simulation/run_analytic_batch.py": "ee21377605fdf9651efc3030081d69b87fd6a448ebb9a89433eef77178cb6c96",
+    "simulation/run_analytic_reference.py": "6ff81c3821e24464aa87acc360cb85ab219512d8dd7e7628f902f0bdb56056be",
+    "simulation/run_exponential_adaptive.py": "1ed80a721894a1983df504b9166c1a6e4353e9312038d49c92e24db29e31dc30",
+    "simulation/run_exponential_closed.py": "4f8f55a0e496fb24d25e37c81812a8b806f73a2ed15f0dc9fc46fe976307bfa4",
+    "simulation/run_exponential_passive.py": "a3bf3887cad8a1f99a9cced6f3702301b952d91202389f0c57b7ae1108a14f44",
+    "simulation/run_packed_batch.py": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a",
+    "simulation/run_packed_reference.py": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6",
+    "simulation/run_repeated_batch.py": "188ce03e4593cc8189e273be63672a75db3de77857c3492d5e740bffc7e2fd1a",
+    "simulation/run_repeated_output_reference.py": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d",
+    "simulation/run_solver_batch.py": "097ba2ace34e48c8f1f3c2d918c38587ca2500ce1f596ee5700c26f110b78e53"
+  },
+  "packages": [
+    {
+      "name": "package11",
+      "feature": "analytic-probe,repeated-output",
+      "sha256": "7a50ee754d52c32e2dd05bceffd6567a19cc4a1be0d916ae7bf5c9910da59c68",
+      "sections": {
+        ".vectors": {
+          "address": 1024,
+          "size": 8
+        },
+        ".text": {
+          "address": 1032,
+          "size": 58696
+        },
+        ".bss": {
+          "address": 536870912,
+          "size": 0
+        },
+        ".debug_loc": {
+          "address": 0,
+          "size": 156986
+        },
+        ".debug_abbrev": {
+          "address": 0,
+          "size": 2292
+        },
+        ".debug_info": {
+          "address": 0,
+          "size": 141650
+        },
+        ".debug_aranges": {
+          "address": 0,
+          "size": 392
+        },
+        ".debug_ranges": {
+          "address": 0,
+          "size": 52256
+        },
+        ".debug_str": {
+          "address": 0,
+          "size": 91690
+        },
+        ".comment": {
+          "address": 0,
+          "size": 153
+        },
+        ".ARM.attributes": {
+          "address": 0,
+          "size": 67
+        },
+        ".debug_frame": {
+          "address": 0,
+          "size": 1720
+        },
+        ".debug_line": {
+          "address": 0,
+          "size": 44406
+        },
+        ".symtab": {
+          "address": 0,
+          "size": 5312
+        },
+        ".shstrtab": {
+          "address": 0,
+          "size": 174
+        },
+        ".strtab": {
+          "address": 0,
+          "size": 3750
+        }
+      }
+    },
+    {
+      "name": "package12",
+      "feature": "analytic-rail,repeated-output",
+      "sha256": "08a2a6b769bfce8bc7dc43ae06e88f0aec423413d813378aba5877e8c77848b8",
+      "sections": {
+        ".vectors": {
+          "address": 1024,
+          "size": 8
+        },
+        ".text": {
+          "address": 1032,
+          "size": 57304
+        },
+        ".bss": {
+          "address": 536870912,
+          "size": 0
+        },
+        ".debug_loc": {
+          "address": 0,
+          "size": 148570
+        },
+        ".debug_abbrev": {
+          "address": 0,
+          "size": 2292
+        },
+        ".debug_info": {
+          "address": 0,
+          "size": 134057
+        },
+        ".debug_aranges": {
+          "address": 0,
+          "size": 392
+        },
+        ".debug_ranges": {
+          "address": 0,
+          "size": 51432
+        },
+        ".debug_str": {
+          "address": 0,
+          "size": 91399
+        },
+        ".comment": {
+          "address": 0,
+          "size": 153
+        },
+        ".ARM.attributes": {
+          "address": 0,
+          "size": 67
+        },
+        ".debug_frame": {
+          "address": 0,
+          "size": 1724
+        },
+        ".debug_line": {
+          "address": 0,
+          "size": 43044
+        },
+        ".symtab": {
+          "address": 0,
+          "size": 5344
+        },
+        ".shstrtab": {
+          "address": 0,
+          "size": 174
+        },
+        ".strtab": {
+          "address": 0,
+          "size": 3756
+        }
+      }
+    }
+  ],
+  "stress": false,
+  "output": true,
+  "counted": false,
+  "references": {
+    "simulation/experiments/absolute_ports/reference_100mv.txt": "26cb5bfd4b3625966ec5224eff8c93fa31dee135e82e4e182486bc8bd6be2af4",
+    "simulation/experiments/absolute_ports/reference_1000mv.txt": "aceff3ed8a316f557aa8a2805d1dc0e493e11092540558ef20df906536bd2a2a",
+    "simulation/experiments/architecture_decision/reference_noise.txt": "e256588985ff58990885d5c8781d8e9f1dfac4b9c9b600b22ae193904774690d",
+    "simulation/experiments/batched_optimization/reference_step025.txt": "af1e4848a7feb0f217af63fff33958910a0c5c34b5047f81435a705ac567e31f",
+    "simulation/experiments/batched_optimization/reference_step1.txt": "056d38048c9d700c01c4cb2f24a163158ccab3ca9db866717c5971c4557be2b1",
+    "simulation/experiments/batched_optimization/reference_multitone.txt": "a8103adc57dbebfbfa4fbf97d16fb9a50af314d85defe0cbf101b0b9bfc7f2b6",
+    "simulation/experiments/repeated_work/reference_output0.txt": "2e2c426f8779fc48a641ddaf226c4b896384ddfb88fb22c52ccfb54fe2772374",
+    "simulation/experiments/repeated_work/reference_output1.txt": "caee801b14bc9385b435bc6f48b01a994536bf1b4cd439bd100f94325e4661c1",
+    "simulation/experiments/repeated_work/reference_output2.txt": "b69e7031a7149d33205d146bc471f148646f13bf925672a9651166edfdfb84f9",
+    "simulation/experiments/analytic_simplification/reference/output2.txt": "d6a9f048b3a0fc478b0a2e6d706fcf0a7066ae52040b2b08076bd2006e2694a1",
+    "simulation/experiments/analytic_simplification/reference/noise250.txt": "af7ce002d338675c22f02600ee67f78b3db8dc0c6a71785c3ccb4d447b3adc7f",
+    "simulation/experiments/analytic_simplification/reference/output1.txt": "057c2ea83198269b6c8fc4d9a6e243e0b29205544a579eacd06383ad3969648b",
+    "simulation/experiments/analytic_simplification/reference/output0.txt": "6c3484a2764a9c21210c661c997e478bdfb634b1bd45766c3b5c9768e6a952ae",
+    "simulation/experiments/analytic_simplification/reference/triangle100.txt": "7d1cfaa62a13168b7ede1efad2433fc8990a8ada512efbe75ce940cf5528a45a",
+    "simulation/experiments/analytic_simplification/reference/multitone.txt": "15967dffe02d96d245559089e9c6f25b3af92f89bdd56519f7218d1685eb5523",
+    "simulation/experiments/analytic_simplification/reference/step1.txt": "6df575cbb521827c1c229f2c30f19d76a98954253358135d0b855979df6cd9fc",
+    "simulation/experiments/analytic_simplification/reference/step025.txt": "da8a89d530b9f0ac6861c099f15d62cfdec932e4ee0446d0be2bfaf1a91950bb",
+    "simulation/experiments/analytic_simplification/reference/triangle1000.txt": "6a07cc1558193698e54373ae6036983b3979b5db757b68dc5ac0923e70fbf8ae"
+  },
+  "control": "P7 unchanged packed.rs; ExtraMath<FpuRootMath,2>, precision 5",
+  "rustc": "rustc 1.98.1 (48a229cea 2026-09-01)\nbinary: rustc\ncommit-hash: 48a229ceaefd4985c50990b14116b6d856af0985\ncommit-date: 2026-09-01\nhost: aarch64-apple-darwin\nrelease: 1.98.1\nLLVM version: 22.1.8\n"
+}

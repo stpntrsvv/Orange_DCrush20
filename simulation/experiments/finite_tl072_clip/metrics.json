@@ -1,0 +1,62 @@
+{
+  "status": "finite TL072C coupled reference; parameters not measured on amp",
+  "parameters": {
+    "sample_rate_hz": 96000,
+    "integration": "bdf2",
+    "overdrive_resistance_ohm": 0
+  },
+  "cases": [
+    {
+      "level_v_peak": 0.001,
+      "frequency_hz": 997,
+      "samples": 1152,
+      "finite_rms_v": 0.004950185296208451,
+      "ideal_rms_v": 0.004931258363986615,
+      "difference_rms_v": 4.5245228913559364e-05,
+      "finite_peak_v": 0.007070727348740173,
+      "ideal_peak_v": 0.007042527473203745,
+      "max_newton_iterations": 2,
+      "max_kcl_a": 1.9983057900046247e-12,
+      "max_opamp_source_current_a": 1.2127415906477904e-06
+    },
+    {
+      "level_v_peak": 0.1,
+      "frequency_hz": 997,
+      "samples": 1152,
+      "finite_rms_v": 0.12749271315736269,
+      "ideal_rms_v": 0.1274214676937932,
+      "difference_rms_v": 0.003123763269443986,
+      "finite_peak_v": 0.29212853713449255,
+      "ideal_peak_v": 0.29156897343613175,
+      "max_newton_iterations": 7,
+      "max_kcl_a": 1.9825490600870917e-12,
+      "max_opamp_source_current_a": 0.001210068650510358
+    },
+    {
+      "level_v_peak": 0.5,
+      "frequency_hz": 997,
+      "samples": 1152,
+      "finite_rms_v": 0.17141293313174893,
+      "ideal_rms_v": 0.15926992952876384,
+      "difference_rms_v": 0.20685600584834787,
+      "finite_peak_v": 0.517659916686726,
+      "ideal_peak_v": 0.42344110371678934,
+      "max_newton_iterations": 19,
+      "max_kcl_a": 1.9509342058521284e-12,
+      "max_opamp_source_current_a": 0.004949363453852435
+    },
+    {
+      "level_v_peak": 0.1,
+      "frequency_hz": 10000,
+      "samples": 1152,
+      "finite_rms_v": 0.2683791246810502,
+      "ideal_rms_v": 0.27072567367505246,
+      "difference_rms_v": 0.01672711495279767,
+      "finite_peak_v": 0.38150597567948435,
+      "ideal_peak_v": 0.37939648753095256,
+      "max_newton_iterations": 9,
+      "max_kcl_a": 1.823596937518268e-12,
+      "max_opamp_source_current_a": 0.0008295248794853026
+    }
+  ]
+}

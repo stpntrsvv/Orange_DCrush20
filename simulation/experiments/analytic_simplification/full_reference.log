@@ -1,0 +1,9 @@
+triangle100 {'scaled_residual': 1.9978462535306853e-09, 'kcl_a': 1.9978462535306853e-11, 'iterations': 4, 'continuation_steps': 0}
+triangle1000 {'scaled_residual': 1.9796165981423794e-09, 'kcl_a': 1.9796165981423794e-11, 'iterations': 10, 'continuation_steps': 0}
+noise250 {'scaled_residual': 1.9847090042669855e-09, 'kcl_a': 1.9847090042669855e-11, 'iterations': 23, 'continuation_steps': 2}
+step025 {'scaled_residual': 1.9060106412008976e-09, 'kcl_a': 1.9060106412008976e-11, 'iterations': 11, 'continuation_steps': 0}
+step1 {'scaled_residual': 1.9947801684115987e-09, 'kcl_a': 1.9947801684115987e-11, 'iterations': 44, 'continuation_steps': 0}
+multitone {'scaled_residual': 1.9545911482718124e-09, 'kcl_a': 1.9545911482718124e-11, 'iterations': 13, 'continuation_steps': 0}
+output0 {'scaled_residual': 1.997732676576854e-09, 'kcl_a': 1.997732676576854e-11, 'iterations': 4, 'continuation_steps': 0}
+output1 {'scaled_residual': 1.9854422820446763e-09, 'kcl_a': 1.9854422820446763e-11, 'iterations': 11, 'continuation_steps': 0}
+output2 {'scaled_residual': 1.9975583145058484e-09, 'kcl_a': 1.9975583145058484e-11, 'iterations': 39, 'continuation_steps': 4}

@@ -1,0 +1,2149 @@
+{
+  "note": "All work was confined to OrangeDCrush20. Final R5 is an isolated candidate; P7 retained. RAM-only sessions reset to normal application.",
+  "files": {
+    "simulation/experiments/repeated_work/20260927T111628Z/host_tests.log": {
+      "bytes": 21172,
+      "sha256": "760a21fb11f702528938f702ea6f3433742d30731ebbea6ed5c492c8d80579d6"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/manifest.json": {
+      "bytes": 6087,
+      "sha256": "e76f229fe183fb7bea250a676d9b328c882c6b8d04d7d9ffb4eb48aa1117164b"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/package8.elf": {
+      "bytes": 590688,
+      "sha256": "67ab393ee6ac46cec3c56f6a65e773e13ff8085f3f56f7eca1d7cb24b865db7e"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/package8.log": {
+      "bytes": 156,
+      "sha256": "6c111eb17bb5523bc294bebfa7d5fcffbd4aabd381a43c10bc756b281a2b9794"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/package8_build.log": {
+      "bytes": 2346,
+      "sha256": "42a8647039c1f2c84c8a64153ad6bbb325e98efcedec40cd3aa6166d57d51171"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/embedded/openocd/run_packed_probe.cfg": {
+      "bytes": 1501,
+      "sha256": "d36a12a3e15ff76b27b8033eee8ef6296351c871ec56c25c9a157dca47a4c128"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 819,
+      "sha256": "6bdc7cb7b4442a84d345a97412a1c234dab4f0421f1838b1f1f54f3198679b78"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 7193,
+      "sha256": "40087e138e08443db679505693bc26c1351437105f711080871697d8f36a8762"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 27235,
+      "sha256": "9e1fd81d0c5166edf9a8a9ee6fdbd91c7689085071c3389b552d736e21a34084"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T111628Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 9231,
+      "sha256": "f2a2d5e2e03abc8db0e60e273028158c0362e7fa30a6d76d15f35185a651e6d4"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/host_tests.log": {
+      "bytes": 21086,
+      "sha256": "1df0dbd55b5d935fbf5d01be91e53f8289314450c3dc7a5948c52794795bb3f9"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/manifest.json": {
+      "bytes": 6087,
+      "sha256": "b0a92d116e30aa0725df4c95e701b41e6fbc4c06f2f3fa527684d5bb575b4b80"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/package8.elf": {
+      "bytes": 590688,
+      "sha256": "67ab393ee6ac46cec3c56f6a65e773e13ff8085f3f56f7eca1d7cb24b865db7e"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/package8.log": {
+      "bytes": 1658,
+      "sha256": "d6b84ff1be35d3b50bb8c15b75c1752c19ca2d815d2411bd3c5d10d40b719ac0"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/package8_build.log": {
+      "bytes": 2172,
+      "sha256": "2ce1b3297d7f8c457feff9615882a1c2befd1eb1792e8d5f9c2b2c68a49cf2b6"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "3d16ae453c2958e84dfca150d5aa3d375b07c8485161e1ced7552878b9e8d3a7"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/results.json": {
+      "bytes": 3880,
+      "sha256": "6991670c1d27564310467b1cfab7c6f862de9f7f2bd53d4c54ffe4141d875379"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/embedded/openocd/run_packed_probe.cfg": {
+      "bytes": 1501,
+      "sha256": "d36a12a3e15ff76b27b8033eee8ef6296351c871ec56c25c9a157dca47a4c128"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 819,
+      "sha256": "6bdc7cb7b4442a84d345a97412a1c234dab4f0421f1838b1f1f54f3198679b78"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 7193,
+      "sha256": "40087e138e08443db679505693bc26c1351437105f711080871697d8f36a8762"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 27235,
+      "sha256": "9e1fd81d0c5166edf9a8a9ee6fdbd91c7689085071c3389b552d736e21a34084"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T111709Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 9231,
+      "sha256": "f2a2d5e2e03abc8db0e60e273028158c0362e7fa30a6d76d15f35185a651e6d4"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/host_tests.log": {
+      "bytes": 21171,
+      "sha256": "cf03d041bf7f85f998775e3a309e542b8a7fcde838fa10d5709611bda88b8997"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/manifest.json": {
+      "bytes": 6087,
+      "sha256": "1ef57817ec207c6c3eff0ee9d657f3f787e14d730637d1076fbf75afc8915a51"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/package8.elf": {
+      "bytes": 551400,
+      "sha256": "91ddfd007ce8691e11f9435013d4bb79d03763c3a502641649809bde4cf1dd16"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/package8.log": {
+      "bytes": 1658,
+      "sha256": "0b1ad39a6fb2002f148de88247b2e7d5071f753f0e234cdefaf1a56e3ecbac24"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/package8_build.log": {
+      "bytes": 2346,
+      "sha256": "b6f2b94d8b0b9efe17b680661fcc41a97eb1a7fa4e42d05e28edeabb04b2b714"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "2fe29f2d7a3f4f64b9810ac60ef2999339594ebd1215a13d3ac6a73dea2078b5"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/results.json": {
+      "bytes": 3866,
+      "sha256": "e723e9d730405d99308a01866c3ed7ab1c3cb70bc4298b179e3b6c78edb1dc96"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/embedded/openocd/run_packed_probe.cfg": {
+      "bytes": 1501,
+      "sha256": "d36a12a3e15ff76b27b8033eee8ef6296351c871ec56c25c9a157dca47a4c128"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 819,
+      "sha256": "6bdc7cb7b4442a84d345a97412a1c234dab4f0421f1838b1f1f54f3198679b78"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 7193,
+      "sha256": "40087e138e08443db679505693bc26c1351437105f711080871697d8f36a8762"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 31773,
+      "sha256": "2d48cd70e45b8e0e904fe36a2b31f61758c1d9ce421eec6784eaebb2af4ef744"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T112047Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 9231,
+      "sha256": "f2a2d5e2e03abc8db0e60e273028158c0362e7fa30a6d76d15f35185a651e6d4"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/host_tests.log": {
+      "bytes": 21554,
+      "sha256": "61b3b9f74aeb06d8fc1d043bfe2f695f09f9dc112403cd8125ae65c11db94e59"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/manifest.json": {
+      "bytes": 6087,
+      "sha256": "97860b3b8bfbb6370a4f59689980a9f582fbabcf7f6f8ddea3c060e875a61512"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/package8.elf": {
+      "bytes": 551816,
+      "sha256": "4b44bf7127c879805a6e5b63f9015d87866cebcaff829dfeb9eaf34d5801f30c"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/package8.log": {
+      "bytes": 1657,
+      "sha256": "546fd550f47305511a22252559ad1ade671befc7e1e80dafa21bd5789807b09b"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/package8_build.log": {
+      "bytes": 2653,
+      "sha256": "c86c2743daef6f207e19f3ecefce0e0cfb7e2e1afabb3e94fcac8e3db13f1508"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "e4929f7ed1e511768502a234627b9624ea1cb8d6c20dbff820b89abc5ac93e07"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/results.json": {
+      "bytes": 3845,
+      "sha256": "53528c2a8800ab56e5f1a1a0366ac22504d8e52b1df45e855ee5015b808c867d"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/embedded/openocd/run_packed_probe.cfg": {
+      "bytes": 1501,
+      "sha256": "d36a12a3e15ff76b27b8033eee8ef6296351c871ec56c25c9a157dca47a4c128"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 819,
+      "sha256": "6bdc7cb7b4442a84d345a97412a1c234dab4f0421f1838b1f1f54f3198679b78"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 7193,
+      "sha256": "40087e138e08443db679505693bc26c1351437105f711080871697d8f36a8762"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 32018,
+      "sha256": "4531fa19e7a8a50391ac75486ea55745f405015bcade9d8040810034eb6a0a4e"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T112255Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 9231,
+      "sha256": "f2a2d5e2e03abc8db0e60e273028158c0362e7fa30a6d76d15f35185a651e6d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/host_tests.log": {
+      "bytes": 25248,
+      "sha256": "14588a328882126924748ae1259ed605fa6cc0ac8baafb7b53825b19ba7248ca"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/input.bin": {
+      "bytes": 4096,
+      "sha256": "99e0ad3f2915aacb5d099a22baba1841cf0ee1f336bc083c749a742398ace82c"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/manifest.json": {
+      "bytes": 7096,
+      "sha256": "176b6da4728754036f3271abbabab211f888a5ddcafddd5fddb9246f9761f8e1"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/package8.elf": {
+      "bytes": 554428,
+      "sha256": "54791a5f099ac3240161db73af41d1c869ac58801ca6c201daa56edce6a8944a"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/package8.log": {
+      "bytes": 1657,
+      "sha256": "b5f72563c17d4c0af848dc92365a1b0b074e9f0413f6b77e3f8f4c7c4808f0b6"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/package8_build.log": {
+      "bytes": 2346,
+      "sha256": "a9bbcde79411d64eee52557042e610a85dcba39e724be725d3b799b2142ef00e"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "753ebecb2484c15062ff4545c7d6944994cc4a4d328a80ba69655460f166b1d6"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/results.json": {
+      "bytes": 4892,
+      "sha256": "3b709d301203f6c60f86e2db3276ff19d29bd54d41764bc3e9feb1306ebc1d25"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 34858,
+      "sha256": "9aa4c5761cf7588ae33d36b95a63aba4357162fa6e42522f1fbeb8fd8cbedf31"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "14412c46cfaae453c65085dbf78fafcec8984b3d7db7a362a9f32b474577d1ed"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 10978,
+      "sha256": "20d4234aa9d43d9465fc43a8b32bdf0ac4e6e20b437feb909859a309241b080a"
+    },
+    "simulation/experiments/repeated_work/20260927T113313Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/host_tests.log": {
+      "bytes": 25162,
+      "sha256": "197969139c7129bdbf3b1ee8a6d10651e8c4ea2d46babd700193e675c335b6ee"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/manifest.json": {
+      "bytes": 7012,
+      "sha256": "db3565ada0d57305cc6bbf5a30833edfc1b5062cb0e99b3875c191d750341168"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/package8.elf": {
+      "bytes": 565384,
+      "sha256": "c19acd56c77768e65962e46f5fe3c4a5dbc0b5089e38685fe3aaef6b0a856ed8"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/package8.log": {
+      "bytes": 1668,
+      "sha256": "276f02b69706e6cba86f9119f8a4cae0927411d62607d44d329978fb7d56da15"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/package8_build.log": {
+      "bytes": 2261,
+      "sha256": "4960ec541ec4b18539083a9116deac3bb1a7614afdde8797e1019172286cf741"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "23096299f12c2725454d55ac01d9044af63a2c551e6991a29df6b51b24033e73"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/results.json": {
+      "bytes": 4964,
+      "sha256": "24073986433df94f4e3d2bfcd5a2043b20ead76d3f1823b053bfefc05db36833"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 34858,
+      "sha256": "9aa4c5761cf7588ae33d36b95a63aba4357162fa6e42522f1fbeb8fd8cbedf31"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "14412c46cfaae453c65085dbf78fafcec8984b3d7db7a362a9f32b474577d1ed"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 10978,
+      "sha256": "20d4234aa9d43d9465fc43a8b32bdf0ac4e6e20b437feb909859a309241b080a"
+    },
+    "simulation/experiments/repeated_work/20260927T113403Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/host_tests.log": {
+      "bytes": 25162,
+      "sha256": "96936192e7856aff413ab12eb485f66663616b11ed8a38ba96b816d727a7b647"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/manifest.json": {
+      "bytes": 6997,
+      "sha256": "b8f00c34bba4bab4a023b8d9d41092d8d7029b0d4e41859fe306b3158178eb05"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/package8.elf": {
+      "bytes": 549712,
+      "sha256": "64f7458dafa260bae6315597bb6a7b8c5cd9f6054d58d3af0e5973a3cf7fa757"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/package8.log": {
+      "bytes": 1658,
+      "sha256": "d60e308eafd914caf4cb7904b37195570ba1b05cafd35972251d2eaecf9eb2c7"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/package8_build.log": {
+      "bytes": 2346,
+      "sha256": "8ac57650fab5cf257ce91607ee57de3fde4fa4a93e4fe3aa96053d56da87e7e4"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "ee60db41d0c42efd49095912d3b6222315f867dc74076ac894a63bb75a7923bd"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/results.json": {
+      "bytes": 4862,
+      "sha256": "79e25f5e1bb29223b63bb58a5d636fc5348d7bf1e93eb1b451dd2b82022df387"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 10978,
+      "sha256": "2c7c7df6354faf3b98c2c0094b0a5ca314d72c5219d8b1fd481cf91b4887d568"
+    },
+    "simulation/experiments/repeated_work/20260927T113624Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/host_tests.log": {
+      "bytes": 25162,
+      "sha256": "152e98fed502d89bec401a2b21712ee35f51d23983ebc4615b2ee255e0a625fa"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/manifest.json": {
+      "bytes": 7012,
+      "sha256": "09b7935658eafe1816814a19be1b990efeaebf25f9d064ed421a50ae6592ccd3"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/package8.elf": {
+      "bytes": 558536,
+      "sha256": "79c733642a2f60ee123a80971b43f714d3bdd47534b041e1d5e21aba558f6c30"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/package8.log": {
+      "bytes": 1668,
+      "sha256": "84e5fdf089894c4bfebe1c0e36aea7a205080d074e53b81c750deae797f42ecb"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/package8_build.log": {
+      "bytes": 2261,
+      "sha256": "772a41550d2dbd71562dbcabfc5b2da0a3298d06168006fb736a8ab6398e6b7e"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "18837b2f8f57a33034d1992043d6e1a6ba1ee25d3fcbfc636d9bac0a618e1a48"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/results.json": {
+      "bytes": 4955,
+      "sha256": "e0d919020afa91bc6d9ca65f385b2c51b39c7cd5de2fab6df33e6ef2ab839492"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 11079,
+      "sha256": "188ce03e4593cc8189e273be63672a75db3de77857c3492d5e740bffc7e2fd1a"
+    },
+    "simulation/experiments/repeated_work/20260927T113735Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/host_tests.log": {
+      "bytes": 25216,
+      "sha256": "37b45cbde5a1c5348a074015da4a12737174b096828e43532db51014ed9af74b"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/input.bin": {
+      "bytes": 4096,
+      "sha256": "99e0ad3f2915aacb5d099a22baba1841cf0ee1f336bc083c749a742398ace82c"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/manifest.json": {
+      "bytes": 7096,
+      "sha256": "ca39ff3c73babac68d3a2b9878ec2c76bb99bfdaeca23cd90d066a1f482ef347"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/package8.elf": {
+      "bytes": 548412,
+      "sha256": "9ddfe867eb52d783a3ddea8d3708210ecab8bdb19c7be45e9d0de308f294db0e"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/package8.log": {
+      "bytes": 1657,
+      "sha256": "41fdb246dbb01e2c5567a5511a3fa6285a6ceef1adf747f7b19d16ad5d270692"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/package8_build.log": {
+      "bytes": 2261,
+      "sha256": "519550289022a49ee7c79afb5f58b6f1315132d0fc123305a54548bcf6332821"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "c1045ab382738295e5fb0baab7407ff71df44d37faedb1c1eeeac08cdd9e090e"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/results.json": {
+      "bytes": 4918,
+      "sha256": "111e2d76977d1ac91fa5ee640adf915870bfe007c601c42ad097be1dc08a2600"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 11079,
+      "sha256": "188ce03e4593cc8189e273be63672a75db3de77857c3492d5e740bffc7e2fd1a"
+    },
+    "simulation/experiments/repeated_work/20260927T113738Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/host_tests.log": {
+      "bytes": 25162,
+      "sha256": "fe275139d062a4dcf7510a3785094db10b84ba2bc061c518f0718c86fc99a2e8"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/manifest.json": {
+      "bytes": 7013,
+      "sha256": "180564edd925349d15af103aefa344b006205c01def462720810a4a676765228"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/package8.elf": {
+      "bytes": 549248,
+      "sha256": "15ee3c2297a6a7f78bb9459e12ce4841e3dcd1713761cf5e54f5f44fa0f9e4cf"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/package8.log": {
+      "bytes": 2531,
+      "sha256": "21a9fe8639ddc17635864d0408dea29e7dd888eb8f4d0070290e5a196cdd3c55"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/package8_build.log": {
+      "bytes": 2550,
+      "sha256": "b17900da2e17ea19d34032dfec7e2b41fc3b6d106055f3f36ac575401d7e8176"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "cafc08e40582319659b5dfd57462f64236e5e865795dc8f5e00981ab26f3be20"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/results.json": {
+      "bytes": 7283,
+      "sha256": "914b230a37eef29b3798ce518c2836d54caf9ce6ab77bd3f8e9737afbe51e3ca"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 11079,
+      "sha256": "188ce03e4593cc8189e273be63672a75db3de77857c3492d5e740bffc7e2fd1a"
+    },
+    "simulation/experiments/repeated_work/20260927T113745Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/host_tests.log": {
+      "bytes": 25162,
+      "sha256": "fdb1b32ae390663ede551fb9641a09e6a9787b1353093d5eb5e6677e9f67298a"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/manifest.json": {
+      "bytes": 6997,
+      "sha256": "aed5f34633e7a5c34b160ffd8642fec444fdd041c1d6217758188da3115cef9b"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/package8.elf": {
+      "bytes": 549712,
+      "sha256": "64f7458dafa260bae6315597bb6a7b8c5cd9f6054d58d3af0e5973a3cf7fa757"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/package8.log": {
+      "bytes": 1658,
+      "sha256": "75b174786b6b1973045d2a89984ebcb2fb568d68809aeee5aa19277c0a5c4d44"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/package8_build.log": {
+      "bytes": 2172,
+      "sha256": "2ce1b3297d7f8c457feff9615882a1c2befd1eb1792e8d5f9c2b2c68a49cf2b6"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/package8_trace.bin": {
+      "bytes": 49152,
+      "sha256": "1d192e4802aa785d1b4745122788c57323b7caeabcc6d8f64e075bd92c54f557"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/results.json": {
+      "bytes": 4876,
+      "sha256": "9394cd5dd973c53014556829a5fe91d9c488741320ee465c8b0dd56d2a193f04"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/embedded/openocd/run_repeated_probe.cfg": {
+      "bytes": 1729,
+      "sha256": "a7b173e32ae82a2def1a23835b411633f12d0acc91f5cd5f39c87bbb5adc3ce2"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/.cargo/config.toml": {
+      "bytes": 174,
+      "sha256": "054e28cf6bc915218acb6961e18dd6c6440bd82a14223703b83b3c8cb1fc1ff9"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/Cargo.lock": {
+      "bytes": 329,
+      "sha256": "8322969d257514aae23b1076c33fb02ef7444c2fc2f4d9f8b321740ca780bb6f"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/Cargo.toml": {
+      "bytes": 189,
+      "sha256": "31b46c502e1b5aed95ef3aec3582870aa8610f446765d4d5cb5bd09795cb5d69"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/h7r3-runtime/Cargo.toml": {
+      "bytes": 895,
+      "sha256": "9bba029c08d46ff6a5f6f4fdb689c9eecbeb3f5b28793183a42901ab8afc6688"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/h7r3-runtime/memory-itcm.x": {
+      "bytes": 549,
+      "sha256": "4282932d4f4619cb5fd0d0e418eccc6ddf6bd54f4acfab3110b4a12f5cb94a26"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/h7r3-runtime/src/cordic.rs": {
+      "bytes": 4872,
+      "sha256": "7b15857be7bfa90add696abea654d57a23aded85bc111e67a6bcc3bacc6e5fbe"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/h7r3-runtime/src/main.rs": {
+      "bytes": 22191,
+      "sha256": "42bc243385a7e0b5533b658ed5489ad9daad0f88acdf08486d8a360e081e7813"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/h7r3-runtime/src/packed_probe.rs": {
+      "bytes": 8955,
+      "sha256": "f3c2dcad3984ff55d2aa200563d6642a06a6efd7bd6f63d9c1ff18afd2bf33c9"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/Cargo.toml": {
+      "bytes": 93,
+      "sha256": "384c370029f5bb2ef403d47a802c7653c566b12763deb304221fba09682a3add"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/examples/condensed_di.rs": {
+      "bytes": 2651,
+      "sha256": "2bcb53de27da0a2454ae865a35dee68553c1695e46da8952ba92fa9de31140c2"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/examples/metric_traces.rs": {
+      "bytes": 2343,
+      "sha256": "2acf0d6f86bd4234094dd819c23294b66f40d30d6cdffa0ef3c10de478c2e313"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/examples/packed_di.rs": {
+      "bytes": 3155,
+      "sha256": "4f61e0ce292d89f33ed54d8e247c4cfcb8d194c7db4f33674fd3ef06dc2d1f0d"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/examples/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/absolute_ports.rs": {
+      "bytes": 9239,
+      "sha256": "32ad8304a6367afb89462cc35adf7e4b76634f80272bdfc19e8d077633c311d1"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/condensed.rs": {
+      "bytes": 16168,
+      "sha256": "77651e6a37ab1b39ab7c6cb53693bb43674ff0f7fd81479b1e67e1f2c972f7c4"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/control_ports.rs": {
+      "bytes": 19618,
+      "sha256": "49ef90399ce9159e273bc8739e19ec4c411b141a89c0b3c80a720a120bf5e351"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/generated_condensed.rs": {
+      "bytes": 39351,
+      "sha256": "a12558c5d53b92986a990d753df53463eff00ffadef0d47ef6c3eb2bb1dcf22e"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/generated_model.rs": {
+      "bytes": 503895,
+      "sha256": "781d18ad94bc06c5d9324ec4083fb2463ce6843530175c5e9597066699002b9a"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/lib.rs": {
+      "bytes": 95773,
+      "sha256": "4c36a26b2f1147048c9e8aed2acff579181b6b0eba22d2e096ce5c3d3a8fbdf4"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-render/Cargo.toml": {
+      "bytes": 124,
+      "sha256": "9f335472426f2fe9ec7e9501c08254b09b08c4e32252d15a781b877531a071ad"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/firmware/orange-render/src/main.rs": {
+      "bytes": 11366,
+      "sha256": "2da651b014e3a65b67595e8e8a20b2d2cd8861ff8d61e80aeea174dd2ed6db57"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/generate_packed.py": {
+      "bytes": 2754,
+      "sha256": "0684096201e413dfbf6445f071fa8d5b58d4e7759f8c3ce89d4441148632b4d4"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/run_packed_batch.py": {
+      "bytes": 8974,
+      "sha256": "f0627ac18647eccaa387ea529f06ed528fc1374c67c3845928e898039346010a"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/run_packed_reference.py": {
+      "bytes": 1639,
+      "sha256": "d7358ad4a073adf22a91fd0eefbc939bc36c7e9b0f00a14f5d4538ec510f89f6"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/run_repeated_batch.py": {
+      "bytes": 11079,
+      "sha256": "188ce03e4593cc8189e273be63672a75db3de77857c3492d5e740bffc7e2fd1a"
+    },
+    "simulation/experiments/repeated_work/20260927T113747Z/source/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/all_tests.log": {
+      "bytes": 23469,
+      "sha256": "f0be91faa739442d543af4c39fe4f068530eca5a3ff28b42be60a483e185c042"
+    },
+    "simulation/experiments/repeated_work/baseline/assembly_audit.json": {
+      "bytes": 1637,
+      "sha256": "af9c634a1beace426a429ca062def8b3e7ca9447c2c49e758f1cf3648b5b2883"
+    },
+    "simulation/experiments/repeated_work/baseline/build.log": {
+      "bytes": 2172,
+      "sha256": "ed164846952de9d7fc845dc53567497b0c6780b0ad7b93d6260d13c2a4833e51"
+    },
+    "simulation/experiments/repeated_work/baseline/generated_packed.rs": {
+      "bytes": 18096,
+      "sha256": "e8a91f5d126180229656ebc9046157d9145b78c2d159ad4f8572b4fcb384855a"
+    },
+    "simulation/experiments/repeated_work/baseline/p7.asm": {
+      "bytes": 734726,
+      "sha256": "009bc1e209be6c4d57d224f6e192340a4329fd227ccf4fd4abd85fa3def7ca89"
+    },
+    "simulation/experiments/repeated_work/baseline/p7.elf": {
+      "bytes": 484780,
+      "sha256": "54ba1feb7864e26105d1e3d31fe44e546a8d23d6a1c42dcbb8c08882ed96a863"
+    },
+    "simulation/experiments/repeated_work/baseline/packed.rs": {
+      "bytes": 30443,
+      "sha256": "2c4ae77fa0ca42b52afe1a6c72856988585428a396b1d97e47621a8396619a1b"
+    },
+    "simulation/experiments/repeated_work/baseline.asm": {
+      "bytes": 734758,
+      "sha256": "0471f85766a73718373ca91a570e2c3469b599a2e6a9100a176ca9a7b834c797"
+    },
+    "simulation/experiments/repeated_work/final_context/AGENTS.md": {
+      "bytes": 5022,
+      "sha256": "5500430ffa9c417ca0b5ecef276b66dd34760186492b7c470c68f26b5630b600"
+    },
+    "simulation/experiments/repeated_work/final_context/NEXT_CHAT.md": {
+      "bytes": 30432,
+      "sha256": "36593c6763a1ed36a77d5001ab4d48d2118a3a82598f41e91117916bbee79ff5"
+    },
+    "simulation/experiments/repeated_work/final_context/docs/10 \u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0435.md": {
+      "bytes": 30624,
+      "sha256": "9fec8fd9f0bd0b8c6640a0d8b2c6ca10c7cf4d66f576664f54f8018e22ce3d76"
+    },
+    "simulation/experiments/repeated_work/final_context/docs/11 \u0413\u0434\u0435 \u0441\u043e\u043a\u0440\u0430\u0449\u0430\u0442\u044c \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f.md": {
+      "bytes": 71554,
+      "sha256": "c556031abc098841cdab67d432fa73440320663a09e41c07c86f725192cff01d"
+    },
+    "simulation/experiments/repeated_work/final_context/docs/12 \u041c\u0435\u0442\u0440\u0438\u043a\u0438 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u0438 \u0438 \u043e\u0431\u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043e\u043f\u0443\u0441\u043a\u043e\u0432.md": {
+      "bytes": 24231,
+      "sha256": "9d2d665e71413efcdcb982bf03987725e5707f828e57109e55f2959e2aa6b275"
+    },
+    "simulation/experiments/repeated_work/final_context/firmware/orange-dsp/src/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/final_context/firmware/orange-dsp/src/repeated.rs": {
+      "bytes": 35181,
+      "sha256": "f061b7f7d6f808850ba4c69525e0f425d2075d5071f0a19d4cc6edc22fde0f4c"
+    },
+    "simulation/experiments/repeated_work/final_context/firmware/orange-dsp/src/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/analyze_repeated.py": {
+      "bytes": 5463,
+      "sha256": "4afdbb79b4eb755c190aae52409d15644b20cd09f234e8de846b7cbd351c89af"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/compact_repeated_cache.py": {
+      "bytes": 2893,
+      "sha256": "9fe0d8ce928e7f2228b09bee6a7e49ea5de5dd036445c2a9df1319a61243a434"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/implement_repeated_cache.py": {
+      "bytes": 9071,
+      "sha256": "693ac57297df3cfb76f52abdbfd3c57c02297ed5415dd32313111b62c0f676dc"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/implement_repeated_work.py": {
+      "bytes": 9445,
+      "sha256": "7bcf37e0838d5db078d15ff986437a4c52f8ad6048be54e50c030862db327041"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/instrument_repeated.py": {
+      "bytes": 5491,
+      "sha256": "e987ced3a6fd73ec53419171bc037e57647f33a76cafc438894b96c6f9515ef6"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/run_repeated_batch.py": {
+      "bytes": 11079,
+      "sha256": "188ce03e4593cc8189e273be63672a75db3de77857c3492d5e740bffc7e2fd1a"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/run_repeated_output_reference.py": {
+      "bytes": 1555,
+      "sha256": "de62544bd6a95769f40d213acda8d89ea04d9e1f0e828886d64e41de1d2fe14d"
+    },
+    "simulation/experiments/repeated_work/final_context/simulation/summarize_repeated.py": {
+      "bytes": 3580,
+      "sha256": "c9ce15343810dd17935516148fa5f7231b1d53174286f1562893f62a7a6e0dea"
+    },
+    "simulation/experiments/repeated_work/final_tests.log": {
+      "bytes": 25248,
+      "sha256": "50e8a749d0a3e5a926cbdcc87b34cab28e3f3da7641d5b739086a41204174529"
+    },
+    "simulation/experiments/repeated_work/host/bit_equivalence.json": {
+      "bytes": 1192,
+      "sha256": "20f2103d057f70603e46fab4748c264df2e9a82944810ac8773642b71929b850"
+    },
+    "simulation/experiments/repeated_work/host/multitone.bin": {
+      "bytes": 2899968,
+      "sha256": "ee12039f6d389e4af50d1bb5ecaba5c13111f0c8681aa4960e4d12908fb4c11f"
+    },
+    "simulation/experiments/repeated_work/host/multitone_counts.json": {
+      "bytes": 261,
+      "sha256": "490757632866ec7023d0f8f656fd744555674f2d7390989489f3ee68bbd9e49f"
+    },
+    "simulation/experiments/repeated_work/host/noise250.bin": {
+      "bytes": 1933312,
+      "sha256": "f629b0036376b82e87153fe33076eaf2b3f1557e7f2f1cfef6e68b5c3c2da507"
+    },
+    "simulation/experiments/repeated_work/host/noise250_counts.json": {
+      "bytes": 263,
+      "sha256": "8d8e1a8da78880852b1f6575b3789a544b7607e53fadd3988296746ec21443dd"
+    },
+    "simulation/experiments/repeated_work/host/output0.bin": {
+      "bytes": 3866624,
+      "sha256": "2dea96b14acf7e87933471f4559d79a23a50b8d0d78c21a7e3f4414ec5714730"
+    },
+    "simulation/experiments/repeated_work/host/output0_counts.json": {
+      "bytes": 244,
+      "sha256": "fd926922fe7f58bf3acdc7f5a7e885439903c125e9528acf1cf76c6c620c9681"
+    },
+    "simulation/experiments/repeated_work/host/output1.bin": {
+      "bytes": 3866624,
+      "sha256": "0a959de2ad8b1c09994f9574256c83032486138f07282b2961b007e5d884cff4"
+    },
+    "simulation/experiments/repeated_work/host/output1_counts.json": {
+      "bytes": 266,
+      "sha256": "4b5f51ecafd972bfef49bbf71f94cb2ebbc7990632e2699709d382134d1b6624"
+    },
+    "simulation/experiments/repeated_work/host/output2.bin": {
+      "bytes": 3866624,
+      "sha256": "2986c024b89ccae9852f8ac535a128ecd0a4e420cbd61680fd29176c05e2e421"
+    },
+    "simulation/experiments/repeated_work/host/output2_counts.json": {
+      "bytes": 269,
+      "sha256": "c0f3018dde6235876292ed05925132c6a829b142531261ff285e6bd5626585e5"
+    },
+    "simulation/experiments/repeated_work/host/step025.bin": {
+      "bytes": 2899968,
+      "sha256": "4fb543c0603fab50792d86891a5b6e828b723a684601e53a24d6084fee817657"
+    },
+    "simulation/experiments/repeated_work/host/step025_counts.json": {
+      "bytes": 257,
+      "sha256": "6b28f3ab035e828d8a2d2698a95803038f9b63273fa003c92b5bbf0f63ca02f7"
+    },
+    "simulation/experiments/repeated_work/host/step1.bin": {
+      "bytes": 2899968,
+      "sha256": "d7436c03a63b5ee41d79b08425c36036fd003f689d11fe1d39463d4a884971f5"
+    },
+    "simulation/experiments/repeated_work/host/step1_counts.json": {
+      "bytes": 254,
+      "sha256": "37d23b9e2950a52c6d8ec168d76c0b246d38e119a0afdcfd8b40c4f452e7f35f"
+    },
+    "simulation/experiments/repeated_work/host/triangle100.bin": {
+      "bytes": 1933312,
+      "sha256": "10f3392cadfa15c57341706255147018f15046678281b8b53d4db8905bd23898"
+    },
+    "simulation/experiments/repeated_work/host/triangle1000.bin": {
+      "bytes": 1933312,
+      "sha256": "ac7657c67b96103e5c311069a6362ab69c991b13c5605ddf2b1165b986100101"
+    },
+    "simulation/experiments/repeated_work/host/triangle1000_counts.json": {
+      "bytes": 259,
+      "sha256": "0ac5a94ec9444f8d40fcff2b8cdde7cce95dd32b3e09f161c2524c42e67e34f1"
+    },
+    "simulation/experiments/repeated_work/host/triangle100_counts.json": {
+      "bytes": 241,
+      "sha256": "cd597671bcee4cf7bdaee1a758efa9885a16988b76393c8b82a5e5a7728fc6a6"
+    },
+    "simulation/experiments/repeated_work/long_di/100mv.bin": {
+      "bytes": 170295664,
+      "sha256": "87c69863be9d3e9135eda2e164488e968a4fd1861d63af9f154a30025ddbe6c6"
+    },
+    "simulation/experiments/repeated_work/long_di/250mv.bin": {
+      "bytes": 170295664,
+      "sha256": "18ff2aa8da3a8732b4b66ea8f4e635865606eb2de57cf12ed4068829eb5ee1e2"
+    },
+    "simulation/experiments/repeated_work/long_di.log": {
+      "bytes": 866,
+      "sha256": "195c6d3845f392308707538ff4a3f7792359c8b4e842bc64fc5df481e22fb87d"
+    },
+    "simulation/experiments/repeated_work/long_di_build_failed.log": {
+      "bytes": 1534,
+      "sha256": "2df51601fa781a9660a9e74e41e06807b88a3543d45320f03146f390928bcef4"
+    },
+    "simulation/experiments/repeated_work/metrics.json": {
+      "bytes": 159444,
+      "sha256": "e5796d7ad5f528bc9b4af3f5e3dfac6be341c6667904276d021759ccc5017103"
+    },
+    "simulation/experiments/repeated_work/metrics.log": {
+      "bytes": 2210,
+      "sha256": "51c1ef6db47f89dc70441b689afaa031f731a44a86f4920f533ec5809b28988f"
+    },
+    "simulation/experiments/repeated_work/output_reference.log": {
+      "bytes": 359,
+      "sha256": "b5edc2d46fc43bd1e52ba33289e11143dc50941463b404c2a957b50953c822d4"
+    },
+    "simulation/experiments/repeated_work/paired_final.asm": {
+      "bytes": 860223,
+      "sha256": "c9bf6c4e878fd783bd089d50e135fed410d9f9536c8bf6958559b43f8c5b78f1"
+    },
+    "simulation/experiments/repeated_work/r1_host.log": {
+      "bytes": 2201,
+      "sha256": "192b5672f82afbfe6235e5ca9c575986126e46f8b87bce6e197eb40f5a7ab56f"
+    },
+    "simulation/experiments/repeated_work/r2_host.log": {
+      "bytes": 2192,
+      "sha256": "6954c1da2be63df020c70510a623de1fbfed1f953bb15cc84dbb4d73a514fb78"
+    },
+    "simulation/experiments/repeated_work/r3_host.log": {
+      "bytes": 2513,
+      "sha256": "fa1e0e297830c8a9c3d724faba4df1cdb6267f691f36954ded5d1396bee7a99a"
+    },
+    "simulation/experiments/repeated_work/r3_metrics.log": {
+      "bytes": 2217,
+      "sha256": "d6570318d6339740844eb065253707370991522ce9ceb4006abae9faecf94661"
+    },
+    "simulation/experiments/repeated_work/r4_tests.log": {
+      "bytes": 25248,
+      "sha256": "d81f26240cbe4d48611d68823694f10f299b1a12e37cd974d3445c33909d682d"
+    },
+    "simulation/experiments/repeated_work/r5_tests.log": {
+      "bytes": 25248,
+      "sha256": "50e8a749d0a3e5a926cbdcc87b34cab28e3f3da7641d5b739086a41204174529"
+    },
+    "simulation/experiments/repeated_work/reference_output0.json": {
+      "bytes": 127,
+      "sha256": "991be4021028e252667558dc1087b13521dad55c2ec5c1fec5244328ae350ad1"
+    },
+    "simulation/experiments/repeated_work/reference_output0.txt": {
+      "bytes": 2391661,
+      "sha256": "2e2c426f8779fc48a641ddaf226c4b896384ddfb88fb22c52ccfb54fe2772374"
+    },
+    "simulation/experiments/repeated_work/reference_output1.json": {
+      "bytes": 128,
+      "sha256": "eb33645ae76dcbe9a5c41110ea74684cd7a57a11a7f5824c1eb0dbe79bcb641a"
+    },
+    "simulation/experiments/repeated_work/reference_output1.txt": {
+      "bytes": 2305020,
+      "sha256": "caee801b14bc9385b435bc6f48b01a994536bf1b4cd439bd100f94325e4661c1"
+    },
+    "simulation/experiments/repeated_work/reference_output2.json": {
+      "bytes": 128,
+      "sha256": "f45cf21a349d3b9e7cdb65f2c9ecd88960c94ecd5c15e288b0b0fc9639986071"
+    },
+    "simulation/experiments/repeated_work/reference_output2.txt": {
+      "bytes": 2348086,
+      "sha256": "b69e7031a7149d33205d146bc471f148646f13bf925672a9651166edfdfb84f9"
+    },
+    "simulation/experiments/repeated_work/rejected_r1/generate_repeated.py": {
+      "bytes": 1436,
+      "sha256": "330b279eca44d476566fdf4126eff2b395ade56228d61dce254f30f163d96d31"
+    },
+    "simulation/experiments/repeated_work/rejected_r1/generated_repeated.rs": {
+      "bytes": 11304,
+      "sha256": "f421c51b249afe8c032b969de383d0a02879d183e35b2a729437deb5cb020a71"
+    },
+    "simulation/experiments/repeated_work/rejected_r1/repeated.rs": {
+      "bytes": 27235,
+      "sha256": "9e1fd81d0c5166edf9a8a9ee6fdbd91c7689085071c3389b552d736e21a34084"
+    },
+    "simulation/experiments/repeated_work/rejected_r2/paired.asm": {
+      "bytes": 856093,
+      "sha256": "3ebcd16e12392beb68e6919a4eb0f91b1787a7c1e5301e5fe684608701710a04"
+    },
+    "simulation/experiments/repeated_work/rejected_r2/repeated.rs": {
+      "bytes": 31773,
+      "sha256": "2d48cd70e45b8e0e904fe36a2b31f61758c1d9ce421eec6784eaebb2af4ef744"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/multitone.bin": {
+      "bytes": 2899968,
+      "sha256": "9e461279a922bb0fbf10cefd83d50b021cb6ee1e2041043c7475d985aa2a5da4"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/multitone_counts.json": {
+      "bytes": 261,
+      "sha256": "490757632866ec7023d0f8f656fd744555674f2d7390989489f3ee68bbd9e49f"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/noise250.bin": {
+      "bytes": 1933312,
+      "sha256": "663671bd7a2ba2e7033971f6c4753341822bc89b6006058d7f2d8a438a9bf1f6"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/noise250_counts.json": {
+      "bytes": 263,
+      "sha256": "8d8e1a8da78880852b1f6575b3789a544b7607e53fadd3988296746ec21443dd"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/output0.bin": {
+      "bytes": 3866624,
+      "sha256": "8351caaf99980af78b3481bf65ca7f7d52fffc8b58b1d09268471dbdfef2bde0"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/output0_counts.json": {
+      "bytes": 244,
+      "sha256": "fd926922fe7f58bf3acdc7f5a7e885439903c125e9528acf1cf76c6c620c9681"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/output1.bin": {
+      "bytes": 3866624,
+      "sha256": "bd4d9cd6fe74f593a6d8a7141b536a1c446ca3bda097130647eb70fe72012dd2"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/output1_counts.json": {
+      "bytes": 266,
+      "sha256": "25f7e050345edfbe77e077996c2884bf090c56d152213c87632826757965c53d"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/output2.bin": {
+      "bytes": 3866624,
+      "sha256": "994c91f2cf7f33877449cca1340b3fa7d0c614e5391f68c18a0837ce12d414d3"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/output2_counts.json": {
+      "bytes": 269,
+      "sha256": "c0f3018dde6235876292ed05925132c6a829b142531261ff285e6bd5626585e5"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/step025.bin": {
+      "bytes": 2899968,
+      "sha256": "0c91ea6716493872d7fee7e0439404a330d83ea10c960276c1d0ff2e0c8532bd"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/step025_counts.json": {
+      "bytes": 257,
+      "sha256": "6b28f3ab035e828d8a2d2698a95803038f9b63273fa003c92b5bbf0f63ca02f7"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/step1.bin": {
+      "bytes": 2899968,
+      "sha256": "6379ff7e3592f5a85b3524bb902d429e87a63d35c37a8f46dbd39cd157a7ffa4"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/step1_counts.json": {
+      "bytes": 254,
+      "sha256": "b414f6c09833b09feda8d1230a4f9fef3e1953f8cf51dbea43f04bd98c5b6657"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/triangle100.bin": {
+      "bytes": 1933312,
+      "sha256": "7c067063f1b77207019405ee971f2bfff6ed92ccb68c55616f1b9a1de1d822ae"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/triangle1000.bin": {
+      "bytes": 1933312,
+      "sha256": "edb0892135aee8fc90e3599f88e01b59a1a431a0869704103063f15b87b3e694"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/triangle1000_counts.json": {
+      "bytes": 259,
+      "sha256": "0ac5a94ec9444f8d40fcff2b8cdde7cce95dd32b3e09f161c2524c42e67e34f1"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/host/triangle100_counts.json": {
+      "bytes": 241,
+      "sha256": "cd597671bcee4cf7bdaee1a758efa9885a16988b76393c8b82a5e5a7728fc6a6"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/long_di/100mv.bin": {
+      "bytes": 170295664,
+      "sha256": "87c69863be9d3e9135eda2e164488e968a4fd1861d63af9f154a30025ddbe6c6"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/long_di/250mv.bin": {
+      "bytes": 170295664,
+      "sha256": "18ff2aa8da3a8732b4b66ea8f4e635865606eb2de57cf12ed4068829eb5ee1e2"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/long_di.log": {
+      "bytes": 812,
+      "sha256": "ccb60b399bc77efc28fef65918a7d1a7cf67287ba822c253942956dea7b2d6a0"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/metrics.json": {
+      "bytes": 162082,
+      "sha256": "830cd335c4b54706c9af9e6c2ae3361a55e3c359bc3799c7a8e7a52db7d7e2fa"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/repeated.rs": {
+      "bytes": 34976,
+      "sha256": "6f905ef81549a04a7b3796e34ab4b7b14d5c091495eb56f06f7ea76ba4d008b2"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/repeated_di.rs": {
+      "bytes": 3850,
+      "sha256": "aa329a440db5da94be2f5a08caad85a83c7aea2e9ee589189c99d88399d7002b"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/repeated_diagnostics.rs": {
+      "bytes": 7585,
+      "sha256": "bd7b0767263e79235fa9a53552113a6865d8f56daad12125b5a153f18764efc9"
+    },
+    "simulation/experiments/repeated_work/rejected_r3/tests_failed.log": {
+      "bytes": 25269,
+      "sha256": "fc7bf22582f8ac616721c52113fe6b4a9a645628927316c2d88eec3274f630bc"
+    },
+    "simulation/experiments/repeated_work/report.md": {
+      "bytes": 26214,
+      "sha256": "32e114f868a251409dfa7a31090827ac1a0ce710b261daccd5948fd1f887dfde"
+    },
+    "simulation/experiments/repeated_work/summary.json": {
+      "bytes": 50175,
+      "sha256": "c09281c138002454f36e03c23ad4b0f8a5981a583a2275b9813af515e2b80f08"
+    },
+    "simulation/experiments/repeated_work/summary.log": {
+      "bytes": 2859,
+      "sha256": "4bd49c90f1379d4a06acbcf9aa95559574cbb6ac674bf70ba663f7a83a81834b"
+    },
+    "simulation/experiments/repeated_work/variant_r4/metrics.json": {
+      "bytes": 159444,
+      "sha256": "805a44b4c71850a6dc825a8d896a75c5b4dc7249694402c5f8b227902e792df9"
+    },
+    "simulation/experiments/repeated_work/variant_r4/repeated.rs": {
+      "bytes": 34858,
+      "sha256": "9aa4c5761cf7588ae33d36b95a63aba4357162fa6e42522f1fbeb8fd8cbedf31"
+    }
+  }
+}

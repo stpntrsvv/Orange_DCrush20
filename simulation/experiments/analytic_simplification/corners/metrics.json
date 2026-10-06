@@ -1,0 +1,554 @@
+[
+  {
+    "name": "strong",
+    "parameters": {},
+    "input_level": 1.0,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 20.818559326793206,
+      "error_rms_v": 0.03091918487830714,
+      "relative_rms": 0.0014851740888003986,
+      "error_to_signal_db": -56.56445272661175,
+      "peak_v": 0.73954401919746,
+      "peak_index": 44,
+      "peak_time_ms": 0.46875,
+      "reference_at_peak_v": -12.266602309523407,
+      "candidate_at_peak_v": -11.527058290325947,
+      "absolute_error_p50_p95_p99_v": [
+        0.0012158134191952996,
+        0.0012160211303084978,
+        0.03679734255605399
+      ],
+      "samples_over_old_10mv": 36,
+      "total_over_old_10mv_us": 375.0,
+      "longest_over_old_10mv_us": 52.083333333333336,
+      "top_one_percent_error_energy_fraction": 0.992560616134357,
+      "dc_error_v": 0.0005519578755229436,
+      "window_max_rms_v": {
+        "1": 0.10717085735548314,
+        "10": 0.038880366379169994,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 0.00011453188774865354,
+        "20-200": 0.0015380035658834055,
+        "200-2000": 0.004662384218960686,
+        "2000-20000": 0.011263061110326834,
+        "20000-48001": 0.012962827452418824
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.12290066938216644,
+    "maximum_residual": [
+      1.9977058039483825e-09,
+      1.997718825216474e-09
+    ],
+    "continuation_samples": [
+      2,
+      1
+    ]
+  },
+  {
+    "name": "recovery",
+    "parameters": {},
+    "input_level": 1.0,
+    "recovery": true,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 19.254416836705662,
+      "error_rms_v": 0.040098442016819114,
+      "relative_rms": 0.002082558114166171,
+      "error_to_signal_db": -53.628057413698016,
+      "peak_v": 1.003965999408516,
+      "peak_index": 1136,
+      "peak_time_ms": 11.84375,
+      "reference_at_peak_v": 13.872418767508863,
+      "candidate_at_peak_v": 12.868452768100347,
+      "absolute_error_p50_p95_p99_v": [
+        0.001215799770372783,
+        0.0012158745182402342,
+        0.03679734255605399
+      ],
+      "samples_over_old_10mv": 33,
+      "total_over_old_10mv_us": 343.75,
+      "longest_over_old_10mv_us": 52.083333333333336,
+      "top_one_percent_error_energy_fraction": 0.9966274791743444,
+      "dc_error_v": -4.859729086044429e-06,
+      "window_max_rms_v": {
+        "1": 0.10717085735548314,
+        "10": 0.038880366379169994,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 0.000517480061740616,
+        "20-200": 0.002019338884781735,
+        "200-2000": 0.006497404391809137,
+        "2000-20000": 0.01842423532100891,
+        "20000-48001": 0.020777984817060093
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.12290066938216644,
+    "maximum_residual": [
+      1.9996505990491683e-09,
+      1.997718825216474e-09
+    ],
+    "continuation_samples": [
+      2,
+      1
+    ],
+    "last_4ms": {
+      "samples": 384,
+      "sample_rate": 96000,
+      "duration_ms": 4.0,
+      "reference_rms_v": 13.907068959977707,
+      "error_rms_v": 4.193794348935023e-05,
+      "relative_rms": 3.015584636132951e-06,
+      "error_to_signal_db": -110.41256956014516,
+      "peak_v": 5.034231204348316e-05,
+      "peak_index": 383,
+      "peak_time_ms": 4.0,
+      "reference_at_peak_v": -9.204773650562379,
+      "candidate_at_peak_v": -9.204723308250335,
+      "absolute_error_p50_p95_p99_v": [
+        4.4957317594018775e-05,
+        4.987935339402227e-05,
+        5.025573102152237e-05
+      ],
+      "samples_over_old_10mv": 0,
+      "total_over_old_10mv_us": 0.0,
+      "longest_over_old_10mv_us": 0.0,
+      "top_one_percent_error_energy_fraction": 0.014989935247948248,
+      "dc_error_v": 4.0334972712297947e-05,
+      "window_max_rms_v": {
+        "1": 4.901465403567854e-05,
+        "10": null,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 3.58254312056375e-05,
+        "20-200": 0.0,
+        "200-2000": 2.6758752596754865e-05,
+        "2000-20000": 4.655942724285867e-08,
+        "20000-48001": 2.3503485144478395e-09
+      },
+      "frequency_resolution_hz": 250.0,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    }
+  },
+  {
+    "name": "clean",
+    "parameters": {
+      "overdrive_enabled": false
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 11.583177035916675,
+      "error_rms_v": 0.00627661743330362,
+      "relative_rms": 0.0005418735648985873,
+      "error_to_signal_db": -65.32204070732946,
+      "peak_v": 0.08329985948825769,
+      "peak_index": 775,
+      "peak_time_ms": 8.083333333333332,
+      "reference_at_peak_v": 6.1205872915412725,
+      "candidate_at_peak_v": 6.037287432053015,
+      "absolute_error_p50_p95_p99_v": [
+        5.509157588146074e-05,
+        0.005175868922127513,
+        0.027486393382059954
+      ],
+      "samples_over_old_10mv": 36,
+      "total_over_old_10mv_us": 375.0,
+      "longest_over_old_10mv_us": 20.833333333333332,
+      "top_one_percent_error_energy_fraction": 0.8481879841317836,
+      "dc_error_v": -2.1835126340937753e-05,
+      "window_max_rms_v": {
+        "1": 0.015380883569703971,
+        "10": 0.007925957518279767,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 2.3338590343469837e-05,
+        "20-200": 0.00022351178090507763,
+        "200-2000": 0.0006917377954463543,
+        "2000-20000": 0.003362748402580822,
+        "20000-48001": 0.00676521555881397
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.03529358227954571,
+    "maximum_residual": [
+      1.9444734342642656e-09,
+      1.9444790666945516e-09
+    ],
+    "continuation_samples": [
+      0,
+      0
+    ]
+  },
+  {
+    "name": "gain_max",
+    "parameters": {
+      "gain": 1.0,
+      "overdrive": 1.0
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 7.986400773791279,
+      "error_rms_v": 0.00019746983601676154,
+      "relative_rms": 2.4725760904059827e-05,
+      "error_to_signal_db": -92.13700669322054,
+      "peak_v": 0.004292557055903368,
+      "peak_index": 499,
+      "peak_time_ms": 5.208333333333333,
+      "reference_at_peak_v": -1.7946974948628611,
+      "candidate_at_peak_v": -1.7989900519187645,
+      "absolute_error_p50_p95_p99_v": [
+        1.0319388147550512e-05,
+        2.893900625977608e-05,
+        0.0005956935718722925
+      ],
+      "samples_over_old_10mv": 0,
+      "total_over_old_10mv_us": 0.0,
+      "longest_over_old_10mv_us": 0.0,
+      "top_one_percent_error_energy_fraction": 0.9771935187111807,
+      "dc_error_v": 3.586801687898478e-06,
+      "window_max_rms_v": {
+        "1": 0.000775557766338123,
+        "10": 0.000249778168038832,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 3.3365772772978646e-06,
+        "20-200": 2.927555943718386e-05,
+        "200-2000": 5.551263788194936e-05,
+        "2000-20000": 0.00020198660943599562,
+        "20000-48001": 0.00010188686552788151
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.05548132025866532,
+    "maximum_residual": [
+      1.2402320948012857e-09,
+      1.8978357256097905e-09
+    ],
+    "continuation_samples": [
+      1,
+      1
+    ]
+  },
+  {
+    "name": "tone_a",
+    "parameters": {
+      "treble": 0.0,
+      "middle": 1.0,
+      "bass": 0.0
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 11.216643757810367,
+      "error_rms_v": 0.006908262273174188,
+      "relative_rms": 0.0006158938825496558,
+      "error_to_signal_db": -64.20988219155494,
+      "peak_v": 0.11735231048126238,
+      "peak_index": 986,
+      "peak_time_ms": 10.28125,
+      "reference_at_peak_v": -16.931128317887325,
+      "candidate_at_peak_v": -16.813776007406062,
+      "absolute_error_p50_p95_p99_v": [
+        1.7079341843029283e-05,
+        0.0046998555948691845,
+        0.010940316363950738
+      ],
+      "samples_over_old_10mv": 16,
+      "total_over_old_10mv_us": 166.66666666666666,
+      "longest_over_old_10mv_us": 31.25,
+      "top_one_percent_error_energy_fraction": 0.9517571590724233,
+      "dc_error_v": 6.038955671954142e-06,
+      "window_max_rms_v": {
+        "1": 0.01476442304116823,
+        "10": 0.008715870642781528,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 9.218026106936437e-06,
+        "20-200": 8.961224687463306e-05,
+        "200-2000": 0.0005587051894315392,
+        "2000-20000": 0.004370038187519518,
+        "20000-48001": 0.007505298411643258
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.04763265067232384,
+    "maximum_residual": [
+      1.9954082280953947e-09,
+      1.995408232499966e-09
+    ],
+    "continuation_samples": [
+      0,
+      0
+    ]
+  },
+  {
+    "name": "tone_b",
+    "parameters": {
+      "treble": 1.0,
+      "middle": 0.0,
+      "bass": 1.0
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 15.110982735020613,
+      "error_rms_v": 0.011120237883815049,
+      "relative_rms": 0.0007359043471106103,
+      "error_to_signal_db": -62.66357263231817,
+      "peak_v": 0.15579172229062976,
+      "peak_index": 1020,
+      "peak_time_ms": 10.635416666666666,
+      "reference_at_peak_v": 3.4111260266070786,
+      "candidate_at_peak_v": 3.255334304316449,
+      "absolute_error_p50_p95_p99_v": [
+        0.0012038092636821318,
+        0.010086200738953499,
+        0.06435269017306938
+      ],
+      "samples_over_old_10mv": 80,
+      "total_over_old_10mv_us": 833.3333333333334,
+      "longest_over_old_10mv_us": 20.833333333333332,
+      "top_one_percent_error_energy_fraction": 0.7188867042860431,
+      "dc_error_v": 0.00020160555210482975,
+      "window_max_rms_v": {
+        "1": 0.019291695383653183,
+        "10": 0.012437739826313292,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 0.00014072648741947848,
+        "20-200": 0.0005070463843624856,
+        "200-2000": 0.0016739930207854009,
+        "2000-20000": 0.006592066461565376,
+        "20000-48001": 0.00871619154280117
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.04347221907755561,
+    "maximum_residual": [
+      1.9790065582375033e-09,
+      1.9796385559468777e-09
+    ],
+    "continuation_samples": [
+      1,
+      0
+    ]
+  },
+  {
+    "name": "volume_max",
+    "parameters": {
+      "volume": 1.0
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 20.64508325342453,
+      "error_rms_v": 0.022211115734831643,
+      "relative_rms": 0.0010758549850433442,
+      "error_to_signal_db": -59.364925269299185,
+      "peak_v": 0.5093444326604359,
+      "peak_index": 266,
+      "peak_time_ms": 2.78125,
+      "reference_at_peak_v": -8.434092648963324,
+      "candidate_at_peak_v": -7.924748216302888,
+      "absolute_error_p50_p95_p99_v": [
+        0.00121581628962808,
+        0.0020825775333888075,
+        0.04574035808206057
+      ],
+      "samples_over_old_10mv": 40,
+      "total_over_old_10mv_us": 416.6666666666667,
+      "longest_over_old_10mv_us": 31.25,
+      "top_one_percent_error_energy_fraction": 0.9799626875485701,
+      "dc_error_v": 0.0005333431540330561,
+      "window_max_rms_v": {
+        "1": 0.0805006741515598,
+        "10": 0.02754674813430401,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 0.0006371637327657157,
+        "20-200": 0.0011166790866115968,
+        "200-2000": 0.0030210061202188125,
+        "2000-20000": 0.005804661206790969,
+        "20000-48001": 0.00899401114223117
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.0709180999642361,
+    "maximum_residual": [
+      1.989006921947374e-09,
+      1.9890065777131843e-09
+    ],
+    "continuation_samples": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "load4",
+    "parameters": {
+      "speaker_re_ohm": 4.0
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 13.091674445160132,
+      "error_rms_v": 0.044954200289601474,
+      "relative_rms": 0.003433800655363884,
+      "error_to_signal_db": -49.2844984163989,
+      "peak_v": 1.7310942568655108,
+      "peak_index": 799,
+      "peak_time_ms": 8.333333333333334,
+      "reference_at_peak_v": 12.808898229715702,
+      "candidate_at_peak_v": 11.077803972850191,
+      "absolute_error_p50_p95_p99_v": [
+        0.0010960875209651277,
+        0.011051858663599923,
+        0.03870074909826607
+      ],
+      "samples_over_old_10mv": 93,
+      "total_over_old_10mv_us": 968.75,
+      "longest_over_old_10mv_us": 41.666666666666664,
+      "top_one_percent_error_energy_fraction": 0.9893223447076842,
+      "dc_error_v": -0.0005481637794373812,
+      "window_max_rms_v": {
+        "1": 0.17800506199157692,
+        "10": 0.05683218587769833,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 0.0012551256953348593,
+        "20-200": 0.004146234077598611,
+        "200-2000": 0.014661607510030766,
+        "2000-20000": 0.04726358225885072,
+        "20000-48001": 0.0528698294944564
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.11540628379103406,
+    "maximum_residual": [
+      1.989006870447771e-09,
+      1.999993208083121e-09
+    ],
+    "continuation_samples": [
+      0,
+      0
+    ]
+  },
+  {
+    "name": "reactive",
+    "parameters": {
+      "load": "reactive_speaker"
+    },
+    "input_level": 0.25,
+    "recovery": false,
+    "status": "completed",
+    "steps": 1536,
+    "output": {
+      "samples": 1536,
+      "sample_rate": 96000,
+      "duration_ms": 16.0,
+      "reference_rms_v": 13.1671291253981,
+      "error_rms_v": 0.007528056794778553,
+      "relative_rms": 0.0005717310678041176,
+      "error_to_signal_db": -64.85616415259075,
+      "peak_v": 0.1471957262724075,
+      "peak_index": 1225,
+      "peak_time_ms": 12.770833333333334,
+      "reference_at_peak_v": -17.222794963828033,
+      "candidate_at_peak_v": -17.075599237555625,
+      "absolute_error_p50_p95_p99_v": [
+        1.3152072782851576e-05,
+        0.006450470886441018,
+        0.037134463356629
+      ],
+      "samples_over_old_10mv": 40,
+      "total_over_old_10mv_us": 416.6666666666667,
+      "longest_over_old_10mv_us": 41.666666666666664,
+      "top_one_percent_error_energy_fraction": 0.8142139629780113,
+      "dc_error_v": -1.7451426220057717e-06,
+      "window_max_rms_v": {
+        "1": 0.023801951133668682,
+        "10": 0.009476205168162017,
+        "100": null
+      },
+      "hann_band_error_rms_v": {
+        "0-20": 6.730824500690306e-07,
+        "20-200": 8.180581872771817e-05,
+        "200-2000": 0.0003609546061350872,
+        "2000-20000": 0.003084253187209035,
+        "20000-48001": 0.005217355068141943
+      },
+      "frequency_resolution_hz": 62.5,
+      "max_window_rms_error_note": "Sliding rectangular windows; diagnostic resolutions, not audibility gates."
+    },
+    "scaled_state_peak": 0.055658390418196056,
+    "maximum_residual": [
+      1.9890070737356783e-09,
+      1.9890065153715594e-09
+    ],
+    "continuation_samples": [
+      0,
+      0
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+0 {'max_residual': 1.9977327052065675e-09, 'max_kcl': 1.9977327052065675e-11, 'max_iterations': 4, 'continuations': 0}
+1 {'max_residual': 1.9853586277155527e-09, 'max_kcl': 1.9853586277155527e-11, 'max_iterations': 17, 'continuations': 0}
+2 {'max_residual': 1.9975582291249273e-09, 'max_kcl': 1.9975582291249273e-11, 'max_iterations': 85, 'continuations': 3}

@@ -1,0 +1,27 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `solve_clip` is never used
+   --> orange-dsp/src/scalar.rs:599:4
+    |
+599 | fn solve_clip<M: PackageMath, const F: u8>(
+    |    ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `orange-dsp` (lib test) generated 1 warning
+    Finished `release` profile [optimized + debuginfo] target(s) in 20.68s
+     Running unittests src/lib.rs (firmware/target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 1 test
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+triangle1000: steps=1024 output_different=91 peak_vs_P7=0.0004711151 memory_peak_vs_P7=0.0053710938 counts=[0, 0, 0]
+noise250: steps=1024 output_different=619 peak_vs_P7=0.00018119812 memory_peak_vs_P7=0.00034332275 counts=[0, 0, 0]
+step025: steps=1536 output_different=939 peak_vs_P7=0.000078201294 memory_peak_vs_P7=0.0028076172 counts=[0, 0, 0]
+step1: steps=1536 output_different=135 peak_vs_P7=0.00008773804 memory_peak_vs_P7=0.0026855469 counts=[0, 0, 0]
+multitone: steps=1536 output_different=1316 peak_vs_P7=0.0005912781 memory_peak_vs_P7=0.00623703 counts=[0, 0, 0]
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[0, 0, 0]
+output1: steps=2048 output_different=105 peak_vs_P7=0.00855732 memory_peak_vs_P7=0.009277344 counts=[0, 0, 0]
+output2: steps=2048 output_different=844 peak_vs_P7=0.00041675568 memory_peak_vs_P7=0.00048446655 counts=[0, 0, 0]
+test scalar::diagnostics::paired_traces_and_counter_equivalence ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 41 filtered out; finished in 0.10s
+

@@ -1,0 +1,5 @@
+{
+  "samples": 49152,
+  "old_vs_specialized_max_difference_v": 2.39769093468567e-10,
+  "note": "Comparison of independently advanced f64 prefixes from zero history; both use original full MNA laws and exact condensed equations."
+}

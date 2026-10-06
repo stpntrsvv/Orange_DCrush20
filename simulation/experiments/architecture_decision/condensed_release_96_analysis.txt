@@ -1,0 +1,228 @@
+{
+  "sample_rate": 96000,
+  "input_triangle_hz": 250.0,
+  "measured_steps": 992,
+  "warmup": 32,
+  "rows": [
+    {
+      "raw": [
+        5905,
+        8,
+        891429410,
+        0,
+        35898,
+        1712091,
+        0,
+        264,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13210027,
+        13184137,
+        22596,
+        13728,
+        0,
+        0,
+        0,
+        0,
+        0,
+        992,
+        0,
+        0
+      ],
+      "cycles": 13316.55947580645,
+      "control_cycles": 13290.460685483871,
+      "maximum": 22596,
+      "control_maximum": 13728,
+      "failures": 0,
+      "control_failures": 0,
+      "retries_total_1024": 0,
+      "mean_iterations": 5.952620967741935,
+      "max_iterations": 8,
+      "state_bytes": 264,
+      "maximum_two_inner": 35898,
+      "maximum_128_inner": 1712091,
+      "retry_steps_measured": 0,
+      "retry_cycles_total": 0,
+      "retry_step_maximum": 0,
+      "relative_rms": 1.6349204882417627e-06,
+      "peak_v": 4.160034450317873e-05
+    },
+    {
+      "raw": [
+        5654,
+        23,
+        927255757,
+        0,
+        108195,
+        1917528,
+        0,
+        264,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14284014,
+        28537588,
+        56186,
+        37250,
+        0,
+        0,
+        0,
+        0,
+        0,
+        992,
+        695,
+        0
+      ],
+      "cycles": 14399.207661290322,
+      "control_cycles": 28767.729838709678,
+      "maximum": 56186,
+      "control_maximum": 37250,
+      "failures": 0,
+      "control_failures": 695,
+      "retries_total_1024": 0,
+      "mean_iterations": 5.699596774193548,
+      "max_iterations": 23,
+      "state_bytes": 264,
+      "maximum_two_inner": 108195,
+      "maximum_128_inner": 1917528,
+      "retry_steps_measured": 0,
+      "retry_cycles_total": 0,
+      "retry_step_maximum": 0,
+      "relative_rms": 3.6864617061628357e-06,
+      "peak_v": 0.00162826557309792
+    },
+    {
+      "raw": [
+        16827,
+        38,
+        930742272,
+        7,
+        161009,
+        5213149,
+        0,
+        264,
+        507109,
+        5,
+        115617,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39689381,
+        35705499,
+        115617,
+        36304,
+        0,
+        0,
+        0,
+        0,
+        0,
+        992,
+        992,
+        0
+      ],
+      "cycles": 40009.4566532258,
+      "control_cycles": 35993.446572580644,
+      "maximum": 115617,
+      "control_maximum": 36304,
+      "failures": 0,
+      "control_failures": 992,
+      "retries_total_1024": 7,
+      "mean_iterations": 16.962701612903224,
+      "max_iterations": 38,
+      "state_bytes": 264,
+      "maximum_two_inner": 161009,
+      "maximum_128_inner": 5213149,
+      "retry_steps_measured": 5,
+      "retry_cycles_total": 507109,
+      "retry_step_maximum": 115617,
+      "relative_rms": 2.8498058973536866e-06,
+      "peak_v": 0.0008620005374142536
+    }
+  ],
+  "elf_sha256": "b6a8f2c8ee10a32a0409b5089307e05de45f95ff341e0e9ad5939d4372c58a51",
+  "elf_sections": {
+    ".vectors": {
+      "address": 1024,
+      "size": 8
+    },
+    ".text": {
+      "address": 1032,
+      "size": 56840
+    },
+    ".bss": {
+      "address": 536870912,
+      "size": 0
+    },
+    ".debug_loc": {
+      "address": 0,
+      "size": 139915
+    },
+    ".debug_abbrev": {
+      "address": 0,
+      "size": 2552
+    },
+    ".debug_info": {
+      "address": 0,
+      "size": 88847
+    },
+    ".debug_aranges": {
+      "address": 0,
+      "size": 328
+    },
+    ".debug_ranges": {
+      "address": 0,
+      "size": 74256
+    },
+    ".debug_str": {
+      "address": 0,
+      "size": 57454
+    },
+    ".comment": {
+      "address": 0,
+      "size": 153
+    },
+    ".ARM.attributes": {
+      "address": 0,
+      "size": 65
+    },
+    ".debug_frame": {
+      "address": 0,
+      "size": 1160
+    },
+    ".debug_line": {
+      "address": 0,
+      "size": 39742
+    },
+    ".symtab": {
+      "address": 0,
+      "size": 4112
+    },
+    ".shstrtab": {
+      "address": 0,
+      "size": 174
+    },
+    ".strtab": {
+      "address": 0,
+      "size": 3189
+    }
+  }
+}

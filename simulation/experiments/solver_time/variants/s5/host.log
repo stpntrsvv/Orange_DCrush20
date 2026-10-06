@@ -1,0 +1,38 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 21.54s
+     Running unittests src/lib.rs (firmware/target/aarch64-apple-darwin/release/deps/orange_dsp-b468f9428fa6732f)
+
+running 3 tests
+test scalar::audit::cached_law_values_and_derivatives_match_original_laws ... ok
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=100 rms=0.0000017067964416341981 peak=0.0000408546074450733 scaled=0.00000272364049633822 fullres=0.000023841858 failures=0 maxiter=5
+direct=[1024, 1024, 1024, 0, 1024, 1024] retries=0 worst_state=("v:phones_feed", 173)
+triangle100: steps=1024 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1024, 1024, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [6190, 6038, 1996, 76, 0, 0, 0, 0, 3118, 0, 3019], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 0, 1024], [1024, 1024, 0, 0, 1024, 1024, 0, 56, 0, 0, 0]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=1000 rms=0.000005305363268082169 peak=0.00301040630190208 scaled=0.000670666583800994 fullres=0.000074505806 failures=0 maxiter=13
+direct=[1024, 784, 1024, 1226, 1024, 38] retries=0 worst_state=("x:TDA2050", 376)
+triangle1000: steps=1024 output_different=91 peak_vs_P7=0.0003194809 memory_peak_vs_P7=0.00390625 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1810, 1633, 546, 0, 1024, 784, 0, 1155, 0, 0, 786], [7104, 6066, 2009, 519, 0, 0, 0, 1852, 3560, 0, 3033], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 729, 1024], [2250, 2141, 209, 31, 1024, 38, 0, 2611, 0, 0, 1195]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=250 rms=0.0000018263465621684197 peak=0.000477241195760314 scaled=0.00003181607971735427 fullres=0.000047683716 failures=0 maxiter=19
+direct=[1024, 1023, 1024, 629, 1024, 396] retries=0 worst_state=("v:phones_feed", 571)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2001 rms=0.0000042569467330989545 peak=0.002100724501786999 scaled=0.0011254402215392645 fullres=0.00006407499 failures=0 maxiter=15
+direct=[1536, 1523, 1536, 595, 1536, 954] retries=0 worst_state=("x:TDA2050", 690)
+noise250: steps=1024 output_different=621 peak_vs_P7=0.00030517578 memory_peak_vs_P7=0.0008010864 counts=[[1024, 0, 0, 0, 1024, 1024, 0, 0, 0, 0, 0], [1029, 1028, 3, 1, 1024, 1023, 0, 147, 0, 0, 4], [29274, 17486, 7726, 5894, 0, 0, 0, 1975, 14733, 0, 8743], [3072, 3072, 0, 0, 1024, 1024, 0, 0, 0, 630, 1024], [3452, 2689, 1354, 446, 1024, 396, 0, 4981, 0, 0, 1982]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2002 rms=0.000011711187323825968 peak=0.008881085648219766 scaled=0.0013825827524366712 fullres=0.00009536743 failures=0 maxiter=27
+direct=[1536, 1534, 1536, 1339, 1536, 199] retries=1 worst_state=("x:IC3A", 609)
+step025: steps=1536 output_different=1018 peak_vs_P7=0.00016021729 memory_peak_vs_P7=0.0020141602 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1583, 1573, 32, 2, 1536, 1523, 0, 104, 0, 0, 45], [7056, 6494, 1711, 281, 0, 0, 0, 158, 3625, 0, 3247], [4608, 4608, 0, 0, 1536, 1536, 0, 0, 0, 734, 1536], [2626, 2510, 498, 10, 1536, 954, 0, 3738, 0, 0, 1080]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=2003 rms=0.0000017316110689915522 peak=0.00044644505075552843 scaled=0.00019607423871548235 fullres=0.000047683716 failures=0 maxiter=15
+direct=[1536, 1536, 1536, 333, 1536, 1203] retries=0 worst_state=("x:TDA2050", 767)
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3001 rms=0.0000017662727228298552 peak=0.000042122465318872315 scaled=0.0000028081643545914875 fullres=0.000023841858 failures=0 maxiter=5
+direct=[2048, 2048, 2048, 0, 2048, 2048] retries=0 worst_state=("v:phones_feed", 1143)
+step1: steps=1536 output_different=166 peak_vs_P7=0.004114151 memory_peak_vs_P7=0.026855469 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1540, 1538, 2, 0, 1536, 1534, 0, 8, 0, 0, 4], [6444, 6174, 1550, 135, 0, 0, 1, 1651, 3321, 0, 3087], [4608, 4608, 0, 0, 1536, 1536, 0, 7, 0, 1032, 1536], [3022, 2962, 145, 4, 1536, 199, 0, 3247, 0, 0, 1482]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3002 rms=0.0000044984218002767505 peak=0.0034478498334280516 scaled=0.0005401802137612322 fullres=0.00008139759 failures=0 maxiter=14
+direct=[2048, 1597, 2048, 2460, 2048, 39] retries=0 worst_state=("x:TDA2050", 943)
+multitone: steps=1536 output_different=1299 peak_vs_P7=0.00060653687 memory_peak_vs_P7=0.006378174 counts=[[1536, 0, 0, 0, 1536, 1536, 0, 0, 0, 0, 0], [1536, 1536, 0, 0, 1536, 1536, 0, 105, 0, 0, 0], [21890, 13734, 5344, 4078, 0, 0, 0, 1485, 10972, 0, 6867], [4608, 4608, 0, 0, 1536, 1536, 0, 0, 0, 510, 1536], [2488, 2222, 444, 175, 1536, 1203, 0, 2339, 0, 0, 777]]
+packed F=5 M=orange_dsp::packed::ExtraMath<orange_dsp::FpuRootMath, 2> case=3003 rms=0.0000016399150462097583 peak=0.0003729622139094779 scaled=0.00004752615714013567 fullres=0.000071525574 failures=0 maxiter=22
+direct=[2048, 2031, 2048, 1568, 2048, 497] retries=0 worst_state=("x:TDA2050", 1076)
+test scalar::tests::repeated_extended_reference ... ok
+output0: steps=2048 output_different=0 peak_vs_P7=0 memory_peak_vs_P7=0 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [2048, 2048, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [12268, 12000, 3952, 134, 0, 0, 0, 0, 6176, 0, 6000], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 0, 2048], [2048, 2048, 0, 0, 2048, 2048, 0, 96, 0, 0, 0]]
+output1: steps=2048 output_different=105 peak_vs_P7=0.000020980835 memory_peak_vs_P7=0.0034179688 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [3524, 3190, 1025, 0, 2048, 1597, 0, 2167, 0, 0, 1476], [13842, 11902, 3906, 970, 0, 0, 0, 3661, 6934, 0, 5951], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 1497, 2048], [4387, 4232, 290, 40, 2048, 39, 0, 4864, 0, 0, 2299]]
+output2: steps=2048 output_different=832 peak_vs_P7=0.0005264282 memory_peak_vs_P7=0.0006790161 counts=[[2048, 0, 0, 0, 2048, 2048, 0, 0, 0, 0, 0], [2121, 2109, 44, 12, 2048, 2031, 0, 472, 0, 0, 61], [60538, 33772, 14849, 13383, 0, 0, 0, 3989, 30402, 0, 16886], [6144, 6144, 0, 0, 2048, 2048, 0, 0, 0, 1514, 2048], [6543, 5279, 2340, 604, 2048, 497, 0, 8853, 0, 0, 3891]]
+test scalar::audit::paired_traces_and_counter_equivalence ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 41 filtered out; finished in 0.10s
+

@@ -1,0 +1,35 @@
+{
+  "status": "coupled provisional supply and full reactive-load path",
+  "audio_rate_hz": 96000.0,
+  "supply_rate_hz": 4000.0,
+  "input_attack_v": 0.5,
+  "attack_s": 0.08,
+  "recovery_s": 0.04,
+  "output_peak_v": 20.65478500248213,
+  "output_rms_v": 13.962007675910657,
+  "rail_min_v": [
+    18.866100782348358,
+    -23.5214521682483,
+    15.027303687093047,
+    -15.099034739788342
+  ],
+  "rail_max_v": [
+    23.645592196803918,
+    -17.930406092534092,
+    15.099853641045144,
+    -15.018533220087711
+  ],
+  "rails": [
+    "VP24",
+    "VN24",
+    "VP15",
+    "VN15"
+  ],
+  "max_kcl_a": 1.99827955289604e-11,
+  "limitations": [
+    "transformer series resistance is an engineering parameter",
+    "speaker impedance parameters are not measured",
+    "mute power-on circuit is not yet coupled",
+    "rail feedback uses block-averaged currents"
+  ]
+}

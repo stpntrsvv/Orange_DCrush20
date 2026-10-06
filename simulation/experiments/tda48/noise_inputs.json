@@ -1,0 +1,10 @@
+{
+  "old_reference": "simulation/experiments/architecture_decision/reference_noise.txt",
+  "old_reference_sha256": "e256588985ff58990885d5c8781d8e9f1dfac4b9c9b600b22ae193904774690d",
+  "old_inputs": {
+    "same_duration": "96k endpoints [1::2], 512 samples at 48k",
+    "same_samples": "same 1024 samples at 48k, doubled duration"
+  },
+  "extended_noise": "LCG seed=1, multiplier=1664525, increment=1013904223, upper 16 bits signed, 10s + 1s zero release",
+  "extended_pcm_sha256": "be226ffeee524f89cb4dc72e9fefca1b01ae956bf9400dc6a79665272ad80ea4"
+}

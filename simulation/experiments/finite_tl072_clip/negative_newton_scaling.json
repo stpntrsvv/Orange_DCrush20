@@ -1,0 +1,14 @@
+{
+  "status": "resolved_numerical_failure",
+  "trigger": "0.5 V peak, 997 Hz, BDF2 96 kHz, Overdrive VR2=0",
+  "first_failure_sample_zero_based": 70,
+  "hard_clip_internal_v": -692.805407351729,
+  "hard_clip_output_v": -12.440734893220176,
+  "second_failure_sample_zero_based": 79,
+  "smooth_clip_internal_v": -933.0430985026015,
+  "smooth_clip_output_v": -12.460965602596826,
+  "unscaled_jacobian_condition_estimate": 5878831038701.704,
+  "cause": "Newton norm was row-scaled but the linear system was not",
+  "fix": "scale KCL rows and the op-amp dynamic row in both residual and Jacobian",
+  "physics_changed_by_fix": false
+}

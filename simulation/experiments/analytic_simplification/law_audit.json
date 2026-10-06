@@ -1,0 +1,10 @@
+{
+  "no_lut": true,
+  "knee_half_width": 0.1695868772057052,
+  "quadratic_max_normalized_error": 0.005947252509306611,
+  "rational_max_normalized_error": 5.0005582855505715e-05,
+  "rational_derivative_fd_error": 2.345922900381936e-10,
+  "rational_derivative_jump_at_unity": -0.005639885990410987,
+  "exp4_relative_error": 5.568431872915447e-05,
+  "note": "Static normalized law errors are not sound thresholds; complete trajectory errors measured separately. A2 joins continuously in value but has a small derivative jump at unity."
+}

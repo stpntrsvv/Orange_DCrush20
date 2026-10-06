@@ -1,0 +1,62 @@
+{
+  "100hz_100mv": {
+    "hz": 100,
+    "level_v": 0.1,
+    "rate": 48000,
+    "samples": 4608,
+    "fade_in_s": 0.005,
+    "fade_out_s": 0.005,
+    "release_start_s": 0.08,
+    "duration_s": 0.096
+  },
+  "1000hz_100mv": {
+    "hz": 1000,
+    "level_v": 0.1,
+    "rate": 48000,
+    "samples": 4608,
+    "fade_in_s": 0.005,
+    "fade_out_s": 0.005,
+    "release_start_s": 0.08,
+    "duration_s": 0.096
+  },
+  "1000hz_250mv": {
+    "hz": 1000,
+    "level_v": 0.25,
+    "rate": 48000,
+    "samples": 4608,
+    "fade_in_s": 0.005,
+    "fade_out_s": 0.005,
+    "release_start_s": 0.08,
+    "duration_s": 0.096
+  },
+  "1000hz_1000mv": {
+    "hz": 1000,
+    "level_v": 1.0,
+    "rate": 48000,
+    "samples": 4608,
+    "fade_in_s": 0.005,
+    "fade_out_s": 0.005,
+    "release_start_s": 0.08,
+    "duration_s": 0.096
+  },
+  "8000hz_100mv": {
+    "hz": 8000,
+    "level_v": 0.1,
+    "rate": 48000,
+    "samples": 4608,
+    "fade_in_s": 0.005,
+    "fade_out_s": 0.005,
+    "release_start_s": 0.08,
+    "duration_s": 0.096
+  },
+  "8000hz_1000mv": {
+    "hz": 8000,
+    "level_v": 1.0,
+    "rate": 48000,
+    "samples": 4608,
+    "fade_in_s": 0.005,
+    "fade_out_s": 0.005,
+    "release_start_s": 0.08,
+    "duration_s": 0.096
+  }
+}

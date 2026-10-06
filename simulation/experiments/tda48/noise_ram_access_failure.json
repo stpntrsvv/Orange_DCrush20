@@ -1,0 +1,10 @@
+{
+  "stage": "noise RAM smoke, before process creation",
+  "series": "20260929T103423Z",
+  "command": ".venv/bin/python simulation/run_tda48_hardware.py --run simulation/experiments/tda48/20260929T103423Z --smoke",
+  "action_executed": false,
+  "automatic_approval_review_completed": false,
+  "reason": "Your access token could not be refreshed because you have since logged out or signed in to another account. Please sign in again.",
+  "classification": "Review infrastructure failure, not a determination that the action is unsafe. No bypass attempted.",
+  "board_last_verified_state": "Guitar full RAM run: PACK_RESET_VERIFIED, factory application in Thread mode, CFSR=HFSR=0. No noise image loaded."
+}

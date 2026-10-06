@@ -1,0 +1,5 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+    Finished `release` profile [optimized + debuginfo] target(s) in 6.44s
+     Running `target/aarch64-apple-darwin/release/examples/packed_di`
+package=7 level=0.1 steps=21286958 failures=0 retries=0 worst=0.000030816278 max_iterations=11 output_peak=12.354438 host_seconds=5.863852958
+package=7 level=0.25 steps=21286958 failures=0 retries=0 worst=0.000030907795 max_iterations=14 output_peak=19.21002 host_seconds=5.987992667

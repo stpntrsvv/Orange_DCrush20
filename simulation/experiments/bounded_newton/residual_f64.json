@@ -1,0 +1,149 @@
+{
+  "note": "Additional diagnostic only. Full MNA laws, f64 reconstruction with the candidate/P7 actual f32 physical histories; original f32 metrics kept. Not a new trajectory or a new threshold.",
+  "cases": {
+    "multitone": {
+      "candidate": {
+        "max_full_residual": 8.089048569563198e-06,
+        "max_kcl_a": 1.1536772156871137e-08,
+        "worst_sample": 65,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 4.76837158203125e-05
+      },
+      "P7": {
+        "max_full_residual": 3.4697850553951547e-05,
+        "max_kcl_a": 1.1896472017778117e-08,
+        "worst_sample": 627,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 4.76837158203125e-05
+      }
+    },
+    "noise250": {
+      "candidate": {
+        "max_full_residual": 7.968922036768097e-06,
+        "max_kcl_a": 1.1257768109818999e-08,
+        "worst_sample": 105,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 7.152557373046875e-05
+      },
+      "P7": {
+        "max_full_residual": 1.0490419874524075e-05,
+        "max_kcl_a": 8.70499073448187e-09,
+        "worst_sample": 686,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 4.76837158203125e-05
+      }
+    },
+    "output0": {
+      "candidate": {
+        "max_full_residual": 6.198883056640625e-07,
+        "max_kcl_a": 1.3135894466789592e-09,
+        "worst_sample": 638,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 2.384185791015625e-05
+      },
+      "P7": {
+        "max_full_residual": 5.960464477539062e-07,
+        "max_kcl_a": 2.7747020384588173e-09,
+        "worst_sample": 1239,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 2.384185791015625e-05
+      }
+    },
+    "output1": {
+      "candidate": {
+        "max_full_residual": 1.6320819998974913e-05,
+        "max_kcl_a": 1.1650737493198223e-08,
+        "worst_sample": 350,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 0.00010106014087796211
+      },
+      "P7": {
+        "max_full_residual": 7.908294029999042e-05,
+        "max_kcl_a": 2.5047693142364082e-08,
+        "worst_sample": 1225,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 8.139759302139282e-05
+      }
+    },
+    "output2": {
+      "candidate": {
+        "max_full_residual": 8.21839060035264e-06,
+        "max_kcl_a": 1.2231139927970387e-08,
+        "worst_sample": 884,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 7.152557373046875e-05
+      },
+      "P7": {
+        "max_full_residual": 8.297692317471572e-06,
+        "max_kcl_a": 1.4438178312539511e-08,
+        "worst_sample": 884,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 7.152557373046875e-05
+      }
+    },
+    "step025": {
+      "candidate": {
+        "max_full_residual": 8.472334780925314e-06,
+        "max_kcl_a": 1.1047013827195171e-08,
+        "worst_sample": 176,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 8.493661880493164e-05
+      },
+      "P7": {
+        "max_full_residual": 8.449725392119708e-06,
+        "max_kcl_a": 2.30095508538513e-08,
+        "worst_sample": 1076,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 6.407499313354492e-05
+      }
+    },
+    "step1": {
+      "candidate": {
+        "max_full_residual": 4.243992371554486e-05,
+        "max_kcl_a": 1.0914925212897504e-08,
+        "worst_sample": 401,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 9.5367431640625e-05
+      },
+      "P7": {
+        "max_full_residual": 4.4322871158830824e-05,
+        "max_kcl_a": 2.6558997388609513e-08,
+        "worst_sample": 374,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 9.5367431640625e-05
+      }
+    },
+    "triangle100": {
+      "candidate": {
+        "max_full_residual": 6.119410196940105e-07,
+        "max_kcl_a": 1.2764490608431229e-09,
+        "worst_sample": 869,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 2.384185791015625e-05
+      },
+      "P7": {
+        "max_full_residual": 6.039937337239583e-07,
+        "max_kcl_a": 2.845487259940584e-09,
+        "worst_sample": 661,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 2.384185791015625e-05
+      }
+    },
+    "triangle1000": {
+      "candidate": {
+        "max_full_residual": 1.7194964078604243e-05,
+        "max_kcl_a": 1.1693855609534731e-08,
+        "worst_sample": 349,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 8.618808351457119e-05
+      },
+      "P7": {
+        "max_full_residual": 1.8802489981171675e-05,
+        "max_kcl_a": 2.2427391400503364e-08,
+        "worst_sample": 354,
+        "same_old_residual_limit_pass": true,
+        "old_f32_full_residual": 7.450580596923828e-05
+      }
+    }
+  }
+}

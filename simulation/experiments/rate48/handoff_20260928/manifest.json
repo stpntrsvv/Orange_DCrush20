@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-28",
+  "purpose": "Передача следующему чату; структура 48 кГц принята, новых запусков нет.",
+  "files": {
+    "AGENTS.md": "3a64e5ecc78b8f007fe069067b87dd0e4c1770b0446c792f7217ac2b76f1ee6b",
+    "NEXT_CHAT.md": "62900cfa9f0964bda53efd6ae6c40f86ec32025dab6e31caabc7e416924233ee"
+  },
+  "accepted_snapshot_manifest_sha256": "6d4e6c056bf6664c8faeafeb0b2c7c1ed6351f11088365d8e2ad7c0ff2d5db88",
+  "measurement_artifact_manifest_sha256": "1bffa35118be8227c16fbed00cf6aa1824d4f22b961cf0cc8d168d1bf9ef6c45"
+}

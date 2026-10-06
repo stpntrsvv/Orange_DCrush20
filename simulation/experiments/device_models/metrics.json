@@ -1,0 +1,34 @@
+{
+  "status": "behavioral datasheet model; not transistor die model",
+  "tl072c": {
+    "source": "ST Doc ID 2298 Rev 7",
+    "dominant_pole_hz": 20.0,
+    "open_loop_gain_dc_v_per_v": 200000.0,
+    "open_loop_gain_100khz_db": 32.041199652841456,
+    "unity_gain_frequency_hz": 3999999.99995,
+    "measured_slew_v_per_us": 16.000000000000014,
+    "swing_v": {
+      "10kohm_datasheet_typ": 13.5,
+      "10kohm_model": 13.5,
+      "2kohm_datasheet_typ": 12.0,
+      "2kohm_model": 12.0
+    }
+  },
+  "tda2050": {
+    "source": "ST Doc ID 1461 Rev 3",
+    "engineering_assumptions": {
+      "dc_open_loop_gain": 100000.0,
+      "output_headroom_v": 3.0,
+      "soa_knee_voltage_v": 8.0,
+      "soa_power_w": 60.0
+    },
+    "dominant_pole_hz": 100.50378152592121,
+    "open_loop_gain_1khz_db_datasheet_typ": 80.0,
+    "open_loop_gain_1khz_db_model": 80.0,
+    "measured_slew_v_per_us": 8.000000000000007,
+    "output_at_4ohm_requested_100v_v": 20.0,
+    "output_at_8ohm_requested_100v_v": 21.0,
+    "safe_current_at_zero_output_a": 2.5,
+    "safe_current_at_20v_output_a": 5.0
+  }
+}

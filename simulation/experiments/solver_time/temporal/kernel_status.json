@@ -1,0 +1,85 @@
+{
+  "note": "Strong cases 1/2 also have failures in descriptor reference. Metrics after failures are not accuracy qualifications. Case3 descriptor reference has zero failures, Rust has failures. q=true retains f64 nonlinear functions.",
+  "cases": [
+    {
+      "round_linear_and_memory_to_f32": false,
+      "case": 0,
+      "failures": 0,
+      "retries": 0,
+      "peak_v": 4.666140416276221e-07,
+      "max_scaled_state_error": 1.7607992930379625e-08,
+      "relative_rms": 2.456973156965264e-08,
+      "accuracy_valid": true
+    },
+    {
+      "round_linear_and_memory_to_f32": false,
+      "case": 1,
+      "failures": 958,
+      "retries": 960,
+      "peak_v": 41.99877778929361,
+      "max_scaled_state_error": 672.8185450376883,
+      "relative_rms": 0.9722696792307647,
+      "accuracy_valid": false
+    },
+    {
+      "round_linear_and_memory_to_f32": false,
+      "case": 2,
+      "failures": 1019,
+      "retries": 1019,
+      "peak_v": 31.27940831070087,
+      "max_scaled_state_error": 31.094544252227227,
+      "relative_rms": 0.9983313624579231,
+      "accuracy_valid": false
+    },
+    {
+      "round_linear_and_memory_to_f32": false,
+      "case": 3,
+      "failures": 38,
+      "retries": 38,
+      "peak_v": 23.30828470104174,
+      "max_scaled_state_error": 4.570758352251667,
+      "relative_rms": 0.309585313770074,
+      "accuracy_valid": false
+    },
+    {
+      "round_linear_and_memory_to_f32": true,
+      "case": 0,
+      "failures": 0,
+      "retries": 0,
+      "peak_v": 0.2991218231965087,
+      "max_scaled_state_error": 0.019941454879767277,
+      "relative_rms": 0.007917842917742867,
+      "accuracy_valid": true
+    },
+    {
+      "round_linear_and_memory_to_f32": true,
+      "case": 1,
+      "failures": 958,
+      "retries": 960,
+      "peak_v": 41.99892656248697,
+      "max_scaled_state_error": 672.9094541022326,
+      "relative_rms": 0.9722696944960052,
+      "accuracy_valid": false
+    },
+    {
+      "round_linear_and_memory_to_f32": true,
+      "case": 2,
+      "failures": 1019,
+      "retries": 1019,
+      "peak_v": 31.27940831070087,
+      "max_scaled_state_error": 31.09402623097057,
+      "relative_rms": 0.9983316675697429,
+      "accuracy_valid": false
+    },
+    {
+      "round_linear_and_memory_to_f32": true,
+      "case": 3,
+      "failures": 33,
+      "retries": 33,
+      "peak_v": 23.320829332999747,
+      "max_scaled_state_error": 4.5699674114043205,
+      "relative_rms": 0.30020348113763035,
+      "accuracy_valid": false
+    }
+  ]
+}

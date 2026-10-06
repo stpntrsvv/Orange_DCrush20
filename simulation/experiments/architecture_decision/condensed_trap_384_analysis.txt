@@ -1,0 +1,222 @@
+{
+  "sample_rate": 384000,
+  "input_triangle_hz": 1000.0,
+  "measured_steps": 992,
+  "warmup": 32,
+  "rows": [
+    {
+      "raw": [
+        5826,
+        8,
+        890455040,
+        0,
+        30901,
+        1708501,
+        0,
+        264,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13132222,
+        13145025,
+        15969,
+        13694,
+        0,
+        0,
+        0,
+        0,
+        0,
+        992,
+        0,
+        0
+      ],
+      "cycles": 13238.127016129032,
+      "control_cycles": 13251.033266129032,
+      "maximum": 15969,
+      "control_maximum": 13694,
+      "failures": 0,
+      "control_failures": 0,
+      "retries_total_1024": 0,
+      "mean_iterations": 5.872983870967742,
+      "max_iterations": 8,
+      "state_bytes": 264,
+      "maximum_two_inner": 30901,
+      "maximum_128_inner": 1708501,
+      "retry_steps_measured": 0,
+      "retry_cycles_total": 0,
+      "retry_step_maximum": 0
+    },
+    {
+      "raw": [
+        4019,
+        18,
+        935417173,
+        0,
+        74270,
+        1772809,
+        0,
+        264,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12541802,
+        28501814,
+        38155,
+        37183,
+        0,
+        0,
+        0,
+        0,
+        0,
+        992,
+        695,
+        0
+      ],
+      "cycles": 12642.945564516129,
+      "control_cycles": 28731.667338709678,
+      "maximum": 38155,
+      "control_maximum": 37183,
+      "failures": 0,
+      "control_failures": 695,
+      "retries_total_1024": 0,
+      "mean_iterations": 4.051411290322581,
+      "max_iterations": 18,
+      "state_bytes": 264,
+      "maximum_two_inner": 74270,
+      "maximum_128_inner": 1772809,
+      "retry_steps_measured": 0,
+      "retry_cycles_total": 0,
+      "retry_step_maximum": 0
+    },
+    {
+      "raw": [
+        9531,
+        18,
+        912156262,
+        0,
+        68448,
+        2575472,
+        0,
+        264,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18977337,
+        35673996,
+        40934,
+        36279,
+        0,
+        0,
+        0,
+        0,
+        0,
+        992,
+        992,
+        0
+      ],
+      "cycles": 19130.38004032258,
+      "control_cycles": 35961.68951612903,
+      "maximum": 40934,
+      "control_maximum": 36279,
+      "failures": 0,
+      "control_failures": 992,
+      "retries_total_1024": 0,
+      "mean_iterations": 9.607862903225806,
+      "max_iterations": 18,
+      "state_bytes": 264,
+      "maximum_two_inner": 68448,
+      "maximum_128_inner": 2575472,
+      "retry_steps_measured": 0,
+      "retry_cycles_total": 0,
+      "retry_step_maximum": 0
+    }
+  ],
+  "elf_sha256": "a519a3b89958aedf6f16b593fc8dec85f9a720ab56ba4b3cea92355206ddd663",
+  "elf_sections": {
+    ".vectors": {
+      "address": 1024,
+      "size": 8
+    },
+    ".text": {
+      "address": 1032,
+      "size": 54504
+    },
+    ".bss": {
+      "address": 536870912,
+      "size": 0
+    },
+    ".debug_loc": {
+      "address": 0,
+      "size": 136056
+    },
+    ".debug_abbrev": {
+      "address": 0,
+      "size": 2552
+    },
+    ".debug_info": {
+      "address": 0,
+      "size": 88685
+    },
+    ".debug_aranges": {
+      "address": 0,
+      "size": 328
+    },
+    ".debug_ranges": {
+      "address": 0,
+      "size": 74504
+    },
+    ".debug_str": {
+      "address": 0,
+      "size": 57454
+    },
+    ".comment": {
+      "address": 0,
+      "size": 153
+    },
+    ".ARM.attributes": {
+      "address": 0,
+      "size": 65
+    },
+    ".debug_frame": {
+      "address": 0,
+      "size": 1160
+    },
+    ".debug_line": {
+      "address": 0,
+      "size": 39778
+    },
+    ".symtab": {
+      "address": 0,
+      "size": 4160
+    },
+    ".shstrtab": {
+      "address": 0,
+      "size": 174
+    },
+    ".strtab": {
+      "address": 0,
+      "size": 3198
+    }
+  }
+}

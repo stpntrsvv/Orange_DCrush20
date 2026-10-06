@@ -1,0 +1,83 @@
+[
+  {
+    "estimator_setting": 0.01,
+    "relative_rms": 0.01531997004500313,
+    "peak_v": 1.157433500288564,
+    "max_scaled_state_error": 0.07716223335257094,
+    "accepted_by_fs": {
+      "48000": 7,
+      "96000": 390,
+      "192000": 2234,
+      "384000": 56,
+      "768000": 8
+    },
+    "rejected_by_fs": {
+      "48000": 761,
+      "96000": 1132,
+      "192000": 30,
+      "384000": 4,
+      "768000": 0
+    },
+    "mean_calls_per_output": 6.018229166666667,
+    "max_calls_per_output": 19,
+    "mean_newton_per_output": 23.384114583333332,
+    "max_newton_per_output": 77,
+    "unmet_at_finest": 0,
+    "max_residual": 1.995581477842734e-11,
+    "max_dae": 2.4408798093844553e-08
+  },
+  {
+    "estimator_setting": 0.003,
+    "relative_rms": 0.005842641682649381,
+    "peak_v": 0.339019498177592,
+    "max_scaled_state_error": 0.022601299878506134,
+    "accepted_by_fs": {
+      "48000": 0,
+      "96000": 29,
+      "192000": 1596,
+      "384000": 2814,
+      "768000": 44
+    },
+    "rejected_by_fs": {
+      "48000": 768,
+      "96000": 1507,
+      "192000": 1418,
+      "384000": 22,
+      "768000": 0
+    },
+    "mean_calls_per_output": 10.674479166666666,
+    "max_calls_per_output": 31,
+    "mean_newton_per_output": 38.149739583333336,
+    "max_newton_per_output": 116,
+    "unmet_at_finest": 16,
+    "max_residual": 1.996602883025389e-11,
+    "max_dae": 6.669968932726533e-08
+  },
+  {
+    "estimator_setting": 0.001,
+    "relative_rms": 0.00386838480449057,
+    "peak_v": 0.33338006095907247,
+    "max_scaled_state_error": 0.022225337397271498,
+    "accepted_by_fs": {
+      "48000": 0,
+      "96000": 5,
+      "192000": 179,
+      "384000": 5490,
+      "768000": 552
+    },
+    "rejected_by_fs": {
+      "48000": 768,
+      "96000": 1531,
+      "192000": 2883,
+      "384000": 276,
+      "768000": 0
+    },
+    "mean_calls_per_output": 15.213541666666666,
+    "max_calls_per_output": 31,
+    "mean_newton_per_output": 51.37109375,
+    "max_newton_per_output": 116,
+    "unmet_at_finest": 40,
+    "max_residual": 1.9999030209660873e-11,
+    "max_dae": 5.228959265579647e-08
+  }
+]

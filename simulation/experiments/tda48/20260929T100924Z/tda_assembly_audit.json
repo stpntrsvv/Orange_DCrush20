@@ -1,0 +1,12 @@
+{
+  "000043e0 <orange_dsp::bounded48_baseline::bounded_block::<orange_dsp::packed::ExtraMath<tda48_probe::cordic::H7r3Cordic, 2>, 4, 5, 3, 7>>:": {
+    "sqrt_instructions": 16,
+    "div_f32_instructions": 30,
+    "lines": 614
+  },
+  "00008278 <orange_dsp::bounded48::bounded_block::<orange_dsp::packed::ExtraMath<tda48_probe::cordic::H7r3Cordic, 2>, 4, 5, 3, 7>>:": {
+    "sqrt_instructions": 52,
+    "div_f32_instructions": 63,
+    "lines": 892
+  }
+}

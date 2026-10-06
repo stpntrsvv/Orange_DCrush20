@@ -1,0 +1,30 @@
+{
+  "complete": false,
+  "samples": 80,
+  "planned": 528000,
+  "independent_zero_history": true,
+  "failure": {
+    "sample": 80,
+    "input_v": 0.27252197265625,
+    "reason": "frontend line search \u043d\u0435 \u0441\u043e\u0448\u0451\u043b\u0441\u044f"
+  },
+  "max_residual": 1.5358211887435876e-09,
+  "max_kcl_a": 1.4529204499669907e-11,
+  "continuations": 1,
+  "elapsed_s": 0.3453901670873165,
+  "note": "Independent full f64 BDF2/48 from zero memory. Comparisons cover successful prefix when incomplete.",
+  "comparisons": {
+    "slew_seed_candidate": {
+      "relative_rms": 1.8209099953423385e-06,
+      "rms_v": 3.764442314374006e-05,
+      "peak_v": 0.0002023713202152777,
+      "peak_sample": 14
+    },
+    "accepted48": {
+      "relative_rms": 1.8209099953423385e-06,
+      "rms_v": 3.764442314374006e-05,
+      "peak_v": 0.0002023713202152777,
+      "peak_sample": 14
+    }
+  }
+}

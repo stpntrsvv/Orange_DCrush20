@@ -1,0 +1,42 @@
+Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+run_rate48_probe
+Info : STLINK V2J43M28 (API v2) VID:PID 0483:3752
+Info : Target voltage: 3.264191
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : clock speed 950 kHz
+Info : stlink_dap_op_connect(connect)
+Info : SWD DPIDR 0x6ba02477
+Info : [stm32h7r3.cpu0] Cortex-M7 r1p2 processor detected
+Info : [stm32h7r3.cpu0] target has 8 breakpoints, 4 watchpoints
+Info : starting gdb server for stm32h7r3.cpu0 on 3333
+Info : Listening on port 3333 for gdb connections
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900006a8 msp: 0x200005d0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e24 msp: 0x2000e1f0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004cc msp: 0x2000e1f0
+RATE_CHUNK 0 0x52454144 0x4000 0x46f33000 0x4000 0x42908da8 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e2e msp: 0x2000e1f0
+RATE_CHUNK 1 0x52454144 0x4000 0x46f33000 0x8000 0x42a1bc67 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x61000000 pc: 0x00000e5c msp: 0x2000e1f0
+RATE_COMPLETE
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900004bc msp: 0x200005d0
+POST_RESET_PC pc (/32): 0x900004bc
+
+POST_RESET_XPSR xPSR (/32): 0x81000000
+
+POST_RESET_FAULTS 0x0 0x0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900006a8 msp: 0x200005d0
+POST_RESUME_PC pc (/32): 0x900006a8
+
+PACK_RESET_VERIFIED
+shutdown command invoked

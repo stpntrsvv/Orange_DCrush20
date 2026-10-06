@@ -1,0 +1,22 @@
+{
+  "20260927T180931Z": {
+    "elf_sha256": "0d34f66a276027888c6fda867ff488d52a0a0e4153cb8199af9ff6fec1269636",
+    "archived_sources_verified": 66,
+    "references_verified": 9,
+    "trace_rows": 3072,
+    "reset_verified": true,
+    "tests_passed": 50
+  },
+  "20260927T181100Z": {
+    "elf_sha256": "c1faa85dfeac6c67dd3562af5ef334eee112b19171667e421eec0d017927b40b",
+    "archived_sources_verified": 66,
+    "references_verified": 9,
+    "trace_rows": 3072,
+    "reset_verified": true,
+    "tests_passed": 50
+  },
+  "P7_unchanged": true,
+  "current_arm_matches_last_measured": true,
+  "long_di_steps_each": 21286958,
+  "long_di_all_finite": true
+}

@@ -1,0 +1,10 @@
+{
+  "hardware": {
+    "repetitions": 32,
+    "baseline_cycles_per_iteration": 11050.875,
+    "event_cycles_per_iteration": 11701.5625,
+    "event_minus_baseline_cycles": 650.6875,
+    "maximum_error_over_tolerance": 0.00007994696352398023
+  },
+  "decision": "not_accepted_as_standalone_optimization"
+}

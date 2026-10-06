@@ -1,0 +1,1656 @@
+Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+run_rate48_probe
+Info : STLINK V2J43M28 (API v2) VID:PID 0483:3752
+Info : Target voltage: 3.264764
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : clock speed 950 kHz
+Info : stlink_dap_op_connect(connect)
+Info : SWD DPIDR 0x6ba02477
+Info : [stm32h7r3.cpu0] Cortex-M7 r1p2 processor detected
+Info : [stm32h7r3.cpu0] target has 8 breakpoints, 4 watchpoints
+Info : starting gdb server for stm32h7r3.cpu0 on 3333
+Info : Listening on port 3333 for gdb connections
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x900004bc msp: 0x200005d0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 0 0x52454144 0x4000 0x46f33000 0x4000 0x2e7efb04 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 1 0x52454144 0x4000 0x46f33000 0x8000 0x2e974dc7 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 2 0x52454144 0x4000 0x46f33000 0xc000 0x2e72b2a8 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 3 0x52454144 0x4000 0x46f33000 0x10000 0x2e68d803 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 4 0x52454144 0x4000 0x46f33000 0x14000 0x2e6a1da4 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 5 0x52454144 0x4000 0x46f33000 0x18000 0x2e6ac0c8 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 6 0x52454144 0x4000 0x46f33000 0x1c000 0x2e68c6a7 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 7 0x52454144 0x4000 0x46f33000 0x20000 0x2e628685 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 8 0x52454144 0x4000 0x46f33000 0x24000 0x2e62f8c3 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 9 0x52454144 0x4000 0x46f33000 0x28000 0x2e626ae8 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 10 0x52454144 0x4000 0x46f33000 0x2c000 0x2e625e79 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 11 0x52454144 0x4000 0x46f33000 0x30000 0x2e63f6fb 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 12 0x52454144 0x4000 0x46f33000 0x34000 0x2e6347d2 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 13 0x52454144 0x4000 0x46f33000 0x38000 0x2e6bfb61 0xf7666f82
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 14 0x52454144 0x4000 0x46f33000 0x3c000 0x2e7cbcf2 0x731de068
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 15 0x52454144 0x4000 0x46f33000 0x40000 0x2e7d1b02 0x843538ee
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 16 0x52454144 0x4000 0x46f33000 0x44000 0x2e7ca401 0x720d2e9b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 17 0x52454144 0x4000 0x46f33000 0x48000 0x2e7e7dad 0x7e0a9168
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 18 0x52454144 0x4000 0x46f33000 0x4c000 0x2eb97dcb 0xce85baf9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 19 0x52454144 0x4000 0x46f33000 0x50000 0x366410f6 0x3c9b78e5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 20 0x52454144 0x4000 0x46f33000 0x54000 0x35fea028 0x1ec9e5d4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 21 0x52454144 0x4000 0x46f33000 0x58000 0x35c5d1a3 0xf4f79403
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 22 0x52454144 0x4000 0x46f33000 0x5c000 0x35a3aa56 0xf24a5550
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 23 0x52454144 0x4000 0x46f33000 0x60000 0x367ba5bf 0xbb74f169
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 24 0x52454144 0x4000 0x46f33000 0x64000 0x35bd71ed 0xc93df7fe
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 25 0x52454144 0x4000 0x46f33000 0x68000 0x35b10d86 0x7899c53f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 26 0x52454144 0x4000 0x46f33000 0x6c000 0x35e442fc 0x21a1a47b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 27 0x52454144 0x4000 0x46f33000 0x70000 0x36424841 0xb521f7ef
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 28 0x52454144 0x4000 0x46f33000 0x74000 0x3629ca1a 0xfd0142a8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 29 0x52454144 0x4000 0x46f33000 0x78000 0x365283e9 0xd561954c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 30 0x52454144 0x4000 0x46f33000 0x7c000 0x36ebd7e8 0x992c2543
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 31 0x52454144 0x4000 0x46f33000 0x80000 0x35976000 0xbeca9174
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 32 0x52454144 0x4000 0x46f33000 0x84000 0x35dcca15 0xdcb72803
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 33 0x52454144 0x4000 0x46f33000 0x88000 0x35e68244 0x44795bf3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 34 0x52454144 0x4000 0x46f33000 0x8c000 0x34d37361 0x9b513319
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 35 0x52454144 0x4000 0x46f33000 0x90000 0x359e49e4 0x5654e1be
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 36 0x52454144 0x4000 0x46f33000 0x94000 0x35ed3c28 0xbfbc5b74
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 37 0x52454144 0x4000 0x46f33000 0x98000 0x357342b3 0xde8a42da
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 38 0x52454144 0x4000 0x46f33000 0x9c000 0x3685e466 0xb4a75134
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 39 0x52454144 0x4000 0x46f33000 0xa0000 0x35d1ec47 0xe4726d4b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 40 0x52454144 0x4000 0x46f33000 0xa4000 0x35d44a8a 0xd8d688a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 41 0x52454144 0x4000 0x46f33000 0xa8000 0x35d6c9f6 0xdaf28cc3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 42 0x52454144 0x4000 0x46f33000 0xac000 0x36598952 0x74e85ed7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 43 0x52454144 0x4000 0x46f33000 0xb0000 0x35b732eb 0xa8c4d0a3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 44 0x52454144 0x4000 0x46f33000 0xb4000 0x35d3d84c 0x3495e752
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 45 0x52454144 0x4000 0x46f33000 0xb8000 0x366d1618 0xa2a61fe4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 46 0x52454144 0x4000 0x46f33000 0xbc000 0x36235f25 0xf230dff4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 47 0x52454144 0x4000 0x46f33000 0xc0000 0x366c7782 0x41f57fdc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 48 0x52454144 0x4000 0x46f33000 0xc4000 0x36f64789 0xc42180b1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 49 0x52454144 0x4000 0x46f33000 0xc8000 0x363379a6 0xc72550f6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 50 0x52454144 0x4000 0x46f33000 0xcc000 0x3577e0b4 0x1acc44b9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 51 0x52454144 0x4000 0x46f33000 0xd0000 0x35df0871 0xd029d45d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 52 0x52454144 0x4000 0x46f33000 0xd4000 0x35c64193 0xd06ec44b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 53 0x52454144 0x4000 0x46f33000 0xd8000 0x363a9081 0xb7b62f4b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 54 0x52454144 0x4000 0x46f33000 0xdc000 0x35cb2b6c 0xc8e7e44b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 55 0x52454144 0x4000 0x46f33000 0xe0000 0x35f76f50 0xfa12fbc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 56 0x52454144 0x4000 0x46f33000 0xe4000 0x359d9dd5 0xc1c0a53
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 57 0x52454144 0x4000 0x46f33000 0xe8000 0x3646cae2 0xedd94e2e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 58 0x52454144 0x4000 0x46f33000 0xec000 0x35dad650 0xd0615310
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 59 0x52454144 0x4000 0x46f33000 0xf0000 0x3649a290 0xd1e9ec4a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 60 0x52454144 0x4000 0x46f33000 0xf4000 0x3612fee3 0x119bb009
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 61 0x52454144 0x4000 0x46f33000 0xf8000 0x360790ab 0xa0fe2db8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 62 0x52454144 0x4000 0x46f33000 0xfc000 0x3529552f 0xd7924aef
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 63 0x52454144 0x4000 0x46f33000 0x100000 0x35cbc60e 0x43f79f05
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 64 0x52454144 0x4000 0x46f33000 0x104000 0x35729c20 0x87a10521
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 65 0x52454144 0x4000 0x46f33000 0x108000 0x3662dae5 0x98697395
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 66 0x52454144 0x4000 0x46f33000 0x10c000 0x35475618 0xedbae909
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 67 0x52454144 0x4000 0x46f33000 0x110000 0x35ba3ed2 0x514747ec
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 68 0x52454144 0x4000 0x46f33000 0x114000 0x35636766 0x7bfb0ea1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 69 0x52454144 0x4000 0x46f33000 0x118000 0x3539b14d 0x98432b79
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 70 0x52454144 0x4000 0x46f33000 0x11c000 0x365dcc67 0x2bf9ec90
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 71 0x52454144 0x4000 0x46f33000 0x120000 0x35bb7ba8 0x8f3bfe32
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 72 0x52454144 0x4000 0x46f33000 0x124000 0x35df9a90 0xcec1f16c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 73 0x52454144 0x4000 0x46f33000 0x128000 0x34cedb9f 0xc1d55bf2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 74 0x52454144 0x4000 0x46f33000 0x12c000 0x361bbbbf 0x5318e59c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 75 0x52454144 0x4000 0x46f33000 0x130000 0x365ad34b 0x978dcb7f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 76 0x52454144 0x4000 0x46f33000 0x134000 0x36de0f7a 0xeeb56aa0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 77 0x52454144 0x4000 0x46f33000 0x138000 0x35a309d8 0xebedd53e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 78 0x52454144 0x4000 0x46f33000 0x13c000 0x356856d5 0xfe82cee0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 79 0x52454144 0x4000 0x46f33000 0x140000 0x35f8a6c4 0x40bc0d6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 80 0x52454144 0x4000 0x46f33000 0x144000 0x35cdb9ef 0x5b22a4f0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 81 0x52454144 0x4000 0x46f33000 0x148000 0x357d0641 0xfb588625
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 82 0x52454144 0x4000 0x46f33000 0x14c000 0x35ca882c 0xb40477a7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 83 0x52454144 0x4000 0x46f33000 0x150000 0x35c0c357 0x47db8ce8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 84 0x52454144 0x4000 0x46f33000 0x154000 0x35e3b9ea 0xd8245004
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 85 0x52454144 0x4000 0x46f33000 0x158000 0x358b5546 0x9900f17
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 86 0x52454144 0x4000 0x46f33000 0x15c000 0x35b1d7c3 0xa633aaa6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 87 0x52454144 0x4000 0x46f33000 0x160000 0x35724443 0x86262e12
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 88 0x52454144 0x4000 0x46f33000 0x164000 0x3607a144 0xc397e3f2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 89 0x52454144 0x4000 0x46f33000 0x168000 0x3535f7be 0xafe8d7e3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 90 0x52454144 0x4000 0x46f33000 0x16c000 0x36148257 0x58feadeb
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 91 0x52454144 0x4000 0x46f33000 0x170000 0x362f8896 0xfc6d2885
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 92 0x52454144 0x4000 0x46f33000 0x174000 0x360b6971 0x4d7eba9a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 93 0x52454144 0x4000 0x46f33000 0x178000 0x3540cdba 0x7b70b35e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 94 0x52454144 0x4000 0x46f33000 0x17c000 0x35f3255d 0xd2f54877
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 95 0x52454144 0x4000 0x46f33000 0x180000 0x357a6028 0x7ebd5f0c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 96 0x52454144 0x4000 0x46f33000 0x184000 0x352d1146 0x977daaaf
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 97 0x52454144 0x4000 0x46f33000 0x188000 0x35f0ad63 0x3acf01aa
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 98 0x52454144 0x4000 0x46f33000 0x18c000 0x36156c58 0x1086ba17
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 99 0x52454144 0x4000 0x46f33000 0x190000 0x370ebf9c 0xaaccdb
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 100 0x52454144 0x4000 0x46f33000 0x194000 0x3598584c 0xb4e7100a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 101 0x52454144 0x4000 0x46f33000 0x198000 0x35daeed4 0x197fa6d8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 102 0x52454144 0x4000 0x46f33000 0x19c000 0x35cf1401 0x39685ed7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 103 0x52454144 0x4000 0x46f33000 0x1a0000 0x366f48a3 0xf6667207
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 104 0x52454144 0x4000 0x46f33000 0x1a4000 0x35e20464 0x93dc36b2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 105 0x52454144 0x4000 0x46f33000 0x1a8000 0x35a53f27 0xcb2de055
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 106 0x52454144 0x4000 0x46f33000 0x1ac000 0x36456955 0x11e7dd88
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 107 0x52454144 0x4000 0x46f33000 0x1b0000 0x35d748c3 0xce0addc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 108 0x52454144 0x4000 0x46f33000 0x1b4000 0x35caa541 0x385a7b82
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 109 0x52454144 0x4000 0x46f33000 0x1b8000 0x36149093 0x3f8fad87
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 110 0x52454144 0x4000 0x46f33000 0x1bc000 0x35f0b7d9 0x1f871f62
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 111 0x52454144 0x4000 0x46f33000 0x1c0000 0x3649be18 0xb30a0641
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 112 0x52454144 0x4000 0x46f33000 0x1c4000 0x359dfb05 0x30794c7d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 113 0x52454144 0x4000 0x46f33000 0x1c8000 0x358d022f 0xce517e7b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 114 0x52454144 0x4000 0x46f33000 0x1cc000 0x35dd00bc 0x14628a6c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 115 0x52454144 0x4000 0x46f33000 0x1d0000 0x35d7a8a2 0x1e2b70d4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 116 0x52454144 0x4000 0x46f33000 0x1d4000 0x3585d45e 0x1bb45a74
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 117 0x52454144 0x4000 0x46f33000 0x1d8000 0x35ab2de2 0x3541bc7a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 118 0x52454144 0x4000 0x46f33000 0x1dc000 0x35bc1e64 0x5fa44663
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 119 0x52454144 0x4000 0x46f33000 0x1e0000 0x35ab966b 0xb7871758
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 120 0x52454144 0x4000 0x46f33000 0x1e4000 0x35f0955a 0xf61ab199
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 121 0x52454144 0x4000 0x46f33000 0x1e8000 0x36103d39 0xcfaff7b8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 122 0x52454144 0x4000 0x46f33000 0x1ec000 0x36249b01 0x7fec567f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 123 0x52454144 0x4000 0x46f33000 0x1f0000 0x35f590f9 0x502befd5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 124 0x52454144 0x4000 0x46f33000 0x1f4000 0x3662b1bb 0x4d741cbc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 125 0x52454144 0x4000 0x46f33000 0x1f8000 0x35b0a502 0xb308a578
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 126 0x52454144 0x4000 0x46f33000 0x1fc000 0x3666d81d 0xd0387d5f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 127 0x52454144 0x4000 0x46f33000 0x200000 0x35a84bd1 0x6ce481d0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 128 0x52454144 0x4000 0x46f33000 0x204000 0x360b0506 0x2359caf6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 129 0x52454144 0x4000 0x46f33000 0x208000 0x35c4e4e2 0x37ffc866
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 130 0x52454144 0x4000 0x46f33000 0x20c000 0x3655c031 0x5df93c2c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 131 0x52454144 0x4000 0x46f33000 0x210000 0x35358ac9 0x61ef8eca
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 132 0x52454144 0x4000 0x46f33000 0x214000 0x355e983a 0x47b82851
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 133 0x52454144 0x4000 0x46f33000 0x218000 0x3562d50f 0xb19e6a77
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 134 0x52454144 0x4000 0x46f33000 0x21c000 0x35c480e4 0xf24c7ca3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 135 0x52454144 0x4000 0x46f33000 0x220000 0x3564910a 0x69367c5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 136 0x52454144 0x4000 0x46f33000 0x224000 0x356d8703 0x170e0332
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 137 0x52454144 0x4000 0x46f33000 0x228000 0x364a10ea 0x9c9a4b78
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 138 0x52454144 0x4000 0x46f33000 0x22c000 0x35cb504f 0x6c0289c9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 139 0x52454144 0x4000 0x46f33000 0x230000 0x3693e1f7 0x1a34078b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 140 0x52454144 0x4000 0x46f33000 0x234000 0x365505e9 0xd10439e5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 141 0x52454144 0x4000 0x46f33000 0x238000 0x368e68ab 0xbdbfa72c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 142 0x52454144 0x4000 0x46f33000 0x23c000 0x36baf458 0xd242d165
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 143 0x52454144 0x4000 0x46f33000 0x240000 0x360baf8d 0x164be33b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 144 0x52454144 0x4000 0x46f33000 0x244000 0x35b9662d 0x40657019
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 145 0x52454144 0x4000 0x46f33000 0x248000 0x35d99331 0x7d430136
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 146 0x52454144 0x4000 0x46f33000 0x24c000 0x33e845dc 0xf71d1e09
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 147 0x52454144 0x4000 0x46f33000 0x250000 0x32ab2f0f 0x836ab264
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 148 0x52454144 0x4000 0x46f33000 0x254000 0x33af3178 0xdcc6e57
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 149 0x52454144 0x4000 0x46f33000 0x258000 0x35da0326 0x50598051
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 150 0x52454144 0x4000 0x46f33000 0x25c000 0x33fdd7d7 0xb88d0f59
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 151 0x52454144 0x4000 0x46f33000 0x260000 0x33d191bd 0xa233ea38
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 152 0x52454144 0x4000 0x46f33000 0x264000 0x342fab51 0x766defe6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 153 0x52454144 0x4000 0x46f33000 0x268000 0x369220ae 0x1da4f797
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 154 0x52454144 0x4000 0x46f33000 0x26c000 0x31ef4135 0x67a21a83
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 155 0x52454144 0x4000 0x46f33000 0x270000 0x3330cd88 0x5a5f5202
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 156 0x52454144 0x4000 0x46f33000 0x274000 0x360173d4 0xd5935676
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 157 0x52454144 0x4000 0x46f33000 0x278000 0x364f3274 0xeb0eb8a2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 158 0x52454144 0x4000 0x46f33000 0x27c000 0x366b318b 0xc8431b9c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 159 0x52454144 0x4000 0x46f33000 0x280000 0x36954048 0x3e8a3e54
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 160 0x52454144 0x4000 0x46f33000 0x284000 0x3503c95a 0xd31ceeac
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 161 0x52454144 0x4000 0x46f33000 0x288000 0x34bd5edc 0x192002c1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 162 0x52454144 0x4000 0x46f33000 0x28c000 0x319d6ecd 0x8edc2d91
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 163 0x52454144 0x4000 0x46f33000 0x290000 0x34653bff 0x68cc3a67
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 164 0x52454144 0x4000 0x46f33000 0x294000 0x34f41289 0x495f1cda
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 165 0x52454144 0x4000 0x46f33000 0x298000 0x35754edb 0x7c6e8a11
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 166 0x52454144 0x4000 0x46f33000 0x29c000 0x3208fdb1 0x8f5f8da9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 167 0x52454144 0x4000 0x46f33000 0x2a0000 0x33cdb8c9 0x511d2471
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 168 0x52454144 0x4000 0x46f33000 0x2a4000 0x3486a8ea 0x884e2692
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 169 0x52454144 0x4000 0x46f33000 0x2a8000 0x33f8660f 0xd5c79aec
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 170 0x52454144 0x4000 0x46f33000 0x2ac000 0x336dc7b0 0xee4bd440
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 171 0x52454144 0x4000 0x46f33000 0x2b0000 0x349843a6 0xacc1ada9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 172 0x52454144 0x4000 0x46f33000 0x2b4000 0x36c3af7a 0xf4271072
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 173 0x52454144 0x4000 0x46f33000 0x2b8000 0x35a93389 0x868aaa3a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 174 0x52454144 0x4000 0x46f33000 0x2bc000 0x36130a78 0x1d171db5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 175 0x52454144 0x4000 0x46f33000 0x2c0000 0x35dd624f 0x56bacc4e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 176 0x52454144 0x4000 0x46f33000 0x2c4000 0x3553790a 0xfc0694d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 177 0x52454144 0x4000 0x46f33000 0x2c8000 0x355415e2 0x201d25e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 178 0x52454144 0x4000 0x46f33000 0x2cc000 0x3541368e 0x3f8a5e51
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 179 0x52454144 0x4000 0x46f33000 0x2d0000 0x3574bc2e 0x6d31ee5e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 180 0x52454144 0x4000 0x46f33000 0x2d4000 0x3579d44d 0x4cc99136
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 181 0x52454144 0x4000 0x46f33000 0x2d8000 0x3507e894 0xfa6f7f54
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 182 0x52454144 0x4000 0x46f33000 0x2dc000 0x34fabedf 0xcbb04af3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 183 0x52454144 0x4000 0x46f33000 0x2e0000 0x34f125cc 0x97cddd31
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 184 0x52454144 0x4000 0x46f33000 0x2e4000 0x3551e0e6 0x4b9d5e94
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 185 0x52454144 0x4000 0x46f33000 0x2e8000 0x34c3d9ff 0xc2f7e823
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 186 0x52454144 0x4000 0x46f33000 0x2ec000 0x3556b794 0xa236c904
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 187 0x52454144 0x4000 0x46f33000 0x2f0000 0x355bdceb 0xce100434
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 188 0x52454144 0x4000 0x46f33000 0x2f4000 0x34b0e2e9 0x11609ffc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 189 0x52454144 0x4000 0x46f33000 0x2f8000 0x351678c0 0xcda91565
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 190 0x52454144 0x4000 0x46f33000 0x2fc000 0x347cb2e3 0xf4183e67
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 191 0x52454144 0x4000 0x46f33000 0x300000 0x34e381ee 0x4a8b5fdc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 192 0x52454144 0x4000 0x46f33000 0x304000 0x3573accf 0xe44839a3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 193 0x52454144 0x4000 0x46f33000 0x308000 0x3580469d 0xc4a32ea5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 194 0x52454144 0x4000 0x46f33000 0x30c000 0x35457f01 0xf4e1c724
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 195 0x52454144 0x4000 0x46f33000 0x310000 0x357fddec 0xf2e02a07
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 196 0x52454144 0x4000 0x46f33000 0x314000 0x34fe7f91 0x9de8c5a5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 197 0x52454144 0x4000 0x46f33000 0x318000 0x3526703b 0x6633cbfa
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 198 0x52454144 0x4000 0x46f33000 0x31c000 0x34ed14d7 0x700bec1e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 199 0x52454144 0x4000 0x46f33000 0x320000 0x354cd40c 0xbf9ad324
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 200 0x52454144 0x4000 0x46f33000 0x324000 0x3500823c 0xa7c56860
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 201 0x52454144 0x4000 0x46f33000 0x328000 0x352710b3 0x40e3c758
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 202 0x52454144 0x4000 0x46f33000 0x32c000 0x35799697 0x76afcebd
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 203 0x52454144 0x4000 0x46f33000 0x330000 0x34ab8dfc 0xc7b47e6b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 204 0x52454144 0x4000 0x46f33000 0x334000 0x34fe9670 0xe51dcc0b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 205 0x52454144 0x4000 0x46f33000 0x338000 0x34f60d48 0xc219d83e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 206 0x52454144 0x4000 0x46f33000 0x33c000 0x34b20fa1 0x58240bc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 207 0x52454144 0x4000 0x46f33000 0x340000 0x358309ed 0xc06eec30
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 208 0x52454144 0x4000 0x46f33000 0x344000 0x35cb702e 0x1ca58ab4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 209 0x52454144 0x4000 0x46f33000 0x348000 0x35b3e4f7 0x451cdee9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 210 0x52454144 0x4000 0x46f33000 0x34c000 0x35ebc365 0x3c34c56b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 211 0x52454144 0x4000 0x46f33000 0x350000 0x358a990d 0xc56574c5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 212 0x52454144 0x4000 0x46f33000 0x354000 0x35c25801 0x90fe8e7f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 213 0x52454144 0x4000 0x46f33000 0x358000 0x355fe952 0x65a6e88f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 214 0x52454144 0x4000 0x46f33000 0x35c000 0x362541ac 0x8e25998c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 215 0x52454144 0x4000 0x46f33000 0x360000 0x34ff6dd7 0x45e3bc34
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 216 0x52454144 0x4000 0x46f33000 0x364000 0x3640baf7 0xe7d9dfb9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 217 0x52454144 0x4000 0x46f33000 0x368000 0x36056533 0x49e4f688
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 218 0x52454144 0x4000 0x46f33000 0x36c000 0x362346f3 0xb8422771
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 219 0x52454144 0x4000 0x46f33000 0x370000 0x354c87cf 0x9b1ef5a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 220 0x52454144 0x4000 0x46f33000 0x374000 0x35e763ff 0x4af40655
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 221 0x52454144 0x4000 0x46f33000 0x378000 0x35838883 0x4770f959
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 222 0x52454144 0x4000 0x46f33000 0x37c000 0x3541aec6 0x960a0fde
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 223 0x52454144 0x4000 0x46f33000 0x380000 0x35d8c5fa 0xc7b00f55
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 224 0x52454144 0x4000 0x46f33000 0x384000 0x360d1267 0x7dc5b273
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 225 0x52454144 0x4000 0x46f33000 0x388000 0x365dc870 0xe879f3e9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 226 0x52454144 0x4000 0x46f33000 0x38c000 0x354c792a 0x5267a05d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 227 0x52454144 0x4000 0x46f33000 0x390000 0x35d37c49 0x15e9d1e0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 228 0x52454144 0x4000 0x46f33000 0x394000 0x359e5e71 0xd02556d7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 229 0x52454144 0x4000 0x46f33000 0x398000 0x35ed36fd 0x9611c918
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 230 0x52454144 0x4000 0x46f33000 0x39c000 0x360b66ab 0x99870fde
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 231 0x52454144 0x4000 0x46f33000 0x3a0000 0x364b9a2a 0xd0eff6e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 232 0x52454144 0x4000 0x46f33000 0x3a4000 0x363246b3 0xc624a13b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 233 0x52454144 0x4000 0x46f33000 0x3a8000 0x35c77f8a 0x7f59130f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 234 0x52454144 0x4000 0x46f33000 0x3ac000 0x359cb82f 0x2390a0df
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 235 0x52454144 0x4000 0x46f33000 0x3b0000 0x36e1a9d6 0x1596157a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 236 0x52454144 0x4000 0x46f33000 0x3b4000 0x3633fb7b 0xc13eb8ab
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 237 0x52454144 0x4000 0x46f33000 0x3b8000 0x36062b83 0xc560026f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 238 0x52454144 0x4000 0x46f33000 0x3bc000 0x32592dbc 0xf0ec9b5c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 239 0x52454144 0x4000 0x46f33000 0x3c0000 0x34746532 0x41d7101c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 240 0x52454144 0x4000 0x46f33000 0x3c4000 0x35d8dd70 0xca26c0ff
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 241 0x52454144 0x4000 0x46f33000 0x3c8000 0x3664fbdb 0xf3d1be3b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 242 0x52454144 0x4000 0x46f33000 0x3cc000 0x30b4a2c3 0x62348f08
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 243 0x52454144 0x4000 0x46f33000 0x3d0000 0x35e09596 0x56c1acbe
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 244 0x52454144 0x4000 0x46f33000 0x3d4000 0x362f7979 0xbd105622
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 245 0x52454144 0x4000 0x46f33000 0x3d8000 0x363fd6e7 0x9c5987f0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 246 0x52454144 0x4000 0x46f33000 0x3dc000 0x3318e0f2 0xb80cdac0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 247 0x52454144 0x4000 0x46f33000 0x3e0000 0x36501eb2 0x84d748ed
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 248 0x52454144 0x4000 0x46f33000 0x3e4000 0x3677b5a7 0xaef233a8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 249 0x52454144 0x4000 0x46f33000 0x3e8000 0x36375149 0xd8a54343
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 250 0x52454144 0x4000 0x46f33000 0x3ec000 0x35cd1e9c 0x14a9de70
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 251 0x52454144 0x4000 0x46f33000 0x3f0000 0x36b66e09 0x638647a8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 252 0x52454144 0x4000 0x46f33000 0x3f4000 0x364f0ab7 0xd194cabf
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 253 0x52454144 0x4000 0x46f33000 0x3f8000 0x34c860ba 0x37d13024
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 254 0x52454144 0x4000 0x46f33000 0x3fc000 0x338806b1 0xc883387f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 255 0x52454144 0x4000 0x46f33000 0x400000 0x3686ef40 0x4f3f95c9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 256 0x52454144 0x4000 0x46f33000 0x404000 0x368d44a5 0xdf2ecdcb
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 257 0x52454144 0x4000 0x46f33000 0x408000 0x35562ba3 0xf8ad1bef
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 258 0x52454144 0x4000 0x46f33000 0x40c000 0x34b98389 0x47d375f7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Handler SysTick
+xPSR: 0x2100000f pc: 0x90006bf8 msp: 0x2000e0e0
+RATE_CHUNK 259 0x52454144 0x4000 0x46f33000 0x410000 0x36a9cba1 0xa90225ee
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 260 0x52454144 0x4000 0x46f33000 0x414000 0x363460e9 0x3db137ae
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 261 0x52454144 0x4000 0x46f33000 0x418000 0x330637ce 0xee3dff30
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 262 0x52454144 0x4000 0x46f33000 0x41c000 0x35de4cd3 0xc138562e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 263 0x52454144 0x4000 0x46f33000 0x420000 0x36a91142 0xac1cabea
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 264 0x52454144 0x4000 0x46f33000 0x424000 0x36450e0e 0x7942e784
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 265 0x52454144 0x4000 0x46f33000 0x428000 0x362d2ed2 0x4e0bff7d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 266 0x52454144 0x4000 0x46f33000 0x42c000 0x368a736d 0x378d1a06
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 267 0x52454144 0x4000 0x46f33000 0x430000 0x3610c6f5 0xf1589699
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 268 0x52454144 0x4000 0x46f33000 0x434000 0x37d5df54 0x18c6e50e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 269 0x52454144 0x4000 0x46f33000 0x438000 0x37cc15ba 0x6e41c1a3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 270 0x52454144 0x4000 0x46f33000 0x43c000 0x3608fd9f 0xebb436f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 271 0x52454144 0x4000 0x46f33000 0x440000 0x365816bb 0xfc8d0b5f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 272 0x52454144 0x4000 0x46f33000 0x444000 0x37498003 0x8383df24
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 273 0x52454144 0x4000 0x46f33000 0x448000 0x372107e8 0x14c91aec
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 274 0x52454144 0x4000 0x46f33000 0x44c000 0x3602813f 0x6883442
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 275 0x52454144 0x4000 0x46f33000 0x450000 0x3653b0ea 0x8ffa0268
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 276 0x52454144 0x4000 0x46f33000 0x454000 0x384d1006 0x3d1216c8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 277 0x52454144 0x4000 0x46f33000 0x458000 0x3746c52b 0xa91dd6b7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 278 0x52454144 0x4000 0x46f33000 0x45c000 0x36fc02bd 0x928e1d4a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 279 0x52454144 0x4000 0x46f33000 0x460000 0x367323aa 0x7e3485d4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 280 0x52454144 0x4000 0x46f33000 0x464000 0x36ce5165 0xa6e3e394
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 281 0x52454144 0x4000 0x46f33000 0x468000 0x37272871 0xac4edce
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 282 0x52454144 0x4000 0x46f33000 0x46c000 0x357915dc 0x17171f29
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 283 0x52454144 0x4000 0x46f33000 0x470000 0x366455cd 0x6ffd2528
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 284 0x52454144 0x4000 0x46f33000 0x474000 0x377b986c 0xcae8a9b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 285 0x52454144 0x4000 0x46f33000 0x478000 0x35fd1dcc 0x29f3920e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 286 0x52454144 0x4000 0x46f33000 0x47c000 0x35c95339 0x6c7be13f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 287 0x52454144 0x4000 0x46f33000 0x480000 0x36a05642 0xe1bb11e0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 288 0x52454144 0x4000 0x46f33000 0x484000 0x37de4e44 0x40300d4a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 289 0x52454144 0x4000 0x46f33000 0x488000 0x35d3ac37 0x8b1386bb
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 290 0x52454144 0x4000 0x46f33000 0x48c000 0x35a83bdc 0xa0bf3256
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 291 0x52454144 0x4000 0x46f33000 0x490000 0x36e07284 0xc793cbda
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 292 0x52454144 0x4000 0x46f33000 0x494000 0x38660c0e 0x19714f4c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 293 0x52454144 0x4000 0x46f33000 0x498000 0x36808c58 0x45b937c7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 294 0x52454144 0x4000 0x46f33000 0x49c000 0x35096fd8 0x4cefb467
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 295 0x52454144 0x4000 0x46f33000 0x4a0000 0x348fa9b8 0x63c3b628
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 296 0x52454144 0x4000 0x46f33000 0x4a4000 0x34a47f29 0xc12b0b4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 297 0x52454144 0x4000 0x46f33000 0x4a8000 0x3514a2ac 0xa4b4f517
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 298 0x52454144 0x4000 0x46f33000 0x4ac000 0x350aae36 0xdd0a3ae1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 299 0x52454144 0x4000 0x46f33000 0x4b0000 0x34e8116b 0x8c7b8966
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 300 0x52454144 0x4000 0x46f33000 0x4b4000 0x3521d9cf 0x66517151
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 301 0x52454144 0x4000 0x46f33000 0x4b8000 0x3407279d 0x1f5a2d7d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 302 0x52454144 0x4000 0x46f33000 0x4bc000 0x3614f376 0xd156846d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 303 0x52454144 0x4000 0x46f33000 0x4c0000 0x34e99f94 0x5c17d6c1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 304 0x52454144 0x4000 0x46f33000 0x4c4000 0x3180f2f8 0xca5b3cda
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 305 0x52454144 0x4000 0x46f33000 0x4c8000 0x319769d9 0xf634429
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 306 0x52454144 0x4000 0x46f33000 0x4cc000 0x30bea501 0x7e82fd5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 307 0x52454144 0x4000 0x46f33000 0x4d0000 0x3293e4de 0xe450dde9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 308 0x52454144 0x4000 0x46f33000 0x4d4000 0x35c47353 0x267b8e1b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 309 0x52454144 0x4000 0x46f33000 0x4d8000 0x34621a71 0xe90aa07f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 310 0x52454144 0x4000 0x46f33000 0x4dc000 0x31ff40aa 0x3179e763
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 311 0x52454144 0x4000 0x46f33000 0x4e0000 0x324c4bb0 0x2553d503
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 312 0x52454144 0x4000 0x46f33000 0x4e4000 0x32557fd5 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 313 0x52454144 0x4000 0x46f33000 0x4e8000 0x3267a766 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 314 0x52454144 0x4000 0x46f33000 0x4ec000 0x3268af3a 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 315 0x52454144 0x4000 0x46f33000 0x4f0000 0x32665c7a 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 316 0x52454144 0x4000 0x46f33000 0x4f4000 0x3270db93 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 317 0x52454144 0x4000 0x46f33000 0x4f8000 0x35adb50a 0xbe309ba4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 318 0x52454144 0x4000 0x46f33000 0x4fc000 0x35b45bee 0x212fd724
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 319 0x52454144 0x4000 0x46f33000 0x500000 0x32a2389a 0x68f9b22b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 320 0x52454144 0x4000 0x46f33000 0x504000 0x3228d5cd 0x42d6b402
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 321 0x52454144 0x4000 0x46f33000 0x508000 0x324cb0aa 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 322 0x52454144 0x4000 0x46f33000 0x50c000 0x32cef09f 0x43d7963e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 323 0x52454144 0x4000 0x46f33000 0x510000 0x360c6fc2 0xe407c27f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 324 0x52454144 0x4000 0x46f33000 0x514000 0x3562d020 0xc3e17a8a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 325 0x52454144 0x4000 0x46f33000 0x518000 0x31fb2ffc 0xde6d000b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 326 0x52454144 0x4000 0x46f33000 0x51c000 0x32447db9 0x86679e15
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 327 0x52454144 0x4000 0x46f33000 0x520000 0x324db3ff 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 328 0x52454144 0x4000 0x46f33000 0x524000 0x325e046e 0x62d4515e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 329 0x52454144 0x4000 0x46f33000 0x528000 0x324c281d 0x621df695
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 330 0x52454144 0x4000 0x46f33000 0x52c000 0x345d86c0 0xe7b001a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 331 0x52454144 0x4000 0x46f33000 0x530000 0x35b11073 0x379f2477
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 332 0x52454144 0x4000 0x46f33000 0x534000 0x3571db86 0x8a5b8842
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 333 0x52454144 0x4000 0x46f33000 0x538000 0x35bb6b4a 0xf59ef65f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 334 0x52454144 0x4000 0x46f33000 0x53c000 0x338d2b28 0x5732a79d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 335 0x52454144 0x4000 0x46f33000 0x540000 0x324c7653 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 336 0x52454144 0x4000 0x46f33000 0x544000 0x3250374f 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 337 0x52454144 0x4000 0x46f33000 0x548000 0x324ea522 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 338 0x52454144 0x4000 0x46f33000 0x54c000 0x35998cbb 0x1f6d7482
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 339 0x52454144 0x4000 0x46f33000 0x550000 0x35abbbb0 0xd510fdc1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 340 0x52454144 0x4000 0x46f33000 0x554000 0x32b8c431 0xaf766f09
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 341 0x52454144 0x4000 0x46f33000 0x558000 0x3226be2f 0xb4a2e326
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 342 0x52454144 0x4000 0x46f33000 0x55c000 0x324afc30 0xb95f31cc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 343 0x52454144 0x4000 0x46f33000 0x560000 0x32600a6d 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 344 0x52454144 0x4000 0x46f33000 0x564000 0x3265d89a 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 345 0x52454144 0x4000 0x46f33000 0x568000 0x3265b87b 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 346 0x52454144 0x4000 0x46f33000 0x56c000 0x3264d92c 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 347 0x52454144 0x4000 0x46f33000 0x570000 0x3385335d 0x87d31cca
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 348 0x52454144 0x4000 0x46f33000 0x574000 0x360dce0e 0xa18b9131
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 349 0x52454144 0x4000 0x46f33000 0x578000 0x34bf29f3 0x1ee643e9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 350 0x52454144 0x4000 0x46f33000 0x57c000 0x31f0836f 0x75014b64
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 351 0x52454144 0x4000 0x46f33000 0x580000 0x324c383b 0x75dbf154
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 352 0x52454144 0x4000 0x46f33000 0x584000 0x32534b3b 0x38895dc5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 353 0x52454144 0x4000 0x46f33000 0x588000 0x347e942b 0xddc3e342
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 354 0x52454144 0x4000 0x46f33000 0x58c000 0x35bd21b7 0xf19d84aa
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 355 0x52454144 0x4000 0x46f33000 0x590000 0x33e20613 0xabacda97
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 356 0x52454144 0x4000 0x46f33000 0x594000 0x321014c1 0xa9d0ea87
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 357 0x52454144 0x4000 0x46f33000 0x598000 0x322edf58 0xd35de559
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 358 0x52454144 0x4000 0x46f33000 0x59c000 0x324a6aed 0x3bc2f14b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 359 0x52454144 0x4000 0x46f33000 0x5a0000 0x32497938 0xc482cb28
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 360 0x52454144 0x4000 0x46f33000 0x5a4000 0x32687ac7 0xec4af922
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 361 0x52454144 0x4000 0x46f33000 0x5a8000 0x3760950e 0xb3e873d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 362 0x52454144 0x4000 0x46f33000 0x5ac000 0x3767f76c 0xcda58598
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 363 0x52454144 0x4000 0x46f33000 0x5b0000 0x38996d2a 0xd4726b25
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 364 0x52454144 0x4000 0x46f33000 0x5b4000 0x37e2ff2d 0x4660235
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 365 0x52454144 0x4000 0x46f33000 0x5b8000 0x3797dee5 0x8f31f1de
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 366 0x52454144 0x4000 0x46f33000 0x5bc000 0x37274230 0x9a35132a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 367 0x52454144 0x4000 0x46f33000 0x5c0000 0x377e8b43 0x285ede4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 368 0x52454144 0x4000 0x46f33000 0x5c4000 0x370f61e4 0x3fff0a33
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 369 0x52454144 0x4000 0x46f33000 0x5c8000 0x36e5e837 0x336403da
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 370 0x52454144 0x4000 0x46f33000 0x5cc000 0x36ce81da 0x2377d59c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 371 0x52454144 0x4000 0x46f33000 0x5d0000 0x366df562 0xd184318c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 372 0x52454144 0x4000 0x46f33000 0x5d4000 0x360d02d6 0x3bcf3945
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 373 0x52454144 0x4000 0x46f33000 0x5d8000 0x35aabe54 0xa9eafaa
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 374 0x52454144 0x4000 0x46f33000 0x5dc000 0x370e080e 0x3bc8495
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 375 0x52454144 0x4000 0x46f33000 0x5e0000 0x374b97cb 0x95cb13bf
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 376 0x52454144 0x4000 0x46f33000 0x5e4000 0x3702e62d 0x83d9391
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 377 0x52454144 0x4000 0x46f33000 0x5e8000 0x37039c00 0xd82cfb67
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 378 0x52454144 0x4000 0x46f33000 0x5ec000 0x37ce6ccf 0x9dcdd96b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 379 0x52454144 0x4000 0x46f33000 0x5f0000 0x380a9beb 0xf813fa85
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 380 0x52454144 0x4000 0x46f33000 0x5f4000 0x3724d865 0x14ccaa88
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 381 0x52454144 0x4000 0x46f33000 0x5f8000 0x36ff7c26 0x1584d657
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 382 0x52454144 0x4000 0x46f33000 0x5fc000 0x36da5626 0x95bc8aab
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 383 0x52454144 0x4000 0x46f33000 0x600000 0x366273ab 0x6bcf2ab8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 384 0x52454144 0x4000 0x46f33000 0x604000 0x3654b776 0x8acb8e11
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 385 0x52454144 0x4000 0x46f33000 0x608000 0x360dedfb 0x97ff81dd
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 386 0x52454144 0x4000 0x46f33000 0x60c000 0x359c1f38 0x5beacf77
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 387 0x52454144 0x4000 0x46f33000 0x610000 0x3548d5ea 0xa4f0c4f6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 388 0x52454144 0x4000 0x46f33000 0x614000 0x358eabb8 0x5c2e3419
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 389 0x52454144 0x4000 0x46f33000 0x618000 0x3600f8ee 0x8ec14d8e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 390 0x52454144 0x4000 0x46f33000 0x61c000 0x367fc00f 0x1853606d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 391 0x52454144 0x4000 0x46f33000 0x620000 0x365217b3 0x630046db
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 392 0x52454144 0x4000 0x46f33000 0x624000 0x36c49453 0x949f73ee
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 393 0x52454144 0x4000 0x46f33000 0x628000 0x36c58cf2 0x878c16d9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 394 0x52454144 0x4000 0x46f33000 0x62c000 0x38391172 0x7ab1096f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 395 0x52454144 0x4000 0x46f33000 0x630000 0x37b40ff4 0xabf5953e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 396 0x52454144 0x4000 0x46f33000 0x634000 0x37480b9c 0xa8c3f725
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 397 0x52454144 0x4000 0x46f33000 0x638000 0x36e1fd01 0x9a608893
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 398 0x52454144 0x4000 0x46f33000 0x63c000 0x367028b0 0xa1420551
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 399 0x52454144 0x4000 0x46f33000 0x640000 0x369f344c 0x7e0594dc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 400 0x52454144 0x4000 0x46f33000 0x644000 0x362fde9d 0xe5297b8c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 401 0x52454144 0x4000 0x46f33000 0x648000 0x35f771a9 0x4d7daefb
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 402 0x52454144 0x4000 0x46f33000 0x64c000 0x35c1b24b 0x64c7235a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 403 0x52454144 0x4000 0x46f33000 0x650000 0x355d10e3 0x6a87b5d6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 404 0x52454144 0x4000 0x46f33000 0x654000 0x351526ba 0x3269e504
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 405 0x52454144 0x4000 0x46f33000 0x658000 0x37c0a260 0x9b88dbdc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 406 0x52454144 0x4000 0x46f33000 0x65c000 0x366174fe 0x6443bfd3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 407 0x52454144 0x4000 0x46f33000 0x660000 0x37730a5f 0x812ed1f8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 408 0x52454144 0x4000 0x46f33000 0x664000 0x369e4eb7 0x181eaee2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 409 0x52454144 0x4000 0x46f33000 0x668000 0x37fb59c2 0x9281c8a4
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 410 0x52454144 0x4000 0x46f33000 0x66c000 0x378a5ac2 0x493749d2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 411 0x52454144 0x4000 0x46f33000 0x670000 0x36dddf5f 0xa47d04d1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 412 0x52454144 0x4000 0x46f33000 0x674000 0x36c87df2 0x8f8317f8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 413 0x52454144 0x4000 0x46f33000 0x678000 0x363d8af1 0x460c4469
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 414 0x52454144 0x4000 0x46f33000 0x67c000 0x367869f3 0xe1aa01a2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 415 0x52454144 0x4000 0x46f33000 0x680000 0x35fad0b7 0x2d1d46da
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 416 0x52454144 0x4000 0x46f33000 0x684000 0x35c0d0fa 0x2b53e119
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 417 0x52454144 0x4000 0x46f33000 0x688000 0x35d7ed52 0xe20df65e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 418 0x52454144 0x4000 0x46f33000 0x68c000 0x35c8a7f6 0xf0008f59
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 419 0x52454144 0x4000 0x46f33000 0x690000 0x354594be 0x6e68082b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 420 0x52454144 0x4000 0x46f33000 0x694000 0x367d4da2 0x15dc0c1c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 421 0x52454144 0x4000 0x46f33000 0x698000 0x35ed8cfb 0x8b2fc64b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 422 0x52454144 0x4000 0x46f33000 0x69c000 0x374bb566 0x1fefc31a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 423 0x52454144 0x4000 0x46f33000 0x6a0000 0x360e1d3f 0x3cbf149
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 424 0x52454144 0x4000 0x46f33000 0x6a4000 0x37d98105 0x25d0464
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 425 0x52454144 0x4000 0x46f33000 0x6a8000 0x368e8c8b 0x2419566a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 426 0x52454144 0x4000 0x46f33000 0x6ac000 0x35df9269 0x94651e05
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 427 0x52454144 0x4000 0x46f33000 0x6b0000 0x35b60825 0xa8527eef
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 428 0x52454144 0x4000 0x46f33000 0x6b4000 0x3848e8d8 0xde3ed130
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 429 0x52454144 0x4000 0x46f33000 0x6b8000 0x35cc10bf 0x501443ba
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 430 0x52454144 0x4000 0x46f33000 0x6bc000 0x35df3f19 0xfce45768
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 431 0x52454144 0x4000 0x46f33000 0x6c0000 0x374aac3a 0x6eeae4a0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 432 0x52454144 0x4000 0x46f33000 0x6c4000 0x37f67b57 0x4b590a1d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 433 0x52454144 0x4000 0x46f33000 0x6c8000 0x3645ec1b 0x291d8196
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 434 0x52454144 0x4000 0x46f33000 0x6cc000 0x356daed9 0xe6914188
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 435 0x52454144 0x4000 0x46f33000 0x6d0000 0x3682c01a 0xa4d6f11c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 436 0x52454144 0x4000 0x46f33000 0x6d4000 0x3671e006 0x995ca0bf
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 437 0x52454144 0x4000 0x46f33000 0x6d8000 0x35fa89bb 0x9d8a1e25
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 438 0x52454144 0x4000 0x46f33000 0x6dc000 0x35a66846 0x84320352
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 439 0x52454144 0x4000 0x46f33000 0x6e0000 0x37632d11 0xa6538e23
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 440 0x52454144 0x4000 0x46f33000 0x6e4000 0x36dca6f3 0x96014e2a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 441 0x52454144 0x4000 0x46f33000 0x6e8000 0x35c30d5c 0xe88bdaf
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 442 0x52454144 0x4000 0x46f33000 0x6ec000 0x36046f28 0x805774d8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 443 0x52454144 0x4000 0x46f33000 0x6f0000 0x37691216 0xfd550a45
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 444 0x52454144 0x4000 0x46f33000 0x6f4000 0x366b405f 0x723b25d8
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 445 0x52454144 0x4000 0x46f33000 0x6f8000 0x35998b9d 0x88b5c99d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 446 0x52454144 0x4000 0x46f33000 0x6fc000 0x36ef20d9 0xc6dbc6dd
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 447 0x52454144 0x4000 0x46f33000 0x700000 0x38f5dd75 0xabc321b7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 448 0x52454144 0x4000 0x46f33000 0x704000 0x3694afb4 0x699d3556
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 449 0x52454144 0x4000 0x46f33000 0x708000 0x358bff3a 0xee31c378
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 450 0x52454144 0x4000 0x46f33000 0x70c000 0x36190f12 0x93e2134d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 451 0x52454144 0x4000 0x46f33000 0x710000 0x34db021d 0x414030c6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 452 0x52454144 0x4000 0x46f33000 0x714000 0x34693f5b 0xb173a773
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 453 0x52454144 0x4000 0x46f33000 0x718000 0x3516220f 0xa6d2b6d5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 454 0x52454144 0x4000 0x46f33000 0x71c000 0x350ad378 0x9d63887c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 455 0x52454144 0x4000 0x46f33000 0x720000 0x38015bca 0x77e623c1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 456 0x52454144 0x4000 0x46f33000 0x724000 0x363da8c3 0xaf8b0734
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 457 0x52454144 0x4000 0x46f33000 0x728000 0x357a7c39 0x5e4f0296
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 458 0x52454144 0x4000 0x46f33000 0x72c000 0x3706b9e5 0x4cefa9bd
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 459 0x52454144 0x4000 0x46f33000 0x730000 0x371553b5 0x817543e5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 460 0x52454144 0x4000 0x46f33000 0x734000 0x35cfe0fe 0xeb8d2330
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 461 0x52454144 0x4000 0x46f33000 0x738000 0x366e77a1 0x7f7029d9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 462 0x52454144 0x4000 0x46f33000 0x73c000 0x38002954 0x48565f35
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 463 0x52454144 0x4000 0x46f33000 0x740000 0x3783ea6d 0xbbf20d9e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 464 0x52454144 0x4000 0x46f33000 0x744000 0x35f6003d 0x5452062b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 465 0x52454144 0x4000 0x46f33000 0x748000 0x35bd1d22 0x6de7ff01
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 466 0x52454144 0x4000 0x46f33000 0x74c000 0x35e276be 0x16988f6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 467 0x52454144 0x4000 0x46f33000 0x750000 0x36004676 0x7062fe0a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 468 0x52454144 0x4000 0x46f33000 0x754000 0x3647c2fb 0x6ca84e1b
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 469 0x52454144 0x4000 0x46f33000 0x758000 0x35bef1ca 0xa4054889
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 470 0x52454144 0x4000 0x46f33000 0x75c000 0x38538302 0x815cbf78
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 471 0x52454144 0x4000 0x46f33000 0x760000 0x35b9604c 0x75d1b6a6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 472 0x52454144 0x4000 0x46f33000 0x764000 0x352c21a2 0x8821f16e
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 473 0x52454144 0x4000 0x46f33000 0x768000 0x36358a96 0x6d74cd70
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 474 0x52454144 0x4000 0x46f33000 0x76c000 0x37f55df9 0x2b875702
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 475 0x52454144 0x4000 0x46f33000 0x770000 0x36111d19 0x2c0fb1d3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 476 0x52454144 0x4000 0x46f33000 0x774000 0x3619ac67 0x36867162
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 477 0x52454144 0x4000 0x46f33000 0x778000 0x381e9cd9 0x1cb5da69
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 478 0x52454144 0x4000 0x46f33000 0x77c000 0x379cb5eb 0x9c1a949a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 479 0x52454144 0x4000 0x46f33000 0x780000 0x35d9db57 0xe4c3af53
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 480 0x52454144 0x4000 0x46f33000 0x784000 0x35c61caf 0xbd516077
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 481 0x52454144 0x4000 0x46f33000 0x788000 0x35855eb2 0xa80fcbff
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 482 0x52454144 0x4000 0x46f33000 0x78c000 0x347358ad 0x5cfb7788
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 483 0x52454144 0x4000 0x46f33000 0x790000 0x3445e655 0x4cc5b08a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 484 0x52454144 0x4000 0x46f33000 0x794000 0x3454e78b 0x6ede746a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 485 0x52454144 0x4000 0x46f33000 0x798000 0x34741d7f 0x448d31ee
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 486 0x52454144 0x4000 0x46f33000 0x79c000 0x33fa2513 0xfb5740a9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 487 0x52454144 0x4000 0x46f33000 0x7a0000 0x33b6ed6a 0xe8bd28d2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 488 0x52454144 0x4000 0x46f33000 0x7a4000 0x33bcf556 0xe5d991d6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 489 0x52454144 0x4000 0x46f33000 0x7a8000 0x342c9bb8 0x262e2d0c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 490 0x52454144 0x4000 0x46f33000 0x7ac000 0x3374333b 0x4247c823
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 491 0x52454144 0x4000 0x46f33000 0x7b0000 0x340543db 0x4cd4b4f9
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 492 0x52454144 0x4000 0x46f33000 0x7b4000 0x33ed2730 0x55fccce5
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 493 0x52454144 0x4000 0x46f33000 0x7b8000 0x346b5291 0xff11d393
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 494 0x52454144 0x4000 0x46f33000 0x7bc000 0x354be50c 0x90b9acf1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 495 0x52454144 0x4000 0x46f33000 0x7c0000 0x372c415c 0x361e1499
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 496 0x52454144 0x4000 0x46f33000 0x7c4000 0x3567687b 0x67169170
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 497 0x52454144 0x4000 0x46f33000 0x7c8000 0x3587eb92 0x88993dae
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 498 0x52454144 0x4000 0x46f33000 0x7cc000 0x35c4ba98 0x580d913
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 499 0x52454144 0x4000 0x46f33000 0x7d0000 0x357d0ecf 0x7d04813a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 500 0x52454144 0x4000 0x46f33000 0x7d4000 0x35f7e2d1 0xdcd7e71
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 501 0x52454144 0x4000 0x46f33000 0x7d8000 0x3574e8a4 0x55a015cc
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 502 0x52454144 0x4000 0x46f33000 0x7dc000 0x358a5940 0x987a62ca
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 503 0x52454144 0x4000 0x46f33000 0x7e0000 0x35b42347 0x14a2054
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 504 0x52454144 0x4000 0x46f33000 0x7e4000 0x35d3103b 0x22230266
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 505 0x52454144 0x4000 0x46f33000 0x7e8000 0x35782aaa 0x9a0b374c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 506 0x52454144 0x4000 0x46f33000 0x7ec000 0x35ae0be8 0x3716687
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 507 0x52454144 0x4000 0x46f33000 0x7f0000 0x3606a4b8 0x3a647e21
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 508 0x52454144 0x4000 0x46f33000 0x7f4000 0x364d20d4 0x65652652
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 509 0x52454144 0x4000 0x46f33000 0x7f8000 0x35946357 0xf0a6de4d
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 510 0x52454144 0x4000 0x46f33000 0x7fc000 0x35842eb3 0x65c29210
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 511 0x52454144 0x4000 0x46f33000 0x800000 0x35a2b18e 0x77b4b497
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 512 0x52454144 0x4000 0x46f33000 0x804000 0x3550911a 0xb3d6c2d7
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 513 0x52454144 0x4000 0x46f33000 0x808000 0x35cae15c 0x2602784
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 514 0x52454144 0x4000 0x46f33000 0x80c000 0x35e760ca 0x2eb99cc6
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 515 0x52454144 0x4000 0x46f33000 0x810000 0x36080f71 0x32cb28b0
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 516 0x52454144 0x4000 0x46f33000 0x814000 0x36c38ff8 0x40ccc15f
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 517 0x52454144 0x4000 0x46f33000 0x818000 0x35b171ce 0x3268dee1
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 518 0x52454144 0x4000 0x46f33000 0x81c000 0x35e4a966 0x278165c
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 519 0x52454144 0x4000 0x46f33000 0x820000 0x3604bca7 0x39d64ee2
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 520 0x52454144 0x4000 0x46f33000 0x824000 0x35e7a5ca 0x4accf241
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e00 msp: 0x2000e148
+RATE_CHUNK 521 0x52454144 0x4000 0x46f33000 0x828000 0x35e4bdf6 0xa4b4ac15
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 522 0x52454144 0x4000 0x46f33000 0x82c000 0x35853840 0x557a67fb
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 523 0x52454144 0x4000 0x46f33000 0x830000 0x36967c8b 0xb3965591
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000dfc msp: 0x2000e148
+RATE_CHUNK 524 0x52454144 0x4000 0x46f33000 0x834000 0x357348f5 0x241fc286
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 525 0x52454144 0x4000 0x46f33000 0x838000 0x360b228b 0xd08392cd
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c0 msp: 0x2000e148
+RATE_CHUNK 526 0x52454144 0x4000 0x46f33000 0x83c000 0x34989de2 0x61a9f8bf
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df2 msp: 0x2000e148
+RATE_CHUNK 527 0x52454144 0x4000 0x46f33000 0x840000 0x34d3007d 0xddd4931a
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 528 0x52454144 0x4000 0x46f33000 0x844000 0x35d06768 0x6cfa3e11
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 529 0x52454144 0x4000 0x46f33000 0x848000 0x35b55b5c 0xc45d636
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 530 0x52454144 0x4000 0x46f33000 0x84c000 0x356f8545 0xd9cb0551
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000e0e msp: 0x2000e148
+RATE_CHUNK 531 0x52454144 0x4000 0x46f33000 0x850000 0x3645a812 0x269f6d84
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 532 0x52454144 0x4000 0x46f33000 0x854000 0x35a30a0e 0x6a88fd94
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21001800 pc: 0x00000e08 msp: 0x2000e148
+RATE_CHUNK 533 0x52454144 0x4000 0x46f33000 0x858000 0x35b31818 0xc688acee
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x25001c00 pc: 0x00000e04 msp: 0x2000e148
+RATE_CHUNK 534 0x52454144 0x4000 0x46f33000 0x85c000 0x351198e5 0x330925e3
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x000004c4 msp: 0x2000e148
+RATE_CHUNK 535 0x52454144 0x4000 0x46f33000 0x860000 0x366ba17f 0x783c5843
+[stm32h7r3.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x21000000 pc: 0x00000df6 msp: 0x2000e148
+RATE_CHUNK 536 0x52454144 0x4000 0x46f33000 0x864000 0x3587bea0 0x2b7d9d3b
+Error: Fail reading CTRL/STAT register. Force reconnect
+Polling target stm32h7r3.cpu0 failed, trying to reexamine
+Error: Fail reading CTRL/STAT register. Force reconnect
+Examination failed, GDB will be halted. Polling again in 100ms
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Failed to read memory and, additionally, failed to find out where
+Error: read_memory: read at 0x2000ff00 with width=32 and count=1 failed
+Error: Fail reading CTRL/STAT register. Force reconnect
+Polling target stm32h7r3.cpu0 failed, trying to reexamine
+Error: Fail reading CTRL/STAT register. Force reconnect
+Examination failed, GDB will be halted. Polling again in 300ms
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: Fail reading CTRL/STAT register. Force reconnect
+Info : stlink_dap_op_connect(reconnect)
+Error: Fail reading CTRL/STAT register. Force reconnect
+Error: [stm32h7r3.cpu0] DP initialisation failed
+in procedure 'run_rate48_probe'
+Error: Error closing APs

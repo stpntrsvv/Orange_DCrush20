@@ -1,0 +1,129 @@
+{
+  "jacobian_rebuild_max_abs": 0.0,
+  "linear_skeleton_branch_max_abs": 0.7712816558778286,
+  "linear_skeleton_branch_relative": 5.356122591977478e-06,
+  "condition_raw": 9.403077462089929e+23,
+  "condition_physical_scaled": 15357.522148779923,
+  "singular_values_scaled": [
+    253.72926272033163,
+    60.58002098580851,
+    18.958300261883426,
+    12.022175604642799,
+    10.049380764972083,
+    2.5231602834069022,
+    1.6725930641776625,
+    1.0003082944682975,
+    1.0000000000000004,
+    0.4789933462616856,
+    0.08561785828041762,
+    0.07246538250786282,
+    0.05276554126975831,
+    0.016521497430527173
+  ],
+  "tda_to_preamp_block_norm": 4.5630483291186407e-10,
+  "preamp_to_tda_block_norm": 250.88584446237456,
+  "condition_preamp_12": 3666.739122197929,
+  "condition_tda_2": 1.6679347593371312,
+  "strongest_scaled_couplings": [
+    {
+      "to": "TDA2050.slew",
+      "from": "Q1.channel",
+      "magnitude": 250.88584446236467
+    },
+    {
+      "to": "IC3A.slew",
+      "from": "D6",
+      "magnitude": 42.822360760706744
+    },
+    {
+      "to": "IC3A.slew",
+      "from": "D7",
+      "magnitude": 42.822360760706744
+    },
+    {
+      "to": "IC4A.slew",
+      "from": "IC4A.output",
+      "magnitude": 12.57408208363307
+    },
+    {
+      "to": "IC4A.slew",
+      "from": "IC3B.output",
+      "magnitude": 11.405995586620222
+    },
+    {
+      "to": "IC3B.slew",
+      "from": "IC3B.output",
+      "magnitude": 9.753849262681051
+    },
+    {
+      "to": "IC3B.slew",
+      "from": "IC3A.output",
+      "magnitude": 7.794594900423466
+    },
+    {
+      "to": "IC4B.slew",
+      "from": "IC4B.output",
+      "magnitude": 7.557210278197876
+    },
+    {
+      "to": "Q1.channel",
+      "from": "IC4B.output",
+      "magnitude": 6.824989508777628
+    },
+    {
+      "to": "IC3B.slew",
+      "from": "D4/D5",
+      "magnitude": 6.357378225829402
+    },
+    {
+      "to": "TDA2050.slew",
+      "from": "TDA2050.output",
+      "magnitude": 3.965187984051317
+    },
+    {
+      "to": "IC4B.slew",
+      "from": "IC4A.output",
+      "magnitude": 3.0362923649393094
+    },
+    {
+      "to": "TDA2050.output",
+      "from": "TDA2050.slew",
+      "magnitude": 2.3148148069122887
+    },
+    {
+      "to": "IC4A.slew",
+      "from": "D4/D5",
+      "magnitude": 2.055479544819703
+    },
+    {
+      "to": "IC3A.slew",
+      "from": "IC3A.output",
+      "magnitude": 0.6487947183334803
+    },
+    {
+      "to": "D4/D5",
+      "from": "IC3B.output",
+      "magnitude": 0.001091584909849635
+    },
+    {
+      "to": "TDA2050.slew",
+      "from": "IC4B.output",
+      "magnitude": 7.03770797035147e-05
+    },
+    {
+      "to": "TDA2050.output",
+      "from": "Q1.channel",
+      "magnitude": 3.1265474451673463e-06
+    },
+    {
+      "to": "Q1.channel",
+      "from": "TDA2050.slew",
+      "magnitude": 4.563048329118641e-10
+    },
+    {
+      "to": "TDA2050.output",
+      "from": "IC4B.output",
+      "magnitude": 8.770414258201417e-13
+    }
+  ]
+}

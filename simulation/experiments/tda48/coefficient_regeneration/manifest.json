@@ -1,0 +1,10 @@
+{
+  "generated_condensed48.rs": {
+    "sha256": "3625a1d6998d4fd625bc1a9ad179fd80987a612abca90eb2493f2bfad528af70",
+    "equals_live": true
+  },
+  "generated_packed48.rs": {
+    "sha256": "e39afd47fd3ba213865a28f286de8685ca053d904ee48df4045aa9c1e20885ac",
+    "equals_live": true
+  }
+}

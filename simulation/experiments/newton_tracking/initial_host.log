@@ -1,0 +1,19 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+error[E0599]: no method named `to_string` found for type `usize` in the current scope
+   --> orange-dsp/src/tracking_diagnostics.rs:131:122
+    |
+131 | ...{}}}\n",a.steps,above_tol,failed_at.map(|i|i.to_string()).unwrap_or("null".into())),
+    |                                                 ^^^^^^^^^ method not found in `usize`
+    |
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/alloc/src/string.rs:2907:7
+    |
+    = note: the method is available for `usize` here
+    |
+    = help: items from traits can only be used if the trait is in scope
+help: trait `ToString` which provides `to_string` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use crate::tests::std::string::ToString;
+    |
+
+For more information about this error, try `rustc --explain E0599`.
+error: could not compile `orange-dsp` (lib test) due to 1 previous error

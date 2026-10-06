@@ -1,0 +1,7 @@
+100mv 48 mean 8765.2 max 10148 max64/sample 9708.6 stops 0 hostmem 0.0
+100mv P7_96 mean 16502.2 max 58470 max64/sample 21168.8 stops 0 hostmem 0.0
+250mv 48 mean 8966.4 max 11760 max64/sample 10193.4 stops 0 hostmem 0.0
+250mv P7_96 mean 16868.5 max 56778 max64/sample 22349.1 stops 0 hostmem 0.0
+1000mv 48 mean 9338.7 max 14290 max64/sample 12907.3 stops 0 hostmem 0.0
+1000mv P7_96 mean 17543.7 max 62205 max64/sample 32316.3 stops 0 hostmem 0.0
+complete False samples 8093696 chunks 494

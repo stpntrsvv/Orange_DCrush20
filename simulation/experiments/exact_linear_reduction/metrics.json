@@ -1,0 +1,50 @@
+{
+  "status": "exact Schur Newton step matches full Newton",
+  "cases": [
+    {
+      "name": "nominal_reactive",
+      "sample_rate_hz": 96000.0,
+      "load": "reactive_speaker",
+      "state_count": 60,
+      "retained_count": 29,
+      "eliminated_count": 31,
+      "max_state_error": 7.51576578750246e-12,
+      "output_rms_error_v": 1.2875313709992782e-12,
+      "output_relative_rms_error": 1.7699033540265435e-13,
+      "output_peak_error_v": 7.474909580196254e-12,
+      "max_kcl_a": 1.9843760203688268e-11,
+      "full_continuation_sample_count": 0,
+      "schur_continuation_sample_count": 0
+    },
+    {
+      "name": "strong_od",
+      "sample_rate_hz": 96000.0,
+      "load": "reactive_speaker",
+      "state_count": 58,
+      "retained_count": 28,
+      "eliminated_count": 30,
+      "max_state_error": 1.2264308679732494e-08,
+      "output_rms_error_v": 4.363645932999382e-12,
+      "output_relative_rms_error": 3.620422607003068e-13,
+      "output_peak_error_v": 5.5290882983172196e-11,
+      "max_kcl_a": 1.8051465771923465e-11,
+      "full_continuation_sample_count": 1,
+      "schur_continuation_sample_count": 1
+    },
+    {
+      "name": "strong_resistive_recovery",
+      "sample_rate_hz": 96000.0,
+      "load": "resistive",
+      "state_count": 56,
+      "retained_count": 29,
+      "eliminated_count": 27,
+      "max_state_error": 4.928324415232055e-10,
+      "output_rms_error_v": 1.3323963900301612e-11,
+      "output_relative_rms_error": 7.370649292588066e-13,
+      "output_peak_error_v": 4.615472448676883e-10,
+      "max_kcl_a": 1.9941980196076098e-11,
+      "full_continuation_sample_count": 1,
+      "schur_continuation_sample_count": 1
+    }
+  ]
+}

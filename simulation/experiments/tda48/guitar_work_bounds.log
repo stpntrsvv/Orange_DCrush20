@@ -1,0 +1,9 @@
+100mv {'64': 9990.7, '128': 9985.7, '256': 9907.3, '512': 9817.2, '1024': 9772.1}
+250mv {'64': 10729.6, '128': 10602.7, '256': 10478.4, '512': 10228.4, '1024': 10019.5}
+1000mv {'64': 12892.7, '128': 12769.1, '256': 12628.1, '512': 12423.5, '1024': 12164.6}
+100mv 12500 upper extra samples 0 upper extra delay ms 0.0 max chunk mean 9194.9
+100mv 10000 upper extra samples 1 upper extra delay ms 0.001 max chunk mean 9194.9
+250mv 12500 upper extra samples 0 upper extra delay ms 0.0 max chunk mean 9410.5
+250mv 10000 upper extra samples 13 upper extra delay ms 0.257 max chunk mean 9410.5
+1000mv 12500 upper extra samples 3 upper extra delay ms 0.062 max chunk mean 10133.9
+1000mv 10000 upper extra samples 1093 upper extra delay ms 22.757 max chunk mean 10133.9

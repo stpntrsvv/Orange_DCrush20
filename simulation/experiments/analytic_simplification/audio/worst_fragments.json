@@ -1,0 +1,20 @@
+{
+  "A0": {
+    "after_cabinet_peak_time_s": 155.39545833333332,
+    "fragment_start_s": 154.39545833333332,
+    "fragment_duration_s": 2.0,
+    "peak_after_common_gain": 1.886590507638175e-05
+  },
+  "A1": {
+    "after_cabinet_peak_time_s": 146.12908333333334,
+    "fragment_start_s": 145.12908333333334,
+    "fragment_duration_s": 2.0,
+    "peak_after_common_gain": 0.018877612426877022
+  },
+  "A2": {
+    "after_cabinet_peak_time_s": 210.64460416666665,
+    "fragment_start_s": 209.64460416666665,
+    "fragment_duration_s": 2.0,
+    "peak_after_common_gain": 2.7604552087723278e-05
+  }
+}

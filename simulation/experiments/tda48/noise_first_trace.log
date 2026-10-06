@@ -1,0 +1,19 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+    Finished `release` profile [optimized + debuginfo] target(s) in 5.39s
+     Running `target/aarch64-apple-darwin/release/examples/noise48_trace ../simulation/experiments/tda48/noise_first_state.bin`
+{"original_start":[[12.900521, 0.29770756, 1.0, -0.29770756, 12.925583, 12.900513, 12.925583, 457.37003, 13.5, -0.0009908092], [12.602814, -0.8351927, 1.5969647, 0.52298754, 15.853775, 15.853775, 12.925583, 457.37003, 13.5, -0.0009680082], [13.125801, 0.52298737, 1.0, -0.52298737, 12.925583, 10.665726, 12.925583, 457.37003, 13.5, -0.001008063], [12.602814, -0.8351927, 1.5969647, 0.52298754, 15.853775, 15.853775, 12.925583, 457.37003, 13.5, -0.0009680082]],"slew_start":[[12.824199, -0.17519855, 5.283795, 0.033157714, 13.657623, 13.657623, 12.925583, 457.37003, 13.5, -0.0009849637], [12.857356, 0.016163826, 6.2650084, -0.0025800166, 13.32872, 13.32872, 12.925583, 457.37003, 13.5, -0.0009875032], [12.854776, 0.00010204315, 6.1878295, -1.6490945e-5, 13.354309, 13.354309, 12.925583, 457.37003, 13.5, -0.0009873057], [12.85476, -1.9073486e-6, 6.187325, 3.082671e-7, 13.354477, 13.354477, 12.925583, 457.37003, 13.5, -0.0009873044]]}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_tda48_hardware.py", line 69, in <module>
+    base.run(d, a.smoke)
+    ~~~~~~~~^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_rate48_hardware.py", line 33, in run
+    execute(['/opt/homebrew/bin/openocd','-f','embedded/openocd/weact_stm32h7r3.cfg','-f','embedded/openocd/run_rate48_probe.cfg','-c','run_rate48_probe'],stage/'openocd.log',env=env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stpntrsvv/OrangeDCrush20/simulation/run_rate48_hardware.py", line 11, in execute
+    if r.returncode:raise RuntimeError(f'{cmd}: {r.returncode}: {log}')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ['/opt/homebrew/bin/openocd', '-f', 'embedded/openocd/weact_stm32h7r3.cfg', '-f', 'embedded/openocd/run_rate48_probe.cfg', '-c', 'run_rate48_probe']: 1: /Users/stpntrsvv/OrangeDCrush20/simulation/experiments/tda48/20260929T100924Z/smoke/openocd.log

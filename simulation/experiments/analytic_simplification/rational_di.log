@@ -1,0 +1,21 @@
+   Compiling orange-dsp v0.1.0 (/Users/stpntrsvv/OrangeDCrush20/firmware/orange-dsp)
+warning: function `observations` is never used
+   --> orange-dsp/src/exponential.rs:204:4
+    |
+204 | fn observations<const Q: bool>(o: &[f64; 19], n: &[f64; 13]) -> [f64; 19] {
+    |    ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `FS` is never used
+ --> orange-dsp/src/generated_exponential.rs:2:11
+  |
+2 | pub const FS: f64 = 48000.0;
+  |           ^^
+
+warning: `orange-dsp` (lib) generated 2 warnings
+    Finished `release` profile [optimized + debuginfo] target(s) in 6.19s
+     Running `firmware/target/aarch64-apple-darwin/release/examples/analytic_rational_di`
+level=0.1 steps=21286958 failures=[0, 0] retries=[0, 0] max_iterations=[13, 11] peak_vs_P7=0.00014162064 rms_vs_P7=0.000004735757753658508 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.1503696e-5, 8.940697e-8, 2.3178924e-7, 8.940697e-7, 6.7374203e-6, 1.103431e-5, 7.6033175e-6, 7.5921416e-6, 7.916242e-8, 5.2824616e-6, 1.4538091e-7, 7.599592e-6, 1.3073986e-11, 3.311664e-7, 1.8801279e-7, 1.4602006e-7, 0.00014162064, 0.0, 0.00046020944, 1.090765e-5, 8.1807375e-6, 0.00014019012] host_seconds=18.084201417
+level=0.25 steps=21286958 failures=[0, 0] retries=[0, 0] max_iterations=[18, 14] peak_vs_P7=0.0001341817 rms_vs_P7=0.000002936439316226569 memory_peak_vs_P7=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.001358e-5, 1.3690442e-7, 2.5669033e-7, 1.1026859e-6, 1.337612e-6, 7.1041286e-6, 1.9669533e-6, 1.9781291e-6, 1.329463e-7, 4.61936e-6, 2.203742e-7, 7.3206065e-6, 1.313083e-11, 4.0105078e-7, 1.9406161e-7, 1.5251862e-7, 0.000134153, 0.0, 0.00045786105, 1.04904175e-5, 7.3204583e-6, 0.00020694733] host_seconds=13.608013167
+level=1 steps=21286958 failures=[0, 0] retries=[1, 13] max_iterations=[30, 26] peak_vs_P7=0.016439438 rms_vs_P7=0.0000031779125098349293 memory_peak_vs_P7=[0.0, 0.0, 1.5497208e-6, 5.2154064e-8, 5.0105155e-7, 3.3527613e-7, 0.00025762618, 2.0582229e-7, 7.1525574e-7, 9.164214e-7, 1.8635765e-6, 5.00679e-5, 2.2128224e-6, 2.861023e-6, 1.10361725e-7, 0.00018382072, 1.8626451e-7, 0.00015613169, 2.510987e-10, 3.6583333e-7, 1.9621075e-7, 3.874302e-7, 0.016204834, 0.0044021606, 0.0015101433, 0.0003912449, 0.00015544891, 0.02609253] host_seconds=14.933453875

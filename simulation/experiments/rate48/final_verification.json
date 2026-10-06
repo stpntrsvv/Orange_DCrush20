@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "frames_per_level": 10643479,
+  "levels": 3,
+  "P7_unchanged": true,
+  "bounded96_unchanged": true,
+  "last_measured_elf": "20260927T193028Z/probe.elf",
+  "sha256": "3940c1c90e82190f6d8b8b6ea3a5e01fde1e987efafe515457280644a73b0344",
+  "initial_reset_verified": false,
+  "reset_verified": true,
+  "reset_recovery_log": "20260927T193028Z/restore_after_full.log",
+  "reset_recovery_log_sha256": "078440bbf0adaf343330501dabd69a34c04ae9b81f5300b5e3b8d80542bc66bc",
+  "old_tests_passed": 50,
+  "same_grid_f64_sine_old_gates_pass": 4,
+  "same_grid_f64_sine_cases": 6
+}

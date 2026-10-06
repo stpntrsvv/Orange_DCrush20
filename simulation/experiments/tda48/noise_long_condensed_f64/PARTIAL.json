@@ -1,0 +1,6 @@
+{
+  "complete": false,
+  "samples_written": 85917,
+  "reason": "Duplicate Python solver stopped after agreement with specialized exact f64 on 49152 independent steps; full original-MNA residual remains checked at every step of the continuing reference.",
+  "continuing_reference": "noise_long_fast_f64"
+}
