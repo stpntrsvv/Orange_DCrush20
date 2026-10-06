@@ -73,6 +73,7 @@ cargo test -p orange-dsp --lib --release --target aarch64-apple-darwin --feature
 
 В Git находятся исходники, документы, схемы, отчёты, JSON-метрики,
 текстовые эталоны и журналы. Тяжёлые траектории, аудио и исполнявшиеся
-ELF находятся в [GitHub Releases](https://github.com/stpntrsvv/Orange_DCrush20/releases).
-Они восстанавливаются по прежним путям; [инструкция и SHA-256](artifacts/README.md).
+ELF подготовлены отдельным архивом для [GitHub Releases](https://github.com/stpntrsvv/Orange_DCrush20/releases).
+Публичная загрузка архива пока ожидает подтверждения владельца. После публикации
+они восстанавливаются по прежним путям; [инструкция и SHA-256](artifacts/README.md).
 Кэши сборки, виртуальное окружение и временные файлы не публикуются.
